@@ -1,0 +1,1865 @@
+{% style %}
+	.smi-product-card{text-align:var(--alignment)}.smi-product-card__thumbnail a.smi-image-inner{aspect-ratio:var(--media-ratio, 1)}.smi-product-card__thumbnail a.smi-image-inner img,.smi-product-card__thumbnail a.smi-image-inner svg.smi-default-image{transition:all .2s}.smi-product-card__thumbnail a.smi-image-inner img:nth-child(2),.smi-product-card__thumbnail a.smi-image-inner svg.smi-default-image:nth-child(2){width:100%;height:100%;object-fit:cover}.smi-product-card__thumbnail .smi-labels{top:calc(12px + var(--image-padding));left:calc(12px + var(--image-padding))}.smi-product-card__thumbnail:hover .smi-button-cart{opacity:1;visibility:visible}.smi-product-card__thumbnail:hover a.smi-image-inner:not(.smi-shape-blob) img,.smi-product-card__thumbnail:hover a.smi-image-inner:not(.smi-shape-blob) svg{transform:scale(1.05)}@media screen and (min-width: 768px){.smi-product-card__thumbnail:hover a.smi-image-inner.smi-has-second-image img:nth-child(1){opacity:0}.smi-product-card__thumbnail:hover a.smi-image-inner.smi-has-second-image img:nth-child(2){opacity:1}.smi-product-card__thumbnail:hover a.smi-image-inner.smi-has-second-image:hover img:nth-child(2){clip-path:polygon(var(--shape-hover))}}.smi-product-card__thumbnail:hover a.smi-image-inner:not(.smi-has-second-image):hover img{clip-path:polygon(var(--shape-hover))}.smi-product-card__thumbnail.shape-blob,.smi-product-card__thumbnail.round{background:rgba(0,0,0,0) !important}.smi-product-card__info .smi-variants__item{--item-padding: 4px;width:24px;height:24px;border:1px solid rgba(var(--color-foreground), 0.2);padding:var(--item-padding);border-radius:var(--border-radius);transition:all .2s;position:relative}.smi-product-card__info .smi-variants__item span{border-radius:calc(var(--border-radius) - 1px - var(--item-padding))}.smi-product-card__info .smi-variants__item--active{border-color:var(--color-foreground)}.smi-product-card__info .smi-variants__item--desktop-hidden{display:none}@media screen and (max-width: 767.98px){.smi-product-card__info .smi-variants__item--mobile-hidden{display:none}}.smi-product-card__info .smi-variants__item--more{padding:2px;min-width:24px;width:auto}.smi-product-card__info .smi-variants__item .smi-tooltip{font-size:14px !important;text-align:center;padding:2.5px 5px;margin-top:-35px;transition:opacity .3s;width:fit-content;background-color:#555;color:#fff;text-align:center;border-radius:6px;position:absolute;z-index:1;top:-3px;left:50%;transform:translateX(-50%);display:none}.smi-product-card__info .smi-variants__item .smi-tooltip:after{content:"";position:absolute;top:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:#555 rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0)}.smi-product-card__info .smi-variants__item:hover .smi-tooltip{display:block}.smi-product-card__info .smi-variants:hover .smi-variants__item--desktop-hidden,.smi-product-card__info .smi-variants:hover .smi-variants__item--mobile-hidden{display:flex !important}.smi-product-card__info .smi-variants:hover .smi-variants__item--more{display:none !important}.smi-product-card__info .smi-price{justify-content:var(--alignment);flex-wrap:wrap}.smi-product-card__info .smi-button-cart{display:none}.smi-product-card .smi-button-cart{width:calc(100% - 20px);left:10px;bottom:10px}@media screen and (max-width: 767.98px){.smi-product-card .smi-button-cart{display:none}}.smi-product-card .smi-button-cart .smi-cart-text{display:inline-block;flex:none}.smi-product-card .smi-button-cart a{gap:4px;padding:calc(10px*var(--buttons-scale, 1)) calc(24px*var(--buttons-scale, 1))}.smi-product-card .smi-button-cart a .smi-loading{width:20px !important;height:20px !important;border:2px solid rgba(var(--color-button-text), 1);border-bottom-color:rgba(0,0,0,0);border-radius:50%;display:inline-block;box-sizing:border-box;animation:smi-rotation .7s linear infinite;max-width:20px;max-height:20px}.smi-product-card .smi-button-cart a.smi-cart-adding .smi-loading{display:block !important}.smi-product-card .smi-product-description{display:none}.smi-product-card.smi-card--card .smi-product-card__info{padding-left:24px;padding-right:24px}.smi-card--standard .smi-product-card__thumbnail{border-radius:var(--border-radius);padding:var(--image-padding)}.smi-card--standard .smi-product-card__thumbnail.smi-border{border:var(--border-width) solid rgba(var(--color-border-section), var(--border-opacity));box-shadow:var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow-section), var(--shadow-opacity))}.smi-card--standard .smi-product-card__thumbnail:before{content:"";position:absolute;width:100%;height:100%;background:rgb(var(--color-background));z-index:-1;top:0;left:0}.smi-card--standard .smi-product-card__thumbnail.smi-round{overflow:visible}.smi-card--standard .smi-product-card__thumbnail.smi-round:before{border-radius:2000px}.smi-card--standard .smi-product-card__thumbnail .smi-image-inner{border:none !important;box-shadow:none !important;border-radius:calc(var(--border-radius) - var(--border-width) - var(--image-padding))}.smi-card--standard .smi-product-card__thumbnail .smi-button-cart{left:max(10px,var(--image-padding));width:calc(100% - max(20px,var(--image-padding)*2));bottom:max(10px,var(--image-padding))}.smi-card--standard.smi-product-card--left .smi-product-card__info{padding-right:16px}.smi-card--standard.smi-product-card--right .smi-product-card__info{padding-left:16px}.smi-card--standard.smi-product-card--center .smi-product-card__info{padding-left:16px;padding-right:16px}.smi-card--card{border-radius:var(--border-radius);position:relative;overflow:hidden;box-shadow:var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow-section), var(--shadow-opacity));border:var(--border-width) solid rgba(var(--color-border-section), var(--border-opacity))}.smi-card--card:before{content:"";position:absolute;width:100%;height:100%;background:var(--gradient-background);z-index:-1;left:0}.smi-card--card .smi-product-card__thumbnail{padding:var(--image-padding) var(--image-padding) 0 var(--image-padding);border-radius:calc(var(--border-radius) - var(--border-width) - var(--image-padding)) calc(var(--border-radius) - var(--border-width) - var(--image-padding)) 0 0}.smi-card--card .smi-product-card__thumbnail .smi-image-inner{border:none !important;box-shadow:none !important;border-radius:0}.smi-card--card .smi-product-card__thumbnail .smi-labels{top:12px;left:12px}.smi-card--card .smi-product-card__info{padding:calc(24px*var(--spacing-elements)) 24px}@keyframes smi-rotation{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.smi-media-wrapper{aspect-ratio:var(--media-ratio)}.smi-media-wrapper:hover img,.smi-media-wrapper:hover svg,.smi-media-wrapper:hover video,.smi-media-wrapper:hover iframe,.smi-media-wrapper:hover div{clip-path:polygon(var(--shape-hover));transition:all .4s}.smi-blob-wrapper.smi-has-blob{border:none !important;box-shadow:none !important}.smi-collection-page-1{position:relative;z-index:99}.smi-section-collection-page-1 smi-cp-filter{display:block;background-color:rgba(var(--color-background))}@media screen and (min-width: 992px){.smi-section-collection-page-1 smi-cp-filter{background-color:rgba(0,0,0,0)}}.smi-section-collection-page-1 .smi-filter-heading{background:rgba(var(--color-background), 1);box-shadow:1px 2px 6px 0px rgba(var(--color-foreground), 0.12);position:relative;left:-24px;width:calc(100% + 48px)}.smi-section-collection-page-1 .smi-filter-item:nth-child(1),.smi-section-collection-page-1 .smi-filter-item:nth-child(2){border-top:0}@media screen and (min-width: 992px){.smi-section-collection-page-1 .smi-filter-item:nth-child(1),.smi-section-collection-page-1 .smi-filter-item:nth-child(2){padding-top:0}}.smi-section-collection-page-1 ul.smi-filter--list{line-height:calc((1 + .8/var(--font-body-scale))*var(--body-line-height-scale, 1));margin:0;padding:0;list-style:none;width:100%}.smi-section-collection-page-1 ul.smi-filter--list li:last-child{margin-bottom:0}.smi-section-collection-page-1 ul.smi-filter--list li label{display:flex;align-items:center;justify-content:start;cursor:pointer;color:rgba(var(--color-foreground), 0.75)}.smi-section-collection-page-1 ul.smi-filter--list li label:has(>input:disabled){cursor:not-allowed}.smi-section-collection-page-1 ul.smi-filter--list li label input{display:none}.smi-section-collection-page-1 ul.smi-filter--list li label input:disabled~.smi-checkbox-label{background-color:rgba(var(--color-foreground), 0.2);border:0}.smi-section-collection-page-1 ul.smi-filter--list li label input:checked~.smi-checkbox-label{background-color:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 ul.smi-filter--list li label input:checked~.smi-checkbox-label:after{opacity:1}.smi-section-collection-page-1 .smi-checkbox-label{display:flex;flex:0 0 auto;width:20px;height:20px;border-radius:4px;border:1px solid rgba(var(--color-foreground), 0.2);position:relative;transition:background-color .3s ease-in-out}.smi-section-collection-page-1 .smi-checkbox-label:after{content:"";position:absolute;left:6px;top:3px;width:5px;height:10px;border:solid rgba(var(--color-background), 1);border-width:0 2px 2px 0;transform:rotate(45deg);opacity:0;transition:opacity .3s ease-in-out}.smi-section-collection-page-1 .smi-filter-price-range{padding-top:8px}.smi-section-collection-page-1 .smi-filter-price-range .price-input{width:100%;display:flex;margin-top:24px}.smi-section-collection-page-1 .smi-filter-price-range .price-input{display:flex;justify-content:space-between;align-items:center;align-self:stretch;gap:10px}.smi-section-collection-page-1 .smi-filter-price-range .price-input .field{all:initial;display:flex;align-items:center;justify-content:space-between;flex:1 0 0;border:1px solid rgba(var(--color-foreground), 0.2);padding:8px 16px}.smi-section-collection-page-1 .smi-filter-price-range .price-input .field:before,.smi-section-collection-page-1 .smi-filter-price-range .price-input .field:after{content:none}.smi-section-collection-page-1 .smi-filter-price-range .price-input .field span{color:rgba(var(--color-foreground), 0.55)}.smi-section-collection-page-1 .smi-filter-price-range .price-input .field input{width:100%;border:none;outline:none;box-shadow:none;font-size:calc(var(--font-body-scale)*16px);text-align:right;background:rgba(0,0,0,0);color:rgba(var(--color-foreground), 0.75)}.smi-section-collection-page-1 .smi-filter-price-range .price-input .separator{flex:0 0 0}.smi-section-collection-page-1 .smi-filter-price-range input[type=number]::-webkit-outer-spin-button,.smi-section-collection-page-1 .smi-filter-price-range input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none}.smi-section-collection-page-1 .smi-filter-price-range .slider{height:3px;position:relative;background:#ddd}.smi-section-collection-page-1 .smi-filter-price-range .slider .progress{height:100%;left:25%;right:25%;position:absolute;background:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 .smi-filter-price-range .range-input{position:relative}.smi-section-collection-page-1 .smi-filter-price-range .range-input input{position:absolute;width:100%;height:3px;top:-4px;background:none;pointer-events:none;-webkit-appearance:none;-moz-appearance:none;cursor:pointer}.smi-section-collection-page-1 .smi-filter-price-range input[type=range]::-webkit-slider-thumb{height:16px;width:16px;border-radius:50%;background:rgba(var(--color-foreground), 1);pointer-events:auto;-webkit-appearance:none;box-shadow:0 0 6px rgba(0,0,0,.05)}.smi-section-collection-page-1 .smi-filter-price-range input[type=range]::-moz-range-thumb{height:16px;width:16px;border:none;border-radius:50%;background:rgba(var(--color-foreground), 1);pointer-events:auto;-moz-appearance:none;box-shadow:0 0 6px rgba(0,0,0,.05)}.smi-section-collection-page-1 .smi-filter-price-range .support-box{top:2rem;position:relative;bottom:0;text-align:center;display:block}.smi-section-collection-page-1 .smi-filter-price-range .b-btn{color:#fff;text-decoration:none;font-weight:bold}.smi-section-collection-page-1 .smi-filter-price-range .b-btn.paypal i{color:blue}.smi-section-collection-page-1 .smi-filter-price-range .b-btn:hover{text-decoration:none;font-weight:bold}.smi-section-collection-page-1 .smi-filter-price-range .b-btn i{font-size:20px;color:#ff0;margin-top:2rem}.smi-section-collection-page-1 .smi-filter-item--swatch .smi-filter-content{overflow:visible}.smi-section-collection-page-1 .smi-filter-item--swatch ul{display:flex;flex-wrap:wrap;gap:12px}.smi-section-collection-page-1 .smi-filter-item--swatch li{margin-bottom:0}.smi-section-collection-page-1 .smi-filter-item--swatch input:checked~.smi-swatch-label{border-color:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 .smi-filter-item--swatch .smi-swatch-label{--item-padding: 4px;position:relative;width:32px;height:32px;border:1px solid rgba(var(--color-foreground), 0.2);padding:var(--item-padding);border-radius:var(--border-radius);transition:all .2s}.smi-section-collection-page-1 .smi-filter-item--swatch .smi-swatch-label .__s-color{border-radius:calc(var(--border-radius) - 1px - var(--item-padding));display:block;width:100%;height:100%}.smi-section-collection-page-1 .smi-filter-item--swatch .smi-swatch-label .__s-image{border-radius:calc(var(--border-radius) - 1px - var(--item-padding))}.smi-section-collection-page-1 .smi-filter-item--swatch .smi-swatch-label:hover .smi-tooltip{display:block}.smi-section-collection-page-1 .smi-filter-item--swatch .smi-tooltip{font-size:14px !important;text-align:center;padding:2.5px 10px;margin-top:-35px;transition:opacity .3s;width:fit-content;background-color:rgba(var(--color-foreground), 1);color:rgba(var(--color-background), 1);border-radius:4px;position:absolute;z-index:1;top:-3px;left:50%;transform:translateX(-50%);display:none}.smi-section-collection-page-1 .smi-filter-item--swatch .smi-tooltip:after{content:"";position:absolute;top:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:rgba(var(--color-foreground), 1) rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0)}.smi-section-collection-page-1 .smi-filter-item--tags-1 ul,.smi-section-collection-page-1 .smi-filter-item--tags-2 ul{display:flex;flex-wrap:wrap}.smi-section-collection-page-1 .smi-filter-item--tags-1 input:disabled~.smi-label,.smi-section-collection-page-1 .smi-filter-item--tags-2 input:disabled~.smi-label{color:rgba(var(--color-foreground), 0.55)}.smi-section-collection-page-1 .smi-filter-item--tags-1 input:disabled~.smi-label:after,.smi-section-collection-page-1 .smi-filter-item--tags-2 input:disabled~.smi-label:after{content:none !important}.smi-section-collection-page-1 .smi-filter-item--tags-1 input:disabled~.smi-count,.smi-section-collection-page-1 .smi-filter-item--tags-2 input:disabled~.smi-count{color:rgba(var(--color-foreground), 0.55)}.smi-section-collection-page-1 .smi-filter-item--tags-1 .smi-count,.smi-section-collection-page-1 .smi-filter-item--tags-2 .smi-count{padding-left:4px}.smi-section-collection-page-1 .smi-filter-item--tags-1 ul{gap:4px 16px}.smi-section-collection-page-1 .smi-filter-item--tags-1 li{position:relative;display:inline-block;margin-bottom:0;color:rgba(var(--color-foreground), 0.75)}.smi-section-collection-page-1 .smi-filter-item--tags-1 li:hover{color:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 .smi-filter-item--tags-1 li:hover .smi-label:after{content:""}.smi-section-collection-page-1 .smi-filter-item--tags-1 .smi-label:after{content:none;position:absolute;left:0;right:0;top:0;bottom:0;border-bottom:1px solid rgba(var(--color-foreground), 1);pointer-events:none}.smi-section-collection-page-1 .smi-filter-item--tags-1 input:checked~.smi-label{color:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 .smi-filter-item--tags-1 input:checked~.smi-label:after{content:""}.smi-section-collection-page-1 .smi-filter-item--tags-2 ul{gap:8px}.smi-section-collection-page-1 .smi-filter-item--tags-2 li{position:relative;display:inline-block;border-radius:200px;background-color:rgba(var(--color-foreground), 0.04);padding:0 12px;margin-bottom:0;color:rgba(var(--color-foreground), 0.75)}.smi-section-collection-page-1 .smi-filter-item--tags-2 li:hover{color:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 .smi-filter-item--tags-2 input:checked~.smi-label{color:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 .smi-filter-item--tags-2 input:checked~.smi-label:after{content:"";position:absolute;left:0;right:0;top:0;bottom:0;border-radius:200px;border:1px solid rgba(var(--color-foreground), 0.55);pointer-events:none}.smi-section-collection-page-1 input[type=number]::-webkit-outer-spin-button,.smi-section-collection-page-1 input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}.smi-section-collection-page-1 input[type=number]{-moz-appearance:textfield}.smi-section-collection-page-1 smi-cp-filter-current{display:flex;justify-content:start;flex-wrap:wrap;width:100%}.smi-section-collection-page-1 smi-cp-filter-current:has(>.smi-fc-item:only-child){display:none}.smi-section-collection-page-1 .smi-fc-item{border-radius:200px;background-color:rgba(var(--color-foreground), 0.04)}.smi-section-collection-page-1 .smi-fc-item a{display:flex;align-items:center;color:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 .smi-fc-item svg{width:20px;height:20px}.smi-section-collection-page-1 .smi-fc-item--clear-all{border-radius:0;background-color:rgba(0,0,0,0)}.smi-section-collection-page-1 .smi-fc-item--clear-all a{text-decoration:underline}.smi-section-collection-page-1 .smi-toolbar{display:flex;justify-content:space-between;flex-wrap:wrap}@media screen and (min-width: 992px){.smi-section-collection-page-1 .smi-toolbar smi-cp-amount,.smi-section-collection-page-1 .smi-toolbar smi-cp-grid-mode,.smi-section-collection-page-1 .smi-toolbar smi-cp-sorter{flex:1 1 0}.smi-section-collection-page-1 .smi-toolbar smi-cp-grid-mode{justify-content:center}.smi-section-collection-page-1 .smi-toolbar smi-cp-sorter{justify-content:flex-end}}.smi-section-collection-page-1 smi-cp-grid-mode span{cursor:pointer}.smi-section-collection-page-1 smi-cp-grid-mode svg{width:24px;height:24px;stroke:rgba(var(--color-foreground), 0.55)}.smi-section-collection-page-1 smi-cp-grid-mode svg path{fill:rgba(var(--color-foreground), 0.55)}.smi-section-collection-page-1 smi-cp-grid-mode .active svg{stroke:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 smi-cp-grid-mode .active svg path{fill:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 smi-cp-amount{display:none}@media screen and (min-width: 768px){.smi-section-collection-page-1 smi-cp-amount{display:block}}.smi-section-collection-page-1 .smi-filter-toggle-button{display:flex;align-items:center;cursor:pointer;user-select:none}.smi-section-collection-page-1 .smi-filter-toggle-button svg{user-select:none}@media screen and (min-width: 992px){.smi-section-collection-page-1 .smi-filter-toggle-button{display:none}}.smi-section-collection-page-1 .smi-filter-toggle-button span{margin-left:10px}.smi-section-collection-page-1 smi-cp-sorter{display:inline-flex}.smi-section-collection-page-1 smi-cp-sorter[open] .smi-sorter-btn svg{transform:rotate(-180deg)}@media screen and (max-width: 767.8px){.smi-section-collection-page-1 smi-cp-sorter[open] .smi-sorter-dropdown{display:flex}}@media screen and (min-width: 768px){.smi-section-collection-page-1 smi-cp-sorter[open] .smi-sorter-dropdown{width:238px;visibility:visible;opacity:1;transform:translateY(0px)}}.smi-section-collection-page-1 .smi-sorter-wrap{position:relative}.smi-section-collection-page-1 .smi-sorter-btn{display:flex;align-items:center;position:relative;justify-content:space-between;cursor:pointer}.smi-section-collection-page-1 .smi-sorter-btn svg{transition:transform .3s;width:20px;height:20px}.smi-section-collection-page-1 .smi-sorter-btn:after{content:"";width:100%;position:absolute;bottom:0;left:0;border-bottom:1px solid rgba(var(--color-foreground), 0.75)}.smi-section-collection-page-1 .smi-sorter-dropdown{background-color:rgba(var(--color-background), var(--color-background-alpha, 1));display:flex;justify-content:start;flex-wrap:wrap;contain:content}@media screen and (max-width: 767.8px){.smi-section-collection-page-1 .smi-sorter-dropdown{position:fixed;bottom:0;left:0;right:0;z-index:999991;border-top-left-radius:10px;border-top-right-radius:10px;display:none}}@media screen and (min-width: 768px){.smi-section-collection-page-1 .smi-sorter-dropdown{position:absolute;right:0;top:calc(100% + 8px);z-index:3;visibility:hidden;opacity:0;transform:translateY(30px);transition:all .3s}}.smi-section-collection-page-1 .smi-sorter-dropdown .smi-sorter-item{width:100%;cursor:pointer}.smi-section-collection-page-1 .smi-sorter-dropdown .smi-sorter-item:hover{color:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 .smi-sorter-dropdown .smi-sorter-item:not(:last-child){padding-bottom:8px}.smi-section-collection-page-1 .smi-sorter-dropdown__header{box-shadow:1px 2px 6px 0px rgba(0,0,0,.12)}.smi-section-collection-page-1 .smi-sorter-dropdown__header svg{height:24px;width:24px}.smi-section-collection-page-1 .smi-pagination-default{display:flex;gap:12px}.smi-section-collection-page-1 .smi-pagination-default span{width:40px;height:40px;display:flex;justify-content:center;align-items:center;border:1px solid rgba(var(--color-foreground), 0.2);background-color:rgba(var(--color-background), 1)}.smi-section-collection-page-1 .smi-pagination-default span a{width:100%;height:100%;display:flex;justify-content:center;align-items:center;color:rgb(var(--color-foreground))}.smi-section-collection-page-1 .smi-pagination-default span.deco{cursor:default}.smi-section-collection-page-1 .smi-pagination-default span.current{color:rgb(var(--color-button-text));background-color:rgb(var(--color-button))}.smi-section-collection-page-1 .smi-pagination-default span.next svg,.smi-section-collection-page-1 .smi-pagination-default span.prev svg{height:16px;width:16px}.smi-section-collection-page-1 .smi-pagination-default span.prev svg{transform:rotate(180deg)}.smi-section-collection-page-1 .smi-dps-square-style-2{gap:8px}.smi-section-collection-page-1 .smi-dps-square-style-2 span{border:0}.smi-section-collection-page-1 .smi-dps-circle-style-1 span{border-radius:200px}.smi-section-collection-page-1 .smi-dps-circle-style-2{gap:8px}.smi-section-collection-page-1 .smi-dps-circle-style-2 span{border-radius:200px;border:0}.smi-section-collection-page-1 .smi-dps-circle-style-3{gap:24px;align-items:center}.smi-section-collection-page-1 .smi-dps-circle-style-3 span{color:rgba(var(--color-foreground), 0.55)}.smi-section-collection-page-1 .smi-dps-circle-style-3 span:not(.next,.prev){border:0;width:unset;height:unset}.smi-section-collection-page-1 .smi-dps-circle-style-3 span.next,.smi-section-collection-page-1 .smi-dps-circle-style-3 span.prev{border-radius:200px}.smi-section-collection-page-1 .smi-dps-circle-style-3 span.current{color:rgba(var(--color-foreground), 1);background:unset}.smi-section-collection-page-1 .smi-dps-circle-style-3 span a{padding:0;color:rgba(var(--color-foreground), 0.55)}.smi-section-collection-page-1 .smi-dps-text-style-1{gap:24px;align-items:center}.smi-section-collection-page-1 .smi-dps-text-style-1 span{color:rgba(var(--color-foreground), 0.55);border:0;width:unset;height:unset}.smi-section-collection-page-1 .smi-dps-text-style-1 span.current{color:rgba(var(--color-foreground), 1);text-decoration:underline;background:unset}.smi-section-collection-page-1 .smi-dps-text-style-1 span.next a,.smi-section-collection-page-1 .smi-dps-text-style-1 span.prev a{width:16px;height:16px}.smi-section-collection-page-1 .smi-dps-text-style-1 span a{padding:0;color:rgba(var(--color-foreground), 0.55)}.smi-section-collection-page-1 .smi-pagination-load-more a{display:inline-flex;min-width:120px;padding:10px 32px;justify-content:center;align-items:center;color:inherit;border:1px solid rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 .smi-pagination-infinite a{display:inline-flex;min-width:100px;padding:10px 12px;justify-content:center;align-items:center;color:inherit;border:1px solid rgba(var(--color-foreground), 0.2)}.smi-section-collection-page-1 .smi-pagination-infinite a svg{width:20px;height:20px;animation:smiSpin 1s linear infinite}@keyframes smiSpin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}.smi-section-collection-page-1 .smi-loading-overlay[open]{position:fixed;top:0;left:0;right:0;bottom:0;z-index:99;background-color:rgba(var(--color-background), 0.5)}.smi-section-collection-page-1 .smi-loading-overlay[open]:after{content:"";position:absolute;width:100%;top:0;left:0;background-color:rgba(var(--color-foreground), 0.5);height:3px;animation:smi-loading-overlay 5s ease forwards}@keyframes smi-loading-overlay{0%{width:0%}20%{width:80%}80%{width:95%}100%{width:100%}}.smi-section-collection-page-1 .smi-sidebar{z-index:3;flex-wrap:wrap;align-content:start}@media screen and (min-width: 992px){.smi-section-collection-page-1 .smi-sidebar{background:rgba(0,0,0,0);display:flex !important;flex:0 0 var(--sidebar-size);width:var(--sidebar-size)}}@media screen and (max-width: 991.8px){.smi-section-collection-page-1 .smi-sidebar{position:fixed;z-index:10;background-color:rgba(var(--color-background), 1);top:0;left:-100%;transition:left .4s ease;height:100%;overflow-y:auto;flex:0 0 300px;width:300px;max-width:100vw;padding-left:24px;padding-right:24px}.smi-section-collection-page-1 .smi-sidebar.open{left:0}}.smi-section-collection-page-1 .smi-block-categories ul{margin:0;padding:0;list-style:none}.smi-section-collection-page-1 .smi-block-categories ul li{padding:0}.smi-section-collection-page-1 .smi-block-categories ul li.active a,.smi-section-collection-page-1 .smi-block-categories ul li:hover a{color:rgba(var(--color-foreground), 1)}.smi-section-collection-page-1 .smi-block-categories ul li:last-child{margin-bottom:0}.smi-section-collection-page-1 .smi-block-categories ul li a{color:rgba(var(--color-foreground), 0.75)}.smi-section-collection-page-1 .smi-block-gallery .smi-sb-widget__content{display:flex;flex-wrap:wrap;row-gap:8px;column-gap:8px}.smi-section-collection-page-1 .smi-block-gallery .smi-sb-widget__content a{display:block;overflow:hidden;line-height:0;width:calc((100% - 16px)/3)}.smi-section-collection-page-1 .smi-block-gallery .smi-sb-widget__content img{aspect-ratio:1;height:100%;object-fit:cover}.smi-section-collection-page-1 .smi-block-image-banner{padding-top:36px !important;padding-bottom:36px !important}.smi-section-collection-page-1 .smi-sb-widget{width:100%;padding-top:16px;padding-bottom:24px;border-top:1px solid rgba(var(--color-foreground), 0.2)}.smi-section-collection-page-1 .smi-sb-widget ::-webkit-scrollbar{width:3px}.smi-section-collection-page-1 .smi-sb-widget ::-webkit-scrollbar-track{border-radius:3px;background-color:rgba(var(--color-foreground), 0.15)}.smi-section-collection-page-1 .smi-sb-widget ::-webkit-scrollbar-thumb{border-radius:3px;background-color:rgba(var(--color-foreground), 0.55)}.smi-section-collection-page-1 .smi-sb-widget:first-child{border-top:0;border-bottom:1px solid rgba(var(--color-foreground), 0.2)}.smi-section-collection-page-1 .smi-sb-widget--scroll .smi-sb-widget__content{overflow-x:clip;overflow-y:auto;height:fit-content;max-height:var(--widget-height);padding-right:9px}.smi-section-collection-page-1 .smi-sb-widget__title{display:flex;justify-content:space-between;margin-bottom:16px}.smi-section-collection-page-1 .smi-sb-widget--hide{padding-bottom:16px}.smi-section-collection-page-1 .smi-sb-widget--hide .smi-sb-widget__title{margin-bottom:0}.smi-section-collection-page-1 .smi-sb-widget--hide .smi-sb-widget__title svg:nth-child(2){transform:rotate(90deg)}.smi-section-collection-page-1 .smi-sb-widget--hide .smi-sb-widget__title svg:nth-child(1){transform:rotate(-180deg)}.smi-section-collection-page-1 .smi-sb-widget--hide .smi-sb-widget__content{display:none}.smi-section-collection-page-1 .smi-sb-widget__click-area{cursor:pointer;user-select:none}.smi-section-collection-page-1 .smi-sb-widget__btn{position:relative;cursor:pointer;width:24px;height:24px}.smi-section-collection-page-1 .smi-sb-widget__btn svg{width:24px;height:24px;position:absolute;left:0;top:0;transition:transform .4s}.smi-section-collection-page-1 .smi-sb-widget__btn svg:nth-child(2){transform:rotate(0deg)}.smi-section-collection-page-1 .smi-social2-item{line-height:0;display:block}.smi-section-collection-page-1 .smi-social2-item svg{width:var(--social2-size, 20px);height:var(--social2-size, 20px);opacity:.75}.smi-section-collection-page-1 .smi-social2-item:hover svg{opacity:1}.smi-section-collection-page-1 .smi-social2-item--2,.smi-section-collection-page-1 .smi-social2-item--3{padding:8px;border-radius:200px}.smi-section-collection-page-1 .smi-social2-item--2{background-color:rgba(var(--color-foreground), 0.04)}.smi-section-collection-page-1 .smi-social2-item--3{border:1px solid rgba(var(--color-foreground), 0.2)}.smi-section-collection-page-1 .smi-social2-item--3:hover{border-color:rgba(var(--color-foreground), 1)}.smi-collection-page-1-main{display:flex;z-index:1}.smi-collection-page-1-main .smi-product-wrap{flex:1 1 auto;--color-border-section: var(--color-foreground);--color-shadow-section: var(--color-shadow)}@media screen and (max-width: 991.8px){.smi-collection-page-1-main .smi-product-wrap{flex:1 1 100%;padding-left:0}}.smi-collection-page-1-main .smi-product-grid{display:flex;flex-wrap:wrap;justify-content:start;row-gap:var(--grid-mobile-vertical-spacing);column-gap:var(--grid-mobile-horizontal-spacing)}@supports(-moz-appearance: none){.smi-collection-page-1-main .smi-product-grid{column-gap:calc(var(--grid-mobile-horizontal-spacing) - 1px)}}@media screen and (min-width: 768px){.smi-collection-page-1-main .smi-product-grid{row-gap:var(--grid-desktop-vertical-spacing);column-gap:var(--grid-desktop-horizontal-spacing)}.smi-collection-page-1-main .smi-product-grid:not(.smi-grid--col-md-1) .smi-product-card{transition:width .3s}}.smi-collection-page-1-main .smi-product-grid .smi-product-card{height:100%}.smi-collection-page-1-main .smi-product-grid .smi-card--standard{padding-bottom:16px}@media screen and (min-width: 768px){.smi-collection-page-1-main .smi-product-grid.smi-view-list .smi-product-card{width:100%;display:flex;flex-wrap:nowrap;gap:36px}.smi-collection-page-1-main .smi-product-grid.smi-view-list .smi-product-card__thumbnail{width:300px;flex:0 0 300px;height:fit-content;margin-bottom:0}.smi-collection-page-1-main .smi-product-grid.smi-view-list .smi-product-card__thumbnail .smi-button-cart{display:none}.smi-collection-page-1-main .smi-product-grid.smi-view-list .smi-product-card__info{flex:1 1 auto;text-align:left;padding:16px 0}.smi-collection-page-1-main .smi-product-grid.smi-view-list .smi-product-card__info .smi-button-cart{display:block;position:unset;visibility:visible;opacity:1;width:fit-content;padding-top:36px}.smi-collection-page-1-main .smi-product-grid.smi-view-list .smi-product-card .smi-product-description{display:block}.smi-collection-page-1-main .smi-product-grid.smi-view-list .smi-product-card .smi-price{justify-content:start}.smi-collection-page-1-main .smi-product-grid.smi-view-list .smi-item{padding-bottom:var(--grid-desktop-vertical-spacing)}.smi-collection-page-1-main .smi-product-grid.smi-view-list .smi-item:not(:last-child){border-bottom:1px solid rgba(var(--color-foreground), 0.2)}.smi-collection-page-1-main .smi-product-grid .smi-item{width:calc((100% - var(--grid-desktop-horizontal-spacing)*(var(--col-md) - 1))/var(--col-md))}}@media screen and (max-width: 767.8px){.smi-collection-page-1-main .smi-product-grid .smi-item{width:calc((100% - var(--grid-mobile-horizontal-spacing)*(var(--col-xs) - 1))/var(--col-xs))}}.smi-collection-page-1-main .smi-product-grid.smi-content-gap-0:not(.smi-view-list){row-gap:0;column-gap:0}.smi-collection-page-1-main .smi-product-grid.smi-content-gap-0:not(.smi-view-list) .smi-product-card{height:100%}.smi-collection-page-1-main .smi-product-grid.smi-content-gap-0:not(.smi-view-list) .smi-product-card.smi-shadow,.smi-collection-page-1-main .smi-product-grid.smi-content-gap-0:not(.smi-view-list) .smi-product-card__thumbnail.smi-shadow{box-shadow:none}@media screen and (min-width: 768px){.smi-collection-page-1-main .smi-product-grid.smi-content-gap-0:not(.smi-view-list) .smi-item{width:calc(100%/var(--col-md))}}@media screen and (max-width: 767.8px){.smi-collection-page-1-main .smi-product-grid.smi-content-gap-0:not(.smi-view-list) .smi-item{width:calc(100%/var(--col-xs))}}.smi-collection-page-1-main .smi-product-grid.smi-br0-with-standard:not(.smi-view-list){width:calc(100% - var(--border-width))}.smi-collection-page-1-main .smi-product-grid.smi-br0-with-standard:not(.smi-view-list) .smi-item{position:relative}.smi-collection-page-1-main .smi-product-grid.smi-br0-with-standard:not(.smi-view-list) .smi-item .smi-product-card__thumbnail{border-right:0}.smi-collection-page-1-main .smi-product-grid.smi-br0-with-standard:not(.smi-view-list) .smi-item.smi-border-offset:after{content:"";top:var(--border-offset-top, 0);width:var(--border-width);height:var(--border-offset-height, 0);position:absolute;right:calc(var(--border-width)*-1);background-color:rgba(var(--color-border-section), var(--border-opacity))}.smi-collection-page-1-main .smi-product-grid.smi-br0-with-standard:not(.smi-view-list) .smi-product-card__info{padding-left:var(--border-width)}.smi-collection-page-1-main .smi-product-grid.smi-br0-with-card:not(.smi-view-list){width:calc(100% - var(--border-width));margin-left:var(--border-width);margin-top:var(--border-width);position:relative}.smi-collection-page-1-main .smi-product-grid.smi-br0-with-card:not(.smi-view-list):after{content:"";top:calc(var(--border-width)*-1);bottom:0;left:calc(var(--border-width)*-1);right:0;border-left:var(--border-width) solid rgba(var(--color-border-section), var(--border-opacity));position:absolute}.smi-collection-page-1-main .smi-product-grid.smi-br0-with-card:not(.smi-view-list) .smi-item{position:relative}.smi-collection-page-1-main .smi-product-grid.smi-br0-with-card:not(.smi-view-list) .smi-item .smi-product-card{height:100%;border-left:0;border-top:0}.smi-collection-page-1-main .smi-product-grid.smi-br0-with-card:not(.smi-view-list) .smi-item.smi-first-row:after{content:"";top:calc(var(--border-width)*-1);border-top:var(--border-width) solid rgba(var(--color-border-section), var(--border-opacity));bottom:0;left:0;right:0;position:absolute;pointer-events:none}.smi-collection-page-1-main .smi-popup-overlay{position:fixed;background-color:rgba(var(--color-foreground), 0.5);z-index:9;left:0;right:0;bottom:0;top:0}
+{% endstyle %}
+{% comment %}#component#["settings/product-card","settings/section-padding","blocks/background","settings/media-settings-3","settings/design-mode"]#endcomponent#{% endcomment %}
+<script src="{{ 'smi-product-card.min.js' | asset_url }}" defer data-id="product-card"></script>
+{% liquid
+    assign product_color_schema = section.settings.product_color_scheme
+    assign st = section.settings
+    assign showToolbar = true
+    if st.show_total_results == false and st.show_columns_switcher == false and st.enable_sorting == false
+        assign showToolbar = false
+    endif
+%}
+<style>
+    {% assign colorblock = section.blocks | where: 'type', 'color' | first %}
+{% if colorblock %}
+      #shopify-section-{{ section.id }},
+      #shopify-section-{{ section.id }} .smi-color-{{ section.settings.color_scheme }},
+      #shopify-section-{{ section.id }} .smi-block-custom-color {
+        --color-background: {{ colorblock.settings.background_color.red }}, {{ colorblock.settings.background_color.green }},{{ colorblock.settings.background_color.blue }};        
+        {% if colorblock.settings.background_gradient_color == blank %}
+            --gradient-background: {{ colorblock.settings.background_color }};
+        {% else %}
+            --gradient-background: {{ colorblock.settings.background_gradient_color }};
+        {% endif %}
+        --color-foreground: {{ colorblock.settings.text_color.red }}, {{ colorblock.settings.text_color.green }},{{ colorblock.settings.text_color.blue }};
+        --color-button: {{ colorblock.settings.solid_background_button_color.red }}, {{ colorblock.settings.solid_background_button_color.green }},{{ colorblock.settings.solid_background_button_color.blue }};
+        --color-button-text: {{ colorblock.settings.solid_button_label_color.red }}, {{ colorblock.settings.solid_button_label_color.green }},{{ colorblock.settings.solid_button_label_color.blue }};
+        --color-shadow: {{ colorblock.settings.shadow_color.red }}, {{ colorblock.settings.shadow_color.green }},{{ colorblock.settings.shadow_color.blue }};
+        --color-shadow-product: {{ colorblock.settings.shadow_color.red }}, {{ colorblock.settings.shadow_color.green }},{{ colorblock.settings.shadow_color.blue }};
+        --color-border-product: {{ colorblock.settings.text_color.red }}, {{ colorblock.settings.text_color.green }},{{ colorblock.settings.text_color.blue }};
+    }
+    #shopify-section-{{ section.id }} .smi-product-card-wrapper .smi-color-{{ section.settings.product_color_scheme }} {
+        --color-background: {{ colorblock.settings.product_background_color.red }}, {{ colorblock.settings.product_background_color.green }},{{ colorblock.settings.product_background_color.blue }};        
+        {% if colorblock.settings.product_background_gradient_color == blank %}
+            --gradient-background: {{ colorblock.settings.product_background_color }};
+        {% else %}
+            --gradient-background: {{ colorblock.settings.product_background_gradient_color }};
+        {% endif %}
+        --color-foreground: {{ colorblock.settings.product_text_color.red }}, {{ colorblock.settings.product_text_color.green }},{{ colorblock.settings.product_text_color.blue }};
+        --color-button: {{ colorblock.settings.product_solid_background_button_color.red }}, {{ colorblock.settings.product_solid_background_button_color.green }},{{ colorblock.settings.product_solid_background_button_color.blue }};
+        --color-button-text: {{ colorblock.settings.product_solid_button_label_color.red }}, {{ colorblock.settings.product_solid_button_label_color.green }},{{ colorblock.settings.product_solid_button_label_color.blue }};
+        --color-shadow: {{ colorblock.settings.product_shadow_color.red }}, {{ colorblock.settings.product_shadow_color.green }},{{ colorblock.settings.product_shadow_color.blue }};
+    }
+    #shopify-section-{{ section.id }} .smi-badges {
+        --color-badge-background: {{ colorblock.settings.badge_sale_background_color.red }}, {{ colorblock.settings.badge_sale_background_color.green }},{{ colorblock.settings.badge_sale_background_color.blue }};
+        --color-badge-foreground: {{ colorblock.settings.badge_sale_text_color.red }}, {{ colorblock.settings.badge_sale_text_color.green }},{{ colorblock.settings.badge_sale_text_color.blue }};
+    }
+    #shopify-section-{{ section.id }} .smi-badges--sold-out {
+        --color-badge-background: {{ colorblock.settings.badge_sold_out_background_color.red }}, {{ colorblock.settings.badge_sold_out_background_color.green }},{{ colorblock.settings.badge_sold_out_background_color.blue }};
+        --color-badge-foreground: {{ colorblock.settings.badge_sold_out_text_color.red }}, {{ colorblock.settings.badge_sold_out_text_color.green }},{{ colorblock.settings.badge_sold_out_text_color.blue }};
+    }
+{% endif %}
+    #shopify-section-{{ section.id }}{
+        --section-padding-top: {{ section.settings.padding_top }}px;
+--section-padding-bottom: {{ section.settings.padding_bottom }}px;
+{% if section.settings.padding_top_section != blank or section.settings.padding_bottom_section != blank %}
+    --section-margin-top: {{ section.settings.padding_top_section }}px;
+    --section-margin-bottom: {{ section.settings.padding_bottom_section }}px;
+{% endif %}
+        --col-md: {{ section.settings.number_of_columns_on_desktop }};
+        --col-xs: {{ section.settings.number_of_columns_on_mobile }};
+        --sidebar-size: {{ section.settings.sidebar_size }};
+        --widget-height: {% if section.settings.limit_filter_widget_height %}275px{% else %}unset{% endif %};
+    }
+    #shopify-section-{{ section.id }} .smi-product-card-wrapper {
+        --color-shadow-section: var(--color-shadow);
+        --color-border-section: var(--color-foreground);
+    }
+</style>
+<div id="smi-{{ section.id }}" class="smi-{{ section.id }} smi-section__inner smi-gradient smi-section-collection-page-1 smi-color-{{ section.settings.color_scheme }}"
+     data-section="collection-page-1"
+     data-name="✧Collection page 1">
+     
+    {% render 'smi-background' %}
+    <div id="smi_collection_page_{{ section.id }}"
+         class="smi-collection-page-1-main smi-position-relative
+                {%- if section.settings.container_full_width == true %} smi-container-fluid {%- else %} smi-container {%- endif -%}"
+    >
+        <div class="smi-loading-overlay"></div>
+        <aside class="smi-sidebar smi-d-lazy">
+            {% for block in section.blocks %}
+                {% case block.type %}
+                    {% when 'filter' %}
+                        {% liquid
+    assign color_options = settings.smi_color_variant_name | default: shop.metafields.smind.settings.value.colorVariantName | downcase | replace: ', ', ',' | replace: ' , ', ',' | replace: ' ,', ',' | split: ','
+    if color_options == blank
+        assign color_options = 'color, colour, colors, colours' | downcase | replace: ', ', ',' | replace: ' , ', ',' | replace: ' ,', ',' | split: ','
+    endif
+    assign tag_options = block.settings.tag_heading | downcase | replace: ', ', ',' | replace: ' , ', ',' | replace: ' ,', ',' | split: ','
+%}
+<smi-cp-filter class="smi-w-100"
+        sort-by="{{ collection.sort_by | default: collection.default_sort_by }}"
+        {%- if section.settings.pagination == 'default' %} pagination-default{% endif -%}
+>
+    <div class="smi-filter-heading smi-d-flex smi-justify-content-between smi-py-md smi-px-lg smi-d-lg-none">
+        <span class="smi-h4">Filter</span>
+        {% render 'smi-icons', icon: 'close' %}
+    </div>
+    {%- for filter in collection.filters -%}
+        {%- liquid
+            assign is_color = false
+            assign is_tags = false
+            assign f_name = filter.label | downcase
+            assign filter_attribute = ''
+            if color_options contains f_name
+                assign is_color = true
+                assign filter_attribute = 'smi-filter-item--swatch smi-variant-wrapper'
+            elsif tag_options contains f_name and block.settings.tag_style != 'default'
+                assign is_tags = true
+                assign filter_attribute = 'smi-sb-widget--scroll smi-filter-item--tags smi-filter-item--tags-' | append: block.settings.tag_style
+            else
+                assign filter_attribute = 'smi-sb-widget--scroll'
+            endif
+        -%}
+        <div class="smi-filter-item smi-sb-widget {{ filter_attribute }}">
+            <div class="smi-filter-title smi-sb-widget__title smi-sb-widget__click-area {{ section.settings.heading_size }}">
+                <span>{{ filter.label }}</span>
+                <div class="smi-sb-widget__btn">
+                    {% render 'smi-icons', icon: 'minus' %}
+                    {% render 'smi-icons', icon: 'minus' %}
+                </div>
+            </div>
+            <div class="smi-filter-content smi-sb-widget__content">
+                {%- case filter.type -%}
+                    {%- when 'boolean' -%}
+                        <ul>
+                            <li>
+                                <label for="Filter-{{ filter.param_name }}-{{ filter.true_value.value }}">
+                                    <input type="checkbox"
+                                           name="{{ filter.param_name }}"
+                                           value="{{ filter.true_value.value }}"
+                                           id="Filter-{{ filter.param_name }}"
+                                           {% if filter.true_value.active -%}checked{%- endif %}
+                                        {% if filter.true_value.count == 0 and filter.true_value.active == false -%}disabled{%- endif -%}
+                                    >{{ filter.true_value.label }}</label>
+                            </li>
+                            <li>
+                                <label for="Filter-{{ filter.param_name }}-{{ filter.false_value.value }}">
+                                    <input type="checkbox"
+                                           name="{{ filter.param_name }}"
+                                           value="{{ filter.false_value.value }}"
+                                           id="Filter-{{ filter.param_name }}"
+                                           {% if filter.false_value.active -%}checked{%- endif %}
+                                        {% if filter.false_value.count == 0 and filter.false_value.active == false -%}disabled{%- endif %}
+                                    >{{ filter.false_value.label }}</label>
+                            </li>
+                        </ul>
+                        <div>
+                            <input type="submit" value="Apply">
+                        </div>
+                    {%- when 'list' -%}
+                        <ul class="smi-filter--list">
+                            {%- for filter_value in filter.values -%}
+                                <li class="smi-mb-sm">
+                                    <label for="Filter-{{ filter.param_name }}-{{ forloop.index }}">
+                                        <input type="checkbox"
+                                               name="{{ filter_value.param_name }}"
+                                               value="{{ filter_value.value }}"
+                                               id="Filter-{{ filter.param_name }}-{{ forloop.index }}"
+                                               {% if filter_value.active -%}checked{%- endif %}
+                                            {% if filter_value.count == 0 and filter_value.active == false -%}disabled{%- endif %}
+                                        >
+                                        {%- if is_color -%}
+                                            {% liquid
+    assign color_config = settings.smi_color_configuration | default: shop.metafields.smind.settings.value.colorConfiguration | downcase | remove: " " | newline_to_br | split: '<br />'
+    assign image_filename = false
+    assign color_code = false
+    assign color_label = filter_value.label | downcase | strip
+    assign file_type = 'jpg,JPG,png,PNG,gif,GIF,jpeg' | split: ','
+    for cc in color_config
+        assign cc_key = cc | split: ':' | first | strip
+        assign cc_value = cc | split: ':' | last | strip
+        if cc_key == color_label and cc_value != blank
+            assign file_extension = false
+            assign file_extension = cc_value | split: '.' | last
+            if file_type contains file_extension
+                assign image_filename = cc_value
+                break
+            else
+                assign color_code = cc_value
+                break
+            endif
+        endif
+    endfor
+%}
+<span class="smi-swatch-label">
+    {% if image_filename %}
+        <span class="__s-image smi-d-block smi-wh-100 smi-p-relative smi-overflow-hidden">
+            <img src="{{ image_filename | file_img_url: 'icon' }}" alt="{{ image_filename }}" width="32" height="32" loading="lazy" class="smi-wh-100 smi-object-fit-cover smi-p-absolute">
+        </span>
+    {% else %}
+        <span class="__s-color" style="background: {{ color_code | default: color_label }}"></span>
+    {% endif %}
+    <span class="smi-tooltip">
+        {{- filter_value.label -}}
+    </span>
+</span>
+                                        {% elsif is_tags %}
+                                            <span class="smi-label">{{ filter_value.label }}</span>
+                                            {% if section.settings.show_count %}
+                                                <span class="smi-count"> ({{ filter_value.count }})</span>
+                                            {% endif %}
+                                        {%- else -%}
+                                            <span class="smi-checkbox-label"></span>
+                                            <span class="smi-label smi-pl-sm">{{ filter_value.label }}</span>
+                                            {% if section.settings.show_count %}
+                                                <span class="smi-count smi-ms-auto">{{ filter_value.count }}</span>
+                                            {% endif %}
+                                        {%- endif -%}
+                                    </label>
+                                </li>
+                            {%- endfor -%} 
+                        </ul>
+                    {%- when 'price_range' -%}
+                        <div class="smi-filter-price-range">
+    {% liquid
+        assign currencies_using_comma_decimals = 'ANG,ARS,BRL,BYN,BYR,CLF,CLP,COP,CRC,CZK,DKK,EUR,HRK,HUF,IDR,ISK,MZN,NOK,PLN,RON,RUB,SEK,TRY,UYU,VES,VND' | split: ','
+        assign uses_comma_decimals = false
+        if currencies_using_comma_decimals contains cart.currency.iso_code
+            assign uses_comma_decimals = true
+        endif
+    %}
+    <div class="slider">
+        <div class="progress"></div>
+    </div>
+    <div class="range-input">
+        <input type="range"
+               class="range-min"
+                aria-label="range min"
+               min="0"
+                {%- if filter.min_value.value -%}
+                    {%- if uses_comma_decimals -%}
+                        value="{{ filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' | round }}"
+                        {%- assign minPrice = filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' | round -%}
+                    {%- else -%}
+                        value="{{ filter.min_value.value | money_without_currency | replace: ',', '' | round }}"
+                        {%- assign minPrice = filter.min_value.value | money_without_currency | replace: ',', '' | round -%}
+                    {% endif %}
+                {%- else -%}
+                    {%- assign minPrice = 0 -%}
+                    value="0"
+                {%- endif -%}
+                {%- if uses_comma_decimals -%}
+                    max="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                {%- else -%}
+                    max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                {% endif %}
+               step="1">
+            <input type="range"
+                    aria-label="range max"
+                   class="range-max"
+                   min="0"
+                    {%- if filter.max_value.value -%}
+                        {%- if uses_comma_decimals -%}
+                            value="{{ filter.max_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                            {%- assign maxPrice = filter.max_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' | round -%}
+                        {%- else -%}
+                            value="{{ filter.max_value.value | money_without_currency | replace: ',', '' | round }}"
+                            {%- assign maxPrice = filter.max_value.value | money_without_currency | replace: ',', '' | round -%}
+                        {%- endif %}
+                    {%- else -%}
+                        {%- assign maxPrice = filter.range_max | money_without_currency | replace: ',', '' | replace: '.', '' -%}
+                        value="{{ maxPrice }}"
+                    {%- endif -%}
+                    {%- if uses_comma_decimals -%}
+                        max="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                    {%- else -%}
+                        max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                    {% endif %}
+                   step="1">
+    </div>
+    <div class="price-input">
+        <div class="field">
+            <span>{{ cart.currency.symbol }}</span>
+            <input type="number"  aria-label="price min" class="input-min"
+                       name="filter.v.price.gte"
+                        {%- if filter.min_value.value -%}
+                            {%- if uses_comma_decimals -%}
+                                value="{{ filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' | round }}"
+                                {%- assign minPrice = filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' | round -%}
+                            {%- else -%}
+                                value="{{ filter.min_value.value | money_without_currency | replace: ',', '' | round }}"
+                                {%- assign minPrice = filter.min_value.value | money_without_currency | replace: ',', '' | round -%}
+                            {% endif %}
+                        {%- else -%}
+                            value="0"
+                        {%- endif -%}
+                        {%- if uses_comma_decimals -%}
+                            max="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                        {%- else -%}
+                            max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                        {% endif %}
+                >
+        </div>
+        <div class="separator smi-color-text-75">{{ 'smind.collection.to' | t | downcase }}</div>
+        <div class="field">
+            <span>{{ cart.currency.symbol }}</span>
+            <input type="number"  aria-label="price max" class="input-max"
+                   name="filter.v.price.lte"
+                    {%- if filter.min_value.value -%}
+                        {%- if uses_comma_decimals -%}
+                            value="{{ filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' | round }}"
+                            {%- assign minPrice = filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' | round -%}
+                        {%- else -%}
+                            value="{{ filter.min_value.value | money_without_currency | replace: ',', '' | round }}"
+                            {%- assign minPrice = filter.min_value.value | money_without_currency | replace: ',', '' | round -%}
+                        {% endif %}
+                    {%- else -%}
+                        {%- if uses_comma_decimals -%}
+                            value="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                        {%- else -%}
+                            value="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                        {% endif %}
+                    {%- endif -%}
+                    {%- if uses_comma_decimals -%}
+                        max="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                    {%- else -%}
+                        max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                    {% endif %}
+            >
+        </div>
+    </div>
+</div>
+                {%- endcase -%}
+            </div>
+        </div>
+    {%- endfor -%}
+</smi-cp-filter>
+                    {% when 'categories' %}
+                        <div class="smi-block-categories smi-sb-widget smi-mw-100">
+    <div class="smi-sb-widget__title smi-sb-widget__click-area {{ section.settings.heading_size }}">
+        <span class="smi-link-wrapper">{{ block.settings.heading }}</span>
+        <div class="smi-sb-widget__btn">
+            {% render 'smi-icons', icon: 'minus' %}
+            {% render 'smi-icons', icon: 'minus' %}
+        </div>
+    </div>
+    <div class="smi-sb-widget__content">
+        <ul>
+            {% assign menu = block.settings.menu %}
+            {% for link in linklists[menu].links -%}
+                <li class="smi-mb-sm {% if link.active %} active{% endif %}">
+                    {{ link.title | link_to: link.url }}
+                </li>
+            {% else %}
+                <li class="smi-mb-sm">
+                    <a href="#" title="">Example category link</a>
+                </li>
+            {%- endfor %}
+        </ul>
+    </div>
+</div>
+                    {% when 'gallery' %}
+                        {% assign imageHoverClasses = settings.smi_animations_hover_image | default: shop.metafields.smind.settings.value.imageHoverEffect | default: 'none' |  prepend: ' smi-hover-image-' %}
+<div class="smi-block-gallery smi-sb-widget {%- if st.enable_collapsible_sidebar_on_mobile %} smi-sb-widget--hide{% endif -%}" {{ block.shopify_attributes }}>
+    <div class="smi-sb-widget__title smi-sb-widget__click-area {{ section.settings.heading_size }}">
+        <span class="smi-link-wrapper">{{ block.settings.heading }}</span>
+        <div class="smi-sb-widget__btn">
+            {% render 'smi-icons', icon: 'minus' %}
+            {% render 'smi-icons', icon: 'minus' %}
+        </div>
+    </div>
+    <div class="smi-sb-widget__content
+            {%- if block.settings.use_media_style_from_theme_settings %} smi-media-wrapper{% endif -%}">
+        {% assign check = 0 %}
+        {% for i in (1..6) %}
+            {% liquid
+                assign imgKey = 'image_' | append: i
+                assign linkKey = 'link_' | append: i
+            %}
+            {% if block.settings[imgKey] != blank %}
+                {% assign check = 1 %}
+                <a href="{{ block.settings[linkKey] | default: '#' }}" aria-label="image"
+                    {% if block.settings.open_link_in_new_tab %}target="_blank"{% endif %}
+                   class="{%- if block.settings.use_media_style_from_theme_settings %} smi-border smi-shadow{% endif -%} {{ imageHoverClasses }}">
+                    {{ block.settings[imgKey] | image_url: width: 150 | image_tag: loading: 'lazy'}}
+                </a>
+            {% endif %}
+        {% endfor %}
+        {% if check == 0 %}
+            <a>
+                {{ 'collection-apparel-1' | placeholder_svg_tag: 'smi-placeholder smi-w-100 smi-h-auto' }}
+            </a>
+        {% endif %}
+    </div>
+</div>
+                    {% when 'social_media' %}
+<div class="smi-block-social smi-sb-widget smi-mw-100">
+    <div class="smi-sb-widget__title smi-sb-widget__click-area {{ section.settings.heading_size }}">
+        <span class="smi-link-wrapper">{{ block.settings.heading }}</span>
+        <div class="smi-sb-widget__btn">
+            {% render 'smi-icons', icon: 'minus' %}
+            {% render 'smi-icons', icon: 'minus' %}
+        </div>
+    </div>
+    <div class="smi-sb-widget__content">
+        <div class="smi-d-flex smi-flex-wrap smi-column-gap-sm smi-row-gap-sm">
+            {% assign arr = "facebook,instagram,youtube,tiktok,twitter,spanchat,pinterest,tumblr,vimeo" | split: ',' %}
+            {% for i in arr %}
+                {% liquid
+                    assign optionKey = "smi_social_" | append: i | append: "_link"
+                    assign url = settings[optionKey] | default: shop.metafields.smind.settings.value.socialMedia[i] | strip
+                %}
+                {% if url != blank %}
+                    <a target="_blank"
+                       href="{{ url }}"
+                       class="smi-social2-item smi-social2-item--{{ block.settings.icon_style }}"
+                       style="--social2-size: {{ block.settings.icon_size }}px"
+                       aria-label="Social link"
+                    >
+                        {% render 'smi-icons', icon: i %}
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+                    {% when 'image_banner' %}
+                        {% assign imageHoverClasses = settings.smi_animations_hover_image | default: shop.metafields.smind.settings.value.imageHoverEffect | default: 'none' |  prepend: ' smi-hover-image-' %}
+<div class="smi-block-image-banner smi-sb-widget smi-mw-100">
+    <div class="smi-sb-widget__content {%- if block.settings.use_media_style_from_theme_settings %} smi-media-wrapper smi-border smi-shadow {% endif %} smi-overflow-hidden smi-lh-0">
+        <a href="{{ block.settings.link | default: '#' }}" aria-label="banner"
+           {% if block.settings.open_link_in_new_tab %}target="_blank"{% endif %}
+           class="{{ imageHoverClasses }} smi-d-block">
+            {%- if block.settings.image != blank -%}
+                {{ block.settings.image | image_url: width: 330 | image_tag: loading: 'lazy', class: 'smi-h-auto'}}
+            {% else %}
+                {{ 'collection-apparel-1' | placeholder_svg_tag: 'smi-placeholder smi-mw-100 smi-h-auto' }}
+            {%- endif -%}
+        </a>
+    </div>
+</div>
+                {% endcase %}
+            {% endfor %}
+        </aside>
+        <div class="smi-popup-overlay smi-d-none"></div>
+        <div class="smi-product-wrap smi-pl-xl">
+            <aside class="smi-toolbar smi-row-gap-lg {{ showToolbar }} {% if showToolbar %} smi-mb-xl{% endif %}">
+                <div class="smi-filter-toggle-button">
+                    {% render 'smi-icons', icon: 'filter' %}
+                    <span>Filter</span>
+                </div>
+                {% if section.settings.show_total_results %}
+                    {% liquid
+    assign filters_applied = false
+    for filter in collection.filters
+        if filter.type == "price_range"
+            if filter.min_value.value != nil or filter.max_value.value != nil
+                assign filters_applied = true
+            endif
+        else
+            if filter.active_values.size > 0
+                assign filters_applied = true
+            endif
+        endif
+    endfor
+%}
+<smi-cp-amount class="smi-color-text-75">
+    {% if filters_applied == true %}
+        {{ 'smind.collection.product_count'
+        | t: product_count: collection.products_count, count: collection.all_products_count }}
+    {% else %}
+        {{ 'smind.collection.product_count'
+        | t: product_count: collection.products_count, count: collection.all_products_count
+        | remove: 'found' }}
+    {% endif %}  
+</smi-cp-amount>
+                {% endif %}
+                {% if section.settings.show_columns_switcher %}
+                    <smi-cp-grid-mode class="smi-column-gap-sm smi-d-none smi-d-md-flex">
+    <span {% if section.settings.number_of_columns_on_desktop == "1" %}class="active"{% endif %} data-grid-mode="1">
+        {% render 'smi-icons', icon: 'list' %}
+    </span>
+    <span {% if section.settings.number_of_columns_on_desktop == "2" %}class="active"{% endif %} data-grid-mode="2">
+        {% render 'smi-icons', icon: '2-column' %}
+    </span>
+    <span {% if section.settings.number_of_columns_on_desktop == "3" %}class="active"{% endif %} data-grid-mode="3">
+        {% render 'smi-icons', icon: '3-column' %}
+    </span>
+    <span {% if section.settings.number_of_columns_on_desktop == "4" %}class="active"{% endif %} data-grid-mode="4">
+        {% render 'smi-icons', icon: '4-column' %}
+    </span>
+</smi-cp-grid-mode>
+                {% endif %}
+                {% if section.settings.enable_sorting %}
+                    <smi-cp-sorter>
+    <div id="smi-sort-by-{{ section.id }}" class="smi-sorter-wrap">
+        {% assign sort_by = collection.sort_by | default: collection.default_sort_by %}
+        {% for option in collection.sort_options %}
+            {% if option.value == sort_by %}
+                <div class="smi-sorter-label smi-d-flex smi-justify-content-start smi-column-gap-sm">
+                    <span class="smi-color-text-75 smi-d-none smi-d-md-block">
+                        {{ 'smind.collection.sort_by' | t }}
+                    </span>
+                    <div class="smi-sorter-btn smi-column-gap-md open" data-value="{{ option.value }}">
+                        <span class="smi-d-none smi-d-md-block">
+                            {{ option.name }}
+                        </span>
+                        <span class="smi-d-block smi-d-md-none">
+                            {{ 'smind.collection.sort_by' | t | remove: ':' }}
+                        </span>
+                        {% render 'smi-icons', icon: 'arrow-down' %}
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+        <div class="smi-sorter-dropdown smi-flex-wrap smi-dropdown-popup-wrapper smi-border smi-shadow smi-d-lazy">
+            <div class="smi-sorter-dropdown__header smi-w-100 smi-d-flex smi-align-items-center smi-justify-content-between smi-px-xs-lg smi-py-md smi-d-md-none">
+                <div class="_title smi-h4">
+                    {{ 'smind.collection.sort_by' | t | remove: ':' }}
+                </div>
+                <div class="_close-btn smi-d-flex smi-align-items-center">
+                    {% render 'smi-icons', icon: 'close' %}
+                </div>
+            </div>
+            <div class="smi-sorter-dropdown__content smi-px-md smi-px-xs-lg smi-py-md smi-w-100">
+                {% for option in collection.sort_options %}
+                    <div class="smi-sorter-item {%- if option.value == sort_by %} selected{% else %} smi-color-text-75{% endif -%}" data-value="{{ option.value }}">
+                        {{ option.name }}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</smi-cp-sorter>
+                {% endif %}
+                <smi-cp-filter-current class="smi-column-gap-xs smi-row-gap-xs {% unless showToolbar %} smi-mb-xl{% endunless %}">
+    {%- for filter in collection.filters -%}
+        {%- if filter.type == "price_range" -%}
+            {%- if filter.min_value.value != nil or filter.max_value.value != nil -%}
+                <div class="smi-fc-item smi-px-sm">
+                    <a href="{{ filter.url_to_remove }}">
+                        {%- assign min_value = filter.min_value.value | default: 0 -%}
+                        {%- assign max_value = filter.max_value.value | default: filter.range_max -%}
+                        {{ min_value | money }} - {{ max_value | money }} {% render 'smi-icons', icon: 'close' %}
+                    </a>
+                </div>
+            {%- endif -%}
+        {%- else -%}
+            {%- for filter_value in filter.active_values -%}
+                <div class="smi-fc-item smi-px-sm">
+                    <a href="{{ filter_value.url_to_remove }}" class="smi-column-gap-xxs">
+                        {{ filter_value.label }} {% render 'smi-icons', icon: 'close' %}
+                    </a>
+                </div>
+            {%- endfor -%}
+        {%- endif -%}
+    {%- endfor -%}
+    <div class="smi-fc-item smi-fc-item--clear-all smi-color-text-75">
+        <a href="{{ collection.url }}?sort_by={{ collection.sort_by }}">{{ 'smind.collection.clear_all' | t }}</a>
+    </div>
+</smi-cp-filter-current>
+            </aside>
+            <div id="smi_product_grid_{{ section.id }}"
+                 class="smi-product-grid smi-product-card-wrapper
+                        {%- if section.settings.number_of_columns_on_desktop == '1' %} smi-view-list{% endif -%}
+                        {%- if section.settings.enable_spacing_between_items == false %} smi-content-gap-0{% endif -%}">
+                {% paginate collection.products by section.settings.products_per_page %}
+                    {% assign preload = true %}
+                    {% assign shape_index = 1 %}
+                    {% for product in collection.products %}
+                        <div class="smi-item">
+                            {%-liquid
+    assign media_ratio = section.settings.media_ratio
+    assign media_shape = section.settings.media_shape
+    assign media_classes = 'smi-w-100 smi-object-fit-cover '
+    if media_shape != 'default' and media_shape != 'round'
+        if shape_index > 6
+            assign shape_index = 1
+        endif
+        if shape_index < 6 
+            assign forloop_next = shape_index | plus: 1
+        else
+            assign forloop_next = 1
+        endif
+        assign media_classes = media_classes | append: ' smi-shape-blob-' | append: shape_index
+        assign shape_index = shape_index | plus: 1
+        assign shape_hover = '--shape-blob-' | append: forloop_next
+    endif
+    if media_ratio == 'auto' 
+        assign media_classes = media_classes | append: ' smi-h-auto'
+    else
+        assign media_classes = media_classes | append: ' smi-h-100 smi-p-absolute'
+    endif
+    assign media_wrapper_classes = 'smi-media-wrapper smi-border smi-shadow smi-lh-0 smi-overflow-hidden smi-p-relative smi-' | append: media_shape
+    if media_shape contains 'blob'
+        assign media_wrapper_classes = media_wrapper_classes | append: ' smi-blob-wrapper smi-has-blob'
+    endif
+-%}
+                            {% comment %}
+    @param productImageSizes {default: (max-width: 460px) calc(100vw / 3)}: String. Specify the responsive image size for the product
+    @param Preload {default: false}: Boolean. Determines whether images need to be prioritized for loading first
+    @param productImageWidth {default: 600}: Number. Product image max width
+{% endcomment %}
+{%- liquid
+    assign show_vendor = section.settings.show_vendor
+    assign show_second_image = section.settings.show_second_image
+    assign media_ratio = section.settings.media_ratio
+    if media_ratio == 'auto'
+        assign media_ratio = product.featured_media.aspect_ratio | default: 1
+    endif
+    assign media_shape = section.settings.media_shape
+    assign show_swatch_color = section.settings.show_swatch_color
+    assign content_alignment = section.settings.content_alignment
+    if settings.smi_card_style
+        assign card_style = settings.smi_card_style
+    else
+        assign global_settings = shop.metafields.smind.settings.value
+        assign card_style = global_settings.productCardStyle | default: 'standard'
+    endif
+    assign target = product.selected_or_first_available_variant
+    assign compare_at_price = target.compare_at_price
+    assign price = target.price | default: 1999
+    assign available = target.available | default: false
+    if available == false and target.inventory_policy == 'continue' 
+        assign available = true
+    endif
+    assign thumbnail_class = 'smi-image-inner smi-d-block smi-lh-0 smi-overflow-hidden smi-p-relative'
+-%}
+  <div class="smi-product-card smi-card smi-card--{{card_style}} smi-product-card--{{media_ratio-}}
+    {%- if card_style == 'card' -%}
+            {{- ' smi-color-' | append: product_color_schema -}}
+            {{- ' smi-border smi-shadow' -}}
+    {%- endif -%}
+    {{ ' smi-product-card--' | append: content_alignment -}}
+    " style="--media-ratio: {{ media_ratio }}; --alignment: {{ content_alignment }}">
+    <div class="smi-product-card__thumbnail smi-p-relative smi-overflow-hidden
+        {%- if card_style == 'standard' -%}
+            {%- if media_shape != 'shape-blob' -%}
+            {{- ' smi-border smi-shadow ' -}}
+            smi-{{ media_shape -}}
+            {%- endif -%}
+            {{- ' smi-color-' | append: product_color_schema }}
+            {{- ' smi-mb-sm' -}}            
+        {%- endif -%}
+        ">
+        {%- if product.featured_media -%}
+            {%-liquid
+                assign has_second_image = false
+                if product.media[1] != null and show_second_image
+                    assign has_second_image = true
+                endif    
+                assign media_classes = media_classes | replace: 'smi-border', ''
+                assign media_classes = media_classes | replace: 'smi-shadow', ''
+                assign media_wrapper_classes = media_wrapper_classes | replace: 'smi-media-wrapper', ''
+            -%}
+            <a class="{{ thumbnail_class }} {%- if has_second_image %} smi-has-second-image {% endif -%} smi-{{media_shape}} {{ media_wrapper_classes }}" href="{{product.url}}" style="aspect-ratio: {{ media_ratio }}; --shape-hover: var({{ shape_hover }})">
+                {% liquid
+                    assign classes = 'smi-opacity-1 smi-w-100 ' | append: media_classes
+                    if media_ratio == 'auto'
+                        assign classes = classes | append: ' smi-h-auto'
+                    else
+                        assign classes = classes | append: ' smi-p-absolute smi-object-fit-cover smi-top-left-0 smi-h-100'
+                    endif
+                    assign productImageWidths = '200,300,400,500,600,700,800,1000,1200'
+                    unless productImageWidth
+                        assign productImageWidth = 600
+                    endunless
+                    unless productImageSizes
+                        assign productImageSizes = '(max-width: 460px) calc(100vw / 3)'
+                    endunless
+                    assign productStyle = 'aspect-ratio:' | append: media_ratio | append: ';'
+                    assign imageLoading = 'lazy'
+                    if forloop.index0 < 2 and section.index < 3
+                        assign imageLoading = 'eager'
+                    endif
+                %}
+                {% if preload %}
+                    {{ product.featured_media | image_url: width: productImageWidth | image_tag: class: classes, alt: product.title, preload: true , widths: productImageWidths, sizes: productImageSizes, style: productStyle }}
+                {% else %}                    
+                    {{ product.featured_media | image_url: width: productImageWidth | image_tag: class: classes, alt: product.title, widths: productImageWidths, loading: imageLoading, sizes: productImageSizes, style: productStyle }}
+                {% endif %}
+                {%- if has_second_image -%}
+                    {% assign classes = ' smi-wh-100 smi-p-absolute smi-object-fit-cover smi-top-left-0 smi-opacity-0 smi-d-lazy smi-d-none smi-d-md-block ' | append: media_classes %}
+                    {{ product.media[1] | image_url: width: productImageWidth | image_tag: class: classes, alt: product.title, widths: productImageWidths, sizes: productImageSizes, style: productStyle, loading: 'lazy' }}
+                {%- endif -%}
+            </a>
+        {% else %}
+            {%-liquid
+                assign default_image_class = 'smi-default-image smi-opacity-1 smi-w-100 ' | append: media_classes
+                if media_ratio == 'auto'
+                    assign default_image_class = default_image_class | append: ' smi-h-auto'
+                else
+                    assign default_image_class = default_image_class | append: ' smi-p-absolute smi-object-fit-cover smi-top-left-0  smi-h-100'
+                endif
+            -%}
+        <a class="{{ thumbnail_class }} smi-{{media_shape}} {{ media_wrapper_classes }}" href="{{product.url}}" style="--media-ratio: {{ media_ratio }}; --shape-hover: var({{ shape_hover }})">           
+                {{ 'product-apparel-2' | placeholder_svg_tag: default_image_class }} 
+            </a>
+        {%- endif -%}
+        {%- if available == true %}
+        <div class="smi-button-cart {% if product.has_only_default_variant %} _cart_now {% endif %} smi-p-absolute smi-opacity-0 smi-visibility-hidden smi-button-wrapper">
+            {% assign cart_added_text = 'smind.product.cart_added' | t %}
+            {% assign add_cart_text = 'smind.product.add_to_cart' | t %}
+            {% assign add_cart_failed = 'smind.product.cart_failed' | t %}
+            {%- if product.has_only_default_variant -%}
+                <a href="{{ product.url }}?variant={{target.id}}" data-id="{{ target.id }}" data-text-added="{{cart_added_text}}" data-text-add-cart="{{add_cart_text}}" data-text-failed="{{ add_cart_failed }}" class="smi-w-100 smi-d-flex smi-align-items-center smi-justify-content-center smi-text-center smi-button smi-button--solid smi-text-button smi-hover-{{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' }} smi-border smi-shadow"><span class="smi-cart-text">{{ add_cart_text }}</span><span class="smi-loading smi-effect-loading smi-d-none"></span></a>
+            {%- else -%}
+                <a href="{{ product.url }}?variant={{target.id}}" class="smi-w-100 smi-d-flex smi-align-items-center smi-justify-content-center smi-text-center smi-button smi-button--solid smi-text-button smi-hover-{{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' }} smi-border smi-shadow">{{- 'smind.product.select_options' | t -}}</a>
+            {%- endif -%}
+        </div>
+        {% endif %}
+        {%-liquid
+            if settings.smi_enable_badges != nil
+                assign enable_badges = settings.smi_enable_badges
+            else
+                assign global_settings = shop.metafields.smind.settings.value
+                assign enable_badges = global_settings.enableBadges
+                if enable_badges == nil
+                    assign enable_badges = true
+                endif
+            endif
+        -%}
+      {% if enable_badges %}
+          <div class="smi-labels smi-p-absolute smi-d-flex smi-flex-column smi-align-items-start smi-row-gap-xs">
+            {%- if compare_at_price > price %}
+                {%-liquid
+                    assign sale_percent = compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price | round | append: '%'
+                    assign sale_price = compare_at_price | minus: price | json | money    
+                -%}
+                <div class="smi-badges smi-text-badge smi-d-inline-block smi-px-sm smi-label smi-sale">
+                    {{ 'smind.product.sale' | t: sale_percent: sale_percent, sale_amount: sale_price }}
+                </div>
+            {% endif -%}
+            {%- if available == false %}
+                <div class="smi-badges smi-badges--sold-out  smi-text-badge smi-d-inline-block smi-label smi-px-sm">{{ 'smind.product.sold_out' | t }}</div>
+            {% endif -%}
+          </div>
+      {% endif %}
+    </div>
+    <div class="smi-product-card__info">
+      {% if show_vendor %}
+        <div class="smi-product-vendor smi-text-sm smi-color-text-75 smi-lsmi-03">{{ product.vendor }}</div>
+      {% endif %}
+      <h3 class="smi-h5 smi-product-title" >
+        <a href="{{product.url}}" class="smi-color-text">{{ product.title | escape }}</a>
+      </h3>
+      {% liquid
+        assign currency_code_enabled = settings.smi_currency_code_enabled | default: shop.metafields.smind.settings.value.showCurrencyCode | default: false
+        if currency_code_enabled
+          assign money_price = price | money_with_currency
+        else
+          assign money_price = price | money
+        endif
+        if target == product and product.price_varies
+          assign money_price = 'products.product.price.from_price_html' | t: price: money_price
+        endif
+      %}
+      <div
+        class="smi-price smi-d-flex smi-column-gap-xs 
+          {%- if available == false %} smi-price--sold-out {% endif -%}
+          {%- if compare_at_price > price %} smi-price--on-sale {% endif -%}
+          {%- if product.price_varies == false and product.compare_at_price_varies %} smi-price--no-compare{% endif -%}
+        "
+      >
+        {%- unless product.price_varies == false and product.compare_at_price_varies %}
+            {%- if compare_at_price != blank -%}
+                <span class="smi-price__origin smi-text-price-md smi-color-text-55 smi-text-decoration-line-through">
+                {% if currency_code_enabled %}
+                    {{ compare_at_price | money_with_currency }}
+                {% else %}
+                    {{ compare_at_price | money }}
+                {% endif %}
+                </span>
+            {%- endif -%}
+          {%- endunless -%}
+        <span class="smi-price__sale smi-text-price-md smi-color-text">{{ money_price }}</span>
+      </div>
+      {%-liquid
+        if settings.smi_color_configuration
+            assign color_configuration_br = settings.smi_color_configuration |  newline_to_br |  split: '<br />'
+        else
+            assign global_settings = shop.metafields.smind.settings.value
+            assign color_configuration_br = global_settings.variantValue |  newline_to_br |  split: '<br />'
+        endif
+      -%}
+      <div class="smi-product-description smi-color-text-75">
+          {{- product.description | strip_html | truncatewords: 15, '...' -}}
+      </div>
+      {%- unless product.has_only_default_variant -%}
+        {% if show_swatch_color %}
+            {%-liquid
+                if settings.smi_color_variant_name
+                    assign smi_color_variant_name_dc = settings.smi_color_variant_name | strip | downcase
+                else
+                    assign global_settings = shop.metafields.smind.settings.value
+                    assign smi_color_variant_name_dc = global_settings.variantName | strip | downcase
+                endif    
+            -%}
+          <div class="smi-variant-wrapper smi-variants smi-mt-xs smi-d-inline-flex smi-column-gap-xs smi-row-gap-fix-xs smi-flex-wrap">
+          {%- for option in product.options_with_values -%}
+              {%- assign option_name = option.name | strip | downcase -%}
+              {%-liquid
+                assign matchOption = false
+                if smi_color_variant_name_dc != blank
+                    if option_name == smi_color_variant_name_dc
+                        assign matchOption = true
+                    endif
+                else
+                    if option_name == 'color' or option_name == 'colour' or option_name == 'colors' or option_name == 'colours'
+                        assign matchOption = true
+                    endif
+                endif
+              -%}
+              {% if matchOption == true %}
+                  {%- assign product_option_position_0index = option.position | minus: 1 -%}
+                  {%- assign number_options = option.values.size | times: 1 -%}
+                  {%- for product_option_value in option.values -%}
+                      {%- liquid
+                      assign option_value_variant = false
+                      for variant in product.variants
+                          if variant.options[product_option_position_0index] == product_option_value
+                          assign option_value_variant = variant
+                          break
+                          endif
+                      endfor
+                      assign is_unavailable = true
+                      for variant in product.variants
+                          if variant.available and variant.options[product_option_position_0index] == product_option_value
+                          assign is_unavailable = false
+                          break
+                          endif
+                      endfor
+                      assign img_url = option_value_variant.featured_media | img_url: '1x1' | replace: '_1x1.', '_500x.'
+                      assign color_name = product_option_value | escape | downcase
+                      assign class_desktop_hidden = ''
+                      assign class_mobile_hidden = ''
+                      if forloop.index > 4
+                        assign class_desktop_hidden = 'smi-variants__item--desktop-hidden'
+                      endif
+                      if forloop.index > 3
+                        assign class_mobile_hidden = 'smi-variants__item--mobile-hidden'
+                      endif
+                      -%}
+                      <div
+                      class="smi-variants__item smi-cursor-pointer {{ class_desktop_hidden }} {{ class_mobile_hidden }} {% if forloop.index == 1 %} smi-variants__item--active {% endif %}"
+                      {% if option_value_variant.featured_media %}
+                          data-media-url="{{ img_url }}"
+                      {% endif %}
+                      data-price="{{ option_value_variant.price | money }}"
+                      data-id="{{option_value_variant.id}}"
+                      >
+                      {%-liquid
+                        assign is_image = false
+                        for color_str in color_configuration_br
+                            assign color_temp = color_str | strip | split: ':'
+                            if color_temp.size == 2
+                                assign color_temp_0 = color_temp[0] | strip | downcase
+                                assign color_temp_1 = color_temp[1] | strip
+                                if color_name == color_temp_0
+                                    if color_temp_1 contains '.jpg' or color_temp_1 contains '.JPG' or color_temp_1 contains '.png' or color_temp_1 contains '.PNG' or color_temp_1 contains '.gif' or color_temp_1 contains '.GIF' or color_temp_1 contains '.jpeg'
+                                        assign is_image = true
+                                    endif
+                                    assign color_name = color_temp_1
+                                    break
+                                endif
+                            endif
+                        endfor
+                      -%}
+                        {%- if is_image -%}
+                            <span class="smi-d-block smi-wh-100 smi-p-relative smi-overflow-hidden">
+                                <img src="{{ color_name | file_img_url: 'icon' }}" width="32" height="32" alt="" loading="lazy" class="smi-wh-100 smi-object-fit-cover smi-p-absolute">
+                            </span>
+                        {%- else -%}
+                            <span class="smi-d-block smi-wh-100" style="background:{{ color_name }}"></span>
+                        {%- endif -%}
+                        <div class="smi-tooltip">{{ product_option_value }}</div>
+                      </div>
+                  {% endfor %}
+                  {% if number_options > 4 %}
+                    <div class="smi-variants__item smi-variants__item--more smi-cursor-pointer smi-align-items-center smi-justify-content-center smi-d-none smi-d-md-flex">
+                        <span class="smi-text-xs smi-color-text smi-lsmi-03">+{{ number_options | minus: 4 }}</span>
+                    </div>
+                  {% endif %}
+                  {% if number_options > 3 %}
+                    <div class="smi-variants__item smi-variants__item--more smi-cursor-pointer smi-align-items-center smi-justify-content-center smi-d-flex smi-d-md-none">
+                        <span class="smi-text-xs smi-color-text smi-lsmi-03">+{{ number_options | minus: 3 }}</span>
+                    </div>
+                  {% endif %}
+              {% endif %}
+          {% endfor %}
+          </div>
+      {% endif %}
+    {% endunless %}
+      {%- if available == true %}
+        <div class="smi-button-cart {% if product.has_only_default_variant %} _cart_now {% endif %} smi-p-absolute smi-opacity-0 smi-visibility-hidden smi-button-wrapper">
+            {% assign cart_added_text = 'smind.product.cart_added' | t %}
+            {% assign add_cart_text = 'smind.product.add_to_cart' | t %}
+            {% assign add_cart_failed = 'smind.product.cart_failed' | t %}
+            {%- if product.has_only_default_variant -%}
+                <a href="{{ product.url }}?variant={{target.id}}" data-id="{{ target.id }}" data-text-added="{{cart_added_text}}" data-text-add-cart="{{add_cart_text}}" data-text-failed="{{ add_cart_failed }}" class="smi-w-100 smi-d-flex smi-align-items-center smi-justify-content-center smi-text-center smi-button smi-button--solid smi-text-button smi-hover-{{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' }} smi-border smi-shadow"><span class="smi-cart-text">{{ add_cart_text }}</span><span class="smi-loading smi-effect-loading smi-d-none"></span></a>
+            {%- else -%}
+                <a href="{{ product.url }}?variant={{target.id}}" class="smi-w-100 smi-d-flex smi-align-items-center smi-justify-content-center smi-text-center smi-button smi-button--solid smi-text-button smi-hover-{{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' }} smi-border smi-shadow">{{- 'smind.product.select_options' | t -}}</a>
+            {%- endif -%}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+                        </div>
+                    {% endfor %}
+                {% endpaginate %}
+            </div>
+            <div class="smi-pagination smi-mt-xl smi-d-flex smi-justify-content-center">
+    {% paginate collection.products by section.settings.products_per_page %}
+        {% case section.settings.pagination %}
+            {% when "default" %}
+                <smi-cp-pagination class="smi-pagination-default smi-visibility-hidden
+                    {{- ' smi-dps-' | append: section.settings.default_pagination_style -}}">
+                    <div class="smi-d-none smi-data-next-arrow">{% render 'smi-icons', icon: 'arrow-right' %}</div>
+                    {{ paginate | default_pagination }}
+                </smi-cp-pagination>
+            {% when "load_more"%}
+                <smi-cp-pagination class="smi-pagination-load-more">
+                    <a href="{{ paginate.next.url }}" class="smi-text-button">
+                        {{- 'smind.collection.load_more' | t -}}
+                    </a>
+                </smi-cp-pagination>
+            {% when "infinite_loading" %}
+                <smi-cp-pagination class="smi-pagination-infinite">
+                    <a href="{{ paginate.next.url }}">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.9236 12.2976C17.5257 13.6699 16.7782 14.9153 15.7543 15.9119C14.7304 16.9085 13.4652 17.6221 12.0826 17.9828C10.7001 18.3435 9.24755 18.3389 7.86729 17.9696C6.48703 17.6002 5.22636 16.8787 4.20874 15.8757C3.19112 14.8727 2.45144 13.6226 2.06213 12.2478C1.67283 10.8731 1.64724 9.42075 1.98789 8.03312C2.32854 6.64549 3.02373 5.37012 4.0054 4.33191C4.98706 3.2937 6.22154 2.52823 7.58794 2.11049" stroke="#1F1F21" stroke-width="2" stroke-linecap="round" stroke-linejoin="bevel"/>
+                        </svg>
+                    </a>
+                </smi-cp-pagination>
+        {% endcase %}
+    {% endpaginate %}
+</div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+	"name": "✧Collection page 1-1",
+	"tag": "section",
+	"class": "smi-section smi-collection-page-1",
+	"limit": 1,
+	"enabled_on": {
+		"templates": [
+			"collection"
+		],
+		"groups": [
+			"*"
+		]
+	},
+	"settings": [
+		{
+			"type": "checkbox",
+			"id": "container_full_width",
+			"label": "Container full-width",
+			"default": false
+		},
+		{
+			"type": "checkbox",
+			"id": "enable_spacing_between_items",
+			"label": "Enable spacing between items",
+			"default": true
+		},
+		{
+			"type": "header",
+			"content": "Sidebar settings"
+		},
+		{
+			"type": "select",
+			"id": "sidebar_size",
+			"label": "Sidebar size",
+			"options": [
+				{
+					"value": "240px",
+					"label": "S"
+				},
+				{
+					"value": "270px",
+					"label": "M"
+				},
+				{
+					"value": "330px",
+					"label": "L"
+				}
+			],
+			"default": "270px"
+		},
+		{
+			"type": "select",
+			"id": "heading_size",
+			"label": "Heading size",
+			"options": [
+				{
+					"value": "smi-h6",
+					"label": "XS"
+				},
+				{
+					"value": "smi-h5",
+					"label": "S"
+				},
+				{
+					"value": "smi-h4",
+					"label": "M"
+				},
+				{
+					"value": "smi-h3",
+					"label": "L"
+				}
+			],
+			"default": "smi-h5"
+		},
+		{
+			"type": "checkbox",
+			"id": "limit_filter_widget_height",
+			"label": "Limit filter widget height",
+			"default": true
+		},
+		{
+			"type": "checkbox",
+			"id": "show_count",
+			"label": "Show count",
+			"default": true
+		},
+		{
+			"type": "header",
+			"content": "Toolbar settings"
+		},
+		{
+			"type": "checkbox",
+			"id": "show_total_results",
+			"label": "Show total results",
+			"default": true
+		},
+		{
+			"type": "checkbox",
+			"id": "show_columns_switcher",
+			"label": "Show columns switcher",
+			"default": true
+		},
+		{
+			"type": "checkbox",
+			"id": "enable_sorting",
+			"label": "Enable sorting",
+			"default": true
+		},
+		{
+			"type": "header",
+			"content": "Layout settings"
+		},
+		{
+			"type": "range",
+			"id": "products_per_page",
+			"min": 8,
+			"max": 24,
+			"step": 1,
+			"default": 16,
+			"label": "Products per page"
+		},
+		{
+			"type": "select",
+			"id": "number_of_columns_on_desktop",
+			"label": "Number of columns on desktop",
+			"options": [
+				{
+					"value": "1",
+					"label": "1"
+				},
+				{
+					"value": "2",
+					"label": "2"
+				},
+				{
+					"value": "3",
+					"label": "3"
+				},
+				{
+					"value": "4",
+					"label": "4"
+				}
+			],
+			"default": "4"
+		},
+		{
+			"type": "select",
+			"id": "number_of_columns_on_mobile",
+			"label": "Number of columns on mobile",
+			"options": [
+				{
+					"value": "1",
+					"label": "1"
+				},
+				{
+					"value": "2",
+					"label": "2"
+				}
+			],
+			"default": "2"
+		},
+		{
+			"type": "select",
+			"id": "pagination",
+			"label": "Pagination",
+			"options": [
+				{
+					"value": "default",
+					"label": "Default"
+				},
+				{
+					"value": "load_more",
+					"label": "Load more"
+				},
+				{
+					"value": "infinite_loading",
+					"label": "Infinite loading"
+				}
+			],
+			"default": "default"
+		},
+		{
+			"type": "select",
+			"id": "default_pagination_style",
+			"label": "Default pagination style",
+			"options": [
+				{
+					"value": "square-style-1",
+					"label": "Square style 1"
+				},
+				{
+					"value": "square-style-2",
+					"label": "Square style 2"
+				},
+				{
+					"value": "circle-style-1",
+					"label": "Circle style 1"
+				},
+				{
+					"value": "circle-style-2",
+					"label": "Circle style 2"
+				},
+				{
+					"value": "circle-style-3",
+					"label": "Circle style 3"
+				},
+				{
+					"value": "text-style-1",
+					"label": "Text style 1"
+				}
+			],
+			"default": "square-style-1",
+			"info": "This option is only applied when choosing “Default” pagination."
+		},
+		{
+			"type": "header",
+			"content": "Product card"
+		},
+		{
+			"type": "paragraph",
+			"content": "To edit the style of the product card, go to your [theme settings.](/editor?context=theme&category=✧Product cards)"
+		},
+		{
+			"type": "select",
+			"id": "media_ratio",
+			"label": "Media ratio",
+			"options": [
+				{
+					"value": "auto",
+					"label": "Adapt"
+				},
+				{
+					"value": "3/2",
+					"label": "Landscape"
+				},
+				{
+					"value": "1/1",
+					"label": "Square"
+				},
+				{
+					"value": "3/4",
+					"label": "Portrait"
+				}
+			],
+			"default": "3/4"
+		},
+		{
+			"type": "select",
+			"id": "media_shape",
+			"label": "Media shape",
+			"options": [
+				{
+					"value": "default",
+					"label": "Default"
+				},
+				{
+					"value": "round",
+					"label": "Round"
+				},
+				{
+					"value": "shape-blob",
+					"label": "Blob"
+				}
+			],
+			"default": "default",
+			"info": "Media theme settings don't apply to the \"Blob\" shape."
+		},
+		{
+			"type": "text_alignment",
+			"id": "content_alignment",
+			"label": "Content alignment",
+			"default": "left"
+		},
+		{
+			"type": "checkbox",
+			"id": "show_second_image",
+			"label": "Show second image on hover",
+			"default": true
+		},
+		{
+			"type": "checkbox",
+			"id": "show_vendor",
+			"label": "Show vendor"
+		},
+		{
+			"type": "checkbox",
+			"id": "show_swatch_color",
+			"label": "Show color swatch",
+			"info": "If no color swatches are visible, upload your own. [Learn more](https://docs.smind.io/guides/configuring-color-swatches)"
+		},
+		{
+			"type": "header",
+			"content": "Colors"
+		},
+		{
+			"type": "select",
+            "options": [
+                {
+                    "value": "scheme_1",
+                    "label": "Scheme 1"
+                },
+                {
+                    "value": "scheme_2",
+                    "label": "Scheme 2"
+                },
+                {
+                    "value": "scheme_3",
+                    "label": "Scheme 3"
+                },
+                {
+                    "value": "scheme_4",
+                    "label": "Scheme 4"
+                },
+                {
+                    "value": "scheme_5",
+                    "label": "Scheme 5"
+                },
+                {
+                    "value": "scheme_6",
+                    "label": "Scheme 6"
+                },
+                {
+                    "value": "scheme_7",
+                    "label": "Scheme 7"
+                },
+                {
+                    "value": "scheme_8",
+                    "label": "Scheme 8"
+                },
+                {
+                    "value": "scheme_9",
+                    "label": "Scheme 9"
+                },
+                {
+                    "value": "scheme_10",
+                    "label": "Scheme 10"
+                }
+            ],
+			"id": "color_scheme",
+			"label": "Section color scheme",
+			"info": "This color scheme applies to the border and shadow of cards. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme#how-to-configure-border-and-shadow-colors-in-sections-with-two-color-schemes)"
+		},
+		{
+			"type": "select",
+            "options": [
+                {
+                    "value": "scheme_1",
+                    "label": "Scheme 1"
+                },
+                {
+                    "value": "scheme_2",
+                    "label": "Scheme 2"
+                },
+                {
+                    "value": "scheme_3",
+                    "label": "Scheme 3"
+                },
+                {
+                    "value": "scheme_4",
+                    "label": "Scheme 4"
+                },
+                {
+                    "value": "scheme_5",
+                    "label": "Scheme 5"
+                },
+                {
+                    "value": "scheme_6",
+                    "label": "Scheme 6"
+                },
+                {
+                    "value": "scheme_7",
+                    "label": "Scheme 7"
+                },
+                {
+                    "value": "scheme_8",
+                    "label": "Scheme 8"
+                },
+                {
+                    "value": "scheme_9",
+                    "label": "Scheme 9"
+                },
+                {
+                    "value": "scheme_10",
+                    "label": "Scheme 10"
+                }
+            ],
+			"id": "product_color_scheme",
+			"label": "Product card color scheme",
+			"info": "How to use “Color block” and “Color scheme” [learn more](https://docs.smind.io/guides/color-block-and-color-scheme)"
+		},
+		{
+			"type": "header",
+			"content": "Section padding"
+		},
+		{
+			"type": "range",
+			"id": "padding_top",
+			"min": 0,
+			"max": 200,
+			"step": 2,
+			"unit": "px",
+			"label": "Top padding",
+			"default": 50
+		},
+		{
+			"type": "range",
+			"id": "padding_bottom",
+			"min": 0,
+			"max": 200,
+			"step": 2,
+			"unit": "px",
+			"label": "Bottom padding",
+			"default": 50
+		}
+	],
+	"blocks": [
+		{
+			"type": "filter",
+			"name": "Filter",
+			"limit": 1,
+			"settings": [
+				{
+					"type": "paragraph",
+					"content": "Customize filters with the Search & Discovery app.[Learn more](https://help.shopify.com/en/manual/online-store/search-and-discovery/filters)"
+				},
+				{
+					"type": "header",
+					"content": "Tags"
+				},
+				{
+					"type": "text",
+					"id": "tag_heading",
+					"label": "Tag heading",
+					"default": "Tags",
+					"info": "Enter tag option name"
+				},
+				{
+					"type": "select",
+					"id": "tag_style",
+					"label": "Tag style",
+					"options": [
+						{
+							"value": "default",
+							"label": "Default"
+						},
+						{
+							"value": "1",
+							"label": "1"
+						},
+						{
+							"value": "2",
+							"label": "2"
+						}
+					],
+					"default": "1"
+				}
+			]
+		},
+		{
+			"type": "categories",
+			"name": "Categories",
+			"settings": [
+				{
+					"type": "inline_richtext",
+					"id": "heading",
+					"default": "Categories",
+					"label": "Heading"
+				},
+				{
+					"type": "link_list",
+					"id": "menu",
+					"label": "Menu"
+				}
+			]
+		},
+		{
+			"type": "gallery",
+			"name": "Gallery",
+			"settings": [
+				{
+					"type": "inline_richtext",
+					"id": "heading",
+					"default": "Gallery",
+					"label": "Heading"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_media_style_from_theme_settings",
+					"label": "Use media style from theme settings",
+					"default": false
+				},
+				{
+					"type": "checkbox",
+					"id": "open_link_in_new_tab",
+					"label": "Open link in new tab",
+					"default": false
+				},
+				{
+					"type": "image_picker",
+					"id": "image_1",
+					"label": "Image 1"
+				},
+				{
+					"type": "url",
+					"id": "link_1",
+					"label": "Link 1"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_2",
+					"label": "Image 2"
+				},
+				{
+					"type": "url",
+					"id": "link_2",
+					"label": "Link 2"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_3",
+					"label": "Image 3"
+				},
+				{
+					"type": "url",
+					"id": "link_3",
+					"label": "Link 3"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_4",
+					"label": "Image 4"
+				},
+				{
+					"type": "url",
+					"id": "link_4",
+					"label": "Link 4"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_5",
+					"label": "Image 5"
+				},
+				{
+					"type": "url",
+					"id": "link_5",
+					"label": "Link 5"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_6",
+					"label": "Image 6"
+				},
+				{
+					"type": "url",
+					"id": "link_6",
+					"label": "Link 6"
+				}
+			]
+		},
+		{
+			"type": "social_media",
+			"name": "Social media",
+			"settings": [
+				{
+					"type": "inline_richtext",
+					"id": "heading",
+					"default": "Social media",
+					"label": "Heading"
+				},
+				{
+					"type": "paragraph",
+					"content": "To display your social media accounts, link theme in your [theme settings](https://docs.smind.io/)."
+				},
+				{
+					"type": "select",
+					"id": "icon_style",
+					"label": "Icon style",
+					"options": [
+						{
+							"value": "1",
+							"label": "1"
+						},
+						{
+							"value": "2",
+							"label": "2"
+						},
+						{
+							"value": "3",
+							"label": "3"
+						}
+					],
+					"default": "1"
+				},
+				{
+					"type": "range",
+					"id": "icon_size",
+					"min": 10,
+					"max": 60,
+					"step": 1,
+					"unit": "px",
+					"label": "Icon size",
+					"default": 20
+				}
+			]
+		},
+		{
+			"type": "image_banner",
+			"name": "Image banner",
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+				},
+				{
+					"type": "url",
+					"id": "link",
+					"label": "Link"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_media_style_from_theme_settings",
+					"label": "Use media style from theme settings",
+					"default": false
+				},
+				{
+					"type": "checkbox",
+					"id": "open_link_in_new_tab",
+					"label": "Open link in new tab",
+					"default": false
+				}
+			]
+		},
+		{
+			"name": "Color",
+			"limit": 1,
+			"type": "color",
+			"settings": [
+				{
+					"type": "paragraph",
+					"content": "How to use “Color block” and “Color scheme”. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme)"
+				},
+				{
+					"type": "header",
+					"content": "Section"
+				},
+				{
+					"type": "color",
+					"id": "background_color",
+					"default": "#FFFFFF",
+					"label": "Background"
+				},
+				{
+					"type": "color_background",
+					"id": "background_gradient_color",
+					"label": "Background gradient",
+					"info": "Background gradient replaces background where possible."
+				},
+				{
+					"type": "color",
+					"id": "text_color",
+					"default": "#1F1F21",
+					"label": "Text"
+				},
+				{
+					"type": "color",
+					"id": "solid_background_button_color",
+					"default": "#1F1F21",
+					"label": "Solid button background"
+				},
+				{
+					"type": "color",
+					"id": "solid_button_label_color",
+					"default": "#FFFFFF",
+					"label": "Solid button label"
+				},
+				{
+					"type": "color",
+					"id": "shadow_color",
+					"default": "#000000",
+					"label": "Shadow"
+				},
+				{
+					"type": "paragraph",
+					"content": "This color scheme applies to the border and shadow of cards. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme#how-to-configure-border-and-shadow-colors-in-sections-with-two-color-schemes)"
+				},
+				{
+					"type": "header",
+					"content": "Product card"
+				},
+				{
+					"type": "color",
+					"id": "product_background_color",
+					"default": "#FFFFFF",
+					"label": "Background"
+				},
+				{
+					"type": "color_background",
+					"id": "product_background_gradient_color",
+					"label": "Background gradient",
+					"info": "Background gradient replaces background where possible."
+				},
+				{
+					"type": "color",
+					"id": "product_text_color",
+					"default": "#1F1F21",
+					"label": "Text"
+				},
+				{
+					"type": "color",
+					"id": "product_solid_background_button_color",
+					"default": "#1F1F21",
+					"label": "Solid button background"
+				},
+				{
+					"type": "color",
+					"id": "product_solid_button_label_color",
+					"default": "#FFFFFF",
+					"label": "Solid button label"
+				},
+				{
+					"type": "color",
+					"id": "product_shadow_color",
+					"default": "#000000",
+					"label": "Shadow"
+				},
+				{
+					"type": "header",
+					"content": "Sale badge"
+				},
+				{
+					"type": "color",
+					"id": "badge_sale_background_color",
+					"default": "#ED2626",
+					"label": "Background"
+				},
+				{
+					"type": "color",
+					"id": "badge_sale_text_color",
+					"default": "#1F1F21",
+					"label": "Text"
+				},
+				{
+					"type": "header",
+					"content": "Sold out badge"
+				},
+				{
+					"type": "color",
+					"id": "badge_sold_out_background_color",
+					"default": "#1F1F21",
+					"label": "Background"
+				},
+				{
+					"type": "color",
+					"id": "badge_sold_out_text_color",
+					"default": "#FFFFFF",
+					"label": "Text"
+				}
+			]
+		},
+		{
+			"name": "Background",
+			"limit": 1,
+			"type": "background",
+			"settings": [
+				{
+					"type": "color",
+					"id": "background_simple",
+					"label": "Background section"
+				},
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_mobile",
+					"label": "Mobile image (optional)"
+				},
+				{
+					"type": "select",
+					"id": "animation",
+					"label": "Image animation",
+					"options": [
+						{
+							"label": "None",
+							"value": "none"
+						},
+						{
+							"label": "Ambient movement",
+							"value": "ambient_movement"
+						},
+						{
+							"label": "Parallax",
+							"value": "parallax"
+						}
+					],
+					"default": "none"
+				},
+				{
+					"type": "header",
+					"content": "Video background"
+				},
+				{
+					"type": "video",
+					"id": "video",
+					"label": "Upload video"
+				},
+				{
+					"type": "video_url",
+					"id": "video_url",
+					"label": "Video URL",
+					"accept": [
+						"youtube",
+						"vimeo"
+					]
+				},
+				{
+					"type": "color_background",
+					"id": "background_overlay",
+					"label": "Overlay background"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "✧Collection page 1-1",
+			"settings": {
+				"container_full_width": false,
+				"enable_spacing_between_items": true,
+				"sidebar_size": "240px",
+				"heading_size": "smi-h5",
+				"limit_filter_widget_height": true,
+				"show_count": true,
+				"show_total_results": true,
+				"show_columns_switcher": true,
+				"enable_sorting": true,
+				"products_per_page": 15,
+				"number_of_columns_on_desktop": "3",
+				"number_of_columns_on_mobile": "2",
+				"pagination": "default",
+				"default_pagination_style": "square-style-1",
+				"media_ratio": "auto",
+				"media_shape": "default",
+				"content_alignment": "left",
+				"show_second_image": true,
+				"show_vendor": false,
+				"show_swatch_color": true,
+				"padding_top": 50,
+				"padding_bottom": 50,
+				"color_scheme": "scheme_1",
+				"product_color_scheme": "scheme_2"
+			},
+			"blocks": [
+				{
+					"type": "filter",
+					"settings": {
+						"tag_heading": "Tags",
+						"tag_style": "2"
+					}
+				},
+				{
+					"type": "categories",
+					"settings": {
+						"heading": "Categories",
+						"menu": "menu-2"
+					}
+				},
+				{
+					"type": "gallery",
+					"settings": {
+						"heading": "Gallery",
+						"use_media_style_from_theme_settings": false,
+						"open_link_in_new_tab": false,
+						"image_1": "shopify://shop_images/smi-1_c5945e54-4b3e-408c-99e6-67b234957f4e.jpg",
+						"link_1": null,
+						"image_2": "shopify://shop_images/smi-7.jpg",
+						"link_2": null,
+						"image_3": "shopify://shop_images/smi-3.jpg",
+						"link_3": null,
+						"image_4": "shopify://shop_images/smi-2.jpg",
+						"link_4": null,
+						"image_5": "shopify://shop_images/smi-5.jpg",
+						"link_5": null,
+						"image_6": "shopify://shop_images/smi-6.jpg",
+						"link_6": null
+					}
+				},
+				{
+					"type": "image_banner",
+					"settings": {
+						"image": "shopify://shop_images/smi-stylish-portrait-woman-with-sales-text-spanish-clothing-clearance_2.jpg",
+						"link": null,
+						"use_media_style_from_theme_settings": false,
+						"open_link_in_new_tab": true
+					}
+				},
+				{
+					"type": "social_media",
+					"settings": {
+						"heading": "Social media",
+						"icon_style": "2",
+						"icon_size": 18
+					}
+				},
+				{
+					"type": "color",
+					"settings": {
+						"background_color": "#ffffff",
+						"background_gradient_color": "",
+						"text_color": "#000000",
+						"solid_background_button_color": "#000000",
+						"solid_button_label_color": "#ffffff",
+						"shadow_color": "#000000",
+						"product_background_color": "#fcf8f5",
+						"product_background_gradient_color": "",
+						"product_text_color": "#000000",
+						"product_solid_background_button_color": "#000000",
+						"product_solid_button_label_color": "#fcf8f5",
+						"product_shadow_color": "#000000"
+					}
+				}
+			]
+		}
+	]
+}
+{% endschema %}
+<script defer>
+!function(){class e{constructor(){this.sectionEl=document.getElementById("smi-{{ section.id }}")}init(){this.handleBorder(),this.widgetCollapse()}_refreshBorder(){new ResizeObserver((e=>{for(let t of e){const e=this.sectionEl.querySelector(".smi-product-grid");e.classList.contains("smi-br0-with-standard")?this._border0WithStandard():e.classList.contains("smi-br0-with-card")&&this._border0WithCard()}})).observe(this.sectionEl.querySelector(".smi-product-grid"))}widgetCollapse(e=!1){this.sectionEl.querySelectorAll(".smi-sb-widget__click-area").forEach((t=>{const s=t.parentElement;1==e?s?.classList.contains("smi-filter-item")&&t.addEventListener("click",(()=>{s.classList.toggle("smi-sb-widget--hide")})):t.addEventListener("click",(()=>{s.classList.toggle("smi-sb-widget--hide")}))}))}handleBorder(){const e=this.sectionEl.querySelector(".smi-content-gap-0");if(e){const t=getComputedStyle(e).getPropertyValue("--border-radius"),s=e.querySelector(".smi-product-card");"0px"===t?s.classList.contains("smi-card--standard")?(e.classList.add("smi-br0-with-standard"),this._border0WithStandard()):(e.classList.add("smi-br0-with-card"),this._border0WithCard()):(e.classList.remove("smi-br0-with-card"),e.classList.remove("smi-br0-with-standard"))}this._refreshBorder()}_border0WithStandard(){if(this.sectionEl.querySelector(".smi-view-list"))return;const e=this.sectionEl.querySelector(".smi-br0-with-standard");if(!e)return;const t=e.querySelectorAll(".smi-item");let s=0;for(let e=0;e<t.length;e++){let i=t[e],r=t[e+1];if(i.classList.remove("smi-border-offset"),i.style.removeProperty("--border-offset-top"),i.style.removeProperty("--border-offset-height"),r&&r?.offsetTop===i.offsetTop){if(i.offsetTop===r?.offsetTop){const e=i.querySelector(".smi-product-card__thumbnail")?.getBoundingClientRect(),t=r.querySelector(".smi-product-card__thumbnail")?.getBoundingClientRect();if(e.height>t.height){const s=e.height-t.height;i.classList.add("smi-border-offset"),i.style.setProperty("--border-offset-top",t.height+"px"),i.style.setProperty("--border-offset-height",s+"px")}}}else{const t=i.querySelector(".smi-product-card__thumbnail")?.getBoundingClientRect();i.classList.add("smi-border-offset"),i.style.setProperty("--border-offset-top","0px"),i.style.setProperty("--border-offset-height",t.height+"px"),s=e+1}}}_border0WithCard(){if(this.sectionEl.querySelector(".smi-view-list"))return;const e=this.sectionEl.querySelector(".smi-br0-with-card");if(!e)return;const t=e.querySelectorAll(".smi-item");for(let e=0;e<t.length&&!(e>5);e++){t[e].classList.remove("smi-first-row")}const s=t[0];for(let e=0;e<t.length&&!(e>3);e++){let i=t[e];s?.offsetTop===i.offsetTop&&i.classList.add("smi-first-row")}}showPopupOverlay(e){const t=this.sectionEl.querySelector(".smi-popup-overlay");t&&(e?t.classList.remove("smi-d-none"):t.classList.add("smi-d-none"))}handlePopupOverlayClick(e){const t=this.sectionEl.querySelector(".smi-popup-overlay");if(!t)return;t.addEventListener("click",(()=>{t.classList.add("smi-d-none"),e(t)}))}}class t extends HTMLElement{constructor(){super()}get open(){return this.hasAttribute("open")}set open(e){e?this.setAttribute("open",""):this.removeAttribute("open")}connectedCallback(){this.sectionEl=document.getElementById("smi-{{ section.id }}"),this.btnEl=this.querySelector(".smi-sorter-btn"),this.cp=new e,this.handleDropdown(),this.handleSelect()}handleDropdown(){document.addEventListener("click",(e=>{!this.contains(e.target)&&this.open&&(this.open=!1,this.cp.showPopupOverlay(!1))})),this.sectionEl.querySelector("._close-btn").addEventListener("click",(()=>{this.open=!1,this.cp.showPopupOverlay(!1)})),this.btnEl.addEventListener("click",(()=>{this.open=!this.open,window.matchMedia("(max-width: 767.98px)").matches&&this.cp.showPopupOverlay(!!this.open)}))}handleSelect(){const e=this.sectionEl.querySelector("smi-cp-filter");this.querySelectorAll(".smi-sorter-item").forEach((t=>{t.addEventListener("click",(t=>{e&&e.setAttribute("sort-by",t.currentTarget?.getAttribute("data-value")),this.cp.showPopupOverlay(!1)}))}))}}class s extends HTMLElement{constructor(){super()}connectedCallback(){this.sectionEl=document.getElementById("smi-{{ section.id }}");const e=this.sectionEl.querySelector("smi-cp-filter");e&&this.querySelectorAll("a").forEach((t=>{t.addEventListener("click",(t=>{t.preventDefault(),e.setAttribute("url",t.currentTarget?.getAttribute("href"))}))}))}}class i extends HTMLElement{constructor(){super()}connectedCallback(){if(this.sectionEl=document.getElementById("smi-{{ section.id }}"),this.classList.contains("smi-pagination-default"))this.nextBtn=this.querySelector(".next"),this.prevBtn=this.querySelector(".prev"),this.changeIcon(),this.handleOnClick();else{const e=this.querySelector("a");if(e.getAttribute("href")||(e.style.display="none"),e.getAttribute("href")&&this.classList.contains("smi-pagination-infinite")){new IntersectionObserver((t=>{t[0].isIntersecting&&e.getAttribute("href")&&e.click()})).observe(e)}}const e=this.sectionEl.querySelector("smi-cp-filter");e&&this.querySelectorAll("a").forEach((t=>{t.addEventListener("click",(t=>{t.preventDefault(),e.setAttribute("is-pagination-action","true"),e.setAttribute("url",t.currentTarget?.getAttribute("href"))}))}))}handleOnClick(){const e=document.getElementById("smi-{{ section.id }}"),t=this.children;for(let s=0;s<t.length;s++)t[s].addEventListener("click",(function(t){e.scrollIntoView()}))}changeIcon(){const e=this.querySelector(".smi-data-next-arrow")?.innerHTML;if(e){if(this.nextBtn){const t=this.nextBtn.firstChild;t.innerHTML=e,t.setAttribute("aria-label","next")}if(this.prevBtn){const t=this.prevBtn.firstChild;t.innerHTML=e,t.setAttribute("aria-label","prev")}this.classList.remove("smi-visibility-hidden")}}}class r extends HTMLElement{constructor(){super()}connectedCallback(){this.sectionEl=document.getElementById("smi-{{ section.id }}");const myFunction=e=>{e.matches&&this.gridMode()};let e=window.matchMedia("(min-width: 768px)");myFunction(e),e.addEventListener("change",(()=>myFunction(e)))}gridMode(){const e=this.querySelectorAll("span");let t=sessionStorage.getItem("_smi_grid_md");const s=this.sectionEl.querySelector(".smi-product-grid"),handleClasses=e=>{s.style.setProperty("--col-md",e.dataset.gridMode),e.classList.add("active"),1==e.dataset.gridMode?s.classList.add("smi-view-list"):s.classList.remove("smi-view-list"),this.sectionEl.dispatchEvent(new CustomEvent("smiChangeLayout"))};t&&!Shopify.designMode&&e.forEach((e=>{e.classList.remove("active"),t===e.dataset.gridMode&&handleClasses(e)})),e.forEach((t=>{t.addEventListener("click",(s=>{e.forEach((e=>e.classList.remove("active"))),handleClasses(t),sessionStorage.setItem("_smi_grid_md",t.dataset.gridMode)}))}))}}class n extends HTMLElement{constructor(){super()}static get observedAttributes(){return["sort-by","url"]}attributeChangedCallback(e,t,s){"sort-by"===e&&null!==t&&t!==s&&this.fetchData(),"url"===e&&s&&this.fetchDataByUrl()}connectedCallback(){this.sectionId="smi-{{ section.id }}".replace("smi-",""),this.sectionEl=document.getElementById("smi-{{ section.id }}"),this.priceRange(),this.onPopState(),this.querySelectorAll("input").forEach((e=>{e.addEventListener("change",(e=>{this.fetchData()}))})),this.handleFilterMobile()}getFilterParams(){const e=this.querySelectorAll("input"),t=[];for(const s of e)if("checkbox"===s.type&&s.checked&&t.push({key:s.name,value:s.value}),s.classList.contains("input-min")&&parseInt(s.value)>0||s.classList.contains("input-max")&&parseInt(s.value)<parseInt(s.max)){const e=Math.min(Math.max(Number(s.value),0),Number(s.max));t.push({key:s.name,value:e})}return t}fetchData(e){e||(e=this.getSearchParams()),e.append("sections",this.sectionId),e.delete("oseid"),!this.hasAttribute("is-pagination-action")&&this.hasAttribute("pagination-default")&&e.delete("page");const t=`${window.location.origin}${window.location.pathname.replace(/\/+$/,"")}/?${e.toString()}`,s=this.sectionEl.querySelector(".smi-loading-overlay");s.setAttribute("open",""),fetch(t).then((e=>e.json())).then((t=>{this.render(Object.values(t)[0]),s.removeAttribute("open"),this.updateUrl(e)})).catch((e=>{s.removeAttribute("open"),console.error("Fetch error:",e)}))}getQueryParams(){const e=new URLSearchParams(window.location.search),t=[];for(const[s,i]of e)s.startsWith("filter.v.")||s.startsWith("filter.p.")||"p"===s||"sort_by"===s||"page"===s||t.push({key:s,value:i});const s=this.getFilterParams(),i=[{key:"sort_by",value:this.getAttribute("sort-by")}],r=e.get("page");return{filter:s,sortBy:i,other:t,page:r?[{key:"page",value:r}]:[]}}getSearchParams(){const e=this.getQueryParams();return new URLSearchParams([...e.filter,...e.sortBy,...e.other,...e.page].map((e=>[e.key,e.value])))}render(t){const s=(new DOMParser).parseFromString(t,"text/html");for(const e of[".smi-toolbar",".smi-product-grid","smi-cp-pagination","smi-cp-filter"]){const t=this.sectionEl.querySelector(e),i=s.querySelector(e);t&&i&&([".smi-product-grid"].includes(e)?this.hasAttribute("pagination-default")?t.innerHTML=i.innerHTML:this.hasAttribute("is-pagination-action")?t.innerHTML+=i.innerHTML:t.innerHTML=i.innerHTML:t.outerHTML=i.outerHTML)}let i=new e;i.widgetCollapse(!0),i=null,this.sectionEl.dispatchEvent(new CustomEvent("smiChangeLayout"))}updateUrl(e){e?e.delete("sections"):e=this.getSearchParams(),this.hasAttribute("pagination-default")||e.delete("page");const t=`${window.location.origin}${window.location.pathname.replace(/\/+$/,"")}/?${e.toString()}`;window.history.replaceState(null,null,t)}onPopState(){window.onpopstate=function(e){location.reload()}}priceRange(){const e=this.sectionEl.querySelectorAll(".range-input input"),t=this.sectionEl.querySelectorAll(".price-input input"),s=this.sectionEl.querySelector(".slider .progress");t.forEach((i=>{i.addEventListener("input",(i=>{let r=parseInt(t[0].value),n=parseInt(t[1].value);n-r>=0&&n<=e[1].max&&("input-min"===i.target.className?(e[0].value=r,s.style.left=r/e[0].max*100+"%"):(e[1].value=n,s.style.right=100-n/e[1].max*100+"%"))}))})),e.forEach((i=>{i.addEventListener("input",(i=>{let r=parseInt(e[0].value),n=parseInt(e[1].value);n-r<0?"range-min"===i.target.className?e[0].value=n-0:e[1].value=r+0:(t[0].value=r,t[1].value=n,s.style.left=r/e[0].max*100+"%",s.style.right=100-n/e[1].max*100+"%")}))})),e[0]?.dispatchEvent(new Event("input"))}fetchDataByUrl(){const e=this.getAttribute("url").split("?")[1],t=new URLSearchParams(e),s=this.getQueryParams();for(const e of[...s.other])t.append(e.key,e.value);this.fetchData(t)}handleFilterMobile(){this.sectionEl=document.getElementById("smi-{{ section.id }}");const t=this.sectionEl.querySelector(".smi-sidebar"),s=this.sectionEl.querySelector(".smi-filter-toggle-button"),i=this.sectionEl.querySelector(".smi-filter-heading svg"),r=new e,handle=()=>{const e=!t.classList.contains("open");r.showPopupOverlay(e),r.handlePopupOverlayClick((()=>{t.classList.remove("open"),document.body.classList.remove("smi-overflow-hidden")})),t.classList.toggle("open"),document.body.classList.toggle("smi-overflow-hidden")},toggleSidebar=()=>{s.addEventListener("click",handle),i.addEventListener("click",handle),this.querySelectorAll("input").forEach((e=>{e.addEventListener("change",handle)}))},mediaQueryHandler=e=>{e.matches?toggleSidebar():(s.removeEventListener("click",handle),i.removeEventListener("click",handle),this.querySelectorAll("input").forEach((e=>{e.removeEventListener("change",handle)})),r.showPopupOverlay(!1),t.classList.remove("open"),document.body.classList.remove("smi-overflow-hidden"))};let n=window.matchMedia("(max-width: 991.98px)");mediaQueryHandler(n),n.addEventListener("change",(()=>mediaQueryHandler(n)))}}if(Shopify.designMode){(new e).init()}else document.addEventListener("DOMContentLoaded",(()=>{(new e).init()}));function defineCustomHtml(e,t){const s=Shopify.designMode,defineElementIfNeeded=()=>{customElements.get(e)||customElements.define(e,t)};if(s){let e=0;const s=setInterval((()=>{e++,("function"==typeof t||e>=200)&&(clearInterval(s),defineElementIfNeeded())}),10)}else document.addEventListener("DOMContentLoaded",defineElementIfNeeded)}defineCustomHtml("smi-cp-sorter",t),defineCustomHtml("smi-cp-filter-current",s),defineCustomHtml("smi-cp-grid-mode",r),defineCustomHtml("smi-cp-pagination",i),defineCustomHtml("smi-cp-filter",n)}();
+</script>
