@@ -893,6 +893,65 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "smi_image_with_text_1_2_b9tbi7": {
+      "type": "smi-image-with-text-1-2",
+      "blocks": {
+        "heading_jmfAkJ": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "SEASONAL MUST-HAVES",
+            "heading": "TRAVEL-FRIENDLY INNOVATION",
+            "heading_size": "smi-h2",
+            "description": "<p>Traveling with pets can be challenging, but Mamzoo's Classic Travel Bottle simplifies the process. The bottle features a spill-proof design, allowing you to provide water to your pet without the mess.<\/p>"
+          }
+        },
+        "button_AJrfem": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "first_button_style": "outline_arrow",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "outline",
+            "button_full_width": false
+          }
+        },
+        "color_ahQUyH": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jmfAkJ",
+        "button_AJrfem",
+        "color_ahQUyH"
+      ],
+      "settings": {
+        "full_width": "container",
+        "upload_image": "shopify:\/\/shop_images\/5-in-1-portable-pet-water-bottle-stay-hydrated-on-the-go-with-this-versatile-pet-water-bottle-featuring-a-recyclable-water-trough-water-cup-food-storage-cup-poop-scoop-and-waste-bag-i.webp",
+        "desktop_media_width": "60",
+        "desktop_media_position": "row",
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "content_position": "left",
+        "content_alignment": "left",
+        "content_max_width": 570,
+        "color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -906,6 +965,7 @@
     "smi_recently_viewed_1_TQRy4B",
     "smi_styles_19031",
     "smi_image_with_text_1_2_P8gk3R",
-    "smi_image_with_text_1_2_Fc9nN8"
+    "smi_image_with_text_1_2_Fc9nN8",
+    "smi_image_with_text_1_2_b9tbi7"
   ]
 }
