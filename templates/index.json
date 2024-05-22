@@ -17,7 +17,7 @@
             "second_button_label": "Explore all",
             "second_button_link": "",
             "second_button_style": "outline",
-            "desktop_content_position": "start_center",
+            "desktop_content_position": "center_center",
             "desktop_content_alignment": "center",
             "mobile_content_alignment": "center",
             "content_max_width": 540,
@@ -27,6 +27,7 @@
         },
         "color_VWijkA": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "control_background_color": "#63513f",
             "control_text_color": "#ffffff",
@@ -52,7 +53,7 @@
         "slide_height": "fit_screen",
         "arrow_style": "arr-circle-style-4",
         "sticky_page_dot_style": "line-style-4",
-        "auto_rotate_slides": true,
+        "auto_rotate_slides": false,
         "change_slides_every": 5,
         "slide_transition": "slide",
         "control_color_scheme": "scheme_4",

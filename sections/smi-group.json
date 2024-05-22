@@ -32,14 +32,14 @@
             "solid_button_label_color3": "#282828",
             "outline_button_color3": "#ffffff",
             "shadow_color3": "#ffffff",
-            "background_color4": "#63513f",
+            "background_color4": "#000000",
             "background_gradient_color4": "",
             "text_color4": "#ffffff",
             "subtext_color4": "#ffffff",
             "solid_background_button_color4": "#ffffff",
             "solid_button_label_color4": "#63513f",
             "outline_button_color4": "#ffffff",
-            "shadow_color4": "#ffffff",
+            "shadow_color4": "#000000",
             "background_color5": "#5b3f2c",
             "background_gradient_color5": "",
             "text_color5": "#ffffff",
@@ -207,9 +207,9 @@
           "settings": {
             "badge_corner_radius": 40,
             "sale_badge_background_color": "#d01717",
-            "sale_badge_text_color": "#FFFFFF",
-            "sold_out_badge_background_color": "#8C8C8C",
-            "sold_out_badge_text_color": "#FFFFFF"
+            "sale_badge_text_color": "#ffffff",
+            "sold_out_badge_background_color": "#8c8c8c",
+            "sold_out_badge_text_color": "#ffffff"
           }
         },
         "blog_cards_6FTqQe": {
