@@ -48,8 +48,8 @@
         "smi-block-item-0": {
           "type": "collection",
           "settings": {
-            "collection": "cat-backpack",
-            "image": "shopify:\/\/shop_images\/cat-backpack-202413.webp",
+            "collection": "dog-leash",
+            "image": "shopify:\/\/shop_images\/aa3d44ec-aea5-4ad4-89fb-83bd3272a685.jpg",
             "subheading": "",
             "heading": "",
             "heading_size": "smi-h4",
@@ -62,8 +62,8 @@
         "smi-block-item-1": {
           "type": "collection",
           "settings": {
-            "collection": "crossbody-bag-1",
-            "image": "shopify:\/\/shop_images\/P00929352_b12.jpg",
+            "collection": "dog-collar",
+            "image": "shopify:\/\/shop_images\/1017232054063.jpg",
             "subheading": "",
             "heading": "",
             "heading_size": "smi-h4",
@@ -96,7 +96,7 @@
       "settings": {
         "container_full_width": false,
         "sub_heading": "",
-        "heading": "Shop by collection",
+        "heading": "<strong>Shop by collection<\/strong>",
         "heading_size": "smi-h2",
         "description": "",
         "heading_alignment": "center",
@@ -108,7 +108,7 @@
         "auto_rotate_slides": false,
         "change_slides_every": 5,
         "number_of_columns_on_desktop": "3",
-        "number_of_columns_on_mobile": "2",
+        "number_of_columns_on_mobile": "1",
         "slider_overflow": false,
         "color_scheme": "scheme_1",
         "padding_top": 64,
