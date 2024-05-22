@@ -6,12 +6,12 @@
         "image_GUbyMC": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smi-smi-clothing_-_30.jpg",
+            "image": "shopify:\/\/shop_images\/dog-leashes-202408.webp",
             "subheading": "",
             "heading": "Fresh new arrivals",
             "heading_size": "smi-h1",
-            "description": "Indulge in the perfect blend of sophistication and comfort in designs tailored for those.",
-            "first_button_label": "Shop now",
+            "description": "",
+            "first_button_label": "",
             "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "Explore all",
@@ -21,28 +21,6 @@
             "desktop_content_alignment": "center",
             "mobile_content_alignment": "center",
             "content_max_width": 540,
-            "content_background_opacity": 0,
-            "image_overlay": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)"
-          }
-        },
-        "image_AzJAjN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/smi-smi-clothing-classic-21.jpg",
-            "subheading": "ELEVATE YOUR LOOK",
-            "heading": "Discover latest trends",
-            "heading_size": "smi-h1",
-            "description": "Explore our trendy collection of clothing and accessories to make a fashion statement.",
-            "first_button_label": "Shop now",
-            "first_button_link": "",
-            "first_button_style": "solid",
-            "second_button_label": "Explore all",
-            "second_button_link": "",
-            "second_button_style": "outline",
-            "desktop_content_position": "start_center",
-            "desktop_content_alignment": "center",
-            "mobile_content_alignment": "center",
-            "content_max_width": 600,
             "content_background_opacity": 0,
             "image_overlay": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)"
           }
@@ -67,7 +45,6 @@
       },
       "block_order": [
         "image_GUbyMC",
-        "image_AzJAjN",
         "color_VWijkA"
       ],
       "settings": {
@@ -80,53 +57,6 @@
         "slide_transition": "slide",
         "control_color_scheme": "scheme_4",
         "color_scheme": "scheme_4"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "rich_text": {
@@ -423,7 +353,6 @@
   },
   "order": [
     "smi_slideshow_1_6_GRmPmm",
-    "image_banner",
     "rich_text",
     "featured_collection",
     "collage",
