@@ -11,7 +11,7 @@
             "icon_bg": "",
             "heading": "Free shipping",
             "heading_size": "smi-h4",
-            "content": "<p>We strive to get your purchases to your doorstep<\/p>",
+            "content": "",
             "button_label": "",
             "link1": ""
           }
@@ -22,9 +22,9 @@
             "icon": "return",
             "icon_size": 28,
             "icon_bg": "",
-            "heading": "Free returns",
+            "heading": "30 Days Free returns",
             "heading_size": "smi-h4",
-            "content": "<p>We offer a straightforward return policy to ensure that<\/p>",
+            "content": "",
             "button_label": "",
             "link1": ""
           }
@@ -37,7 +37,7 @@
             "icon_bg": "",
             "heading": "Quality guarantee",
             "heading_size": "smi-h4",
-            "content": "<p>We're committed to providing you with high-quality goods<\/p>",
+            "content": "",
             "button_label": "",
             "link1": ""
           }
@@ -48,8 +48,9 @@
         "smi-block-item-1",
         "smi-block-item-2"
       ],
+      "disabled": true,
       "settings": {
-        "container_full_width": false,
+        "container_full_width": true,
         "sub_heading": "",
         "heading": "",
         "heading_size": "smi-h2",
@@ -60,9 +61,9 @@
         "number_of_columns_on_mobile": "1",
         "enable_swipe_on_mobile": false,
         "icon_position": "left",
-        "color_scheme": "scheme_4",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "color_scheme": "scheme_1",
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "image-hero-1-2-1": {
@@ -463,7 +464,7 @@
         "heading_size": "smi-h2",
         "description": "",
         "heading_alignment": "center",
-        "blog": "blog-1",
+        "blog": "mamzoo-pet-supplies-expert-care-blog",
         "maximum_item_to_show": 10,
         "media_ratio": "1\/1",
         "media_shape": "default",
