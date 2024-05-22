@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
-<!--VEDA_ROCKET_LOADER--><script src="{{ 'veda-rocket-loader.js' | asset_url }}" defer></script><!--END_VEDA_ROCKET_LOADER-->
+ {%- if content_for_header contains 'tapita-seo-script-tags' -%}{%- include 'tapita-seo-schema' -%}{%- endif -%} 
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +28,7 @@
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
-    {% render 'meta-tags' %}
+    {% render 'meta-tags', page_description: page_description, page_title: page_title  %}
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -287,10 +287,7 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}"><div id="veda-root" style="opacity: 0; overflow: clip; display: flow-root;">
-<!--VEDA_HEADER_THEME_POSITION-->
-{%sections 'veda-theme-header' %}
-
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -360,8 +357,5 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  
-<!--VEDA_FOOTER_THEME_POSITION-->
-{%sections 'veda-theme-footer' %}
-<!--BEFORE_CLOSE_VEDA_ROOT--></div></body>
+  </body>
 </html>
