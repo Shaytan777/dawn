@@ -27,6 +27,7 @@
         },
         "color_VWijkA": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "control_background_color": "#ffffff",
             "control_text_color": "#ffffff",
@@ -55,8 +56,8 @@
         "auto_rotate_slides": false,
         "change_slides_every": 5,
         "slide_transition": "slide",
-        "control_color_scheme": "scheme_3",
-        "color_scheme": "scheme_3"
+        "control_color_scheme": "scheme_1",
+        "color_scheme": "scheme_1"
       }
     },
     "rich_text": {
