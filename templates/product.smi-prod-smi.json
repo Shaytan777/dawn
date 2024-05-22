@@ -235,6 +235,46 @@
         "padding_bottom": 80
       }
     },
+    "smi_rich_text_1_5_D9UJ8R": {
+      "type": "smi-rich-text-1-5",
+      "blocks": {
+        "heading_Gx8ED6": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "UNLOCKING UNMATCHED CONVENIENCE",
+            "heading_size": "smi-h2",
+            "description": "<h3>Experience the LazyMAX™ difference – a <strong>5-in-1 solution<\/strong> designed to make your pet adventures seamless.<\/h3>"
+          }
+        },
+        "color_PWyWyc": {
+          "type": "color",
+          "settings": {
+            "background_color": "#bc3e88",
+            "background_gradient_color": "",
+            "text_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "solid_background_button_color": "#ffffff",
+            "solid_button_label_color": "#5b3f2c",
+            "outline_button_color": "#ffffff",
+            "shadow_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gx8ED6",
+        "color_PWyWyc"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_position": "center",
+        "content_alignment": "center",
+        "content_max_width": 960,
+        "color_scheme": "scheme_5",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "smi_icon_with_text_1_7_RRdtAx": {
       "type": "smi-icon-with-text-1-7",
       "blocks": {
@@ -361,46 +401,6 @@
         "color_scheme": "scheme_3",
         "padding_top": 200,
         "padding_bottom": 200
-      }
-    },
-    "smi_rich_text_1_5_D9UJ8R": {
-      "type": "smi-rich-text-1-5",
-      "blocks": {
-        "heading_Gx8ED6": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "UNLOCKING UNMATCHED CONVENIENCE",
-            "heading_size": "smi-h2",
-            "description": "<h3>Experience the LazyMAX™ difference – a <strong>5-in-1 solution<\/strong> designed to make your pet adventures seamless.<\/h3>"
-          }
-        },
-        "color_PWyWyc": {
-          "type": "color",
-          "settings": {
-            "background_color": "#bc3e88",
-            "background_gradient_color": "",
-            "text_color": "#ffffff",
-            "subtext_color": "#ffffff",
-            "solid_background_button_color": "#ffffff",
-            "solid_button_label_color": "#5b3f2c",
-            "outline_button_color": "#ffffff",
-            "shadow_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Gx8ED6",
-        "color_PWyWyc"
-      ],
-      "settings": {
-        "full_width": false,
-        "content_position": "center",
-        "content_alignment": "center",
-        "content_max_width": 960,
-        "color_scheme": "scheme_5",
-        "padding_top": 16,
-        "padding_bottom": 16
       }
     },
     "smi_related_products_1_5_e4kYGj": {
@@ -742,7 +742,7 @@
         "heading_AwdMAW": {
           "type": "heading",
           "settings": {
-            "sub_heading": "SEASONAL MUST-HAVES",
+            "sub_heading": "",
             "heading": "ALL-IN-ONE CONVENIENCE",
             "heading_size": "smi-h2",
             "description": "<p>Our compact design guarantees this bottle easily slips into your backpack, becoming an indispensable outdoor companion. Forget the hassle of carrying separate items – with LazyMAX™.<\/p>"
@@ -801,7 +801,7 @@
         "heading_KKiNtT": {
           "type": "heading",
           "settings": {
-            "sub_heading": "SEASONAL MUST-HAVES",
+            "sub_heading": "",
             "heading": "UNVEILING THE INNOVATION",
             "heading_size": "smi-h2",
             "description": "<p>It's a versatile accessory designed to cater to various needs of pet owners. Recognizing the diversity of pet breeds, Mamzoo has ensured that dogs of all sizes can comfortably enjoy the water.<\/p>"
@@ -900,7 +900,7 @@
         "heading_jmfAkJ": {
           "type": "heading",
           "settings": {
-            "sub_heading": "SEASONAL MUST-HAVES",
+            "sub_heading": "",
             "heading": "TRAVEL-FRIENDLY INNOVATION",
             "heading_size": "smi-h2",
             "description": "<p>Traveling with pets can be challenging, but Mamzoo's Classic Travel Bottle simplifies the process. The bottle features a spill-proof design, allowing you to provide water to your pet without the mess.<\/p>"
@@ -959,7 +959,7 @@
         "heading_49YH3C": {
           "type": "heading",
           "settings": {
-            "sub_heading": "SEASONAL MUST-HAVES",
+            "sub_heading": "",
             "heading": "SAYING GOODBYE TO PET CARE HASSLES",
             "heading_size": "smi-h2",
             "description": "<p>LazyMAX™ is not just a water bottle; it's a comprehensive toolkit designed to enhance your pet care regimen. The dedicated storage for poop bags and an accompanying shovel provide a level of convenience that goes beyond traditional pet care products.<br\/><\/p>"
@@ -1203,9 +1203,9 @@
   "order": [
     "product-detail-1-1-0",
     "smi_image_with_text_2_6_XnmXRP",
+    "smi_rich_text_1_5_D9UJ8R",
     "smi_icon_with_text_1_7_RRdtAx",
     "smi_video_1_2_dgB9fJ",
-    "smi_rich_text_1_5_D9UJ8R",
     "smi_related_products_1_5_e4kYGj",
     "smi_recently_viewed_1_TQRy4B",
     "smi_styles_19031",
