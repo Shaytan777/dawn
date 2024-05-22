@@ -42,6 +42,38 @@
         "color_scheme": "scheme_1"
       }
     },
+    "featured-collection-1-6-4": {
+      "type": "smi-featured-collection-1-6",
+      "settings": {
+        "full_width": false,
+        "enable_spacing": true,
+        "sub_heading": "",
+        "heading": "<strong>SEASONAL SPECIALS<\/strong>",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "collection": "seasonal-specials-mamzoo-sale",
+        "number_items": 10,
+        "media_ratio": "auto",
+        "media_shape": "default",
+        "content_alignment": "center",
+        "show_second_image": true,
+        "show_vendor": false,
+        "show_swatch_color": false,
+        "arrow_style": "arr-circle-style-3",
+        "sticky_page_dot_style": "none",
+        "button_style": "none",
+        "auto_rotate_slides": false,
+        "change_slides_every": 5,
+        "number_of_columns_on_desktop": "4",
+        "number_of_columns_on_mobile": "2",
+        "slider_overflow": false,
+        "color_scheme": "scheme_1",
+        "product_color_scheme": "scheme_2",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
     "collection-list-1-2-2": {
       "type": "smi-collection-list-1-2",
       "blocks": {
@@ -152,38 +184,6 @@
         "color_scheme": "scheme_2",
         "padding_top": 70,
         "padding_bottom": 70
-      }
-    },
-    "featured-collection-1-6-4": {
-      "type": "smi-featured-collection-1-6",
-      "settings": {
-        "full_width": false,
-        "enable_spacing": true,
-        "sub_heading": "",
-        "heading": "New looks",
-        "heading_size": "smi-h2",
-        "description": "",
-        "heading_alignment": "center",
-        "collection": "dress-1",
-        "number_items": 10,
-        "media_ratio": "auto",
-        "media_shape": "default",
-        "content_alignment": "center",
-        "show_second_image": true,
-        "show_vendor": false,
-        "show_swatch_color": false,
-        "arrow_style": "arr-circle-style-3",
-        "sticky_page_dot_style": "none",
-        "button_style": "none",
-        "auto_rotate_slides": false,
-        "change_slides_every": 5,
-        "number_of_columns_on_desktop": "4",
-        "number_of_columns_on_mobile": "2",
-        "slider_overflow": false,
-        "color_scheme": "scheme_1",
-        "product_color_scheme": "scheme_2",
-        "padding_top": 64,
-        "padding_bottom": 32
       }
     },
     "collection-list-5-5-5": {
@@ -667,9 +667,9 @@
   },
   "order": [
     "slideshow-1-1-1",
+    "featured-collection-1-6-4",
     "collection-list-1-2-2",
     "rich-text-2-1-3",
-    "featured-collection-1-6-4",
     "collection-list-5-5-5",
     "featured-collection-1-6-6",
     "image-hero-1-4-7",
