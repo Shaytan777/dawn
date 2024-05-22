@@ -102,7 +102,7 @@
           "type": "product_purchase",
           "settings": {
             "show_dynamic_checkout": true,
-            "show_recipient_information": false
+            "show_recipient_information": true
           }
         },
         "product_guaranteed_Tjtwjx": {
@@ -119,7 +119,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<div class=\"d-flex justify-content-center align-items-center\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0828\/3445\/6858\/files\/LazyMAX-Portable-Dog-Water-Bottle-SAFE-AND-SECURE-CHECKOUT-GUARANTEED-2024-T.webp?v=1706770626\" alt=\"LazyMAX Portable Dog Water Bottle\" class=\"img-fluid\">\n<\/div>"
+            "custom_liquid": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE html PUBLIC \"-\/\/W3C\/\/DTD XHTML 1.0 Strict\/\/EN\"\n  \"http:\/\/www.w3.org\/TR\/xhtml1\/DTD\/xhtml1-strict.dtd\">\n<html xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\" xml:lang=\"en\" lang=\"en\">\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text\/html; charset=utf-8\" \/>\n    <meta http-equiv=\"Content-Language\" content=\"en-us\" \/>\n\n    <title>products<\/title>\n\n    <meta name=\"ROBOTS\" content=\"ALL\" \/>\n    <meta http-equiv=\"imagetoolbar\" content=\"no\" \/>\n    <meta name=\"MSSmartTagsPreventParsing\" content=\"true\" \/>\n    <meta name=\"Copyright\" content=\"(c) 2005 Copyright content:  Copyright design: Tobias Luetke\" \/>\n    <!-- (c) Copyright 2005 by Tobias Luetke All Rights Reserved. -->\n  <\/head>\n\n  <body>\n    {% assign all_products = products | concat: more_products  %}\n    <h1>{{ description | split: '~' | first }}<\/h1>\n\n    <h2>{{ description | split: '~' | last }}<\/h2>\n\n    <h2>There are currently {{all_products | count}} products in the {{section}} catalog<\/h2>\n\n    {% if cool_products %}\n      Cool products :)\n    {% else %}\n      Uncool products :(\n    {% endif %}\n\n    <ul id=\"products\">\n\n      {% for product in all_products %}\n        <li>\n          <h2>{{product.name}}<\/h2>\n          Only {{product.price | price }}\n\n          {{product.description | prettyprint | paragraph }}\n\n          {{ 'it rocks!' | paragraph }}\n\n        <\/li>\n      {% endfor %}\n\n    <\/ul>\n\n  <\/body>\n<\/html>"
           }
         },
         "product_collapse_content_yMLNBp": {
