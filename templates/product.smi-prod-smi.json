@@ -102,7 +102,7 @@
           "type": "product_purchase",
           "settings": {
             "show_dynamic_checkout": true,
-            "show_recipient_information": true
+            "show_recipient_information": false
           }
         },
         "product_guaranteed_Tjtwjx": {
@@ -119,7 +119,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE html PUBLIC \"-\/\/W3C\/\/DTD XHTML 1.0 Strict\/\/EN\"\n  \"http:\/\/www.w3.org\/TR\/xhtml1\/DTD\/xhtml1-strict.dtd\">\n<html xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\" xml:lang=\"en\" lang=\"en\">\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text\/html; charset=utf-8\" \/>\n    <meta http-equiv=\"Content-Language\" content=\"en-us\" \/>\n\n    <title>products<\/title>\n\n    <meta name=\"ROBOTS\" content=\"ALL\" \/>\n    <meta http-equiv=\"imagetoolbar\" content=\"no\" \/>\n    <meta name=\"MSSmartTagsPreventParsing\" content=\"true\" \/>\n    <meta name=\"Copyright\" content=\"(c) 2005 Copyright content:  Copyright design: Tobias Luetke\" \/>\n    <!-- (c) Copyright 2005 by Tobias Luetke All Rights Reserved. -->\n  <\/head>\n\n  <body>\n    {% assign all_products = products | concat: more_products  %}\n    <h1>{{ description | split: '~' | first }}<\/h1>\n\n    <h2>{{ description | split: '~' | last }}<\/h2>\n\n    <h2>There are currently {{all_products | count}} products in the {{section}} catalog<\/h2>\n\n    {% if cool_products %}\n      Cool products :)\n    {% else %}\n      Uncool products :(\n    {% endif %}\n\n    <ul id=\"products\">\n\n      {% for product in all_products %}\n        <li>\n          <h2>{{product.name}}<\/h2>\n          Only {{product.price | price }}\n\n          {{product.description | prettyprint | paragraph }}\n\n          {{ 'it rocks!' | paragraph }}\n\n        <\/li>\n      {% endfor %}\n\n    <\/ul>\n\n  <\/body>\n<\/html>"
+            "custom_liquid": "<div class=\"d-flex justify-content-center align-items-center\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0828\/3445\/6858\/files\/LazyMAX-Portable-Dog-Water-Bottle-SAFE-AND-SECURE-CHECKOUT-GUARANTEED-2024-T.webp?v=1706770626\" alt=\"LazyMAX Portable Dog Water Bottle\" class=\"img-fluid\">\n<\/div>"
           }
         },
         "product_collapse_content_yMLNBp": {
@@ -1217,6 +1217,18 @@
           "settings": {
             "custom_liquid": ""
           }
+        },
+        "icon_with_text_RYLXJz": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
         }
       },
       "block_order": [
@@ -1227,7 +1239,8 @@
         "quantity_selector_y89pN4",
         "buy_buttons_7QXxfy",
         "share_wKerPq",
-        "custom_liquid_mLKQd3"
+        "custom_liquid_mLKQd3",
+        "icon_with_text_RYLXJz"
       ],
       "disabled": true,
       "settings": {
@@ -1243,6 +1256,106 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "smi_comparison_table_1_2_4KHD33": {
+      "type": "smi-comparison-table-1-2",
+      "blocks": {
+        "heading_comparison_table_mBq4Uh": {
+          "type": "heading-comparison-table",
+          "settings": {
+            "image_width_1": 200,
+            "heading_1": "Smind",
+            "heading_size_1": "smi-h5",
+            "image_width_2": 200,
+            "heading_2": "Others",
+            "heading_size_2": "smi-h5"
+          }
+        },
+        "row_comparison_table_44rqQ4": {
+          "type": "row-comparison-table",
+          "settings": {
+            "heading_row": "High quality",
+            "heading_size_row": "smi-h5",
+            "content_row": "<p>The breathable fabric moves with the body, providing theflexibility needed for various activities.<\/p>",
+            "icon_1": "check_3",
+            "content_1": "",
+            "icon_2": "time_3",
+            "content_2": "Often have a slow water flow and are harder to use. They may require two hands, making them less convenient during walks."
+          }
+        },
+        "row_comparison_table_4BxgJw": {
+          "type": "row-comparison-table",
+          "settings": {
+            "heading_row": "Customer support",
+            "heading_size_row": "smi-h5",
+            "content_row": "<p>Indulge in the perfect blend of sophistication and comfortin designs tailored for those who appreciate timeless.<\/p>",
+            "icon_1": "check_3",
+            "content_1": "",
+            "icon_2": "time_3",
+            "content_2": ""
+          }
+        },
+        "row_comparison_table_AzbRyC": {
+          "type": "row-comparison-table",
+          "settings": {
+            "heading_row": "Diverse styles",
+            "heading_size_row": "smi-h5",
+            "content_row": "<p>Stepping into the realm of bohemian fashion is akin to entering a world of whimsy and carefree charm.<\/p>",
+            "icon_1": "check_3",
+            "content_1": "",
+            "icon_2": "time_3",
+            "content_2": ""
+          }
+        },
+        "row_comparison_table_yaFxKh": {
+          "type": "row-comparison-table",
+          "settings": {
+            "heading_row": "Easy to use",
+            "heading_size_row": "smi-h5",
+            "content_row": "<p>A flowing floral maxi dress embodies the spirit of boho chic, with its free-spirited silhouette and vibrant patterns.<\/p>",
+            "icon_1": "check_3",
+            "content_1": "",
+            "icon_2": "time_3",
+            "content_2": ""
+          }
+        },
+        "color_F4cpMj": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_comparison_table_mBq4Uh",
+        "row_comparison_table_44rqQ4",
+        "row_comparison_table_4BxgJw",
+        "row_comparison_table_AzbRyC",
+        "row_comparison_table_yaFxKh",
+        "color_F4cpMj"
+      ],
+      "disabled": true,
+      "settings": {
+        "use_content_container_style_settings": true,
+        "sub_heading": "HOW WE COMPARE",
+        "heading": "Elevate your look with details",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "content_max_width": 1200,
+        "show_column_separation": false,
+        "highlighted_column": "1",
+        "icon_size": 28,
+        "color_scheme": "scheme_1",
+        "color_include_icon": "#3ed660",
+        "color_exclude_icon": "#eb001b",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     }
   },
@@ -1261,6 +1374,7 @@
     "smi_testimonial_1_7_Jj3Vf7",
     "smi_video_1_2_dgB9fJ",
     "smi_styles_19031",
-    "featured_product_zUzVGG"
+    "featured_product_zUzVGG",
+    "smi_comparison_table_1_2_4KHD33"
   ]
 }
