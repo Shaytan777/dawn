@@ -313,13 +313,13 @@
         "smi-block-item-0": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smi-clo-5024.jpg",
-            "product_1": "copy-of-the-ragged-unisex-jeans",
+            "image": "shopify:\/\/shop_images\/cat-backpack-202413.webp",
+            "product_1": "lazymax-5-in-1-portable-dog-water-bottle",
             "horizontal_position_1": 78,
             "vertical_position_1": 37,
-            "product_2": "we-the-free-cuddle-v-neck-sweater",
+            "product_2": "breathable-cat-carrier-bags-dog-cat-backpack",
             "horizontal_position_2": 46,
-            "vertical_position_2": 85,
+            "vertical_position_2": 46,
             "product_3": "",
             "horizontal_position_3": 60,
             "vertical_position_3": 48,
@@ -369,7 +369,7 @@
         "heading_size": "smi-h2",
         "description": "",
         "heading_alignment": "center",
-        "blog": "blog-1",
+        "blog": "mamzoo-pet-supplies-expert-care-blog",
         "maximum_item_to_show": 3,
         "media_ratio": "1\/1",
         "media_shape": "default",
@@ -387,8 +387,8 @@
         "change_slides_every": 5,
         "number_of_columns_on_desktop": "3",
         "slider_overflow": false,
-        "color_scheme": "scheme_2",
-        "blog_color_scheme": "scheme_2",
+        "color_scheme": "scheme_1",
+        "blog_color_scheme": "scheme_3",
         "padding_top": 64,
         "padding_bottom": 64
       }
