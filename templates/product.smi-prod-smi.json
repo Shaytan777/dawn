@@ -1011,6 +1011,86 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "smi_testimonial_1_7_Jj3Vf7": {
+      "type": "smi-testimonial-1-7",
+      "blocks": {
+        "testimonial_block_g3GDYg": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "Five stars for LazyMAX! Having all the essentials in one convenient piece made our dinner time at the park hassle-free. The integrated bags, water, and food compartments truly make it an amazing companion. At the moment, this is the best solution I know. Thank you Mamzoo!",
+            "author_name": "Katheryn Morar",
+            "author_info": "",
+            "author_image": "shopify:\/\/shop_images\/smi-customer-7.jpg",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "testimonial_block_wdebJA": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "I love this product.",
+            "heading_size": "smi-h5",
+            "description": "I was truly impressed by the versatility of the LazyMAX. It efficiently served my puppy's drinking needs, with easy control and no leaks. Additionally, the second compartment works wonders for training sessions, holding treats securely. Thank you Mamzoo for such a useful invention, I am very pleased.",
+            "author_name": "Emelie Russel",
+            "author_info": "",
+            "author_image": "shopify:\/\/shop_images\/smi-customer-3.jpg",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "testimonial_block_h7iC4Y": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "Highly recommended!",
+            "heading_size": "smi-h5",
+            "description": "This website has transformed my wardrobe! I can always count on them for the latest fashion trends. The service is excellent, and the delivery is fast.",
+            "author_name": "Olivia Wilde",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/smi-customer-5.jpg",
+            "author_shape": "round",
+            "star": "4.5"
+          }
+        },
+        "color_87cEDY": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_block_g3GDYg",
+        "testimonial_block_wdebJA",
+        "testimonial_block_h7iC4Y",
+        "color_87cEDY"
+      ],
+      "settings": {
+        "full_width": true,
+        "sub_heading": "",
+        "heading": "SEE WHAT OUR FANS ARE SAYING",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "content_alignment": "center",
+        "arrow_style": "none",
+        "sticky_page_dot_style": "line-style-1",
+        "auto_rotate_slides": false,
+        "change_slide_every": 5,
+        "number_of_item": "1",
+        "color_scheme": "scheme_1",
+        "color_rating": "#f8a427",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -1026,6 +1106,7 @@
     "smi_image_with_text_1_2_Fc9nN8",
     "smi_rich_text_1_5_9e3Jkg",
     "smi_image_with_text_1_2_b9tbi7",
-    "smi_image_with_text_1_2_CTFPep"
+    "smi_image_with_text_1_2_CTFPep",
+    "smi_testimonial_1_7_Jj3Vf7"
   ]
 }
