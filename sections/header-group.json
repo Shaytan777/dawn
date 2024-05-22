@@ -108,7 +108,7 @@
             "solid_button_label_color": "#fcf8f5",
             "shadow_color": "#000000",
             "transparent_background_gradient_color": "",
-            "transparent_text_color": "#000000",
+            "transparent_text_color": "#ffffff",
             "transparent_solid_background_button_color": "#000000",
             "transparent_solid_button_label_color": "#ffffff",
             "product_background_color": "#ffffff",
@@ -117,10 +117,10 @@
             "product_solid_background_button_color": "#000000",
             "product_solid_button_label_color": "#ffffff",
             "product_shadow_color": "#000000",
-            "badge_sale_background_color": "#ED2626",
-            "badge_sale_text_color": "#1F1F21",
-            "badge_sold_out_background_color": "#1F1F21",
-            "badge_sold_out_text_color": "#FFFFFF"
+            "badge_sale_background_color": "#ed2626",
+            "badge_sale_text_color": "#1f1f21",
+            "badge_sold_out_background_color": "#1f1f21",
+            "badge_sold_out_text_color": "#ffffff"
           }
         }
       },
