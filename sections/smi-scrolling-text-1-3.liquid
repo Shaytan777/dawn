@@ -1,0 +1,464 @@
+{% style %}
+	.section-class-name .smi-gap{gap:var(--gap-between-content, 30px)}.smi-section-scrolling-text.smi-section__inner{padding-top:0;padding-bottom:0}smi-scrolling-text{width:100%;display:flex;white-space:nowrap;overflow:hidden;padding-top:var(--section-padding-top, 0);padding-bottom:var(--section-padding-bottom, 0)}smi-scrolling-text:hover .__smi-item.__smi-animation-run{animation-play-state:paused !important}smi-scrolling-text[border-top]{border-top:1px solid rgba(var(--color-foreground), 0.2)}smi-scrolling-text[border-bottom]{border-bottom:1px solid rgba(var(--color-foreground), 0.2)}smi-scrolling-text .__smi-item{display:flex;align-items:center}smi-scrolling-text .__smi-item__image,smi-scrolling-text .__smi-item__text{overflow:hidden}smi-scrolling-text .__smi-item__text{margin-right:var(--gap-between-content)}smi-scrolling-text .__smi-item__text p:last-child{margin-bottom:0}smi-scrolling-text .__smi-item__image{line-height:0;width:calc(var(--image-width, 100px));margin-right:var(--gap-between-content)}smi-scrolling-text .__smi-item__image img,smi-scrolling-text .__smi-item__image svg{width:100%;height:auto}smi-scrolling-text .__smi-item.__smi-animation-run{animation-play-state:running !important}smi-scrolling-text .__smi-item.__smi-animation-rtl{animation:smi-marquee-rtl var(--duration, 20s) linear infinite;animation-play-state:paused}smi-scrolling-text .__smi-item.__smi-animation-ltr{animation:smi-marquee-ltr var(--duration, 20s) linear infinite;animation-play-state:paused}smi-scrolling-text .smi-outline-text{-webkit-text-stroke:1px rgb(var(--color-foreground));-webkit-text-fill-color:rgba(0,0,0,0)}@keyframes smi-marquee-rtl{0%{transform:translate(0%)}100%{transform:translate(-100%)}}@keyframes smi-marquee-ltr{0%{transform:translate(-100%)}100%{transform:translate(0%)}}
+{% endstyle %}
+{% comment %}#component#["settings/heading","settings/media-settings-3","settings/slider-arrows","settings/slider-dots","settings/slides","settings/section-padding","settings/button-without-url","blocks/color","blocks/background","settings/media-height-2","settings/content-position","settings/product-card","settings/content-settings","settings/rich-content-heading","settings/buttons","settings/countdown-timer","settings/container-width","settings/media-width","settings/media-position","settings/media-height","settings/content-alignment","settings/color-scheme","blocks/email-signup","settings/social-media","settings/custom-icons","blocks/product-variant","blocks/product-quantity","blocks/product-purchase","blocks/product-color","blocks/email-signup-footer","settings/mega-menu","blocks/mega-menu/color","blocks/mega-menu/classic","blocks/mega-menu/collection","blocks/mega-menu/banner","blocks/mega-menu/product","blocks/mega-menu/product-tab","blocks/header-search","settings/layout-settings","settings/icon-with-text-2","settings/icon-with-text-3","blocks/heading","settings/text","blocks/divider","settings/button-single","settings/slider-layout","settings/nation","settings/rating","settings/media-settings","blocks/collapsible-content","settings/image","settings/icon-with-text","settings/page-content","settings/content-width","settings/gap-between-content","blocks/milestone","settings/heading/block","settings/design-mode","settings/animation-settings","blocks/text","settings/divider","settings/icon-setting","settings/slider-pagination-1-style"]#endcomponent#{% endcomment %}
+<style>
+    {% assign colorblock = section.blocks | where: 'type', 'color' | first %}
+{% if colorblock %}
+    #shopify-section-{{ section.id }},
+    #shopify-section-{{ section.id }} .smi-color-{{ section.settings.color_scheme }} {
+    --color-background: {{ colorblock.settings.background_color.red }}, {{ colorblock.settings.background_color.green }},{{ colorblock.settings.background_color.blue }};
+    {% if colorblock.settings.background_gradient_color == blank %}
+        --gradient-background: {{ colorblock.settings.background_color }};
+    {% else %}
+        --gradient-background: {{ colorblock.settings.background_gradient_color }};
+    {% endif %}
+    --color-foreground: {{ colorblock.settings.text_color.red }}, {{ colorblock.settings.text_color.green }},{{ colorblock.settings.text_color.blue }};
+    }
+{% endif %}
+    #shopify-section-{{ section.id }}{
+        --section-padding-top: {{ section.settings.padding_top }}px;
+--section-padding-bottom: {{ section.settings.padding_bottom }}px;
+{% if section.settings.padding_top_section != blank or section.settings.padding_bottom_section != blank %}
+    --section-margin-top: {{ section.settings.padding_top_section }}px;
+    --section-margin-bottom: {{ section.settings.padding_bottom_section }}px;
+{% endif %}
+        --gap-between-content: {{ section.settings.gap_between_content }}px;
+    }
+</style>
+<div id="smi-{{ section.id }}" class="smi-{{ section.id }} smi-section__inner smi-gradient smi-section-scrolling-text smi-color-{{ section.settings.color_scheme }}" data-section="scrolling-text-1" data-name="✧Scrolling text 1">
+      
+    {% render 'smi-background' %}
+    <div class="{% if section.settings.container_full_width %}smi-w-100{% else %}smi-container{% endif %}">
+        <smi-scrolling-text speed="{{ section.settings.scrolling_speed }}"
+            {%- if section.settings.show_top_divider %} border-top {%- endif %}
+            {%- if section.settings.show_bottom_divider %} border-bottom {%- endif %}>
+            <div class="__smi-item {{ section.settings.scroll_direction | prepend: '__smi-animation-' }}">
+                {% for block in section.blocks %}
+                    {% case block.type %}
+                        {% when 'image' %}
+                            <div class="__smi-item__image smi-media-wrapper
+                                {%- if block.settings.use_media_style_from_theme_settings == true %} smi-shadow smi-border{% endif -%}
+                                    {{ settings.smi_animations_hover_image | default: shop.metafields.smind.settings.value.imageHoverEffect | default: 'none' | prepend: ' smi-hover-image-' }}"
+                                style=" --image-width:{{ block.settings.image_width }}px"
+                                {{ block.shopify_attributes }}
+                            >
+                                {% if block.settings.image != blank %}
+                                    {{ block.settings.image | image_url: width: 500 | image_tag }}
+                                {% else %}
+                                    {{ 'product-apparel-1' | placeholder_svg_tag }}
+                                {% endif %}
+                            </div>
+                        {% when 'text' %}
+                            <div class="__smi-item__text {{ block.settings.heading_size }} {% if block.settings.outline_text %}smi-outline-text{% endif %}" {{ block.shopify_attributes }}>
+                                {{ block.settings.heading }}
+                            </div>
+                    {% endcase %}
+                {% endfor %}
+            </div>
+        </smi-scrolling-text>
+    </div>
+</div>
+{% schema %}
+{
+	"name": "✧Scrolling text 1-3",
+	"tag": "section",
+	"class": "smi-section smi-scrolling-text",
+	"settings": [
+		{
+			"type": "checkbox",
+			"id": "container_full_width",
+			"label": "Container full-width",
+			"default": true
+		},
+		{
+			"type": "checkbox",
+			"id": "show_top_divider",
+			"label": "Show top divider",
+			"default": true
+		},
+		{
+			"type": "checkbox",
+			"id": "show_bottom_divider",
+			"label": "Show bottom divider",
+			"default": true
+		},
+		{
+			"type": "select",
+			"id": "scroll_direction",
+			"options": [
+				{
+					"value": "rtl",
+					"label": "Right to left"
+				},
+				{
+					"value": "ltr",
+					"label": "Left to right"
+				}
+			],
+			"default": "rtl",
+			"label": "Scroll direction"
+		},
+		{
+			"type": "range",
+			"id": "scrolling_speed",
+			"min": 1,
+			"max": 10,
+			"step": 1,
+			"label": "Scrolling speed",
+			"default": 7
+		},
+		{
+			"type": "range",
+			"id": "gap_between_content",
+			"min": 1,
+			"max": 100,
+			"step": 1,
+			"label": "Gap between content",
+			"default": 30
+		},
+		{
+			"type": "header",
+			"content": "Color"
+		},
+		{
+			"type": "select",
+            "options": [
+                {
+                    "value": "scheme_1",
+                    "label": "Scheme 1"
+                },
+                {
+                    "value": "scheme_2",
+                    "label": "Scheme 2"
+                },
+                {
+                    "value": "scheme_3",
+                    "label": "Scheme 3"
+                },
+                {
+                    "value": "scheme_4",
+                    "label": "Scheme 4"
+                },
+                {
+                    "value": "scheme_5",
+                    "label": "Scheme 5"
+                },
+                {
+                    "value": "scheme_6",
+                    "label": "Scheme 6"
+                },
+                {
+                    "value": "scheme_7",
+                    "label": "Scheme 7"
+                },
+                {
+                    "value": "scheme_8",
+                    "label": "Scheme 8"
+                },
+                {
+                    "value": "scheme_9",
+                    "label": "Scheme 9"
+                },
+                {
+                    "value": "scheme_10",
+                    "label": "Scheme 10"
+                }
+            ],
+			"id": "color_scheme",
+			"label": "Color Scheme",
+			"info": "To use color scheme: Step 1: Hide color block in section. Step 2: Customize colors in color block of “✧Styles” section in global area. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme)"
+		},
+		{
+			"type": "header",
+			"content": "Section padding"
+		},
+		{
+			"type": "range",
+			"id": "padding_top",
+			"min": 0,
+			"max": 200,
+			"step": 2,
+			"unit": "px",
+			"label": "Top padding",
+			"default": 50
+		},
+		{
+			"type": "range",
+			"id": "padding_bottom",
+			"min": 0,
+			"max": 200,
+			"step": 2,
+			"unit": "px",
+			"label": "Bottom padding",
+			"default": 50
+		}
+	],
+	"blocks": [
+		{
+			"name": "Text",
+			"type": "text",
+			"settings": [
+				{
+					"type": "inline_richtext",
+					"id": "heading",
+					"label": "Heading",
+					"default": "FREE SHIPPING OVER $65"
+				},
+				{
+					"type": "select",
+					"id": "heading_size",
+					"label": "Heading size",
+					"options": [
+						{
+							"value": "smi-h4",
+							"label": "XS"
+						},
+						{
+							"value": "smi-h3",
+							"label": "S"
+						},
+						{
+							"value": "smi-h2",
+							"label": "M"
+						},
+						{
+							"value": "smi-h1",
+							"label": "L"
+						}
+					],
+					"default": "smi-h4"
+				},
+				{
+					"type": "checkbox",
+					"id": "outline_text",
+					"label": "Outline text",
+					"default": false
+				}
+			]
+		},
+		{
+			"name": "Image",
+			"type": "image",
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+				},
+				{
+					"type": "range",
+					"id": "image_width",
+					"min": 20,
+					"max": 500,
+					"step": 10,
+					"unit": "px",
+					"label": "Image width",
+					"default": 100
+				},
+				{
+					"type": "checkbox",
+					"id": "use_media_style_from_theme_settings",
+					"label": "Use media style from theme settings",
+					"default": false
+				}
+			]
+		},
+		{
+			"name": "Color",
+			"limit": 1,
+			"type": "color",
+			"settings": [
+				{
+					"type": "paragraph",
+					"content": "How to use “Custom color block” and “Color scheme”. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme)"
+				},
+				{
+					"type": "color",
+					"id": "background_color",
+					"default": "#FFFFFF",
+					"label": "Background"
+				},
+				{
+					"type": "color_background",
+					"id": "background_gradient_color",
+					"label": "Background gradient",
+					"info": "Background gradient replaces background where possible."
+				},
+				{
+					"type": "color",
+					"id": "text_color",
+					"default": "#1F1F21",
+					"label": "Text"
+				}
+			]
+		},
+		{
+			"name": "Background",
+			"limit": 1,
+			"type": "background",
+			"settings": [
+				{
+					"type": "color",
+					"id": "background_simple",
+					"label": "Background section"
+				},
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_mobile",
+					"label": "Mobile image (optional)"
+				},
+				{
+					"type": "select",
+					"id": "animation",
+					"label": "Image animation",
+					"options": [
+						{
+							"label": "None",
+							"value": "none"
+						},
+						{
+							"label": "Ambient movement",
+							"value": "ambient_movement"
+						},
+						{
+							"label": "Parallax",
+							"value": "parallax"
+						}
+					],
+					"default": "none"
+				},
+				{
+					"type": "header",
+					"content": "Video background"
+				},
+				{
+					"type": "video",
+					"id": "video",
+					"label": "Upload video"
+				},
+				{
+					"type": "video_url",
+					"id": "video_url",
+					"label": "Video URL",
+					"accept": [
+						"youtube",
+						"vimeo"
+					]
+				},
+				{
+					"type": "color_background",
+					"id": "background_overlay",
+					"label": "Overlay background"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "✧Scrolling text 1-3",
+			"settings": {
+				"container_full_width": true,
+				"show_top_divider": true,
+				"show_bottom_divider": true,
+				"scroll_direction": "ltr",
+				"scrolling_speed": 2,
+				"gap_between_content": 8,
+				"padding_top": 20,
+				"padding_bottom": 20,
+				"color_scheme": "scheme_1"
+			},
+			"blocks": [
+				{
+					"type": "text",
+					"settings": {
+						"heading": "- Sale up to 50%",
+						"heading_size": "smi-h4",
+						"outline_text": false
+					}
+				},
+				{
+					"type": "color",
+					"settings": {
+						"background_color": "#ffffff",
+						"background_gradient_color": "",
+						"text_color": "#000000"
+					}
+				}
+			]
+		}
+	]
+}
+{% endschema %}
+<script defer>
+(function (){
+    class SMI_ScrollingText extends HTMLElement{
+        constructor() {
+            super();
+        }
+        static get observedAttributes() {
+            return ['speed'];
+        }
+        get speed(){
+            return this.getAttribute('speed')
+        }
+        set speed(val){
+            this.setAttribute('speed', val)
+        }
+        attributeChangedCallback(attrName, oldVal, newVal){
+            if (oldVal !== newVal && attrName === 'speed'){
+                this._setDuration();
+            }
+        }
+        connectedCallback(){
+            this._cloneData();
+            this._setDuration();
+            this._run();
+        }
+        _cloneData(){
+            const item = this.firstElementChild;
+            const count = Math.round(this.offsetWidth / item.offsetWidth) + 2;
+            for (let i = 0; i < count; i++){
+                const itemClone= this.firstElementChild.cloneNode(true);
+                itemClone.ariaHidden = "true"
+                this.appendChild(itemClone);
+                item.remove();
+            }
+        }
+        _setDuration(){
+            const speed = this.speed || 4;
+            let containerWidth = this.firstElementChild.offsetWidth;
+            let ratio = containerWidth / 1000;
+            let duration = ratio * (10 - speed + 1) * 5;
+            let durationRound = +(Math.round(duration + "e+2")  + "e-2");
+            this.style.setProperty('--duration', durationRound + 's')
+        }
+        _run(){
+            for (const item of this.children){
+                item.classList.add('__smi-animation-run')
+            }
+        }
+    }
+
+
+    if (Shopify.designMode) {
+        if (!customElements.get('smi-scrolling-text')) {
+            setTimeout(() => {
+                customElements.define('smi-scrolling-text', SMI_ScrollingText);
+            }, 100);
+        }
+    }else {
+        document.addEventListener('DOMContentLoaded',  () => {
+            if (!customElements.get('smi-scrolling-text')) {
+                customElements.define('smi-scrolling-text', SMI_ScrollingText)
+            }
+        });
+    }
+})();
+
+</script>
