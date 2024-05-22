@@ -195,76 +195,76 @@
         "smi-block-item-0": {
           "type": "collection",
           "settings": {
-            "collection": "midi-dresses-1",
-            "subheading": "",
-            "heading": "Midi dresses",
-            "heading_size": "smi-h4",
-            "description": "17 Items",
-            "link": "",
-            "button_label": "",
-            "button_style": "text"
-          }
-        },
-        "smi-block-item-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "bag-1",
-            "subheading": "",
-            "heading": "Bag",
-            "heading_size": "smi-h4",
-            "description": "15 Items",
-            "link": "",
-            "button_label": "",
-            "button_style": "text"
-          }
-        },
-        "smi-block-item-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "ballet",
+            "collection": "dog-beds-pads",
             "subheading": "",
             "heading": "",
             "heading_size": "smi-h4",
-            "description": "6 Items",
-            "link": "",
-            "button_label": "",
-            "button_style": "solid"
-          }
-        },
-        "smi-block-item-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "cardigan",
-            "subheading": "",
-            "heading": "Cardigan",
-            "heading_size": "smi-h4",
-            "description": "20 Items",
+            "description": "",
             "link": "",
             "button_label": "",
             "button_style": "text"
           }
         },
-        "smi-block-item-4": {
+        "collection_FnghJp": {
           "type": "collection",
           "settings": {
-            "collection": "dress-shirts",
+            "collection": "carriers",
             "subheading": "",
-            "heading": "Dress shrits",
+            "heading": "",
             "heading_size": "smi-h4",
-            "description": "10 Items",
+            "description": "",
             "link": "",
             "button_label": "",
             "button_style": "text"
           }
         },
-        "smi-block-item-5": {
+        "collection_geKk9Q": {
           "type": "collection",
           "settings": {
-            "collection": "jacket-1",
+            "collection": "dog-beds-pads",
             "subheading": "",
-            "heading": "Jackets",
+            "heading": "",
             "heading_size": "smi-h4",
-            "description": "18 Items",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_9Q6pmE": {
+          "type": "collection",
+          "settings": {
+            "collection": "dog-beds-pads",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_EqtEHx": {
+          "type": "collection",
+          "settings": {
+            "collection": "dog-beds-pads",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_EmwCtE": {
+          "type": "collection",
+          "settings": {
+            "collection": "dog-beds-pads",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
             "link": "",
             "button_label": "",
             "button_style": "text"
@@ -273,11 +273,11 @@
       },
       "block_order": [
         "smi-block-item-0",
-        "smi-block-item-1",
-        "smi-block-item-2",
-        "smi-block-item-3",
-        "smi-block-item-4",
-        "smi-block-item-5"
+        "collection_FnghJp",
+        "collection_geKk9Q",
+        "collection_9Q6pmE",
+        "collection_EqtEHx",
+        "collection_EmwCtE"
       ],
       "settings": {
         "container_full_width": true,
