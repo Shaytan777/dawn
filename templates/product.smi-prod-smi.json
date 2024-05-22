@@ -952,6 +952,65 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "smi_image_with_text_1_2_CTFPep": {
+      "type": "smi-image-with-text-1-2",
+      "blocks": {
+        "heading_49YH3C": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "SEASONAL MUST-HAVES",
+            "heading": "SAYING GOODBYE TO PET CARE HASSLES",
+            "heading_size": "smi-h2",
+            "description": "<p>LazyMAX™ is not just a water bottle; it's a comprehensive toolkit designed to enhance your pet care regimen. The dedicated storage for poop bags and an accompanying shovel provide a level of convenience that goes beyond traditional pet care products.<br\/><\/p>"
+          }
+        },
+        "button_6AmbRA": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "first_button_style": "outline_arrow",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "outline",
+            "button_full_width": false
+          }
+        },
+        "color_JRqFEg": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_49YH3C",
+        "button_6AmbRA",
+        "color_JRqFEg"
+      ],
+      "settings": {
+        "full_width": "container",
+        "upload_image": "shopify:\/\/shop_images\/lazymax-5-in-1-pet-water-bottle-portable-hydration-for-your-furry-friend-65924ff601f84.webp",
+        "desktop_media_width": "60",
+        "desktop_media_position": "row-reverse",
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "content_position": "left",
+        "content_alignment": "left",
+        "content_max_width": 570,
+        "color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -966,6 +1025,7 @@
     "smi_styles_19031",
     "smi_image_with_text_1_2_P8gk3R",
     "smi_image_with_text_1_2_Fc9nN8",
-    "smi_image_with_text_1_2_b9tbi7"
+    "smi_image_with_text_1_2_b9tbi7",
+    "smi_image_with_text_1_2_CTFPep"
   ]
 }
