@@ -12,7 +12,8 @@
             "heading": "Free shipping",
             "heading_size": "smi-h4",
             "content": "<p>We strive to get your purchases to your doorstep<\/p>",
-            "button_label": ""
+            "button_label": "",
+            "link1": ""
           }
         },
         "smi-block-item-1": {
@@ -24,7 +25,8 @@
             "heading": "Free returns",
             "heading_size": "smi-h4",
             "content": "<p>We offer a straightforward return policy to ensure that<\/p>",
-            "button_label": ""
+            "button_label": "",
+            "link1": ""
           }
         },
         "smi-block-item-2": {
@@ -36,7 +38,8 @@
             "heading": "Quality guarantee",
             "heading_size": "smi-h4",
             "content": "<p>We're committed to providing you with high-quality goods<\/p>",
-            "button_label": ""
+            "button_label": "",
+            "link1": ""
           }
         }
       },
@@ -73,8 +76,10 @@
         "heading_size": "smi-h1",
         "description": "From cozy winter wear to breezy summer outfits",
         "first_button_label": "Explore more",
+        "first_button_link": "",
         "first_button_style": "solid",
         "second_button_label": "Shop now",
+        "second_button_link": "",
         "second_button_style": "outline",
         "desktop_content_position": "end_center",
         "desktop_content_alignment": "center",
@@ -83,6 +88,46 @@
         "content_background_opacity": 0,
         "color_scheme": "scheme_4",
         "image_overlay": "linear-gradient(180deg, rgba(53, 27, 1, 0.1882), rgba(53, 27, 1, 0.1882) 100%)"
+      }
+    },
+    "featured-collection-4-2-17": {
+      "type": "smi-featured-collection-4-2",
+      "blocks": {
+        "smi-block-item-0": {
+          "type": "colection_tab",
+          "settings": {
+            "collection": "seasonal-specials-mamzoo-sale",
+            "number_items": 10,
+            "label_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "smi-block-item-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_spacing": true,
+        "sub_heading": "",
+        "heading": "Top picks",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "media_ratio": "auto",
+        "media_shape": "default",
+        "content_alignment": "center",
+        "show_second_image": true,
+        "show_vendor": false,
+        "show_swatch_color": true,
+        "number_of_columns_on_desktop": "5",
+        "number_of_columns_on_mobile": "1",
+        "enable_swipe_on_mobile": true,
+        "tab_style": "circle-style-2",
+        "button_style": "solid",
+        "color_scheme": "scheme_1",
+        "product_color_scheme": "scheme_2",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "collection-list-1-7-2": {
@@ -96,6 +141,7 @@
             "heading": "Midi dresses",
             "heading_size": "smi-h4",
             "description": "17 Items",
+            "link": "",
             "button_label": "",
             "button_style": "text"
           }
@@ -108,6 +154,7 @@
             "heading": "Bag",
             "heading_size": "smi-h4",
             "description": "15 Items",
+            "link": "",
             "button_label": "",
             "button_style": "text"
           }
@@ -120,6 +167,7 @@
             "heading": "",
             "heading_size": "smi-h4",
             "description": "6 Items",
+            "link": "",
             "button_label": "",
             "button_style": "solid"
           }
@@ -132,6 +180,7 @@
             "heading": "Cardigan",
             "heading_size": "smi-h4",
             "description": "20 Items",
+            "link": "",
             "button_label": "",
             "button_style": "text"
           }
@@ -144,6 +193,7 @@
             "heading": "Dress shrits",
             "heading_size": "smi-h4",
             "description": "10 Items",
+            "link": "",
             "button_label": "",
             "button_style": "text"
           }
@@ -156,6 +206,7 @@
             "heading": "Jackets",
             "heading_size": "smi-h4",
             "description": "18 Items",
+            "link": "",
             "button_label": "",
             "button_style": "text"
           }
@@ -569,8 +620,10 @@
           "type": "button",
           "settings": {
             "first_button_label": "View all faq",
+            "first_button_link": "",
             "first_button_style": "solid_arrow",
             "second_button_label": "",
+            "second_button_link": "",
             "second_button_style": "solid",
             "button_full_width": false
           }
@@ -621,8 +674,10 @@
           "type": "button",
           "settings": {
             "first_button_label": "Learn more",
+            "first_button_link": "",
             "first_button_style": "outline",
             "second_button_label": "Shop now",
+            "second_button_link": "",
             "second_button_style": "solid",
             "button_full_width": false
           }
@@ -652,50 +707,50 @@
         "smi-block-item-0": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smi-smi_logo_classic_01.jpg",
-            "logo_width": 160
+            "logo_width": 160,
+            "link": ""
           }
         },
         "smi-block-item-1": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smi-smi_logo_classic_06.jpg",
-            "logo_width": 160
+            "logo_width": 160,
+            "link": ""
           }
         },
         "smi-block-item-2": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smi-smi_logo_classic_03.jpg",
-            "logo_width": 160
+            "logo_width": 160,
+            "link": ""
           }
         },
         "smi-block-item-3": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smi-smi_logo_classic_04.jpg",
-            "logo_width": 160
+            "logo_width": 160,
+            "link": ""
           }
         },
         "smi-block-item-4": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smi-smi_logo_modern_02.jpg",
-            "logo_width": 160
+            "logo_width": 160,
+            "link": ""
           }
         },
         "smi-block-item-5": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smi-smi_logo_modern_03.jpg",
-            "logo_width": 160
+            "logo_width": 160,
+            "link": ""
           }
         },
         "smi-block-item-6": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smi-smi_logo_classic_01.jpg",
-            "logo_width": 160
+            "logo_width": 160,
+            "link": ""
           }
         }
       },
@@ -782,8 +837,10 @@
           "type": "button",
           "settings": {
             "first_button_label": "Learn more",
+            "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "Shop now",
+            "second_button_link": "",
             "second_button_style": "outline",
             "button_full_width": false
           }
@@ -823,8 +880,10 @@
             "heading_size": "smi-h1",
             "description": "Each element of the suit is carefully designed to empower the wearer, whether navigating the boardroom.",
             "first_button_label": "Explore all",
+            "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "",
+            "second_button_link": "",
             "second_button_style": "outline"
           }
         },
@@ -837,8 +896,10 @@
             "heading_size": "smi-h1",
             "description": "From cozy winter wear to breezy summer outfits, explore versatile fashion choices that adapt to the changing seasons.",
             "first_button_label": "Shop now",
+            "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "",
+            "second_button_link": "",
             "second_button_style": "outline"
           }
         },
@@ -851,8 +912,10 @@
             "heading_size": "smi-h1",
             "description": "Indulge in the perfect blend of sophistication and comfort in designs tailored for those who appreciate timeless style.",
             "first_button_label": "Shop product",
+            "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "",
+            "second_button_link": "",
             "second_button_style": "outline"
           }
         }
@@ -1121,7 +1184,7 @@
         "heading_size": "smi-h2",
         "description": "",
         "heading_alignment": "center",
-        "product": "mont-blanc-mini-dress",
+        "product": "lazymax-5-in-1-portable-dog-water-bottle",
         "desktop_media_width": "50",
         "desktop_media_position": "left",
         "constrain_media_to_screen_height": "fill",
@@ -1168,9 +1231,9 @@
           "settings": {
             "heading": "",
             "heading_size": "smi-h5",
-            "text_image": "shopify:\/\/shop_images\/smi-logo.jpg",
             "image_width": 130,
             "use_media_setting": false,
+            "img_link": "",
             "content": "",
             "enable_collapsible_content_on_mobile": false
           }
@@ -1179,7 +1242,7 @@
           "type": "menu",
           "settings": {
             "heading": "Shop",
-            "menu": "menu-2",
+            "menu": "",
             "enable_collapsible_content_on_mobile": true
           }
         },
@@ -1187,7 +1250,7 @@
           "type": "menu",
           "settings": {
             "heading": "About",
-            "menu": "menu-1",
+            "menu": "",
             "enable_collapsible_content_on_mobile": true
           }
         },
@@ -1195,7 +1258,7 @@
           "type": "menu",
           "settings": {
             "heading": "Support",
-            "menu": "menu-3",
+            "menu": "",
             "enable_collapsible_content_on_mobile": true
           }
         },
@@ -1218,6 +1281,7 @@
         "smi-block-item-3",
         "smi-block-item-4"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "icon_style": "none",
@@ -1228,64 +1292,6 @@
         "show_policy": true,
         "copyright_text": "",
         "color_scheme": "scheme_2",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "featured-collection-4-2-17": {
-      "type": "smi-featured-collection-4-2",
-      "blocks": {
-        "smi-block-item-0": {
-          "type": "colection_tab",
-          "settings": {
-            "collection": "shoe",
-            "number_items": 10,
-            "label_collection": ""
-          }
-        },
-        "smi-block-item-1": {
-          "type": "colection_tab",
-          "settings": {
-            "collection": "jacket-1",
-            "number_items": 10,
-            "label_collection": ""
-          }
-        },
-        "smi-block-item-2": {
-          "type": "colection_tab",
-          "settings": {
-            "collection": "boots",
-            "number_items": 10,
-            "label_collection": "Boots"
-          }
-        }
-      },
-      "block_order": [
-        "smi-block-item-0",
-        "smi-block-item-1",
-        "smi-block-item-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "enable_spacing": true,
-        "sub_heading": "",
-        "heading": "Top picks",
-        "heading_size": "smi-h2",
-        "description": "",
-        "heading_alignment": "center",
-        "media_ratio": "auto",
-        "media_shape": "default",
-        "content_alignment": "center",
-        "show_second_image": true,
-        "show_vendor": false,
-        "show_swatch_color": true,
-        "number_of_columns_on_desktop": "5",
-        "number_of_columns_on_mobile": "1",
-        "enable_swipe_on_mobile": true,
-        "tab_style": "circle-style-2",
-        "button_style": "solid",
-        "color_scheme": "scheme_1",
-        "product_color_scheme": "scheme_2",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -1315,6 +1321,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop now",
+            "button_link": "",
             "button_style": "solid"
           }
         }
@@ -1327,6 +1334,7 @@
       "settings": {
         "full_width": false,
         "content_alignment": "center",
+        "color_scheme": "scheme_1",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -1338,7 +1346,6 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "upload_checkout": "shopify:\/\/shop_images\/smi-smi-clothing-36.jpg",
             "image_width": 670,
             "use_media_settings": false
           }
@@ -1356,8 +1363,10 @@
           "type": "button",
           "settings": {
             "first_button_label": "Learn more",
+            "first_button_link": "",
             "first_button_style": "outline_arrow",
             "second_button_label": "",
+            "second_button_link": "",
             "second_button_style": "text",
             "button_full_width": false
           }
@@ -1582,10 +1591,10 @@
           "type": "product_badges",
           "settings": {
             "badge_corner_radius": 40,
-            "sale_badge_background_color": "#D01717",
-            "sale_badge_text_color": "#FFFFFF",
-            "sold_out_badge_background_color": "#8C8C8C",
-            "sold_out_badge_text_color": "#FFFFFF"
+            "sale_badge_background_color": "#d01717",
+            "sale_badge_text_color": "#ffffff",
+            "sold_out_badge_background_color": "#8c8c8c",
+            "sold_out_badge_text_color": "#ffffff"
           }
         },
         "blog_cards-10": {
@@ -1653,6 +1662,7 @@
   "order": [
     "icon-with-text-1-8-0",
     "image-hero-1-2-1",
+    "featured-collection-4-2-17",
     "collection-list-1-7-2",
     "comparison-table-1-2-3",
     "testimonial-1-7-4",
@@ -1668,7 +1678,6 @@
     "featured-product-1-1-14",
     "email-signup-2-5-15",
     "footer-1-5-16",
-    "featured-collection-4-2-17",
     "countdown-5-5-18",
     "rich-text-1-7-19",
     "smi_styles_19031"
