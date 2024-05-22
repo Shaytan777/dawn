@@ -21,8 +21,8 @@
             "desktop_content_alignment": "left",
             "mobile_content_alignment": "center",
             "content_max_width": 540,
-            "content_background_opacity": 20,
-            "image_overlay": "linear-gradient(0deg, rgba(96, 99, 255, 0) 85%, rgba(37, 1, 70, 0.37) 100%)"
+            "content_background_opacity": 31,
+            "image_overlay": "linear-gradient(0deg, rgba(96, 99, 255, 0) 85%, rgba(21, 1, 70, 0.41) 100%)"
           }
         },
         "color_VWijkA": {
