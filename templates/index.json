@@ -1,5 +1,87 @@
 {
   "sections": {
+    "smi_slideshow_1_6_GRmPmm": {
+      "type": "smi-slideshow-1-6",
+      "blocks": {
+        "image_GUbyMC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smi-smi-clothing_-_30.jpg",
+            "subheading": "",
+            "heading": "Fresh new arrivals",
+            "heading_size": "smi-h1",
+            "description": "Indulge in the perfect blend of sophistication and comfort in designs tailored for those.",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "first_button_style": "solid",
+            "second_button_label": "Explore all",
+            "second_button_link": "",
+            "second_button_style": "outline",
+            "desktop_content_position": "start_center",
+            "desktop_content_alignment": "center",
+            "mobile_content_alignment": "center",
+            "content_max_width": 540,
+            "content_background_opacity": 0,
+            "image_overlay": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)"
+          }
+        },
+        "image_AzJAjN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smi-smi-clothing-classic-21.jpg",
+            "subheading": "ELEVATE YOUR LOOK",
+            "heading": "Discover latest trends",
+            "heading_size": "smi-h1",
+            "description": "Explore our trendy collection of clothing and accessories to make a fashion statement.",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "first_button_style": "solid",
+            "second_button_label": "Explore all",
+            "second_button_link": "",
+            "second_button_style": "outline",
+            "desktop_content_position": "start_center",
+            "desktop_content_alignment": "center",
+            "mobile_content_alignment": "center",
+            "content_max_width": 600,
+            "content_background_opacity": 0,
+            "image_overlay": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)"
+          }
+        },
+        "color_VWijkA": {
+          "type": "color",
+          "settings": {
+            "control_background_color": "#63513f",
+            "control_text_color": "#ffffff",
+            "control_solid_background_button_color": "#ffffff",
+            "control_solid_button_label_color": "#63513f",
+            "background_color": "#63513f",
+            "background_gradient_color": "",
+            "text_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "solid_background_button_color": "#ffffff",
+            "solid_button_label_color": "#63513f",
+            "outline_button_color": "#ffffff",
+            "shadow_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_GUbyMC",
+        "image_AzJAjN",
+        "color_VWijkA"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "slide_height": "fit_screen",
+        "arrow_style": "arr-circle-style-4",
+        "sticky_page_dot_style": "line-style-4",
+        "auto_rotate_slides": true,
+        "change_slides_every": 5,
+        "slide_transition": "slide",
+        "control_color_scheme": "scheme_4",
+        "color_scheme": "scheme_4"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -340,6 +422,7 @@
     }
   },
   "order": [
+    "smi_slideshow_1_6_GRmPmm",
     "image_banner",
     "rich_text",
     "featured_collection",
