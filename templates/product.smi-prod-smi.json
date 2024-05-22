@@ -18,7 +18,8 @@
         "smi-block-item-2": {
           "type": "product_price",
           "settings": {
-            "show_sale_badge": true
+            "show_sale_badge": true,
+            "show_shipping_notice": false
           }
         },
         "smi-block-item-3": {
@@ -78,6 +79,17 @@
             "half_width_on_large_screen": false
           }
         },
+        "product_feature_icon_cPFmJf": {
+          "type": "product_feature_icon",
+          "settings": {
+            "heading": "Pickup available at 827 North Coronado",
+            "heading_size": "smi-h5",
+            "content": "<p>Usually ready in 24 hours<\/p>",
+            "icon": "tick",
+            "icon_size": 24,
+            "half_width_on_large_screen": false
+          }
+        },
         "product_collapse_content_yMLNBp": {
           "type": "product_collapse_content",
           "settings": {
@@ -122,6 +134,7 @@
         "smi-block-item-10",
         "smi-block-item-11",
         "product_feature_icon_fYEAYM",
+        "product_feature_icon_cPFmJf",
         "product_collapse_content_yMLNBp",
         "product_collapse_content_V6EgPB",
         "smi-block-item-17"
