@@ -364,6 +364,46 @@
         "padding_bottom": 200
       }
     },
+    "smi_rich_text_1_5_D9UJ8R": {
+      "type": "smi-rich-text-1-5",
+      "blocks": {
+        "heading_Gx8ED6": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "UNLOCKINGUNMATCHED CONVENIENCE",
+            "heading_size": "smi-h2",
+            "description": "<h3>Experience the LazyMAX™ difference – a <strong>5-in-1 solution<\/strong> designed to make your pet adventures seamless.<\/h3>"
+          }
+        },
+        "color_PWyWyc": {
+          "type": "color",
+          "settings": {
+            "background_color": "#bc3e88",
+            "background_gradient_color": "",
+            "text_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "solid_background_button_color": "#ffffff",
+            "solid_button_label_color": "#5b3f2c",
+            "outline_button_color": "#ffffff",
+            "shadow_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gx8ED6",
+        "color_PWyWyc"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_position": "center",
+        "content_alignment": "center",
+        "content_max_width": 960,
+        "color_scheme": "scheme_5",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "smi_related_products_1_5_e4kYGj": {
       "type": "smi-related-products-1-5",
       "settings": {
@@ -702,6 +742,7 @@
     "smi_image_with_text_2_6_XnmXRP",
     "smi_icon_with_text_1_7_RRdtAx",
     "smi_video_1_2_dgB9fJ",
+    "smi_rich_text_1_5_D9UJ8R",
     "smi_related_products_1_5_e4kYGj",
     "smi_recently_viewed_1_TQRy4B",
     "smi_styles_19031"
