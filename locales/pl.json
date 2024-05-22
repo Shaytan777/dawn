@@ -564,14 +564,14 @@
       "checkout": "Check out",
       "view_cart": "View cart",
       "view_product": "View product",
+      "on": "On",
+      "by": "By",
+      "view_more": "View more",
       "sort_by": "Sort by:",
       "product_count": {
         "one": "{{ product_count }} product found",
         "other": "{{ product_count }} products found"
       },
-      "on": "On",
-      "by": "By",
-      "view_more": "View more",
       "clear_all": "Clear all"
     },
     "article": {
@@ -689,6 +689,10 @@
           "unit_price": "Sale price"
         }
       },
+      "add_order_note": "Add order note",
+      "estimated_total": "Estimated total",
+      "estimated_shipping": "Estimate shipping",
+      "tax_discount_shipping": "Taxes, discounts and shipping calculated at checkout",
       "remove_title": "Remove {{ title }}"
     },
     "account": {
@@ -705,6 +709,16 @@
       "order_total": "Total",
       "account_address": "Account details",
       "default_address": "default address"
+    },
+    "collection": {
+      "clear_all": "Clear all",
+      "to": "To",
+      "sort_by": "Sort by:",
+      "product_count": {
+        "one": "{{ product_count }} product found",
+        "other": "{{ product_count }} products found"
+      },
+      "load_more": "Load more"
     }
   }
 }
