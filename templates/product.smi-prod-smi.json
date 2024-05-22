@@ -290,6 +290,7 @@
         },
         "color_W3w6yD": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
@@ -420,6 +421,7 @@
         },
         "color_WeLwUm": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
@@ -479,6 +481,7 @@
         },
         "color_p6gatA": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
@@ -578,6 +581,7 @@
         },
         "color_ahQUyH": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
@@ -637,6 +641,7 @@
         },
         "color_JRqFEg": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
