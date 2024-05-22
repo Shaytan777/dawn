@@ -18,11 +18,19 @@
             "text": "💰 30 DAY MONEY BACK GUARANTEE",
             "link": ""
           }
+        },
+        "announcement_PYbKrc": {
+          "type": "announcement",
+          "settings": {
+            "text": "💥 UP TO 52.5% OFF ALL PRODUCTS",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_JhAP7z"
+        "announcement_JhAP7z",
+        "announcement_PYbKrc"
       ],
       "settings": {
         "color_scheme": "",
