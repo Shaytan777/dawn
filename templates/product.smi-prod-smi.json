@@ -1091,6 +1091,106 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "smi_rich_content_1_5_zczMTe": {
+      "type": "smi-rich-content-1-5",
+      "blocks": {
+        "heading_Uyz7tP": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "EASILY OPERATED WITH ONE HAND FOR BUSY PET PARENTS ON-THE-GO",
+            "heading_size": "smi-h2",
+            "description": "<p><strong>4.9\/5 <\/strong>⭐️⭐️⭐️⭐️⭐️ <strong>By Customers Rating<br\/><\/strong><br\/>Do you find yourself weary of balancing your fluffy companion, your cellular device, and a hydration vessel amidst your excursions in the great outdoors? Bid farewell to this ordeal and embrace the ease offered by LazyMAX!<\/p>"
+          }
+        },
+        "icon_with_text_rWjgcx": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "bag-handle",
+            "icon_size": 24,
+            "icon_bg": "rgba(0,0,0,0)",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "content": "<p>Fashion and Style<\/p>",
+            "icon_position": "left",
+            "half_width_on_large_screen": false
+          }
+        },
+        "icon_with_text_YRGBGK": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "tag",
+            "icon_size": 24,
+            "icon_bg": "",
+            "heading": "",
+            "heading_size": "smi-h5",
+            "content": "<p>Storage and Organization<\/p>",
+            "icon_position": "left",
+            "half_width_on_large_screen": false
+          }
+        },
+        "icon_with_text_FAnDwX": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "love",
+            "icon_size": 24,
+            "icon_bg": "",
+            "heading": "",
+            "heading_size": "smi-h5",
+            "content": "<p>Convenience and Mobility<\/p>",
+            "icon_position": "left",
+            "half_width_on_large_screen": false
+          }
+        },
+        "button_8NQ8g4": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "TRY LAZYMAX TODAY",
+            "first_button_link": "",
+            "first_button_style": "solid",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "outline",
+            "button_full_width": false
+          }
+        },
+        "color_CDpgeD": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Uyz7tP",
+        "icon_with_text_rWjgcx",
+        "icon_with_text_YRGBGK",
+        "icon_with_text_FAnDwX",
+        "button_8NQ8g4",
+        "color_CDpgeD"
+      ],
+      "settings": {
+        "full_width": "container",
+        "upload_image": "shopify:\/\/shop_images\/White-Bottle-LazyMAX-Home-Page-Banner-2024-mob.webp",
+        "desktop_media_width": "40",
+        "desktop_media_position": "row-reverse",
+        "media_ratio": "auto",
+        "media_shape": "default",
+        "content_position": "left",
+        "content_alignment": "left",
+        "content_max_width": 520,
+        "color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -1107,6 +1207,7 @@
     "smi_rich_text_1_5_9e3Jkg",
     "smi_image_with_text_1_2_b9tbi7",
     "smi_image_with_text_1_2_CTFPep",
-    "smi_testimonial_1_7_Jj3Vf7"
+    "smi_testimonial_1_7_Jj3Vf7",
+    "smi_rich_content_1_5_zczMTe"
   ]
 }
