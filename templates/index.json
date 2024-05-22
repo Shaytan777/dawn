@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/dog-leashes-202408.webp",
             "subheading": "",
-            "heading": "<strong>An orchestra of canine feelings<\/strong>",
+            "heading": "AN ORCHESTRA OF CANINE FEELINGS",
             "heading_size": "smi-h2",
             "description": "<strong>WE'RE EXPERTS IN COLLARS AND LEASHES<\/strong>",
             "first_button_label": "",
@@ -27,18 +27,17 @@
         },
         "color_VWijkA": {
           "type": "color",
-          "disabled": true,
           "settings": {
-            "control_background_color": "#334fb4",
+            "control_background_color": "#ffffff",
             "control_text_color": "#ffffff",
             "control_solid_background_button_color": "#ffffff",
-            "control_solid_button_label_color": "#f27900",
-            "background_color": "#f27900",
-            "background_gradient_color": "linear-gradient(180deg, rgba(255, 228, 49, 1), rgba(249, 32, 32, 1) 100%)",
+            "control_solid_button_label_color": "#ffffff",
+            "background_color": "#242833",
+            "background_gradient_color": "",
             "text_color": "#ffffff",
             "subtext_color": "#ffffff",
             "solid_background_button_color": "#f45902",
-            "solid_button_label_color": "#f45902",
+            "solid_button_label_color": "#ffffff",
             "outline_button_color": "#f45902",
             "shadow_color": "#ffffff"
           }
