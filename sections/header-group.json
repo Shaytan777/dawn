@@ -83,7 +83,7 @@
         "mega_banner_AY8kEC": {
           "type": "mega_banner",
           "settings": {
-            "menu_item": "product",
+            "menu_item": "SHOP NOW",
             "number_column": "5",
             "banner_position": "row",
             "banner1": "shopify:\/\/shop_images\/smi-smi-swim-classic-13.jpg",
