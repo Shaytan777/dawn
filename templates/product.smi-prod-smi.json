@@ -1125,7 +1125,20 @@
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "",
             "heading_size": "smi-h4",
-            "content": "<p>Crafted from anti-bacterials, BPA .<\/p>",
+            "content": "<p>Crafted from anti-bacterial materials, BPA free.<\/p>",
+            "icon_position": "left",
+            "half_width_on_large_screen": false
+          }
+        },
+        "icon_with_text_hrkEqV": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "check",
+            "icon_size": 24,
+            "icon_bg": "rgba(0,0,0,0)",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "content": "<p>Operate effortlessly with a single-handed design.<\/p>",
             "icon_position": "left",
             "half_width_on_large_screen": false
           }
@@ -1166,6 +1179,7 @@
         "heading_Uyz7tP",
         "icon_with_text_rWjgcx",
         "icon_with_text_jHBd4U",
+        "icon_with_text_hrkEqV",
         "text_BqEjen",
         "button_8NQ8g4",
         "color_CDpgeD"
