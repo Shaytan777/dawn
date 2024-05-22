@@ -243,46 +243,6 @@
         "padding_bottom": 80
       }
     },
-    "smi_rich_text_1_5_D9UJ8R": {
-      "type": "smi-rich-text-1-5",
-      "blocks": {
-        "heading_Gx8ED6": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "UNLOCKING UNMATCHED CONVENIENCE",
-            "heading_size": "smi-h2",
-            "description": "<h3>Experience the LazyMAX™ difference – a <strong>5-in-1 solution<\/strong> designed to make your pet adventures seamless.<\/h3>"
-          }
-        },
-        "color_PWyWyc": {
-          "type": "color",
-          "settings": {
-            "background_color": "#bc3e88",
-            "background_gradient_color": "",
-            "text_color": "#ffffff",
-            "subtext_color": "#ffffff",
-            "solid_background_button_color": "#ffffff",
-            "solid_button_label_color": "#5b3f2c",
-            "outline_button_color": "#ffffff",
-            "shadow_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Gx8ED6",
-        "color_PWyWyc"
-      ],
-      "settings": {
-        "full_width": false,
-        "content_position": "center",
-        "content_alignment": "center",
-        "content_max_width": 960,
-        "color_scheme": "scheme_5",
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
     "smi_icon_with_text_1_7_RRdtAx": {
       "type": "smi-icon-with-text-1-7",
       "blocks": {
@@ -362,6 +322,46 @@
         "padding_bottom": 50
       }
     },
+    "smi_rich_text_1_5_D9UJ8R": {
+      "type": "smi-rich-text-1-5",
+      "blocks": {
+        "heading_Gx8ED6": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "UNLOCKING UNMATCHED CONVENIENCE",
+            "heading_size": "smi-h2",
+            "description": "<h3>Experience the LazyMAX™ difference – a <strong>5-in-1 solution<\/strong> designed to make your pet adventures seamless.<\/h3>"
+          }
+        },
+        "color_PWyWyc": {
+          "type": "color",
+          "settings": {
+            "background_color": "#bc3e88",
+            "background_gradient_color": "",
+            "text_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "solid_background_button_color": "#ffffff",
+            "solid_button_label_color": "#5b3f2c",
+            "outline_button_color": "#ffffff",
+            "shadow_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gx8ED6",
+        "color_PWyWyc"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_position": "center",
+        "content_alignment": "center",
+        "content_max_width": 960,
+        "color_scheme": "scheme_5",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "smi_related_products_1_5_e4kYGj": {
       "type": "smi-related-products-1-5",
       "disabled": true,
@@ -391,308 +391,6 @@
         "product_color_scheme": "scheme_2",
         "padding_top": 80,
         "padding_bottom": 40
-      }
-    },
-    "smi_recently_viewed_1_TQRy4B": {
-      "type": "smi-recently-viewed-1-1",
-      "disabled": true,
-      "settings": {
-        "container_full_width": false,
-        "enable_spacing": true,
-        "sub_heading": "",
-        "heading": "Recently viewed items",
-        "heading_size": "smi-h2",
-        "description": "",
-        "heading_alignment": "left",
-        "number_items": 10,
-        "media_ratio": "1\/1",
-        "media_shape": "default",
-        "content_alignment": "left",
-        "show_second_image": true,
-        "show_vendor": false,
-        "show_swatch_color": false,
-        "arrow_style": "arr-style-1",
-        "sticky_page_dot_style": "line-style-4",
-        "auto_rotate_slides": true,
-        "change_slides_every": 7,
-        "number_of_columns_on_desktop": "6",
-        "number_of_columns_on_mobile": "2",
-        "slider_overflow": false,
-        "color_scheme": "scheme_1",
-        "product_color_scheme": "scheme_2",
-        "padding_top": 40,
-        "padding_bottom": 80
-      }
-    },
-    "smi_styles_19031": {
-      "type": "smi-styles",
-      "blocks": {
-        "color_B7U8DQ": {
-          "type": "color",
-          "settings": {
-            "background_color1": "#ffffff",
-            "background_gradient_color1": "",
-            "text_color1": "#000000",
-            "subtext_color1": "#e02b2b",
-            "solid_background_button_color1": "#000000",
-            "solid_button_label_color1": "#ffffff",
-            "outline_button_color1": "#000000",
-            "shadow_color1": "#000000",
-            "background_color2": "#f5f5f5",
-            "background_gradient_color2": "",
-            "text_color2": "#000000",
-            "subtext_color2": "#000000",
-            "solid_background_button_color2": "#000000",
-            "solid_button_label_color2": "#ffffff",
-            "outline_button_color2": "#000000",
-            "shadow_color2": "#000000",
-            "background_color3": "#a51c25",
-            "background_gradient_color3": "",
-            "text_color3": "#ffffff",
-            "subtext_color3": "#ffffff",
-            "solid_background_button_color3": "#000000",
-            "solid_button_label_color3": "#ffffff",
-            "outline_button_color3": "#ffffff",
-            "shadow_color3": "#ffffff",
-            "background_color4": "#000000",
-            "background_gradient_color4": "",
-            "text_color4": "#ffffff",
-            "subtext_color4": "#ffffff",
-            "solid_background_button_color4": "#ffffff",
-            "solid_button_label_color4": "#000000",
-            "outline_button_color4": "#ffffff",
-            "shadow_color4": "#ffffff",
-            "background_color5": "#d9ded8",
-            "background_gradient_color5": "",
-            "text_color5": "#000000",
-            "subtext_color5": "#000000",
-            "solid_background_button_color5": "#000000",
-            "solid_button_label_color5": "#ffffff",
-            "outline_button_color5": "#000000",
-            "shadow_color5": "#000000",
-            "background_color6": "#ffffff",
-            "background_gradient_color6": "",
-            "text_color6": "#000000",
-            "subtext_color6": "#e02b2b",
-            "solid_background_button_color6": "#000000",
-            "solid_button_label_color6": "#ffffff",
-            "outline_button_color6": "#000000",
-            "shadow_color6": "#000000",
-            "background_color7": "#ffffff",
-            "background_gradient_color7": "",
-            "text_color7": "#000000",
-            "subtext_color7": "#e02b2b",
-            "solid_background_button_color7": "#000000",
-            "solid_button_label_color7": "#ffffff",
-            "outline_button_color7": "#000000",
-            "shadow_color7": "#000000",
-            "background_color8": "#ffffff",
-            "background_gradient_color8": "",
-            "text_color8": "#000000",
-            "subtext_color8": "#e02b2b",
-            "solid_background_button_color8": "#000000",
-            "solid_button_label_color8": "#ffffff",
-            "outline_button_color8": "#000000",
-            "shadow_color8": "#000000",
-            "background_color9": "#ffffff",
-            "background_gradient_color9": "",
-            "text_color9": "#000000",
-            "subtext_color9": "#e02b2b",
-            "solid_background_button_color9": "#000000",
-            "solid_button_label_color9": "#ffffff",
-            "outline_button_color9": "#000000",
-            "shadow_color9": "#000000",
-            "background_color10": "#ffffff",
-            "background_gradient_color10": "",
-            "text_color10": "#000000",
-            "subtext_color10": "#e02b2b",
-            "solid_background_button_color10": "#000000",
-            "solid_button_label_color10": "#ffffff",
-            "outline_button_color10": "#000000",
-            "shadow_color10": "#000000"
-          }
-        },
-        "typography_kRgpfa": {
-          "type": "typography",
-          "settings": {
-            "overwrite_font": true,
-            "type_header_font": "harmonia_sans_n6",
-            "heading_scale": 100,
-            "heading_line_height_scale": 100,
-            "heading_letter_spacing_scale": 0.2,
-            "heading_text_case": "original",
-            "type_body_font": "basic_commercial_n4",
-            "body_scale": 103,
-            "body_line_height_scale": 100,
-            "body_letter_spacing_scale": 0.2,
-            "button_font": "heading",
-            "button_text_case": "uppercase",
-            "price_font": "heading",
-            "menu_font": "heading",
-            "subheading_font": "body"
-          }
-        },
-        "typography_advance_LWXLze": {
-          "type": "typography_advance",
-          "settings": {
-            "fontsize_h1": 60,
-            "fontsize_h2": 38,
-            "fontsize_h3": 28,
-            "fontsize_h4": 20,
-            "fontsize_h5": 16,
-            "fontsize_h6": 14,
-            "fontsize_xs_h1": 36,
-            "fontsize_xs_h2": 26,
-            "fontsize_xs_h3": 20,
-            "fontsize_xs_h4": 18,
-            "fontsize_xs_h5": 16,
-            "fontsize_xs_h6": 14,
-            "fontsize_button": 13,
-            "button_letter_spacing_scale": 0.5,
-            "fontweight_button": "600",
-            "fontsize_subheading": 13,
-            "subheading_letter_spacing_scale": 0.8,
-            "fontweight_subheading": "400",
-            "fontsize_badge": 12,
-            "badge_letter_spacing_scale": 0.8,
-            "fontweight_badge": "500",
-            "fontsize_menu": 16,
-            "menu_letter_spacing_scale": 0.8,
-            "fontweight_menu": "600",
-            "fontsize_price_xl": 22,
-            "fontsize_price_lg": 20,
-            "fontsize_price_md": 16,
-            "price_letter_spacing_scale": 0.2,
-            "fontweight_price": "500"
-          }
-        },
-        "layout_XthnpF": {
-          "type": "layout",
-          "settings": {
-            "page_width": 1440,
-            "spacing_sections": 0,
-            "spacing_elements": 100,
-            "spacing_grid_horizontal": 30,
-            "spacing_grid_vertical": 30
-          }
-        },
-        "buttons_rCnLe3": {
-          "type": "buttons",
-          "settings": {
-            "buttons_scale": 120,
-            "buttons_border_thickness": 1,
-            "buttons_border_opacity": 80,
-            "buttons_radius": 40,
-            "buttons_shadow": "0,0,0",
-            "buttons_shadow_opacity": 20
-          }
-        },
-        "variants_tN9LMR": {
-          "type": "variants",
-          "settings": {
-            "variant_pills_border_thickness": 1,
-            "variant_pills_radius": 40,
-            "variant_pills_shadow": "0,0,0",
-            "variant_pills_shadow_opacity": 20
-          }
-        },
-        "inputs_wm7fGg": {
-          "type": "inputs",
-          "settings": {
-            "inputs_border_thickness": 1,
-            "inputs_border_opacity": 80,
-            "inputs_radius": 40,
-            "inputs_shadow": "0,0,0",
-            "inputs_shadow_opacity": 20
-          }
-        },
-        "icons_aR3bKP": {
-          "type": "icons",
-          "settings": {
-            "icon_thickness": 1.2,
-            "icon_scale": 100
-          }
-        },
-        "product_cards_PDJCK8": {
-          "type": "product_cards",
-          "settings": {
-            "card_image_padding": 0,
-            "card_border_thickness": 0,
-            "card_border_opacity": 50,
-            "card_corner_radius": 4,
-            "card_shadow": "0,0,0",
-            "card_shadow_opacity": 20
-          }
-        },
-        "product_badges_7yDNzc": {
-          "type": "product_badges",
-          "settings": {
-            "badge_corner_radius": 20,
-            "sale_badge_background_color": "#cf2929",
-            "sale_badge_text_color": "#ffffff",
-            "sold_out_badge_background_color": "#757575",
-            "sold_out_badge_text_color": "#ffffff"
-          }
-        },
-        "blog_cards_GVNBW6": {
-          "type": "blog_cards",
-          "settings": {
-            "blog_card_image_padding": 0,
-            "blog_card_border_thickness": 0,
-            "blog_card_border_opacity": 50,
-            "blog_card_corner_radius": 4,
-            "blog_card_shadow": "0,0,0",
-            "blog_card_shadow_opacity": 20
-          }
-        },
-        "content_containers_JLgMBj": {
-          "type": "content_containers",
-          "settings": {
-            "text_boxes_border_thickness": 0,
-            "text_boxes_border_opacity": 50,
-            "text_boxes_radius": 4,
-            "text_boxes_shadow": "0,0,0",
-            "text_boxes_shadow_opacity": 20
-          }
-        },
-        "media_YETDCt": {
-          "type": "media",
-          "settings": {
-            "media_border_thickness": 0,
-            "media_border_opacity": 50,
-            "media_radius": 6,
-            "media_shadow": "0,0,0",
-            "media_shadow_opacity": 20
-          }
-        },
-        "dropdown_popup_drawer_yRfMfy": {
-          "type": "dropdown_popup_drawer",
-          "settings": {
-            "popup_border_thickness": 1,
-            "popup_border_opacity": 50,
-            "popup_corner_radius": 4,
-            "popup_shadow": "0,0,0",
-            "popup_shadow_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "color_B7U8DQ",
-        "typography_kRgpfa",
-        "typography_advance_LWXLze",
-        "layout_XthnpF",
-        "buttons_rCnLe3",
-        "variants_tN9LMR",
-        "inputs_wm7fGg",
-        "icons_aR3bKP",
-        "product_cards_PDJCK8",
-        "product_badges_7yDNzc",
-        "blog_cards_GVNBW6",
-        "content_containers_JLgMBj",
-        "media_YETDCt",
-        "dropdown_popup_drawer_yRfMfy"
-      ],
-      "settings": {
       }
     },
     "smi_image_with_text_1_2_P8gk3R": {
@@ -971,135 +669,6 @@
         "padding_bottom": 50
       }
     },
-    "smi_video_1_2_dgB9fJ": {
-      "type": "smi-video-1-2",
-      "blocks": {
-        "heading_WwVj4p": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "<strong>YOUR PET'S OASIS <\/strong>",
-            "heading_size": "smi-h2",
-            "description": "<h1><strong>ON THE GO!<\/strong><\/h1>"
-          }
-        },
-        "play_button_VUYNC7": {
-          "type": "play_button",
-          "settings": {
-            "play_button": "icon-l",
-            "play_button_label": "Play Video"
-          }
-        },
-        "color_VKx7yQ": {
-          "type": "color",
-          "settings": {
-            "text_color": "#f45902",
-            "subtext_color": "#121212",
-            "solid_background_button_color": "#121212",
-            "solid_button_label_color": "#ffc107",
-            "outline_button_color": "#121212",
-            "shadow_color": "#121212"
-          }
-        }
-      },
-      "block_order": [
-        "heading_WwVj4p",
-        "play_button_VUYNC7",
-        "color_VKx7yQ"
-      ],
-      "settings": {
-        "full_width": false,
-        "cover_image": "shopify:\/\/shop_images\/Dog_Water_LazyMAX_5-in-1_Portable_Dog_Water_Bottle.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=QRqhmsCuVJo",
-        "autoplay": false,
-        "content_position": "right",
-        "content_alignment": "center",
-        "content_max_width": 550,
-        "color_scheme": "scheme_3",
-        "padding_top": 200,
-        "padding_bottom": 200
-      }
-    },
-    "smi_testimonial_1_7_Jj3Vf7": {
-      "type": "smi-testimonial-1-7",
-      "blocks": {
-        "testimonial_block_g3GDYg": {
-          "type": "testimonial_block",
-          "settings": {
-            "heading": "",
-            "heading_size": "smi-h5",
-            "description": "Five stars for LazyMAX! Having all the essentials in one convenient piece made our dinner time at the park hassle-free. The integrated bags, water, and food compartments truly make it an amazing companion. At the moment, this is the best solution I know. Thank you Mamzoo!",
-            "author_name": "Katheryn Morar",
-            "author_info": "",
-            "author_image": "shopify:\/\/shop_images\/Dog_water_Bottle_Unleash_a_New_Era_in_Pet_Care_with_LazyMAX.webp",
-            "author_shape": "round",
-            "star": "5"
-          }
-        },
-        "testimonial_block_wdebJA": {
-          "type": "testimonial_block",
-          "settings": {
-            "heading": "I love this product.",
-            "heading_size": "smi-h5",
-            "description": "I was truly impressed by the versatility of the LazyMAX. It efficiently served my puppy's drinking needs, with easy control and no leaks. Additionally, the second compartment works wonders for training sessions, holding treats securely. Thank you Mamzoo for such a useful invention, I am very pleased.",
-            "author_name": "Emelie Russel",
-            "author_info": "",
-            "author_image": "shopify:\/\/shop_images\/LazyMAX_Elevating_Pet_Care_with_Unmatched_Versatility.webp",
-            "author_shape": "round",
-            "star": "5"
-          }
-        },
-        "testimonial_block_h7iC4Y": {
-          "type": "testimonial_block",
-          "settings": {
-            "heading": "Highly recommended!",
-            "heading_size": "smi-h5",
-            "description": "LazyMAX has become an indispensable companion for our walks and visits to the dog park. Opting for the largest bottle with a food compartment, it accommodates small dog snacks and treats perfectly. Despite occasional hiccups with the water dispenser button, I am generally satisfied with the product.",
-            "author_name": "Blair Hilpert",
-            "author_info": "",
-            "author_image": "shopify:\/\/shop_images\/LazyMAX_is_not_just_a_water_bottle_it_s_a_comprehensive_toolkit.webp",
-            "author_shape": "round",
-            "star": "5"
-          }
-        },
-        "color_87cEDY": {
-          "type": "color",
-          "settings": {
-            "background_color": "#f8f2f6",
-            "background_gradient_color": "",
-            "text_color": "#000000",
-            "subtext_color": "#000000",
-            "solid_background_button_color": "#000000",
-            "solid_button_label_color": "#ffffff",
-            "shadow_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_block_g3GDYg",
-        "testimonial_block_wdebJA",
-        "testimonial_block_h7iC4Y",
-        "color_87cEDY"
-      ],
-      "settings": {
-        "full_width": true,
-        "sub_heading": "",
-        "heading": "SEE WHAT OUR FANS ARE SAYING",
-        "heading_size": "smi-h2",
-        "description": "",
-        "heading_alignment": "center",
-        "content_alignment": "center",
-        "arrow_style": "none",
-        "sticky_page_dot_style": "line-style-1",
-        "auto_rotate_slides": false,
-        "change_slide_every": 5,
-        "number_of_item": "1",
-        "color_scheme": "scheme_1",
-        "color_rating": "#f8a427",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "smi_rich_content_1_5_zczMTe": {
       "type": "smi-rich-content-1-5",
       "blocks": {
@@ -1206,23 +775,484 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "smi_testimonial_1_7_Jj3Vf7": {
+      "type": "smi-testimonial-1-7",
+      "blocks": {
+        "testimonial_block_g3GDYg": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "Five stars for LazyMAX! Having all the essentials in one convenient piece made our dinner time at the park hassle-free. The integrated bags, water, and food compartments truly make it an amazing companion. At the moment, this is the best solution I know. Thank you Mamzoo!",
+            "author_name": "Katheryn Morar",
+            "author_info": "",
+            "author_image": "shopify:\/\/shop_images\/Dog_water_Bottle_Unleash_a_New_Era_in_Pet_Care_with_LazyMAX.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "testimonial_block_wdebJA": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "I love this product.",
+            "heading_size": "smi-h5",
+            "description": "I was truly impressed by the versatility of the LazyMAX. It efficiently served my puppy's drinking needs, with easy control and no leaks. Additionally, the second compartment works wonders for training sessions, holding treats securely. Thank you Mamzoo for such a useful invention, I am very pleased.",
+            "author_name": "Emelie Russel",
+            "author_info": "",
+            "author_image": "shopify:\/\/shop_images\/LazyMAX_Elevating_Pet_Care_with_Unmatched_Versatility.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "testimonial_block_h7iC4Y": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "Highly recommended!",
+            "heading_size": "smi-h5",
+            "description": "LazyMAX has become an indispensable companion for our walks and visits to the dog park. Opting for the largest bottle with a food compartment, it accommodates small dog snacks and treats perfectly. Despite occasional hiccups with the water dispenser button, I am generally satisfied with the product.",
+            "author_name": "Blair Hilpert",
+            "author_info": "",
+            "author_image": "shopify:\/\/shop_images\/LazyMAX_is_not_just_a_water_bottle_it_s_a_comprehensive_toolkit.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "color_87cEDY": {
+          "type": "color",
+          "settings": {
+            "background_color": "#f8f2f6",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_block_g3GDYg",
+        "testimonial_block_wdebJA",
+        "testimonial_block_h7iC4Y",
+        "color_87cEDY"
+      ],
+      "settings": {
+        "full_width": true,
+        "sub_heading": "",
+        "heading": "SEE WHAT OUR FANS ARE SAYING",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "content_alignment": "center",
+        "arrow_style": "none",
+        "sticky_page_dot_style": "line-style-1",
+        "auto_rotate_slides": false,
+        "change_slide_every": 5,
+        "number_of_item": "1",
+        "color_scheme": "scheme_1",
+        "color_rating": "#f8a427",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "smi_video_1_2_dgB9fJ": {
+      "type": "smi-video-1-2",
+      "blocks": {
+        "heading_WwVj4p": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "<strong>YOUR PET'S OASIS <\/strong>",
+            "heading_size": "smi-h2",
+            "description": "<h1><strong>ON THE GO!<\/strong><\/h1>"
+          }
+        },
+        "play_button_VUYNC7": {
+          "type": "play_button",
+          "settings": {
+            "play_button": "icon-l",
+            "play_button_label": "Play Video"
+          }
+        },
+        "color_VKx7yQ": {
+          "type": "color",
+          "settings": {
+            "text_color": "#f45902",
+            "subtext_color": "#121212",
+            "solid_background_button_color": "#121212",
+            "solid_button_label_color": "#ffc107",
+            "outline_button_color": "#121212",
+            "shadow_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WwVj4p",
+        "play_button_VUYNC7",
+        "color_VKx7yQ"
+      ],
+      "settings": {
+        "full_width": false,
+        "cover_image": "shopify:\/\/shop_images\/Dog_Water_LazyMAX_5-in-1_Portable_Dog_Water_Bottle.png",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=QRqhmsCuVJo",
+        "autoplay": false,
+        "content_position": "right",
+        "content_alignment": "center",
+        "content_max_width": 550,
+        "color_scheme": "scheme_3",
+        "padding_top": 200,
+        "padding_bottom": 200
+      }
+    },
+    "smi_styles_19031": {
+      "type": "smi-styles",
+      "blocks": {
+        "color_B7U8DQ": {
+          "type": "color",
+          "settings": {
+            "background_color1": "#ffffff",
+            "background_gradient_color1": "",
+            "text_color1": "#000000",
+            "subtext_color1": "#e02b2b",
+            "solid_background_button_color1": "#000000",
+            "solid_button_label_color1": "#ffffff",
+            "outline_button_color1": "#000000",
+            "shadow_color1": "#000000",
+            "background_color2": "#f5f5f5",
+            "background_gradient_color2": "",
+            "text_color2": "#000000",
+            "subtext_color2": "#000000",
+            "solid_background_button_color2": "#000000",
+            "solid_button_label_color2": "#ffffff",
+            "outline_button_color2": "#000000",
+            "shadow_color2": "#000000",
+            "background_color3": "#a51c25",
+            "background_gradient_color3": "",
+            "text_color3": "#ffffff",
+            "subtext_color3": "#ffffff",
+            "solid_background_button_color3": "#000000",
+            "solid_button_label_color3": "#ffffff",
+            "outline_button_color3": "#ffffff",
+            "shadow_color3": "#ffffff",
+            "background_color4": "#000000",
+            "background_gradient_color4": "",
+            "text_color4": "#ffffff",
+            "subtext_color4": "#ffffff",
+            "solid_background_button_color4": "#ffffff",
+            "solid_button_label_color4": "#000000",
+            "outline_button_color4": "#ffffff",
+            "shadow_color4": "#ffffff",
+            "background_color5": "#d9ded8",
+            "background_gradient_color5": "",
+            "text_color5": "#000000",
+            "subtext_color5": "#000000",
+            "solid_background_button_color5": "#000000",
+            "solid_button_label_color5": "#ffffff",
+            "outline_button_color5": "#000000",
+            "shadow_color5": "#000000",
+            "background_color6": "#ffffff",
+            "background_gradient_color6": "",
+            "text_color6": "#000000",
+            "subtext_color6": "#e02b2b",
+            "solid_background_button_color6": "#000000",
+            "solid_button_label_color6": "#ffffff",
+            "outline_button_color6": "#000000",
+            "shadow_color6": "#000000",
+            "background_color7": "#ffffff",
+            "background_gradient_color7": "",
+            "text_color7": "#000000",
+            "subtext_color7": "#e02b2b",
+            "solid_background_button_color7": "#000000",
+            "solid_button_label_color7": "#ffffff",
+            "outline_button_color7": "#000000",
+            "shadow_color7": "#000000",
+            "background_color8": "#ffffff",
+            "background_gradient_color8": "",
+            "text_color8": "#000000",
+            "subtext_color8": "#e02b2b",
+            "solid_background_button_color8": "#000000",
+            "solid_button_label_color8": "#ffffff",
+            "outline_button_color8": "#000000",
+            "shadow_color8": "#000000",
+            "background_color9": "#ffffff",
+            "background_gradient_color9": "",
+            "text_color9": "#000000",
+            "subtext_color9": "#e02b2b",
+            "solid_background_button_color9": "#000000",
+            "solid_button_label_color9": "#ffffff",
+            "outline_button_color9": "#000000",
+            "shadow_color9": "#000000",
+            "background_color10": "#ffffff",
+            "background_gradient_color10": "",
+            "text_color10": "#000000",
+            "subtext_color10": "#e02b2b",
+            "solid_background_button_color10": "#000000",
+            "solid_button_label_color10": "#ffffff",
+            "outline_button_color10": "#000000",
+            "shadow_color10": "#000000"
+          }
+        },
+        "typography_kRgpfa": {
+          "type": "typography",
+          "settings": {
+            "overwrite_font": true,
+            "type_header_font": "harmonia_sans_n6",
+            "heading_scale": 100,
+            "heading_line_height_scale": 100,
+            "heading_letter_spacing_scale": 0.2,
+            "heading_text_case": "original",
+            "type_body_font": "basic_commercial_n4",
+            "body_scale": 103,
+            "body_line_height_scale": 100,
+            "body_letter_spacing_scale": 0.2,
+            "button_font": "heading",
+            "button_text_case": "uppercase",
+            "price_font": "heading",
+            "menu_font": "heading",
+            "subheading_font": "body"
+          }
+        },
+        "typography_advance_LWXLze": {
+          "type": "typography_advance",
+          "settings": {
+            "fontsize_h1": 60,
+            "fontsize_h2": 38,
+            "fontsize_h3": 28,
+            "fontsize_h4": 20,
+            "fontsize_h5": 16,
+            "fontsize_h6": 14,
+            "fontsize_xs_h1": 36,
+            "fontsize_xs_h2": 26,
+            "fontsize_xs_h3": 20,
+            "fontsize_xs_h4": 18,
+            "fontsize_xs_h5": 16,
+            "fontsize_xs_h6": 14,
+            "fontsize_button": 13,
+            "button_letter_spacing_scale": 0.5,
+            "fontweight_button": "600",
+            "fontsize_subheading": 13,
+            "subheading_letter_spacing_scale": 0.8,
+            "fontweight_subheading": "400",
+            "fontsize_badge": 12,
+            "badge_letter_spacing_scale": 0.8,
+            "fontweight_badge": "500",
+            "fontsize_menu": 16,
+            "menu_letter_spacing_scale": 0.8,
+            "fontweight_menu": "600",
+            "fontsize_price_xl": 22,
+            "fontsize_price_lg": 20,
+            "fontsize_price_md": 16,
+            "price_letter_spacing_scale": 0.2,
+            "fontweight_price": "500"
+          }
+        },
+        "layout_XthnpF": {
+          "type": "layout",
+          "settings": {
+            "page_width": 1440,
+            "spacing_sections": 0,
+            "spacing_elements": 100,
+            "spacing_grid_horizontal": 30,
+            "spacing_grid_vertical": 30
+          }
+        },
+        "buttons_rCnLe3": {
+          "type": "buttons",
+          "settings": {
+            "buttons_scale": 120,
+            "buttons_border_thickness": 1,
+            "buttons_border_opacity": 80,
+            "buttons_radius": 40,
+            "buttons_shadow": "0,0,0",
+            "buttons_shadow_opacity": 20
+          }
+        },
+        "variants_tN9LMR": {
+          "type": "variants",
+          "settings": {
+            "variant_pills_border_thickness": 1,
+            "variant_pills_radius": 40,
+            "variant_pills_shadow": "0,0,0",
+            "variant_pills_shadow_opacity": 20
+          }
+        },
+        "inputs_wm7fGg": {
+          "type": "inputs",
+          "settings": {
+            "inputs_border_thickness": 1,
+            "inputs_border_opacity": 80,
+            "inputs_radius": 40,
+            "inputs_shadow": "0,0,0",
+            "inputs_shadow_opacity": 20
+          }
+        },
+        "icons_aR3bKP": {
+          "type": "icons",
+          "settings": {
+            "icon_thickness": 1.2,
+            "icon_scale": 100
+          }
+        },
+        "product_cards_PDJCK8": {
+          "type": "product_cards",
+          "settings": {
+            "card_image_padding": 0,
+            "card_border_thickness": 0,
+            "card_border_opacity": 50,
+            "card_corner_radius": 4,
+            "card_shadow": "0,0,0",
+            "card_shadow_opacity": 20
+          }
+        },
+        "product_badges_7yDNzc": {
+          "type": "product_badges",
+          "settings": {
+            "badge_corner_radius": 20,
+            "sale_badge_background_color": "#cf2929",
+            "sale_badge_text_color": "#ffffff",
+            "sold_out_badge_background_color": "#757575",
+            "sold_out_badge_text_color": "#ffffff"
+          }
+        },
+        "content_containers_JLgMBj": {
+          "type": "content_containers",
+          "settings": {
+            "text_boxes_border_thickness": 0,
+            "text_boxes_border_opacity": 50,
+            "text_boxes_radius": 4,
+            "text_boxes_shadow": "0,0,0",
+            "text_boxes_shadow_opacity": 20
+          }
+        },
+        "media_YETDCt": {
+          "type": "media",
+          "settings": {
+            "media_border_thickness": 0,
+            "media_border_opacity": 50,
+            "media_radius": 6,
+            "media_shadow": "0,0,0",
+            "media_shadow_opacity": 20
+          }
+        },
+        "dropdown_popup_drawer_yRfMfy": {
+          "type": "dropdown_popup_drawer",
+          "settings": {
+            "popup_border_thickness": 1,
+            "popup_border_opacity": 50,
+            "popup_corner_radius": 4,
+            "popup_shadow": "0,0,0",
+            "popup_shadow_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "color_B7U8DQ",
+        "typography_kRgpfa",
+        "typography_advance_LWXLze",
+        "layout_XthnpF",
+        "buttons_rCnLe3",
+        "variants_tN9LMR",
+        "inputs_wm7fGg",
+        "icons_aR3bKP",
+        "product_cards_PDJCK8",
+        "product_badges_7yDNzc",
+        "content_containers_JLgMBj",
+        "media_YETDCt",
+        "dropdown_popup_drawer_yRfMfy"
+      ],
+      "settings": {
+      }
+    },
+    "featured_product_zUzVGG": {
+      "type": "featured-product",
+      "blocks": {
+        "text_ErU6qN": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_CmKrip": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_PE8fTM": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_ADybAA": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_y89pN4": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons_7QXxfy": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_wKerPq": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_ErU6qN",
+        "title_CmKrip",
+        "price_PE8fTM",
+        "variant_picker_ADybAA",
+        "quantity_selector_y89pN4",
+        "buy_buttons_7QXxfy",
+        "share_wKerPq"
+      ],
+      "settings": {
+        "product": "lazymax-5-in-1-portable-dog-water-bottle",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "product-detail-1-1-0",
     "smi_image_with_text_2_6_XnmXRP",
-    "smi_rich_text_1_5_D9UJ8R",
     "smi_icon_with_text_1_7_RRdtAx",
+    "smi_rich_text_1_5_D9UJ8R",
     "smi_related_products_1_5_e4kYGj",
-    "smi_recently_viewed_1_TQRy4B",
-    "smi_styles_19031",
     "smi_image_with_text_1_2_P8gk3R",
     "smi_image_with_text_1_2_Fc9nN8",
     "smi_rich_text_1_5_9e3Jkg",
     "smi_image_with_text_1_2_b9tbi7",
     "smi_image_with_text_1_2_CTFPep",
-    "smi_video_1_2_dgB9fJ",
+    "smi_rich_content_1_5_zczMTe",
     "smi_testimonial_1_7_Jj3Vf7",
-    "smi_rich_content_1_5_zczMTe"
+    "smi_video_1_2_dgB9fJ",
+    "smi_styles_19031",
+    "featured_product_zUzVGG"
   ]
 }
