@@ -297,44 +297,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1716347676832f1017": {
-      "type": "apps",
-      "blocks": {
-        "easy_content_builder_section_settings_RjxDJC": {
-          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
-          "settings": {
-            "fullwidth": false,
-            "mw": "",
-            "mw_mobile": "",
-            "layout": "one",
-            "layout_mobile": "one",
-            "column_main": 50,
-            "column_gap": 0,
-            "row_gap": 0,
-            "bg_color": "",
-            "bg_image_repeat": "no",
-            "bg_image_position": "top",
-            "bg_image_width": 100,
-            "bg_parallax": "",
-            "mask_color": "",
-            "mask_opacity": 0.5,
-            "container_bg_color": "",
-            "container_border_radius": 0,
-            "text_color": "",
-            "pt": "50px",
-            "pb": "0",
-            "container_pt": "",
-            "container_pb": ""
-          }
-        }
-      },
-      "block_order": [
-        "easy_content_builder_section_settings_RjxDJC"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -344,7 +306,6 @@
     "collage",
     "featured_product_zCCP38",
     "video",
-    "multicolumn",
-    "1716347676832f1017"
+    "multicolumn"
   ]
 }
