@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "easy-content-section-blank": {
+      "type": "apps",
+      "blocks": {
+        "section-blank-db97-412c-bc39-13972b17fd36": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "title": "Easy Content Block",
+            "title_size": "h2",
+            "description": "<p>Start adding your content blocks to this section.<\/p>",
+            "max_width": "1200"
+          }
+        },
+        "780f84c4-8888-4bc9-9b8e-1fc4ffcb514b": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "layout": "one",
+            "column_main": 50,
+            "pt": "50px",
+            "pb": "50px",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "section-blank-db97-412c-bc39-13972b17fd36",
+        "780f84c4-8888-4bc9-9b8e-1fc4ffcb514b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "easy-content-section-blank"
+  ]
+}
