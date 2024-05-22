@@ -8,13 +8,21 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "😻 FREE SHIPPING FOR LIFE",
+            "link": ""
+          }
+        },
+        "announcement_JhAP7z": {
+          "type": "announcement",
+          "settings": {
+            "text": "💰 30 DAY MONEY BACK GUARANTEE",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_JhAP7z"
       ],
       "settings": {
         "color_scheme": "",
@@ -28,6 +36,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "logo_position": "middle-left",
         "menu": "mega-menu-1",
@@ -43,10 +52,99 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "smi_header_1_1_XWwibM": {
+      "type": "smi-header-1-1",
+      "blocks": {
+        "header_search_MQzaXN": {
+          "type": "header_search",
+          "settings": {
+            "enable_recent": true,
+            "search_keywords": "Shoes, Winter, Coats, Women, Kids",
+            "product_list": [
+
+            ],
+            "media_ratio": "3\/4",
+            "media_shape": "default",
+            "content_alignment": "left",
+            "show_second_image": true,
+            "show_vendor": false,
+            "show_swatch_color": false
+          }
+        },
+        "mega_banner_AY8kEC": {
+          "type": "mega_banner",
+          "settings": {
+            "menu_item": "product",
+            "number_column": "5",
+            "banner_position": "row",
+            "banner1": "shopify:\/\/shop_images\/smi-smi-swim-classic-13.jpg",
+            "heading1": "Bra sale",
+            "heading1_size": "smi-h5",
+            "link1": "",
+            "banner2": "shopify:\/\/shop_images\/smi-smi-swim-classic-19.jpg",
+            "heading2": "Summer sale",
+            "heading2_size": "smi-h5",
+            "link2": ""
+          }
+        },
+        "color_yq66Vd": {
+          "type": "color",
+          "settings": {
+            "background_color": "#fcf8f5",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#fcf8f5",
+            "shadow_color": "#000000",
+            "transparent_background_gradient_color": "",
+            "transparent_text_color": "#000000",
+            "transparent_solid_background_button_color": "#000000",
+            "transparent_solid_button_label_color": "#ffffff",
+            "product_background_color": "#ffffff",
+            "product_background_gradient_color": "",
+            "product_text_color": "#000000",
+            "product_solid_background_button_color": "#000000",
+            "product_solid_button_label_color": "#ffffff",
+            "product_shadow_color": "#000000",
+            "badge_sale_background_color": "#ED2626",
+            "badge_sale_text_color": "#1F1F21",
+            "badge_sold_out_background_color": "#1F1F21",
+            "badge_sold_out_text_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "header_search_MQzaXN",
+        "mega_banner_AY8kEC",
+        "color_yq66Vd"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_divider": true,
+        "show_shadow": false,
+        "logo": "shopify:\/\/shop_images\/MAMZOO-LOGO-STROKED_tnd.png",
+        "logo_width": 100,
+        "mobile_logo_width": 60,
+        "menu": "mega-menu-1",
+        "header_style": "transparent",
+        "desktop_layout": "logo_top_center",
+        "mobile_layout": "logo_center",
+        "sticky_header": "always",
+        "enable_language": false,
+        "enable_country": false,
+        "enable_account": true,
+        "color_scheme": "scheme_1",
+        "transparent_color_scheme": "scheme_1",
+        "product_color_scheme": "scheme_1",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "smi_header_1_1_XWwibM"
   ]
 }
