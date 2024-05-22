@@ -1,0 +1,763 @@
+{% style %}
+	.smi-compatible-cart-drawer-empty{display:none !important}.smi-cart-drawer-1{z-index:999999}.smi-section-cart-drawer-1{width:460px;position:fixed;top:0;right:-500px;height:100%;overflow:auto;transition:all .25s;max-width:90%;border-top:none;border-right:none;border-bottom:none;z-index:999999}.smi-section-cart-drawer-1 .smi-overlay{position:fixed;background:rgba(var(--color-foreground), 0.5);width:100%;height:100%;left:0;top:0;z-index:9;opacity:0;visibility:hidden;transition:all .25s}.smi-section-cart-drawer-1.smi-open{right:0}.smi-section-cart-drawer-1.smi-open .smi-overlay{width:max(100% - 460px,10%);opacity:1;visibility:visible}.smi-section-cart-drawer-1 .smi-drawer-header{border-bottom:1px solid rgba(var(--color-foreground), 0.2)}.smi-section-cart-drawer-1 .smi-drawer-header span svg{width:32px;height:32px;stroke:rgb(var(--color-foreground))}.smi-section-cart-drawer-1 .smi-drawer-header span svg path{fill:rgb(var(--color-foreground))}.smi-section-cart-drawer-1 .smi-drawer-empty{height:calc(100% - var(--spacing-elements)*24px*2 - 33px)}.smi-section-cart-drawer-1 .smi-drawer-empty__collection .smi-collection-thumbnail{aspect-ratio:3/2}.smi-section-cart-drawer-1 .smi-drawer-empty__collection .smi-collection-thumbnail img{transition:all .25s}.smi-section-cart-drawer-1 .smi-drawer-empty__collection .smi-collection-thumbnail:hover img{transform:scale(1.1)}.smi-section-cart-drawer-1 .smi-drawer-empty__collection svg{width:16px;height:16px}.smi-section-cart-drawer-1 .smi-drawer-items_w{height:calc(100% - var(--spacing-elements)*24px*2 - 34px)}.smi-section-cart-drawer-1 .smi-drawer-items{height:100%}.smi-section-cart-drawer-1 .smi-drawer-items__products{border-bottom:1px solid rgba(var(--color-foreground), 0.2);overflow:auto;overflow-x:hidden}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item__thumbnail{min-width:90px;width:90px}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item__thumbnail svg{width:90px;max-width:90px;height:auto}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item ._info__quantities ._quantity-group{width:121px;min-height:43px}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item ._info__quantities ._quantity-group button{min-width:40px;background:rgba(0,0,0,0);border:none}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item ._info__quantities ._quantity-group button svg{width:16px;height:16px;stroke:rgb(var(--color-foreground))}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item ._info__quantities ._quantity-group button svg path{fill:rgb(var(--color-foreground))}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item ._info__quantities ._quantity-group button[disabled=true]{cursor:not-allowed;opacity:.5}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item ._info__quantities ._quantity-group input{width:100%;padding:0;text-align:center;border:none;-moz-appearance:textfield;background:rgba(0,0,0,0);color:rgb(var(--color-foreground));outline:none}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item ._info__quantities ._quantity-group input::-webkit-outer-spin-button,.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item ._info__quantities ._quantity-group input::-webkit-inner-spin-button{-webkit-appearance:none}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item ._info__line-error{margin-top:calc(5px*var(--spacing-elements));display:none}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item ._info__line-error svg{min-width:16px;height:16px;margin-top:2px}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item__actions svg{stroke:rgb(var(--color-foreground))}.smi-section-cart-drawer-1 .smi-drawer-items__products .smi-cart-item__actions svg path{fill:rgb(var(--color-foreground))}.smi-section-cart-drawer-1 .smi-drawer-items__actions .smi-actions-note{padding-top:14px;padding-bottom:14px;background:rgba(var(--color-foreground), 0.04)}.smi-section-cart-drawer-1 .smi-drawer-items__actions .smi-actions-note svg{stroke:rgb(var(--color-foreground))}.smi-section-cart-drawer-1 .smi-drawer-items__actions .smi-actions-note svg path{fill:rgb(var(--color-foreground))}.smi-section-cart-drawer-1 .smi-drawer-items__actions .smi-actions-note:hover{background:rgba(var(--color-foreground), 0.1)}.smi-section-cart-drawer-1 .smi-drawer-items__totals .smi-total p{margin:0}.smi-section-cart-drawer-1 .smi-drawer-items__buttons .smi-ctas{padding-left:var(--border-width);padding-right:var(--border-width)}.smi-section-cart-drawer-1 .smi-drawer-items__buttons .smi-ctas a:before{content:"";height:1px;width:100%;background-color:rgba(var(--color-button-text), 1);position:absolute;bottom:0px;box-shadow:none}.smi-section-cart-drawer-1 .smi-loader-wrapper{opacity:0;visibility:hidden;transition:all .25s;z-index:10}.smi-section-cart-drawer-1.smi-loading .smi-loader-wrapper{opacity:1;visibility:visible}.smi-section-cart-drawer-1 ._note-form{background:rgba(var(--color-foreground), 0.5);position:absolute;width:100%;height:100%;top:0;left:0;display:flex;align-items:end;z-index:9;opacity:0;visibility:hidden;transition:all .25s}.smi-section-cart-drawer-1 ._note-form__inner{background:var(--gradient-background);box-shadow:4px 6px 20px 0px var(--color-shadow)}.smi-section-cart-drawer-1 ._note-form__inner label p{margin-bottom:0}.smi-section-cart-drawer-1 ._note-form__inner textarea{background:rgba(0,0,0,0);color:rgb(var(--color-foreground));padding:calc(8px*var(--spacing-elements)) 16px;outline:none}.smi-section-cart-drawer-1 ._note-form__inner a:before{content:"";height:1px;width:100%;background-color:rgba(var(--color-button-text), 1);position:absolute;bottom:0px;box-shadow:none}.smi-section-cart-drawer-1 ._note-form.smi-open{opacity:1;visibility:visible}.smi-lsp-04{letter-spacing:var(--heading-letter-spacing-scale, 0)}.smi-lsp-03{letter-spacing:var(--body-letter-spacing-scale, 0)}.smi-lsp-08{letter-spacing:var(--button-letter-spacing-scale, 0)}.smi-fw-500{font-weight:500}.smi-flex-1{flex:1}.smi-h-100{height:100%}.smi-overflow-hidden{overflow:hidden}.smi-object-fit-cover{object-fit:cover}.smi-cursor-pointer{cursor:pointer}.smi-uppercase{text-transform:uppercase}#shopify-section-template--16321739260089__cart-items{width:1000px}.smi-color-red{color:#c00}.smi-lh-normal{line-height:normal}.smi-loader-wrapper{background:rgba(var(--color-background), 0.5);z-index:9}.smi-scrollbar{scrollbar-width:thin;scrollbar-color:#c1c1c1 #f1f1f1}.smi-scrollbar::-webkit-scrollbar{width:7px}.smi-scrollbar::-webkit-scrollbar-track{background:#f1f1f1}.smi-scrollbar::-webkit-scrollbar-thumb{background-color:#c1c1c1;border-radius:0}.smi-loader{width:30px !important;height:30px !important;border:2px solid rgb(var(--color-foreground));border-bottom-color:rgba(0,0,0,0);border-radius:50%;display:inline-block;box-sizing:border-box;animation:smi-rotation .7s linear infinite}@keyframes smi-rotation{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+{% endstyle %}
+{% comment %}#component#["blocks/color","settings/design-mode"]#endcomponent#{% endcomment %}
+<script src="{{ 'smi-cart-drawer.min.js' | asset_url }}" defer data-id="cart-drawer"></script>
+<style>
+    {% assign colorblock = section.blocks | where: 'type', 'color' | first %}
+{% if colorblock %}
+      #shopify-section-{{ section.id }},
+      #shopify-section-{{ section.id }} .smi-color-{{ section.settings.color_scheme }},
+      .smi-block-custom-color { 
+        --color-background: {{ colorblock.settings.background_color.red }}, {{ colorblock.settings.background_color.green }},{{ colorblock.settings.background_color.blue }};        
+        {% if colorblock.settings.background_gradient_color == blank %}
+            --gradient-background: {{ colorblock.settings.background_color }};
+        {% else %}
+            --gradient-background: {{ colorblock.settings.background_gradient_color }};
+        {% endif %}
+        --color-foreground-hex: {{ colorblock.settings.text_color }};
+        --color-foreground: {{ colorblock.settings.text_color.red }}, {{ colorblock.settings.text_color.green }},{{ colorblock.settings.text_color.blue }};
+        --color-subtext: {{ colorblock.settings.subtext_color.red }},{{ colorblock.settings.subtext_color.green }},{{ colorblock.settings.subtext_color.blue }};
+        --color-button: {{ colorblock.settings.solid_background_button_color.red }}, {{ colorblock.settings.solid_background_button_color.green }},{{ colorblock.settings.solid_background_button_color.blue }};
+        --color-button-text: {{ colorblock.settings.solid_button_label_color.red }}, {{ colorblock.settings.solid_button_label_color.green }},{{ colorblock.settings.solid_button_label_color.blue }};
+        --color-secondary-button-text: {{ colorblock.settings.outline_button_color.red }}, {{ colorblock.settings.outline_button_color.green }},{{ colorblock.settings.outline_button_color.blue }};
+        --color-shadow: {{ colorblock.settings.shadow_color.red }}, {{ colorblock.settings.shadow_color.green }},{{ colorblock.settings.shadow_color.blue }};
+    }
+{% endif %}
+;
+    #shopify-section-{{ section.id }}{
+        --section-padding-top: {{ section.settings.padding_top }}px;
+--section-padding-bottom: {{ section.settings.padding_bottom }}px;
+{% if section.settings.padding_top_section != blank or section.settings.padding_bottom_section != blank %}
+    --section-margin-top: {{ section.settings.padding_top_section }}px;
+    --section-margin-bottom: {{ section.settings.padding_bottom_section }}px;
+{% endif %}
+    }
+</style>
+{%-liquid
+    assign note_block =  section.blocks | where: 'type', 'cart_note' | first
+-%}
+<div id="smi-{{ section.id }}" class="smi-{{ section.id }} smi-cart-drawer smi-section__inner smi-gradient smi-section-cart-drawer-1 smi-color-{{ section.settings.color_scheme }} smi-dropdown-popup-wrapper smi-shadow-drawer" data-section="cart-drawer-1" data-name="✧Cart drawer 1">
+     
+    <div class="smi-overlay"></div>
+    <div class="smi-loader-wrapper smi-p-absolute smi-w-100 smi-h-100 smi-d-flex smi-align-items-center smi-justify-content-center"><span class="smi-loader"></span></div>
+    <div class="smi-drawer-header smi-px-lg smi-py-lg smi-justify-content-between smi-align-items-center  smi-d-flex">
+        <h4 class="smi-h4 smi-color-text smi-lsp-04">{{ 'smind.general.cart' | t }}</h4>
+        <span class="smi-drawer-close smi-cursor-pointer smi-d-block smi-lh-0">{%- render 'smi-icons', icon: 'close' -%}</span>
+    </div>
+    <div class="smi-drawer-items_w" id="smi-drawer-items" data-id="{{ section.id  }}">
+    {%- if cart == empty -%}
+        <div class="smi-drawer-items smi-drawer-empty smi-d-flex smi-flex-column smi-px-lg smi-pb-xl">
+    <div class="smi-drawer-empty__buttons smi-d-flex smi-flex-column smi-row-gap-md smi-align-items-center smi-justify-content-center smi-flex-1">
+        <h4 class="smi-h4 smi-color-text smi-lsp-04">{{ 'smind.general.cart_is_empty' | t }}</h4>
+        <div class="smi-button-wrapper">
+            <a href="{{ routes.all_products_collection_url }}" class="smi-button smi-button--solid smi-shadow smi-border smi-cursor-pointer smi-hover-{{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' }}">{{ 'smind.general.continue_shopping' | t }}</a>
+        </div>
+    </div>
+    {%- if section.settings.collection != blank -%}
+        {%- assign collection = section.settings.collection -%}
+        <div class="smi-drawer-empty__collection smi-d-flex smi-flex-column smi-row-gap-md">
+            {%- if collection.image -%}
+                {%- assign collection_image = collection.image -%}
+            {%- elsif collection.products.first and collection.products.first.images != empty -%}
+                {%- assign collection_image = collection.products.first.featured_image -%}
+            {%- else -%}
+                {%- assign collection_image = blank -%}
+            {%- endif -%}
+            <a href="{{ collection.url }}" class="smi-collection-thumbnail smi-media-wrapper smi-shadow smi-border smi-d-block smi-p-relative smi-overflow-hidden ">
+                {%- if collection_image == blank -%}
+                    {{ 'collection-apparel-1' | placeholder_svg_tag: 'smi-p-absolute smi-h-100 smi-w-100 smi-object-fit-cover' }}
+                {%- else -%}
+                    <img src="{{ collection_image | img_url: '480x' }}" alt="" class="smi-p-absolute smi-h-100 smi-w-100 smi-object-fit-cover">
+                {%- endif -%}
+            </a>
+            <h5 class="smi-h5 smi-d-flex smi-justify-content-center">
+                <a href="{{ collection.url }}" class="smi-d-flex smi-align-items-center smi-column-gap-xs smi-color-text smi-lsp-04">
+                    {{ collection.title }}
+                    {%- render 'smi-icons', icon: 'arrow-right-2' -%}
+                </a>
+            </h5>
+        </div>
+    {%- endif -%}
+</div>
+    {%- else -%}
+        <div class="smi-drawer-items smi-d-flex smi-flex-column smi-row-gap-lg">
+            <div class="smi-drawer-items__products smi-flex-1 smi-px-lg smi-scrollbar">
+                <div class="_products smi-py-lg">
+    <smi-cart-drawer-items>
+    <form action="{{ routes.cart_url }}" id="smi-cart-drawer-1-form" class="smi-d-flex smi-flex-column smi-row-gap-lg" method="post">
+        {%- for item in cart.items -%}
+        <div class="smi-cart-item smi-d-flex smi-justify-content-between smi-align-items-start smi-column-gap-md">
+            <a href="{{ item.url }}" class="smi-cart-item__thumbnail smi-lh-0">
+                {%- if item.image -%}
+                <img src="{{ item.image | image_url: width: 180 }}" alt="{{ item.image.alt | escape }}" loading="lazy"
+                    width="90" height="{{ 90 | divided_by: item.image.aspect_ratio | ceil }}">
+                {%- else -%}
+                {{ 'product-apparel-2' | placeholder_svg_tag }}
+                {%- endif -%}
+            </a>
+            <div class="smi-cart-item__info _info smi-flex-1">
+                {%- assign show_vendor = settings.smi_show_vendor | default: shop.metafields.smind.settings.value.showVendor | default: false -%}
+                {%- if show_vendor -%}
+                <p class="_info__vendor smi-mb-0 smi-text-sm smi-color-text-75 smi-lsp-03">{{ item.product.vendor }}</p>
+                {%- endif -%}
+                <h5 class="_info__title smi-h5">
+                    <a href="{{ item.url }}" class="smi-color-text smi-lsp-04">
+                        {{- item.product.title | escape -}}
+                    </a>
+                </h5>
+                {%- if item.original_price != item.final_price -%}
+                <div class="_info__price">
+                    <s class="_price-origin smi-text-price-md smi-lsp-03 smi-color-text-55">
+                        {{- item.original_price | money -}}
+                    </s>
+                    <strong class="_price-final smi-text-price-md smi-lsp-03 smi-color-text">
+                        {{ item.final_price | money }}
+                    </strong>
+                </div>
+                {%- else -%}
+                <div class="_price-final smi-text-price-md smi-lsp-03 smi-color-text">
+                    {{ item.original_price | money }}
+                </div>
+                {%- endif -%}
+                {%- if item.product.has_only_default_variant == false
+                or item.properties.size != 0
+                or item.selling_plan_allocation != null
+                -%}
+                <div class="_info__options smi-color-text-75 smi-text-sm">
+                    {%- if item.product.has_only_default_variant == false -%}
+                    <div class="_options">
+                        {%- for option in item.options_with_values -%}
+                            {{- option.value | strip -}}
+                            {%- unless forloop.last -%}
+                            {{- '/' -}}
+                            {%- endunless -%}
+                        {%- endfor -%}
+                    </div>
+                    {%- endif -%}
+                    <div class="_options">
+                        {%- for property in item.properties -%}
+                        {%- assign property_first_char = property.first | slice:
+                        0 -%}
+                        {%- if property.last != blank and property_first_char !=
+                        '_' -%}
+                        <div class="_options__item">
+                            {{ property.first }}:  
+                            {% if property.last contains '/uploads/' %}
+                                <a href="{{ property.last }}" class="link" target="_blank">
+                                    {{ property.last | split: '/' | last }}
+                                </a>
+                                {% else %}
+                                {{ property.last }}
+                                {% endif %}
+                        </div>
+                        {%- endif -%}
+                        {%- endfor -%}
+                    </div>
+                    <p class="_selling-plan smi-mb-0">{{
+                        item.selling_plan_allocation.selling_plan.name }}</p>
+                </div>
+                {%- endif -%}
+                <ul class="discounts list-unstyled" role="list" aria-label="{{ 'customer.order.discount' | t }}">
+                    {%- for discount in item.line_level_discount_allocations -%}
+                    <li class="discounts__discount">
+                        {%- render 'icon-discount' -%}
+                        {{ discount.discount_application.title }}
+                    </li>
+                    {%- endfor -%}
+                </ul>
+                {% comment %} Inputs {% endcomment %}
+                <div class="_info__quantities smi-d-flex smi-row-gap-xs smi-column-gap-lg smi-align-items-center smi-mt-sm smi-flex-wrap">
+                    {%-liquid
+                        assign input_min = item.variant.quantity_rule.min
+                        assign input_max = 999999999
+                        if item.variant.quantity_rule.max != null
+                            assign input_max = item.variant.quantity_rule.max
+                        endif
+                        assign input_value = item.quantity
+                    -%}
+                    <smi-quantity-input class="_quantity-group smi-d-flex smi-inputs-wrapper smi-border smi-shadow" data-index="{{ item.index | plus: 1 }}">
+                        <button type="button" class="_minus smi-cursor-pointer" {% if input_value <= input_min %} disabled="true" {% endif  %}>{% render 'smi-icons', icon: 'minus'  %}</button>
+                        <input 
+                            type="number" 
+                            class="smi-text-button" 
+                            value="{{ item.quantity }}" 
+                            name="updates[]"
+                            min="{{ item.variant.quantity_rule.min }}"
+                            {% if item.variant.quantity_rule.max != null %}
+                            max="{{ item.variant.quantity_rule.max }}"
+                            {% endif %}
+                            step="{{ item.variant.quantity_rule.increment }}"
+                            data-index="{{ item.index | plus: 1 }}"
+                            data-quantity-variant-id="{{ item.variant.id }}"
+                        />
+                        <button type="button" class="_plus smi-cursor-pointer" {% if input_value >= input_max %} disabled="true" {% endif  %}>{% render 'smi-icons', icon: 'plus'  %}</button>
+                    </smi-quantity-input>
+                    <div class="_quantity-price">
+                        {%- if item.original_line_price != item.final_line_price -%}
+                            <s class="_quantity-price__origin smi-text-price-md smi-lsp-03 smi-color-text">
+                                {{ item.original_line_price | money }}
+                            </s>
+                            <span class="_quantity-price__final smi-text-price-md smi-lsp-03 smi-color-text">
+                                {{ item.final_line_price | money }}
+                            </span>
+                        {%- else -%}
+                            <span class="_quantity-price__final smi-text-price-md smi-lsp-03 smi-color-text">
+                                {{ item.original_line_price | money }}
+                            </span>
+                        {%- endif -%}
+                        {%- if item.variant.available and item.unit_price_measurement -%}
+                            <div class="_quantity-price__caption">
+                                {{ item.unit_price | money }}
+                                {%- if item.unit_price_measurement.reference_value != 1 -%}
+                                    {{- item.unit_price_measurement.reference_value -}}
+                                {%- endif -%}
+                                {{ item.unit_price_measurement.reference_unit }}
+                            </div>
+                        {%- endif -%}
+                    </div>
+                </div>
+                <div id="smi-cart-drawer-line-item-error-{{ item.index | plus: 1 }}" class="_info__line-error smi-column-gap-xs">
+                    {%- render 'smi-icons', icon: 'error' -%}
+                    <div class="_line-error-text smi-text-sm smi-color-text-75 smi-lh-normal"></div>
+                </div>
+            </div>
+            <div class="smi-cart-item__actions">
+                <smi-cart-remove-button class="_actions-remove smi-cursor-pointer" data-index="{{ item.index | plus: 1 }}">{%- render 'smi-icons', icon:
+                    'delete' -%}</smi-cart-remove-button>
+            </div>
+        </div>
+        {%- endfor -%}
+    </form>
+    </smi-cart-drawer-items>
+</div>
+            </div>
+            {%- if note_block != blank -%}
+                <div class="smi-drawer-items__actions smi-px-lg">
+                    {%- if note_block -%}
+                        <div class="smi-actions-note smi-px-sm smi-d-flex smi-justify-content-center smi-align-items-center smi-cursor-pointer">
+    {%- render 'smi-icons', icon: 'edit' -%}
+</div>
+                    {%- endif -%}
+                </div>
+            {%- endif -%}
+            <div class="smi-drawer-items__totals smi-px-lg">
+                <div class="smi-total smi-d-flex smi-flex-column smi-row-gap-xxs">
+    <div class="_total smi-d-flex smi-justify-content-between smi-align-items-center smi-column-gap-md">
+        <div class="_total__label smi-text-md smi-color-text smi-lsp-03">{{ 'smind.general.estimated_total' | t }}</div>
+        <div class="_total__value smi-text-price-lg smi-color-text smi-smi-03">{{ cart.total_price | money_with_currency }}</div>
+    </div>
+    {%- if section.settings.show_taxes_policy -%}
+        <div class="smi-text-sm smi-color-text-75 smi-lsp-03 smi-link-wrapper">
+            {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+                {{ 'smind.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+            {%- elsif cart.taxes_included -%}
+                {{ 'smind.cart.taxes_included_but_shipping_at_checkout' | t }}
+            {%- elsif shop.shipping_policy.body != blank -%}
+                {{ 'smind.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+            {%- else -%}
+                {{ 'smind.cart.taxes_and_shipping_at_checkout' | t }}
+            {%- endif -%}
+        </div>
+    {%- endif -%}
+</div>
+            </div>
+            <div class="smi-drawer-items__buttons smi-px-lg smi-pb-xl smi-w-100">
+                <div class="smi-ctas smi-button-wrapper smi-w-100 smi-d-flex smi-flex-column smi-row-gap-sm smi-align-items-center">
+    <button type="submit" id="smi-cart-drawer-checkout" class="smi-w-100 smi-button smi-button--solid smi-ctas__button smi-shadow smi-border smi-cursor-pointer smi-hover-{{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' }}" name="checkout" form="smi-cart-drawer-1-form" {% if cart == empty %} disabled {% endif %}>
+      {{ 'smind.general.checkout' | t }}
+    </button>
+    {%- if section.settings.show_view_cart -%}
+        <a href="{{ routes.cart_url }}" class="smi-button smi-button--text smi-text-button smi-lsp-08 smi-fw-500 smi-p-relative smi-hover-{{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' }}">
+            {{ 'smind.general.view_cart' | t }}
+        </a>
+    {%- endif -%}
+</div>
+            </div>
+        </div>
+        {%-liquid
+assign note_block = section.blocks | where: 'type', 'cart_note' | first
+assign label_text = note_block.settings.label_text | strip
+-%}
+<div class="_note-form">
+    <div class="_note-form__inner smi-px-lg smi-pb-xl smi-pt-lg smi-w-100">
+        {%- if label_text != blank -%} 
+            <label class="smi-d-block smi-color-text smi-text-md smi-mb-xxs">{{ label_text }}</label>
+        {%- endif -%}
+        <textarea id="smi-drawer-note" class="smi-inputs-wrapper smi-border smi-shadow smi-w-100"
+        rows="7"
+            name="note">{{ cart.note }}</textarea>
+        <div
+            class="smi-ctas smi-button-wrapper smi-w-100 smi-d-flex smi-flex-column smi-row-gap-sm smi-align-items-center smi-mt-lg">
+            <button type="button" id="smi-drawer-note-save"
+                class="smi-w-100 smi-button smi-button--solid smi-ctas__button smi-uppercase smi-shadow smi-border smi-cursor-pointer smi-hover-{{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' }}" name="checkout"
+                form="smi-cart-drawer-1-form" {% if cart==empty %} disabled {% endif %}>
+                {{ 'smind.cart.save' | t }}
+            </button>
+            <a href="{{ routes.cart_url }}" id="smi-drawer-note-cancel"
+                class="smi-uppercase smi-button smi-button--text smi-text-button smi-uppercase smi-lsp-08 smi-fw-500 smi-p-relative smi-hover-{{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' }}">
+                {{ 'smind.cart.cancel' | t }}
+            </a>
+        </div>
+    </div>
+</div>
+    {%- endif -%}
+    </div>
+</div>
+{% schema %}
+{
+	"name": "✧Cart drawer 1-1",
+	"tag": "section",
+	"class": "smi-section smi-cart-drawer-1",
+	"settings": [
+		{
+			"type": "checkbox",
+			"id": "show_taxes_policy",
+			"label": "Show taxes and shipping policy",
+			"default": true
+		},
+		{
+			"type": "checkbox",
+			"id": "show_view_cart",
+			"label": "Show view cart button",
+			"default": true
+		},
+		{
+			"type": "collection",
+			"id": "collection",
+			"label": "Collection",
+			"info": "Visible when cart drawer is empty."
+		},
+		{
+			"type": "header",
+			"content": "Color"
+		},
+		{
+			"type": "select",
+            "options": [
+                {
+                    "value": "scheme_1",
+                    "label": "Scheme 1"
+                },
+                {
+                    "value": "scheme_2",
+                    "label": "Scheme 2"
+                },
+                {
+                    "value": "scheme_3",
+                    "label": "Scheme 3"
+                },
+                {
+                    "value": "scheme_4",
+                    "label": "Scheme 4"
+                },
+                {
+                    "value": "scheme_5",
+                    "label": "Scheme 5"
+                },
+                {
+                    "value": "scheme_6",
+                    "label": "Scheme 6"
+                },
+                {
+                    "value": "scheme_7",
+                    "label": "Scheme 7"
+                },
+                {
+                    "value": "scheme_8",
+                    "label": "Scheme 8"
+                },
+                {
+                    "value": "scheme_9",
+                    "label": "Scheme 9"
+                },
+                {
+                    "value": "scheme_10",
+                    "label": "Scheme 10"
+                }
+            ],
+			"id": "color_scheme",
+			"label": "Color scheme",
+			"info": "To use color scheme: Step 1: Hide color block in section. Step 2: Customize colors in color block of “✧Styles” section in global area. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme)"
+		}
+	],
+	"blocks": [
+		{
+			"name": "Cart note",
+			"limit": 1,
+			"type": "cart_note",
+			"settings": [
+				{
+					"type": "richtext",
+					"id": "label_text",
+					"label": "Label text",
+					"default": "<p>Special instructions for seller</p>"
+				}
+			]
+		},
+		{
+			"name": "Color",
+			"limit": 1,
+			"type": "color",
+			"settings": [
+				{
+					"type": "paragraph",
+					"content": "How to use “Color block” and “Color scheme”. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme#how-to-use-the-color-block)"
+				},
+				{
+					"type": "color",
+					"id": "background_color",
+					"default": "#F3F3F3",
+					"label": "Background"
+				},
+				{
+					"type": "color_background",
+					"id": "background_gradient_color",
+					"label": "Background gradient",
+					"info": "Background gradient replaces background where possible."
+				},
+				{
+					"type": "color",
+					"id": "text_color",
+					"default": "#121212",
+					"label": "Text"
+				},
+				{
+					"type": "color",
+					"id": "subtext_color",
+					"default": "#121212",
+					"label": "Subtext"
+				},
+				{
+					"type": "color",
+					"id": "solid_background_button_color",
+					"default": "#121212",
+					"label": "Solid button background"
+				},
+				{
+					"type": "color",
+					"id": "solid_button_label_color",
+					"default": "#FFFFFF",
+					"label": "Solid button label"
+				},
+				{
+					"type": "color",
+					"id": "outline_button_color",
+					"default": "#121212",
+					"label": "Outline buttton"
+				},
+				{
+					"type": "color",
+					"id": "shadow_color",
+					"default": "#121212",
+					"label": "Shadow"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "✧Cart drawer 1-1",
+			"settings": {
+				"show_taxes_policy": true,
+				"show_view_cart": true,
+				"collection": "cardigan",
+				"color_scheme": "scheme_2"
+			},
+			"blocks": [
+				{
+					"type": "cart_note",
+					"settings": {
+						"label_text": "<p>Special instructions for seller</p>"
+					}
+				},
+				{
+					"type": "color",
+					"settings": {
+						"background_color": "#fcf8f5",
+						"background_gradient_color": "",
+						"text_color": "#000000",
+						"subtext_color": "#000000",
+						"solid_background_button_color": "#000000",
+						"solid_button_label_color": "#fcf8f5",
+						"outline_button_color": "#000000",
+						"shadow_color": "#000000"
+					}
+				}
+			]
+		}
+	]
+}
+{% endschema %}
+<script defer>
+(function () {
+    'use strict';
+    if (Shopify.designMode) {
+        let timerCounter = 0
+        const timer = setInterval(() => {
+            timerCounter++
+            if (typeof SMI_CartDrawer === 'function') {
+                clearInterval(timer)
+                smiCartDrawer()
+            }
+            if (timerCounter >= 500) {
+                clearInterval(timer)
+            }
+        }, 10)
+    } else {
+        window.addEventListener('DOMContentLoaded', (event) => {
+            smiCartDrawer()
+        })
+    }
+
+    function smiCartDrawer() {
+        class SMI_QuantityInput extends HTMLElement {
+            constructor() {
+                super()
+                this.elements = {
+                    minusButton: this.querySelector('._minus'),
+                    plusButton: this.querySelector('._plus'),
+                    input: this.querySelector('input')
+                }
+            }
+
+            connectedCallback() {
+                this.elements.minusButton.addEventListener('click', this.updateQuantity.bind(this, false))
+                this.elements.plusButton.addEventListener('click', this.updateQuantity.bind(this, true))
+                const debouncedOnChange = debounce((event) => { this.onChange(event) }, 300);
+                this.elements.input.addEventListener('change', debouncedOnChange.bind(this))
+            }
+
+            onChange() {
+                this.checkButtons()
+                const cartItems = this.closest('smi-cart-items') || this.closest('smi-cart-drawer-items');
+                cartItems.updateQuantity(this.dataset.index, this.elements.input.value);
+            }
+
+            updateQuantity(increase = false) {
+                let onChange = false
+                const currentValue = parseInt(this.elements.input.value)
+                const minValue = this.elements.input.getAttribute('min') || 0
+                const maxValue = this.elements.input.getAttribute('max')
+                if (!!increase) {
+                    if (maxValue) {
+                        if (currentValue >= parseInt(maxValue)) {
+                            console.log('Cannot increase value');
+                            return
+                        }
+                    }
+                    this.elements.input.value = currentValue + 1
+                    onChange = true
+                } else {
+                    if (currentValue > parseInt(minValue)) {
+                        this.elements.input.value = currentValue - 1
+                        onChange = true
+                    }
+                }
+
+                if (onChange) {
+                    this.elements.input.dispatchEvent(new Event('change'));
+                }
+
+                this.checkButtons()
+            }
+
+            checkButtons() {
+                const currentValue = parseInt(this.elements.input.value)
+                const minValue = this.elements.input.getAttribute('min') || 0
+                const maxValue = this.elements.input.getAttribute('max')
+
+                if (currentValue <= parseInt(minValue)) {
+                    this.elements.minusButton.setAttribute('disabled', true)
+                } else {
+                    this.elements.minusButton.removeAttribute('disabled')
+                }
+
+                if (maxValue) {
+                    if (currentValue >= parseInt(maxValue)) {
+                        this.elements.plusButton.setAttribute('disabled', true)
+                    } else {
+                        this.elements.plusButton.removeAttribute('disabled')
+                    }
+                }
+            }
+        }
+        if (!customElements.get('smi-quantity-input')) {
+            customElements.define('smi-quantity-input', SMI_QuantityInput);
+        }
+
+
+        class SMI_CartRemoveButton extends HTMLElement {
+            constructor() {
+                super();
+                this.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    const cartItems = this.closest('smi-cart-items') || this.closest('smi-cart-drawer-items');
+                    cartItems.updateQuantity(this.dataset.index, 0);
+                    document.dispatchEvent(new CustomEvent('smiProductBundleChange'))
+                    document.dispatchEvent(new CustomEvent('smiBlockProductBundleChange'))
+                });
+            }
+        }
+        if (!customElements.get('smi-cart-remove-button')) {
+            customElements.define('smi-cart-remove-button', SMI_CartRemoveButton);
+        }
+
+
+        class SMI_CartItems extends HTMLElement {
+            constructor() {
+                super();
+
+                
+                
+                
+
+                
+            }
+
+            onChange(event) {
+                
+                
+            }
+
+            updateQuantity(line, quantity, name, variantId) {
+                const cartDrawerEl = document.querySelector('#smi-{{ section.id }}.smi-section-cart-drawer-1')
+                if (cartDrawerEl) {
+                    cartDrawerEl.classList.add('smi-loading')
+                    const body = JSON.stringify({
+                        line,
+                        quantity,
+                        sections: this.getSectionsToRender().map((section) => section.section),
+                        sections_url: window.location.pathname,
+                    });
+
+                    fetch(`${window.smiObject.routes.cart_change_url}`, {
+                        ...this.fetchConfig(),
+                        ...{ body }
+                    }).then((response) => {
+                        return response.text();
+                    }).then((state) => {
+                        const parsedState = JSON.parse(state);
+
+                        
+                        if (parsedState.errors) {
+                            
+                            this.updateLiveRegions(line, parsedState.errors);
+                            return;
+                        }
+
+                        const sectionRender = this.getSectionsToRender()
+
+                        sectionRender.forEach((section) => {
+                            if (section.id === 'smi-cart-button') {
+                                const cartIcons = document.querySelectorAll('.smi-cart-button')
+                                if (cartIcons.length) {
+                                    const _innerHtml = this.getSectionInnerHTML(
+                                        parsedState.sections[section.section],
+                                        section.selector
+                                    );
+                                    cartIcons.forEach(cartIcon => {
+                                        cartIcon.innerHTML = _innerHtml
+                                    })
+                                }
+                            } else {
+                                const elementToReplace = document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
+                                elementToReplace.innerHTML = this.getSectionInnerHTML(
+                                    parsedState.sections[section.section],
+                                    section.selector
+                                );
+                            }
+                            const drawerObj = new SMI_CartDrawer('#smi-{{ section.id }}')
+                            drawerObj.handleToggle()
+                        });
+                    }).finally(() => {
+                        document.querySelector('#smi-{{ section.id }}.smi-section-cart-drawer-1').classList.remove('smi-loading')
+                        const customEvent = new Event('smiCartChange');
+                        document.dispatchEvent(customEvent);
+                    })
+                }
+            }
+
+            updateLiveRegions(line, message) {
+                const lineItemError = document.querySelector(`#smi-{{ section.id }} #smi-line-item-error-${line}`) || document.querySelector(`#smi-{{ section.id }} #smi-cart-drawer-line-item-error-${line}`);
+                if (lineItemError) {
+                    lineItemError.querySelector('._line-error-text').innerHTML = message
+                    lineItemError.style.display = 'flex'
+                } else {
+                    lineItemError.style.display = 'none'
+                }
+            }
+
+            fetchConfig(type = 'json') {
+                return {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', Accept: `application/${type}` },
+                };
+            }
+
+            getSectionsToRender() {
+                return [
+                    {
+                        id: 'smi-cart-button',
+                        section: 'smi-cart-button',
+                        selector: '.smi-cart-button',
+                    }
+                ];
+            }
+
+            getSectionInnerHTML(html, selector) {
+                return new DOMParser().parseFromString(html, 'text/html').querySelector(selector).innerHTML;
+            }
+        }
+        if (!customElements.get('smi-cart-items')) {
+            customElements.define('smi-cart-items', SMI_CartItems);
+        }
+
+
+        class SMI_CartDrawerItems extends SMI_CartItems {
+            getSectionsToRender() {
+                return [
+                    {
+                        id: 'shopify-section-' + document.getElementById('smi-drawer-items').dataset.id,
+                        section: document.getElementById('smi-drawer-items').dataset.id,
+                        selector: '.smi-drawer-items_w',
+                    },
+                    {
+                        id: 'smi-cart-button',
+                        section: 'smi-cart-icon-bubble',
+                        selector: '.shopify-section',
+                    }
+                ];
+            }
+        }
+
+        if (!customElements.get('smi-cart-drawer-items')) {
+            customElements.define('smi-cart-drawer-items', SMI_CartDrawerItems);
+        }
+
+        if (typeof SMI_CartDrawer !== 'undefined') {
+            new SMI_CartDrawer('#smi-{{ section.id }}')
+        }
+
+        class SMICompatibleCartDrawer extends HTMLElement {
+            constructor() {
+                super();
+                this.classList.add('smi-compatible-cart-drawer-empty')
+            }
+            setHeaderCartIconAccessibility() { }
+            open(triggeredBy) { }
+            close() { }
+            setSummaryAccessibility(cartDrawerNote) { }
+            renderContents(parsedState) { }
+            getSectionInnerHTML(html, selector = '.shopify-section') { return null; }
+            getSectionsToRender() { return []; }
+            getSectionDOM(html, selector = '.shopify-section') { return null }
+            setActiveElement(element) { }
+        }
+        if (!customElements.get('cart-drawer')) {
+            customElements.define('cart-drawer', SMICompatibleCartDrawer);
+        }
+    }
+})();
+
+</script>

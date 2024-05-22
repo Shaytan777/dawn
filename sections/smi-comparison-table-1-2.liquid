@@ -1,0 +1,856 @@
+{% style %}
+	.smi-section-comparison-table-1 .smi-section-comparison-table-content-wrapper{display:flex;justify-content:var(--heading-alignment)}.smi-section-comparison-table-1 .smi-container-content{max-width:var(--content-max-width);width:100%}.smi-section-comparison-table-1 .smi-container-content .item_heading{flex-direction:column}.smi-section-comparison-table-1 .smi-container-content .item_heading img{object-fit:cover}.smi-section-comparison-table-1 .smi-container-content .item_heading.item_heading_row{flex-direction:row;align-items:center;justify-content:center;gap:var(--horizontal-space-xs, 8px)}.smi-section-comparison-table-1 .smi-container-content .item_heading.item_heading_row span{text-align:center}.smi-section-comparison-table-1 .smi-container-content .item_heading.item_heading_row .icon{display:flex;line-height:1}.smi-section-comparison-table-1 .smi-container-content .item_heading.item_heading_row .icon:not(.fill-1-path).icon-include svg path{fill:var(--color-icon-include)}.smi-section-comparison-table-1 .smi-container-content .item_heading.item_heading_row .icon:not(.fill-1-path).icon-exclude svg path{fill:var(--color-icon-exclude)}.smi-section-comparison-table-1 .smi-container-content .item_heading.item_heading_row .icon.fill-1-path.icon-include svg path:last-child{fill:var(--color-icon-include)}.smi-section-comparison-table-1 .smi-container-content .item_heading.item_heading_row .icon.fill-1-path.icon-exclude svg path:last-child{fill:var(--color-icon-exclude)}.smi-section-comparison-table-1 table{table-layout:fixed;display:table;width:100%;border-radius:var(--text-boxes-radius);background:rgba(var(--color-background), 1);border:var(--text-boxes-border-width-min) solid rgba(var(--color-foreground), 0.2);box-shadow:var(--text-boxes-shadow-horizontal-offset) var(--text-boxes-shadow-vertical-offset) var(--text-boxes-shadow-blur-radius) rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));border-collapse:separate;border-spacing:0;overflow:hidden}.smi-section-comparison-table-1 table tr:first-child th:first-of-type{border-top-left-radius:0px}.smi-section-comparison-table-1 table tr:first-of-type th:last-of-type{border-top-right-radius:0px}.smi-section-comparison-table-1 table tr:last-of-type td:last-child{border-bottom-right-radius:0px}.smi-section-comparison-table-1 table tr:last-of-type td:first-child{border-bottom-left-radius:0px}.smi-section-comparison-table-1 table tr:last-of-type th,.smi-section-comparison-table-1 table tr:last-of-type td{border-bottom-left-radius:0px;border-bottom:0px}.smi-section-comparison-table-1 table tr th:first-child,.smi-section-comparison-table-1 table tr td:first-child{border-left:0px}.smi-section-comparison-table-1 table th,.smi-section-comparison-table-1 table td{border:none;border-bottom:1px solid rgba(var(--color-foreground), 0.2);border-left:none;padding:var(--vertical-space-md, 16px) var(--horizontal-space-lg, 24px)}.smi-section-comparison-table-1 table tr td:not(:first-child) .item_heading{align-items:center}.smi-section-comparison-table-1 table td span{color:rgba(var(--color-foreground), 0.75);font-style:normal}.smi-section-comparison-table-1 table .title_item{color:rgba(var(--color-foreground));font-style:normal;font-weight:500;letter-spacing:var(--heading-letter-spacing-scale, 0)}.smi-section-comparison-table-1 table .content_item{color:rgba(var(--color-foreground), 0.75);font-style:normal;line-height:28.8px;margin-top:4px}.smi-section-comparison-table-1 table.highlighted_column1 tr th:nth-child(2),.smi-section-comparison-table-1 table.highlighted_column1 tr td:nth-child(2){background-color:rgba(var(--color-foreground), 0.04)}.smi-section-comparison-table-1 table.highlighted_column1 tr th:nth-child(2),.smi-section-comparison-table-1 table.highlighted_column1 tr td:nth-child(2){background-color:rgba(var(--color-foreground), 0.04)}.smi-section-comparison-table-1 table.highlighted_column2 tr th:nth-child(3),.smi-section-comparison-table-1 table.highlighted_column2 tr td:nth-child(3){background-color:rgba(var(--color-foreground), 0.04)}.smi-section-comparison-table-1 table.highlighted_column2 th,.smi-section-comparison-table-1 table.highlighted_column2 td{border-left:none}.smi-section-comparison-table-1 table.show-column-separation th,.smi-section-comparison-table-1 table.show-column-separation td{border-left:1px solid rgba(var(--color-foreground), 0.2)}.smi-section-comparison-table-1 .heading_1,.smi-section-comparison-table-1 .heading_2{width:232px;padding:var(--horizontal-space-md, 16px) var(--horizontal-space-md, 16px)}.smi-section-comparison-table-1 .heading_1 img,.smi-section-comparison-table-1 .heading_2 img{margin-bottom:var(--horizontal-space-xs, 8px)}.smi-section-comparison-table-1 .heading_1 span,.smi-section-comparison-table-1 .heading_2 span{font-style:normal}.smi-section-comparison-table-1 .smi-table-outter{position:relative}@media screen and (max-width: 991.98px){.smi-section-comparison-table-1 .heading{width:244px}.smi-section-comparison-table-1 .smi-table-outter{padding-bottom:var(--vertical-space-xl, 40px)}.smi-section-comparison-table-1 .smi-table-outter{overflow-x:scroll;--shadow-padding-sides: calc((var(--shadow-horizontal-offset) + var(--shadow-blur-radius)) * var(--shadow-visible));--shadow-padding-sides-negative: calc((var(--shadow-horizontal-offset) * -1 + var(--shadow-blur-radius)) * var(--shadow-visible));margin-left:min(0px,var(--shadow-padding-sides-negative)*-1);margin-right:min(0px,var(--shadow-padding-sides)*-1);margin-top:min(0px,var(--shadow-padding-sides-negative)*-1);margin-bottom:min(0px,var(--shadow-padding-sides)*-1);padding-left:max(0px,var(--shadow-padding-sides-negative));padding-right:max(0px,var(--shadow-padding-sides));padding-top:max(0px,var(--shadow-padding-sides-negative))}.smi-section-comparison-table-1 .smi-scroll-x::-webkit-scrollbar{height:var(--horizontal-space-xxs, 4px);background:rgba(var(--color-foreground), 0.2)}.smi-section-comparison-table-1 .smi-scroll-x::-webkit-scrollbar-track{border-left:1px rgba(var(--color-foreground), 0.2);border-right:1px rgba(var(--color-foreground), 0.2);border-top:1px solid rgb(var(--color-background));border-bottom:1px solid rgb(var(--color-background))}.smi-section-comparison-table-1 .smi-scroll-x::-webkit-scrollbar-thumb{background:rgba(var(--color-foreground), 1)}}
+{% endstyle %}
+{% comment %}#component#["settings/heading","settings/color-scheme","settings/section-padding","blocks/color-text","blocks/background","settings/design-mode","settings/animation-settings"]#endcomponent#{% endcomment %}
+<style>
+    {% assign color_text = section.blocks | where: 'type', 'color' | first %}
+{% if color_text %}
+      #shopify-section-{{ section.id }},
+      #shopify-section-{{ section.id }} .smi-color-{{ section.settings.color_scheme }},
+      .smi-block-custom-color {
+        --color-background: {{ color_text.settings.background_color.red }}, {{ color_text.settings.background_color.green }},{{ color_text.settings.background_color.blue }};        
+        {% if color_text.settings.background_gradient_color == blank %}
+            --gradient-background: {{ color_text.settings.background_color }};
+        {% else %}
+            --gradient-background: {{ color_text.settings.background_gradient_color }};
+        {% endif %}
+        --color-foreground: {{ color_text.settings.text_color.red }}, {{ color_text.settings.text_color.green }},{{ color_text.settings.text_color.blue }};
+        --color-subtext: {{ color_text.settings.subtext_color.red }},{{ color_text.settings.subtext_color.green }},{{ color_text.settings.subtext_color.blue }};
+        --color-shadow: {{ color_text.settings.shadow_color.red }}, {{ color_text.settings.shadow_color.green }},{{ color_text.settings.shadow_color.blue }};
+        }
+{% endif %}
+    #shopify-section-{{ section.id }}{
+        --section-padding-top: {{ section.settings.padding_top }}px;
+--section-padding-bottom: {{ section.settings.padding_bottom }}px;
+{% if section.settings.padding_top_section != blank or section.settings.padding_bottom_section != blank %}
+    --section-margin-top: {{ section.settings.padding_top_section }}px;
+    --section-margin-bottom: {{ section.settings.padding_bottom_section }}px;
+{% endif %}
+        --heading-alignment: {{section.settings.heading_alignment}};
+        --color-icon-include: {{section.settings.color_include_icon}};
+        --color-icon-exclude: {{section.settings.color_exclude_icon}};
+        --content-max-width: {{ section.settings.content_max_width }}px;
+        {% if section.settings.use_content_container_style_settings != blank %}
+            --text-boxes-border-width: max(var(--text-boxes-border-width) , 1px);
+        {% else %}
+            --text-boxes-border-width-min: 1px;
+            --text-boxes-border-width: 1px;
+            --text-boxes-radius:0px;
+            --text-boxes-shadow-horizontal-offset:0px;
+            --text-boxes-shadow-vertical-offset:0px;
+            --text-boxes-shadow-blur-radius:0px;
+        {% endif %}
+    }
+</style>
+<div id="smi-{{ section.id }}" class="smi-{{ section.id }} smi-section__inner smi-gradient smi-section-comparison-table-1 smi-color-{{ section.settings.color_scheme }}" data-section="comparison-table-1" data-name="✧Comparison table 1">
+     
+    {% render 'smi-background' %}
+    <div class="smi-container">
+        <div class="smi-section-comparison-table-content-wrapper">
+            <div class="smi-container-content smi-content-settings">
+                {%-liquid
+    if settings.smi_animations_reveal_on_scroll != nil
+        assign animation_scroll = settings.smi_animations_reveal_on_scroll
+    else
+        assign global_settings = shop.metafields.smind.settings.value
+        assign animation_scroll = global_settings.revealOnScroll
+    endif
+-%}
+<div class="smi-heading-component smi-heading-component--align-{{section.settings.heading_alignment}} smi-link-wrapper" {{- block.shopify_attributes -}}    >
+  {% liquid
+    assign heading = section.settings.heading | strip
+    assign sub_heading = section.settings.sub_heading | strip
+    assign description = section.settings.description | strip
+  %}
+  <div class="smi-heading-inner
+    {%- if animation_scroll %} smi-scroll-trigger smi-animate--slide-in{% endif -%}
+    {%- if heading != blank or sub_heading != blank or description != blank %} smi-mb-xxl{% endif -%}
+    ">
+        {%- assign sub_heading = section.settings.sub_heading | strip -%}
+{% if sub_heading != blank %}
+    <p class="smi-text-sub smi-mb-xxs smi-heading-component__subheading" data-type="subheading" data-key="s.subheading">{{- sub_heading -}}</p>
+{% endif %} 
+        {%- assign description = section.settings.description | strip -%}
+{%- assign heading = section.settings.heading | strip -%}
+{% if heading != blank %}
+    <h2 class="{{ section.settings.heading_size }} {% if description != blank %}smi-mb-sm{% endif %} smi-heading-component__heading" data-type="heading" data-key="s.heading">{{- heading -}}</h2>
+{% endif %} 
+        {%- assign description = section.settings.description | strip -%}
+{% if description != blank %}
+    <div class="smi-text-md smi-heading-component__description" data-type="description" data-key="s.description">{{ description }}</div>
+{% endif %}
+    </div>
+</div>
+                <div class="smi-content-table smi-link-wrapper">
+                    {%-liquid
+    if settings.smi_animations_reveal_on_scroll != nil
+        assign animation_scroll = settings.smi_animations_reveal_on_scroll
+    else
+        assign global_settings = shop.metafields.smind.settings.value
+        assign animation_scroll = global_settings.revealOnScroll
+    endif
+-%}
+                    <div class="smi-content-wrapper smi-table-outter smi-scroll-x {%- if animation_scroll %} smi-scroll-trigger smi-animate--slide-in smi-animate-order-1{% endif -%}">
+                        <table class="highlighted_column{{section.settings.highlighted_column}}{% if section.settings.show_column_separation != blank %} show-column-separation{% endif %}">
+                            {%- for block in section.blocks -%}
+                                {% if block.type == 'heading-comparison-table' %}
+                                    {% liquid
+                                        assign heading_image_1 = block.settings.image_1
+                                        assign image_width_1 = block.settings.image_width_1
+                                        assign heading_1 = block.settings.heading_1
+                                        assign heading_image_2 = block.settings.image_2 
+                                        assign image_width_2 = block.settings.image_width_2
+                                        assign heading_2 = block.settings.heading_2
+                                        assign icon_size = block.settings.icon_size
+                                    %}
+                                    <tr {{- block.shopify_attributes -}}>
+                                        <th class="heading">
+                                            <style>
+                                                #shopify-section-{{ section.id }} td .item_heading svg ,  #shopify-section-{{ section.id }} td .item_heading img{
+                                                    width: {{ section.settings.icon_size }}px;
+                                                    height: {{ section.settings.icon_size }}px;
+                                                }
+                                            </style>
+                                        </th>
+                                        <th class="heading_1">
+                                            <div class="item_heading smi-d-flex smi-justify-content-center smi-align-items-center">
+                                                {%-  if heading_image_1 != blank -%}
+                                                    {{ heading_image_1 | image_url: width: image_width_1 | image_tag: loading: 'lazy' }}
+                                                {% endif %}
+                                                {%-  if heading_1 != blank -%}
+                                                    <span class="{{ block.settings.heading_size_1 }}">{{heading_1}}</span>
+                                                {% endif %}
+                                            </div>
+                                        </th>
+                                        <th class="heading_2">
+                                            <div class="item_heading smi-d-flex smi-justify-content-center smi-align-items-center">
+                                                {%- if heading_image_2 != blank -%}
+                                                    {{ heading_image_2 | image_url: width: image_width_2 | image_tag: loading: 'lazy' }}
+                                                {% endif %}
+                                                {%- if heading_2 != blank -%}
+                                                    <span class="{{ block.settings.heading_size_2 }}">{{heading_2}}</span>
+                                                {% endif %}
+                                            </div>
+                                        </th>
+                                    </tr>
+                                {% endif %}
+                            {% endfor %}
+                            {%- for block in section.blocks -%}
+                                {% if block.type == 'row-comparison-table' %}
+                                    <tr {{- block.shopify_attributes -}}>
+                                        <td>
+                                            <div class="item_heading smi-d-flex">
+                                                <div class="title_item {{ block.settings.heading_size_row }}">
+                                                    {{block.settings.heading_row}}
+                                                </div>
+                                                {% if block.settings.content_row != blank %}
+                                                    <div class="content_item">
+                                                        {{block.settings.content_row}}
+                                                    </div>
+                                                {% endif %}
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="item_heading item_heading_row smi-d-flex">
+                                                {% liquid
+                                                    assign list_include = "check_1, check_2, check_3" | split: ", " 
+                                                    assign check_fill_color = "check_3, time_3" | split: ", " 
+                                                    assign list_exclude = "time_1 , time_2 , time_3"
+                                                    assign upload_icon_1 = block.settings.icon_1
+                                                    assign content_1 = block.settings.content_1
+                                                %}
+                                                {%- if upload_icon_1 != 'none' -%}
+                                                    <span class="icon{% if upload_icon_1 != blank and check_fill_color contains upload_icon_1 %} fill-1-path{% endif %}{% if upload_icon_1 != blank and list_include contains upload_icon_1 %} icon-include{% endif %}{% if upload_icon_1 != blank and list_exclude contains upload_icon_1 %} icon-exclude{% endif %}">
+                                                        {%- if block.settings.upload_icon_1 != blank -%}
+                                                            {{ block.settings.upload_icon_1 | image_url: width: icon_size | image_tag: loading: 'lazy' }}
+                                                        {%- else -%}
+                                                            {% if block.settings.icon_1 != 'none' and block.settings.icon_1 != "" %}
+                                                                {%- render 'smi-icons', icon: block.settings.icon_1 -%}
+                                                            {% endif %}
+                                                        {%- endif -%}
+                                                    </span>
+                                                {%- endif -%}
+                                                {%- if content_1 != blank -%}
+                                                    <span class="icon_text">{{block.settings.content_1}}</span>
+                                                {%- endif -%}
+                                            </div>    
+                                        </td>
+                                        <td>
+                                            <div class="item_heading item_heading_row smi-d-flex">
+                                                {% liquid
+                                                    assign upload_icon_2 = block.settings.icon_2
+                                                    assign content_2 = block.settings.content_2
+                                                %}
+                                                {%- if upload_icon_2 != 'none' -%}
+                                                    <span class="icon{% if upload_icon_2 != blank and check_fill_color contains upload_icon_2 %} fill-1-path{% endif %}{% if upload_icon_2 != blank and list_include contains upload_icon_2 %} icon-include{% endif %}{% if upload_icon_2 != blank and list_exclude contains upload_icon_2 %} icon-exclude{% endif %}">
+                                                        {%- if block.settings.upload_icon_2 != blank -%}
+                                                            {{ block.settings.upload_icon_2 | image_url: width: icon_size | image_tag: loading: 'lazy' }}
+                                                        {%- else -%}
+                                                            {% if upload_icon_2!= 'none' and upload_icon_2!= blank %}
+                                                                {%- render 'smi-icons', icon: upload_icon_2 -%}
+                                                            {% endif %}
+                                                        {%- endif -%}
+                                                    </span>
+                                                {%- endif -%}
+                                                {%- if content_2 != blank -%}
+                                                    <span class="icon_text">{{block.settings.content_2}}</span>
+                                                {%- endif -%}
+                                            </div>    
+                                        </td>
+                                    </tr>
+                                {% endif %}
+                            {% endfor %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+	"name": "✧Comparison table 1-2",
+	"tag": "section",
+	"class": "smi-section smi-comparison-table-1",
+	"settings": [
+		{
+			"type": "checkbox",
+			"id": "use_content_container_style_settings",
+			"label": "Use content container style from theme settings",
+			"default": true
+		},
+		{
+			"type": "inline_richtext",
+			"id": "sub_heading",
+			"label": "Subheading",
+			"default": "URNA CRAS MAURIS"
+		},
+		{
+			"type": "inline_richtext",
+			"id": "heading",
+			"label": "Heading",
+			"default": "Happy Customers Say"
+		},
+		{
+			"type": "select",
+			"id": "heading_size",
+			"label": "Heading size",
+			"options": [
+				{
+					"value": "smi-h4",
+					"label": "XS"
+				},
+				{
+					"value": "smi-h3",
+					"label": "S"
+				},
+				{
+					"value": "smi-h2",
+					"label": "M"
+				},
+				{
+					"value": "smi-h1",
+					"label": "L"
+				}
+			],
+			"default": "smi-h2"
+		},
+		{
+			"type": "richtext",
+			"id": "description",
+			"label": "Description",
+			"default": "<p>Commodo lorem morbi aliquam dui turpis. Iaculis pretium posuere nulla tincidunt blandit. A at elementum faucibus integer.</p>"
+		},
+		{
+			"type": "text_alignment",
+			"id": "heading_alignment",
+			"label": "Heading alignment",
+			"default": "center"
+		},
+		{
+			"type": "range",
+			"id": "content_max_width",
+			"min": 700,
+			"max": 1200,
+			"step": 10,
+			"unit": "px",
+			"label": "Content max-width",
+			"default": 1200
+		},
+		{
+			"type": "header",
+			"content": "Comparison settings"
+		},
+		{
+			"type": "checkbox",
+			"id": "show_column_separation",
+			"label": "Show column separation",
+			"default": true
+		},
+		{
+			"type": "select",
+			"id": "highlighted_column",
+			"label": "Highlighted column",
+			"options": [
+				{
+					"value": "",
+					"label": "None"
+				},
+				{
+					"value": "1",
+					"label": "1"
+				},
+				{
+					"value": "2",
+					"label": "2"
+				}
+			],
+			"default": ""
+		},
+		{
+			"type": "range",
+			"id": "icon_size",
+			"min": 16,
+			"max": 70,
+			"step": 2,
+			"label": "Icon size",
+			"default": 28
+		},
+		{
+			"type": "header",
+			"content": "Color"
+		},
+		{
+			"type": "select",
+            "options": [
+                {
+                    "value": "scheme_1",
+                    "label": "Scheme 1"
+                },
+                {
+                    "value": "scheme_2",
+                    "label": "Scheme 2"
+                },
+                {
+                    "value": "scheme_3",
+                    "label": "Scheme 3"
+                },
+                {
+                    "value": "scheme_4",
+                    "label": "Scheme 4"
+                },
+                {
+                    "value": "scheme_5",
+                    "label": "Scheme 5"
+                },
+                {
+                    "value": "scheme_6",
+                    "label": "Scheme 6"
+                },
+                {
+                    "value": "scheme_7",
+                    "label": "Scheme 7"
+                },
+                {
+                    "value": "scheme_8",
+                    "label": "Scheme 8"
+                },
+                {
+                    "value": "scheme_9",
+                    "label": "Scheme 9"
+                },
+                {
+                    "value": "scheme_10",
+                    "label": "Scheme 10"
+                }
+            ],
+			"id": "color_scheme",
+			"label": "Color Scheme",
+			"info": "To use color scheme: Step 1: Hide color block in section. Step 2: Customize colors in color block of “✧Styles” section in global area. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme)"
+		},
+		{
+			"type": "color",
+			"id": "color_include_icon",
+			"label": "Include icon",
+			"default": "#3ED660"
+		},
+		{
+			"type": "color",
+			"id": "color_exclude_icon",
+			"label": "Exclude icon",
+			"default": "#EB001B"
+		},
+		{
+			"type": "header",
+			"content": "Section padding"
+		},
+		{
+			"type": "range",
+			"id": "padding_top",
+			"min": 0,
+			"max": 200,
+			"step": 2,
+			"unit": "px",
+			"label": "Top padding",
+			"default": 50
+		},
+		{
+			"type": "range",
+			"id": "padding_bottom",
+			"min": 0,
+			"max": 200,
+			"step": 2,
+			"unit": "px",
+			"label": "Bottom padding",
+			"default": 50
+		}
+	],
+	"blocks": [
+		{
+			"type": "heading-comparison-table",
+			"name": "Heading comparison table",
+			"limit": 1,
+			"settings": [
+				{
+					"type": "header",
+					"content": "Header 1"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_1",
+					"label": "Image"
+				},
+				{
+					"type": "range",
+					"id": "image_width_1",
+					"min": 70,
+					"max": 200,
+					"step": 2,
+					"label": "Image width",
+					"default": 200,
+					"unit": "px"
+				},
+				{
+					"type": "inline_richtext",
+					"id": "heading_1",
+					"label": "Heading",
+					"default": "Sitemark"
+				},
+				{
+					"type": "select",
+					"id": "heading_size_1",
+					"label": "Heading size",
+					"options": [
+						{
+							"value": "smi-h6",
+							"label": "XS"
+						},
+						{
+							"value": "smi-h5",
+							"label": "S"
+						},
+						{
+							"value": "smi-h4",
+							"label": "M"
+						},
+						{
+							"value": "smi-h3",
+							"label": "L"
+						}
+					],
+					"default": "smi-h6"
+				},
+				{
+					"type": "header",
+					"content": "Header 2"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_2",
+					"label": "Image"
+				},
+				{
+					"type": "range",
+					"id": "image_width_2",
+					"min": 70,
+					"max": 200,
+					"step": 2,
+					"label": "Image width",
+					"default": 200,
+					"unit": "px"
+				},
+				{
+					"type": "inline_richtext",
+					"id": "heading_2",
+					"label": "Heading",
+					"default": "Sitemark"
+				},
+				{
+					"type": "select",
+					"id": "heading_size_2",
+					"label": "Heading size",
+					"options": [
+						{
+							"value": "smi-h6",
+							"label": "XS"
+						},
+						{
+							"value": "smi-h5",
+							"label": "S"
+						},
+						{
+							"value": "smi-h4",
+							"label": "M"
+						},
+						{
+							"value": "smi-h3",
+							"label": "L"
+						}
+					],
+					"default": "smi-h6"
+				}
+			]
+		},
+		{
+			"type": "row-comparison-table",
+			"name": "Row",
+			"settings": [
+				{
+					"type": "inline_richtext",
+					"id": "heading_row",
+					"label": "Heading",
+					"default": "Amazing Flavor!"
+				},
+				{
+					"type": "select",
+					"id": "heading_size_row",
+					"label": "Heading size",
+					"options": [
+						{
+							"value": "smi-h6",
+							"label": "XS"
+						},
+						{
+							"value": "smi-h5",
+							"label": "S"
+						},
+						{
+							"value": "smi-h4",
+							"label": "M"
+						},
+						{
+							"value": "smi-h3",
+							"label": "L"
+						}
+					],
+					"default": "smi-h6"
+				},
+				{
+					"type": "richtext",
+					"id": "content_row",
+					"label": "Content"
+				},
+				{
+					"type": "header",
+					"content": "Column 1"
+				},
+				{
+					"type": "select",
+					"id": "icon_1",
+					"label": "Icon",
+					"default": "check_2",
+					"options": [
+						{
+							"value": "none",
+							"label": "None"
+						},
+						{
+							"value": "check_1",
+							"label": "Include 1"
+						},
+						{
+							"value": "check_2",
+							"label": "Include 2"
+						},
+						{
+							"value": "check_3",
+							"label": "Include 3"
+						},
+						{
+							"value": "time_1",
+							"label": "Exclude 1"
+						},
+						{
+							"value": "time_2",
+							"label": "Exclude 2"
+						},
+						{
+							"value": "time_3",
+							"label": "Exclude 3"
+						}
+					]
+				},
+				{
+					"type": "image_picker",
+					"id": "upload_icon_1",
+					"label": "Upload icon"
+				},
+				{
+					"type": "inline_richtext",
+					"id": "content_1",
+					"label": "Content"
+				},
+				{
+					"type": "header",
+					"content": "Column 2"
+				},
+				{
+					"type": "select",
+					"id": "icon_2",
+					"label": "Icon",
+					"default": "time_2",
+					"options": [
+						{
+							"value": "none",
+							"label": "None"
+						},
+						{
+							"value": "check_1",
+							"label": "Include 1"
+						},
+						{
+							"value": "check_2",
+							"label": "Include 2"
+						},
+						{
+							"value": "check_3",
+							"label": "Include 3"
+						},
+						{
+							"value": "time_1",
+							"label": "Exclude 1"
+						},
+						{
+							"value": "time_2",
+							"label": "Exclude 2"
+						},
+						{
+							"value": "time_3",
+							"label": "Exclude 3"
+						}
+					]
+				},
+				{
+					"type": "image_picker",
+					"id": "upload_icon_2",
+					"label": "Upload icon"
+				},
+				{
+					"type": "inline_richtext",
+					"id": "content_2",
+					"label": "Content"
+				}
+			]
+		},
+		{
+			"name": "Color",
+			"limit": 1,
+			"type": "color",
+			"settings": [
+				{
+					"type": "paragraph",
+					"content": "How to use “Custom color block” and “Color scheme”. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme)"
+				},
+				{
+					"type": "color",
+					"id": "background_color",
+					"default": "#F3F3F3",
+					"label": "Background"
+				},
+				{
+					"type": "color_background",
+					"id": "background_gradient_color",
+					"label": "Background gradient",
+					"info": "Background gradient replaces background where possible."
+				},
+				{
+					"type": "color",
+					"id": "text_color",
+					"default": "#121212",
+					"label": "Text"
+				},
+				{
+					"type": "color",
+					"id": "subtext_color",
+					"default": "#121212",
+					"label": "Subtext"
+				},
+				{
+					"type": "color",
+					"id": "shadow_color",
+					"default": "#121212",
+					"label": "Shadow"
+				}
+			]
+		},
+		{
+			"name": "Background",
+			"limit": 1,
+			"type": "background",
+			"settings": [
+				{
+					"type": "color",
+					"id": "background_simple",
+					"label": "Background section"
+				},
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_mobile",
+					"label": "Mobile image (optional)"
+				},
+				{
+					"type": "select",
+					"id": "animation",
+					"label": "Image animation",
+					"options": [
+						{
+							"label": "None",
+							"value": "none"
+						},
+						{
+							"label": "Ambient movement",
+							"value": "ambient_movement"
+						},
+						{
+							"label": "Parallax",
+							"value": "parallax"
+						}
+					],
+					"default": "none"
+				},
+				{
+					"type": "header",
+					"content": "Video background"
+				},
+				{
+					"type": "video",
+					"id": "video",
+					"label": "Upload video"
+				},
+				{
+					"type": "video_url",
+					"id": "video_url",
+					"label": "Video URL",
+					"accept": [
+						"youtube",
+						"vimeo"
+					]
+				},
+				{
+					"type": "color_background",
+					"id": "background_overlay",
+					"label": "Overlay background"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "✧Comparison table 1-2",
+			"settings": {
+				"use_content_container_style_settings": true,
+				"sub_heading": "HOW WE COMPARE",
+				"heading": "Elevate your look with details",
+				"heading_size": "smi-h2",
+				"description": "",
+				"heading_alignment": "center",
+				"content_max_width": 1200,
+				"show_column_separation": false,
+				"highlighted_column": "1",
+				"icon_size": 28,
+				"color_include_icon": "#3ed660",
+				"color_exclude_icon": "#eb001b",
+				"padding_top": 50,
+				"padding_bottom": 50,
+				"color_scheme": "scheme_1"
+			},
+			"blocks": [
+				{
+					"type": "heading-comparison-table",
+					"settings": {
+						"image_width_1": 200,
+						"heading_1": "Smind",
+						"heading_size_1": "smi-h5",
+						"image_width_2": 200,
+						"heading_2": "Others",
+						"heading_size_2": "smi-h5"
+					}
+				},
+				{
+					"type": "row-comparison-table",
+					"settings": {
+						"heading_row": "High quality",
+						"heading_size_row": "smi-h5",
+						"content_row": "<p>The breathable fabric moves with the body, providing theflexibility needed for various activities.</p>",
+						"icon_1": "check_3",
+						"content_1": "",
+						"icon_2": "time_3",
+						"content_2": ""
+					}
+				},
+				{
+					"type": "row-comparison-table",
+					"settings": {
+						"heading_row": "Customer support",
+						"heading_size_row": "smi-h5",
+						"content_row": "<p>Indulge in the perfect blend of sophistication and comfortin designs tailored for those who appreciate timeless.</p>",
+						"icon_1": "check_3",
+						"content_1": "",
+						"icon_2": "time_3",
+						"content_2": ""
+					}
+				},
+				{
+					"type": "row-comparison-table",
+					"settings": {
+						"heading_row": "Diverse styles",
+						"heading_size_row": "smi-h5",
+						"content_row": "<p>Stepping into the realm of bohemian fashion is akin to entering a world of whimsy and carefree charm.</p>",
+						"icon_1": "check_3",
+						"content_1": "",
+						"icon_2": "time_3",
+						"content_2": ""
+					}
+				},
+				{
+					"type": "row-comparison-table",
+					"settings": {
+						"heading_row": "Easy to use",
+						"heading_size_row": "smi-h5",
+						"content_row": "<p>A flowing floral maxi dress embodies the spirit of boho chic, with its free-spirited silhouette and vibrant patterns.</p>",
+						"icon_1": "check_3",
+						"content_1": "",
+						"icon_2": "time_3",
+						"content_2": ""
+					}
+				},
+				{
+					"type": "color",
+					"settings": {
+						"background_color": "#ffffff",
+						"background_gradient_color": "",
+						"text_color": "#000000",
+						"subtext_color": "#000000",
+						"shadow_color": "#000000"
+					}
+				}
+			]
+		}
+	]
+}
+{% endschema %}
