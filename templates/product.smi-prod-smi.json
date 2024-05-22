@@ -314,46 +314,6 @@
         "padding_bottom": 50
       }
     },
-    "smi_rich_text_1_5_D9UJ8R": {
-      "type": "smi-rich-text-1-5",
-      "blocks": {
-        "heading_Gx8ED6": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "UNLOCKINGUNMATCHED CONVENIENCE",
-            "heading_size": "smi-h2",
-            "description": "<h3>Experience the LazyMAX™ difference – a <strong>5-in-1 solution<\/strong> designed to make your pet adventures seamless.<\/h3>"
-          }
-        },
-        "color_PWyWyc": {
-          "type": "color",
-          "settings": {
-            "background_color": "#bc3e88",
-            "background_gradient_color": "",
-            "text_color": "#ffffff",
-            "subtext_color": "#ffffff",
-            "solid_background_button_color": "#ffffff",
-            "solid_button_label_color": "#5b3f2c",
-            "outline_button_color": "#ffffff",
-            "shadow_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Gx8ED6",
-        "color_PWyWyc"
-      ],
-      "settings": {
-        "full_width": false,
-        "content_position": "center",
-        "content_alignment": "center",
-        "content_max_width": 960,
-        "color_scheme": "scheme_5",
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
     "smi_video_1_2_dgB9fJ": {
       "type": "smi-video-1-2",
       "blocks": {
@@ -403,19 +363,19 @@
         "padding_bottom": 200
       }
     },
-    "smi_rich_text_1_5_9e3Jkg": {
+    "smi_rich_text_1_5_D9UJ8R": {
       "type": "smi-rich-text-1-5",
       "blocks": {
-        "heading_QUiNbg": {
+        "heading_Gx8ED6": {
           "type": "heading",
           "settings": {
             "sub_heading": "",
-            "heading": "Why LazyMAX™?",
+            "heading": "UNLOCKING UNMATCHED CONVENIENCE",
             "heading_size": "smi-h2",
-            "description": "<h3>Comparing LazyMAX™ to other products on the market, it's evident that the combination of features and stylish design sets it apart as a <strong>game-changer<\/strong> in the pet care industry.<\/h3>"
+            "description": "<h3>Experience the LazyMAX™ difference – a <strong>5-in-1 solution<\/strong> designed to make your pet adventures seamless.<\/h3>"
           }
         },
-        "color_BA4Be8": {
+        "color_PWyWyc": {
           "type": "color",
           "settings": {
             "background_color": "#bc3e88",
@@ -430,8 +390,8 @@
         }
       },
       "block_order": [
-        "heading_QUiNbg",
-        "color_BA4Be8"
+        "heading_Gx8ED6",
+        "color_PWyWyc"
       ],
       "settings": {
         "full_width": false,
@@ -894,6 +854,46 @@
         "padding_bottom": 50
       }
     },
+    "smi_rich_text_1_5_9e3Jkg": {
+      "type": "smi-rich-text-1-5",
+      "blocks": {
+        "heading_QUiNbg": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "Why LazyMAX™?",
+            "heading_size": "smi-h2",
+            "description": "<h3>Comparing LazyMAX™ to other products on the market, it's evident that the combination of features and stylish design sets it apart as a <strong>game-changer<\/strong> in the pet care industry.<\/h3>"
+          }
+        },
+        "color_BA4Be8": {
+          "type": "color",
+          "settings": {
+            "background_color": "#bc3e88",
+            "background_gradient_color": "",
+            "text_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "solid_background_button_color": "#ffffff",
+            "solid_button_label_color": "#5b3f2c",
+            "outline_button_color": "#ffffff",
+            "shadow_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QUiNbg",
+        "color_BA4Be8"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_position": "center",
+        "content_alignment": "center",
+        "content_max_width": 960,
+        "color_scheme": "scheme_5",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "smi_image_with_text_1_2_b9tbi7": {
       "type": "smi-image-with-text-1-2",
       "blocks": {
@@ -1017,14 +1017,14 @@
     "product-detail-1-1-0",
     "smi_image_with_text_2_6_XnmXRP",
     "smi_icon_with_text_1_7_RRdtAx",
-    "smi_rich_text_1_5_D9UJ8R",
     "smi_video_1_2_dgB9fJ",
-    "smi_rich_text_1_5_9e3Jkg",
+    "smi_rich_text_1_5_D9UJ8R",
     "smi_related_products_1_5_e4kYGj",
     "smi_recently_viewed_1_TQRy4B",
     "smi_styles_19031",
     "smi_image_with_text_1_2_P8gk3R",
     "smi_image_with_text_1_2_Fc9nN8",
+    "smi_rich_text_1_5_9e3Jkg",
     "smi_image_with_text_1_2_b9tbi7",
     "smi_image_with_text_1_2_CTFPep"
   ]
