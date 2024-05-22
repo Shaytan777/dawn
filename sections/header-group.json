@@ -103,7 +103,7 @@
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
-            "text_color": "#ffffff",
+            "text_color": "#2f363f",
             "solid_background_button_color": "#000000",
             "solid_button_label_color": "#ffffff",
             "shadow_color": "#000000",
@@ -117,7 +117,7 @@
             "product_solid_background_button_color": "#000000",
             "product_solid_button_label_color": "#ffffff",
             "product_shadow_color": "#000000",
-            "badge_sale_background_color": "#ed2626",
+            "badge_sale_background_color": "#1773b0",
             "badge_sale_text_color": "#1f1f21",
             "badge_sold_out_background_color": "#1f1f21",
             "badge_sold_out_text_color": "#ffffff"
