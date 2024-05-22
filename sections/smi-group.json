@@ -106,7 +106,7 @@
             "button_font": "heading",
             "button_text_case": "uppercase",
             "price_font": "heading",
-            "menu_font": "body",
+            "menu_font": "heading",
             "subheading_font": "body"
           }
         },
