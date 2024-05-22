@@ -1107,40 +1107,33 @@
         "icon_with_text_rWjgcx": {
           "type": "icon_with_text",
           "settings": {
-            "icon": "bag-handle",
+            "icon": "check",
             "icon_size": 24,
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "",
             "heading_size": "smi-h4",
-            "content": "<p>Fashion and Style<\/p>",
+            "content": "<p>Simplify outings with an all-in-one pet tool.<\/p>",
             "icon_position": "left",
             "half_width_on_large_screen": false
           }
         },
-        "icon_with_text_YRGBGK": {
+        "icon_with_text_jHBd4U": {
           "type": "icon_with_text",
           "settings": {
-            "icon": "tag",
+            "icon": "check",
             "icon_size": 24,
-            "icon_bg": "",
+            "icon_bg": "rgba(0,0,0,0)",
             "heading": "",
-            "heading_size": "smi-h5",
-            "content": "<p>Storage and Organization<\/p>",
+            "heading_size": "smi-h4",
+            "content": "<p>Crafted from anti-bacterials, BPA .<\/p>",
             "icon_position": "left",
             "half_width_on_large_screen": false
           }
         },
-        "icon_with_text_FAnDwX": {
-          "type": "icon_with_text",
+        "text_BqEjen": {
+          "type": "text",
           "settings": {
-            "icon": "love",
-            "icon_size": 24,
-            "icon_bg": "",
-            "heading": "",
-            "heading_size": "smi-h5",
-            "content": "<p>Convenience and Mobility<\/p>",
-            "icon_position": "left",
-            "half_width_on_large_screen": false
+            "text": "<h4>Simplify pet outings, ensure hygienic food storage, and enjoy convenient, single-handed operation.<\/h4>"
           }
         },
         "button_8NQ8g4": {
@@ -1162,7 +1155,7 @@
             "background_gradient_color": "",
             "text_color": "#000000",
             "subtext_color": "#000000",
-            "solid_background_button_color": "#000000",
+            "solid_background_button_color": "#f45902",
             "solid_button_label_color": "#ffffff",
             "outline_button_color": "#000000",
             "shadow_color": "#000000"
@@ -1172,8 +1165,8 @@
       "block_order": [
         "heading_Uyz7tP",
         "icon_with_text_rWjgcx",
-        "icon_with_text_YRGBGK",
-        "icon_with_text_FAnDwX",
+        "icon_with_text_jHBd4U",
+        "text_BqEjen",
         "button_8NQ8g4",
         "color_CDpgeD"
       ],
