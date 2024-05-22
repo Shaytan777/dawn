@@ -8,9 +8,9 @@
         "color_R48bfD": {
           "type": "color",
           "settings": {
-            "background_color1": "#4b265b",
+            "background_color1": "#ffffff",
             "background_gradient_color1": "",
-            "text_color1": "#ffffff",
+            "text_color1": "#2f363f",
             "subtext_color1": "#000000",
             "solid_background_button_color1": "#f45902",
             "solid_button_label_color1": "#ffffff",
@@ -29,8 +29,8 @@
             "text_color3": "#ffffff",
             "subtext_color3": "#ffffff",
             "solid_background_button_color3": "#f45902",
-            "solid_button_label_color3": "#fff",
-            "outline_button_color3": "#fff",
+            "solid_button_label_color3": "#ffffff",
+            "outline_button_color3": "#ffffff",
             "shadow_color3": "#ffffff",
             "background_color4": "#000000",
             "background_gradient_color4": "",
