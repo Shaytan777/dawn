@@ -830,10 +830,10 @@
         "color_87cEDY": {
           "type": "color",
           "settings": {
-            "background_color": "#f8f2f6",
+            "background_color": "#fff8ea",
             "background_gradient_color": "",
-            "text_color": "#000000",
-            "subtext_color": "#000000",
+            "text_color": "#2f363f",
+            "subtext_color": "#2f363f",
             "solid_background_button_color": "#000000",
             "solid_button_label_color": "#ffffff",
             "shadow_color": "#000000"
@@ -860,7 +860,7 @@
         "change_slide_every": 5,
         "number_of_item": "1",
         "color_scheme": "scheme_1",
-        "color_rating": "#f8a427",
+        "color_rating": "#f8d727",
         "padding_top": 50,
         "padding_bottom": 50
       }
