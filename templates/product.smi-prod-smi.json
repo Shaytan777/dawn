@@ -775,6 +775,65 @@
       ],
       "settings": {
       }
+    },
+    "smi_image_with_text_1_2_P8gk3R": {
+      "type": "smi-image-with-text-1-2",
+      "blocks": {
+        "heading_AwdMAW": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "SEASONAL MUST-HAVES",
+            "heading": "ALL-IN-ONE CONVENIENCE",
+            "heading_size": "smi-h2",
+            "description": "<p>Our compact design guarantees this bottle easily slips into your backpack, becoming an indispensable outdoor companion. Forget the hassle of carrying separate items – with LazyMAX™.<\/p>"
+          }
+        },
+        "button_mzWAG8": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "first_button_style": "outline_arrow",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "outline",
+            "button_full_width": false
+          }
+        },
+        "color_WeLwUm": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AwdMAW",
+        "button_mzWAG8",
+        "color_WeLwUm"
+      ],
+      "settings": {
+        "full_width": "container",
+        "upload_image": "shopify:\/\/shop_images\/5-in-1-portable-pet-water-bottle-your-pets-hydration-solution-mamzoo-pet-shop-659250d10534e.webp",
+        "desktop_media_width": "60",
+        "desktop_media_position": "row",
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "content_position": "left",
+        "content_alignment": "left",
+        "content_max_width": 570,
+        "color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -786,6 +845,7 @@
     "smi_rich_text_1_5_9e3Jkg",
     "smi_related_products_1_5_e4kYGj",
     "smi_recently_viewed_1_TQRy4B",
-    "smi_styles_19031"
+    "smi_styles_19031",
+    "smi_image_with_text_1_2_P8gk3R"
   ]
 }
