@@ -29,17 +29,17 @@
           "type": "color",
           "disabled": true,
           "settings": {
-            "control_background_color": "#63513f",
+            "control_background_color": "#334fb4",
             "control_text_color": "#ffffff",
             "control_solid_background_button_color": "#ffffff",
-            "control_solid_button_label_color": "#63513f",
-            "background_color": "#63513f",
-            "background_gradient_color": "",
+            "control_solid_button_label_color": "#f27900",
+            "background_color": "#f27900",
+            "background_gradient_color": "linear-gradient(180deg, rgba(255, 228, 49, 1), rgba(249, 32, 32, 1) 100%)",
             "text_color": "#ffffff",
             "subtext_color": "#ffffff",
-            "solid_background_button_color": "#ffffff",
-            "solid_button_label_color": "#63513f",
-            "outline_button_color": "#ffffff",
+            "solid_background_button_color": "#f45902",
+            "solid_button_label_color": "#f45902",
+            "outline_button_color": "#f45902",
             "shadow_color": "#ffffff"
           }
         }
