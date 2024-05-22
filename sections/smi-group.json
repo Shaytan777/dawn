@@ -94,12 +94,12 @@
           "type": "typography",
           "settings": {
             "overwrite_font": false,
-            "type_header_font": "cardo_n4",
+            "type_header_font": "poppins_n8",
             "heading_scale": 100,
             "heading_line_height_scale": 100,
             "heading_letter_spacing_scale": 0.4,
             "heading_text_case": "capitalize",
-            "type_body_font": "neue_haas_unica_n4",
+            "type_body_font": "poppins_n5",
             "body_scale": 100,
             "body_line_height_scale": 100,
             "body_letter_spacing_scale": 0.3,
@@ -160,7 +160,7 @@
             "buttons_scale": 100,
             "buttons_border_thickness": 1,
             "buttons_border_opacity": 80,
-            "buttons_radius": 0,
+            "buttons_radius": 16,
             "buttons_shadow": "0,0,0",
             "buttons_shadow_opacity": 20
           }
