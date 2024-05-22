@@ -26,9 +26,9 @@
                           <span class="smi-product-description-label-span-icon smi-mr-xs">{{ CUSTOM_ICON }}</span>
                           {% endif %}
                   {%- endif -%}
-           <h3 class="smi-product-description-detail-heading {{ block.settings.heading_size }}">
+           <h5 class="smi-product-description-detail-heading {{ block.settings.heading_size }}">
               {{ block.settings.collapse_heading }}
-           </h3>
+           </h5>
            <div class="collapse-description-arrow">
               <span id="collapse_collapse_down_arr_{{ forloop.index }}_{{ section.id }}" class="collapse-desc-arr collapse-desc-arr-show">{% render 'smi-icons', icon: 'arrow-down' %}</span>
               <span id="collapse_collapse_up_arr_{{ forloop.index }}_{{ section.id }}" class="collapse-desc-arr">{% render 'smi-icons', icon: 'arrow-up' %}</span>

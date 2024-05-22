@@ -6,7 +6,7 @@
     {{ block.shopify_attributes }}
   >
     {% assign title_pickup = target.title | replace: "/", "-" %}
-  <input id="msg_notice_sec_add_{{ section.id }}" type="hidden" value="{{ 'smind.product.cant_add_more' | t }}&nbsp;{{product.title}}{%if title_pickup != "Default Title"%}:&nbsp;{{title_pickup}}{%endif%}&nbsp;{{ 'smind.product.to_the_cart' | t }}">
+  <input id="msg_notice_sec_add_{{ section.id }}" type="hidden" value="{{ 'smind.product.cant_add_more' | t }}&nbsp;{{product.title}}:&nbsp;{{title_pickup}}&nbsp;{{ 'smind.product.to_the_cart' | t }}">
   <product-form class="product-form">
       {% if show_buy_quantity_btn == true and has_buy_group == false %}
         <div class="smi-text-md smi-mb-xs"id="check_item_in_cart2_{{ section.id }}">
@@ -24,7 +24,7 @@
         id="msg_notice_cart_item_added_all2_{{ section.id }}"
         
       >
-        {% render 'smi-icons', icon: 'error' %}&nbsp;{% if target.inventory_quantity == 1 %}{{ 'smind.product.all' | t }}&nbsp;{{target.inventory_quantity}}&nbsp;{{product.title}}{%if title_pickup != "Default Title"%}:&nbsp;{{title_pickup}}{%endif%}&nbsp;{{ 'smind.product.one_item_al_added_cart' | t }}{% else %}{{ 'smind.product.all' | t }}&nbsp;{{target.inventory_quantity}}&nbsp;{{product.title}}{%if title_pickup != "Default Title"%}:&nbsp;{{title_pickup}}{%endif%}&nbsp;{{ 'smind.product.many_items_al_added_cart' | t }}{% endif %}
+        {% render 'smi-icons', icon: 'error' %}&nbsp;{% if target.inventory_quantity == 1 %}{{ 'smind.product.all' | t }}&nbsp;{{target.inventory_quantity}}&nbsp;{{product.title}}:&nbsp;{{title_pickup}}&nbsp;{{ 'smind.product.one_item_al_added_cart' | t }}{% else %}{{ 'smind.product.all' | t }}&nbsp;{{target.inventory_quantity}}&nbsp;{{product.title}}:&nbsp;{{title_pickup}}&nbsp;{{ 'smind.product.many_items_al_added_cart' | t }}{% endif %}
    
       </div>
 
