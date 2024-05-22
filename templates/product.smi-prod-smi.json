@@ -110,9 +110,16 @@
           "settings": {
             "heading": "",
             "upload_checkout": "shopify:\/\/shop_images\/LazyMAX-Portable-Dog-Water-Bottle-SAFE-AND-SECURE-CHECKOUT-GUARANTEED-2024-T.webp",
-            "image_width": 320,
+            "image_width": 650,
             "apply_media_style": true,
             "alignment": "center"
+          }
+        },
+        "custom_liquid_XKhLKU": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class=\"d-flex justify-content-center align-items-center\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0828\/3445\/6858\/files\/LazyMAX-Portable-Dog-Water-Bottle-SAFE-AND-SECURE-CHECKOUT-GUARANTEED-2024-T.webp?v=1706770626\" alt=\"LazyMAX Portable Dog Water Bottle\" class=\"img-fluid\">\n<\/div>"
           }
         },
         "product_collapse_content_yMLNBp": {
@@ -162,6 +169,7 @@
         "smi-block-item-10",
         "smi-block-item-11",
         "product_guaranteed_Tjtwjx",
+        "custom_liquid_XKhLKU",
         "product_collapse_content_yMLNBp",
         "product_collapse_content_V6EgPB",
         "smi-block-item-17"
