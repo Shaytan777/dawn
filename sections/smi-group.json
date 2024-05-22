@@ -103,9 +103,9 @@
             "body_scale": 100,
             "body_line_height_scale": 100,
             "body_letter_spacing_scale": 0.3,
-            "button_font": "body",
+            "button_font": "heading",
             "button_text_case": "uppercase",
-            "price_font": "body",
+            "price_font": "heading",
             "menu_font": "body",
             "subheading_font": "body"
           }
