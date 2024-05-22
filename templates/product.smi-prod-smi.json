@@ -82,7 +82,31 @@
         "product_feature_icon_fYEAYM": {
           "type": "product_feature_icon",
           "settings": {
-            "heading": "<strong>All-In-One: water, food, treats, poop bags & shovel<\/strong>",
+            "heading": "All-In-One: water, food, treats, poop bags & shovel",
+            "heading_size": "smi-h5",
+            "content": "",
+            "icon": "tick",
+            "upload_icon": "shopify:\/\/shop_images\/dog-water-bottle-features-pet-supplies-shop-mamzoo-icon.svg",
+            "icon_size": 24,
+            "half_width_on_large_screen": false
+          }
+        },
+        "product_feature_icon_jzAG7i": {
+          "type": "product_feature_icon",
+          "settings": {
+            "heading": "Crafted from anti-bacterial ABS food-grade material",
+            "heading_size": "smi-h5",
+            "content": "",
+            "icon": "tick",
+            "upload_icon": "shopify:\/\/shop_images\/dog-water-bottle-features-pet-supplies-shop-mamzoo-icon.svg",
+            "icon_size": 24,
+            "half_width_on_large_screen": false
+          }
+        },
+        "product_feature_icon_eqkJKx": {
+          "type": "product_feature_icon",
+          "settings": {
+            "heading": "Compact and designed for easy single-handed use",
             "heading_size": "smi-h5",
             "content": "",
             "icon": "tick",
@@ -136,6 +160,8 @@
         "smi-block-item-11",
         "product_guaranteed_Tjtwjx",
         "product_feature_icon_fYEAYM",
+        "product_feature_icon_jzAG7i",
+        "product_feature_icon_eqkJKx",
         "product_collapse_content_yMLNBp",
         "product_collapse_content_V6EgPB",
         "smi-block-item-17"
