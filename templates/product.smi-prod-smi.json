@@ -690,6 +690,7 @@
           "type": "icon_with_text",
           "settings": {
             "icon": "check",
+            "upload_icon": "shopify:\/\/shop_images\/dog-water-bottle-features-pet-supplies-shop-mamzoo-icon.svg",
             "icon_size": 24,
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "",
@@ -703,6 +704,7 @@
           "type": "icon_with_text",
           "settings": {
             "icon": "check",
+            "upload_icon": "shopify:\/\/shop_images\/dog-water-bottle-features-pet-supplies-shop-mamzoo-icon.svg",
             "icon_size": 24,
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "",
@@ -716,6 +718,7 @@
           "type": "icon_with_text",
           "settings": {
             "icon": "check",
+            "upload_icon": "shopify:\/\/shop_images\/dog-water-bottle-features-pet-supplies-shop-mamzoo-icon.svg",
             "icon_size": 24,
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "",
@@ -745,6 +748,7 @@
         },
         "color_CDpgeD": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
