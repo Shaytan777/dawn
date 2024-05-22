@@ -350,6 +350,65 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "smi_blog_posts_1_7_wbzYeW": {
+      "type": "smi-blog-posts-1-7",
+      "blocks": {
+        "color_yDDarw": {
+          "type": "color",
+          "settings": {
+            "section_background_color": "#ffffff",
+            "section_background_gradient_color": "",
+            "section_text_color": "#000000",
+            "section_subtext_color": "#000000",
+            "section_solid_background_button_color": "#000000",
+            "section_solid_button_label_color": "#ffffff",
+            "section_outline_button_color": "#000000",
+            "section_shadow_color": "#000000",
+            "blog_background_color": "#ffffff",
+            "blog_background_gradient_color": "",
+            "blog_text_color": "#000000",
+            "blog_solid_background_button_color": "#000000",
+            "blog_solid_button_label_color": "#ffffff",
+            "blog_outline_button_color": "#000000",
+            "blog_shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "color_yDDarw"
+      ],
+      "settings": {
+        "container_full_width": true,
+        "enable_spacing_between_items": true,
+        "sub_heading": "",
+        "heading": "Latest blog posts",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "blog": "mamzoo-pet-supplies-expert-care-blog",
+        "maximum_item_to_show": 10,
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "content_alignment": "center",
+        "show_tags": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "button_style": "none",
+        "arrow_style": "arr-style-1",
+        "sticky_page_dot_style": "none",
+        "view_all_button_style": "outline",
+        "auto_rotate_slides": true,
+        "change_slides_every": 5,
+        "number_of_columns_on_desktop": "4",
+        "slider_overflow": false,
+        "color_scheme": "scheme_1",
+        "blog_color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -361,6 +420,7 @@
     "video",
     "multicolumn",
     "newsletter_nkmjDt",
-    "apps_bak_NNXU9e"
+    "apps_bak_NNXU9e",
+    "smi_blog_posts_1_7_wbzYeW"
   ]
 }
