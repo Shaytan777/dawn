@@ -1,0 +1,487 @@
+{
+  "sections": {
+    "product-detail-1-1-0": {
+      "type": "smi-product-detail-1-1",
+      "blocks": {
+        "smi-block-item-0": {
+          "type": "product_breadcrumb",
+          "settings": {
+            "breadcrumb_top": true
+          }
+        },
+        "smi-block-item-1": {
+          "type": "product_title",
+          "settings": {
+            "heading_size": "smi-h3"
+          }
+        },
+        "product_text_bwiGVi": {
+          "type": "product_text",
+          "settings": {
+            "text": "<h5>12pk Energy Drink & 30srv Pre-Workout<\/h5>"
+          }
+        },
+        "smi-block-item-2": {
+          "type": "product_price",
+          "settings": {
+            "show_sale_badge": true
+          }
+        },
+        "smi-block-item-3": {
+          "type": "product_description",
+          "settings": {
+            "collapse_desc": false,
+            "show_desc_below": false,
+            "icon": "box",
+            "icon_size": 24,
+            "collapse_heading": "Description",
+            "heading_size": "smi-h5"
+          }
+        },
+        "smi-block-item-8": {
+          "type": "product_size_chart",
+          "settings": {
+            "show_icon": true,
+            "append_to_variant_block": "Size guide"
+          }
+        },
+        "smi-block-item-9": {
+          "type": "product_inventory_status",
+          "settings": {
+            "low_inventory_threshold": 5,
+            "show_inventory_count": true
+          }
+        },
+        "smi-block-item-10": {
+          "type": "product_quantity",
+          "settings": {
+            "display_in_buy_button_block": true
+          }
+        },
+        "smi-block-item-11": {
+          "type": "product_purchase",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_recipient_information": false
+          }
+        },
+        "products_bundles_iXr3QG": {
+          "type": "products_bundles",
+          "settings": {
+            "use_content_container": false,
+            "heading": "Frequently Bought Together",
+            "heading_size": "smi-h5",
+            "description": "",
+            "number_product_per_page": 4,
+            "sticky_page_dot_style": "text-style-1",
+            "media_ratio": "auto",
+            "use_media_style": false
+          }
+        },
+        "smi-block-item-17": {
+          "type": "product_share",
+          "settings": {
+            "heading": "Share:",
+            "icon_style": "2",
+            "icon_size": 20
+          }
+        }
+      },
+      "block_order": [
+        "smi-block-item-0",
+        "smi-block-item-1",
+        "product_text_bwiGVi",
+        "smi-block-item-2",
+        "smi-block-item-3",
+        "smi-block-item-8",
+        "smi-block-item-9",
+        "smi-block-item-10",
+        "smi-block-item-11",
+        "products_bundles_iXr3QG",
+        "smi-block-item-17"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "enable_sticky_content_on_desktop": true,
+        "desktop_media_width": "60",
+        "desktop_media_position": "left",
+        "constrain_media_to_screen_height": "fill",
+        "desktop_layout": "bottom_thumbnails",
+        "image_zoom": "open-lightbox",
+        "mobile_layout": "show_thumbnails",
+        "hide_variants": false,
+        "video_looping": false,
+        "color_scheme": "scheme_1",
+        "padding_top": 60,
+        "padding_bottom": 40
+      }
+    },
+    "smi_related_products_1_1_fYfDBw": {
+      "type": "smi-related-products-1-1",
+      "settings": {
+        "container_full_width": false,
+        "enable_spacing": true,
+        "sub_heading": "",
+        "heading": "You may also love",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "number_items": 10,
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "content_alignment": "center",
+        "show_second_image": true,
+        "show_vendor": false,
+        "show_swatch_color": true,
+        "arrow_style": "arr-style-1",
+        "sticky_page_dot_style": "none",
+        "auto_rotate_slides": false,
+        "change_slides_every": 5,
+        "number_of_columns_on_desktop": "4",
+        "number_of_columns_on_mobile": "1",
+        "slider_overflow": false,
+        "color_scheme": "scheme_1",
+        "product_color_scheme": "scheme_2",
+        "padding_top": 44,
+        "padding_bottom": 80
+      }
+    },
+    "smi_countdown_1_4_ELhTrg": {
+      "type": "smi-countdown-1-4",
+      "blocks": {
+        "heading_L848Mj": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "Mega summer sale",
+            "heading_size": "smi-h1",
+            "description": "<p>30% off for all soda products<\/p>"
+          }
+        },
+        "countdown_timer_cbdigT": {
+          "type": "countdown_timer",
+          "settings": {
+            "end_date_time": "2024-12-31",
+            "number_size": "smi-h2",
+            "countdown_style": "classic_2",
+            "hide_expires": false
+          }
+        },
+        "button_f97Pzg": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "first_button_style": "solid",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "solid",
+            "button_full_width": false
+          }
+        },
+        "background_gkLrb7": {
+          "type": "background",
+          "settings": {
+            "background_simple": "",
+            "image": "shopify:\/\/shop_images\/soda-drink_1_1.jpg",
+            "animation": "none",
+            "video_url": "",
+            "background_overlay": "linear-gradient(270deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_L848Mj",
+        "countdown_timer_cbdigT",
+        "button_f97Pzg",
+        "background_gkLrb7"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_position": "center",
+        "content_alignment": "center",
+        "content_max_width": 640,
+        "color_scheme": "scheme_4",
+        "padding_top": 110,
+        "padding_bottom": 110
+      }
+    },
+    "smi_styles_19031": {
+      "type": "smi-styles",
+      "blocks": {
+        "color_B7U8DQ": {
+          "type": "color",
+          "settings": {
+            "background_color1": "#ffffff",
+            "background_gradient_color1": "",
+            "text_color1": "#000000",
+            "subtext_color1": "#e02b2b",
+            "solid_background_button_color1": "#000000",
+            "solid_button_label_color1": "#ffffff",
+            "outline_button_color1": "#000000",
+            "shadow_color1": "#000000",
+            "background_color2": "#f5f5f5",
+            "background_gradient_color2": "",
+            "text_color2": "#000000",
+            "subtext_color2": "#000000",
+            "solid_background_button_color2": "#000000",
+            "solid_button_label_color2": "#ffffff",
+            "outline_button_color2": "#000000",
+            "shadow_color2": "#000000",
+            "background_color3": "#a51c25",
+            "background_gradient_color3": "",
+            "text_color3": "#ffffff",
+            "subtext_color3": "#ffffff",
+            "solid_background_button_color3": "#000000",
+            "solid_button_label_color3": "#ffffff",
+            "outline_button_color3": "#ffffff",
+            "shadow_color3": "#ffffff",
+            "background_color4": "#000000",
+            "background_gradient_color4": "",
+            "text_color4": "#ffffff",
+            "subtext_color4": "#ffffff",
+            "solid_background_button_color4": "#ffffff",
+            "solid_button_label_color4": "#000000",
+            "outline_button_color4": "#ffffff",
+            "shadow_color4": "#ffffff",
+            "background_color5": "#d9ded8",
+            "background_gradient_color5": "",
+            "text_color5": "#000000",
+            "subtext_color5": "#000000",
+            "solid_background_button_color5": "#000000",
+            "solid_button_label_color5": "#ffffff",
+            "outline_button_color5": "#000000",
+            "shadow_color5": "#000000",
+            "background_color6": "#ffffff",
+            "background_gradient_color6": "",
+            "text_color6": "#000000",
+            "subtext_color6": "#e02b2b",
+            "solid_background_button_color6": "#000000",
+            "solid_button_label_color6": "#ffffff",
+            "outline_button_color6": "#000000",
+            "shadow_color6": "#000000",
+            "background_color7": "#ffffff",
+            "background_gradient_color7": "",
+            "text_color7": "#000000",
+            "subtext_color7": "#e02b2b",
+            "solid_background_button_color7": "#000000",
+            "solid_button_label_color7": "#ffffff",
+            "outline_button_color7": "#000000",
+            "shadow_color7": "#000000",
+            "background_color8": "#ffffff",
+            "background_gradient_color8": "",
+            "text_color8": "#000000",
+            "subtext_color8": "#e02b2b",
+            "solid_background_button_color8": "#000000",
+            "solid_button_label_color8": "#ffffff",
+            "outline_button_color8": "#000000",
+            "shadow_color8": "#000000",
+            "background_color9": "#ffffff",
+            "background_gradient_color9": "",
+            "text_color9": "#000000",
+            "subtext_color9": "#e02b2b",
+            "solid_background_button_color9": "#000000",
+            "solid_button_label_color9": "#ffffff",
+            "outline_button_color9": "#000000",
+            "shadow_color9": "#000000",
+            "background_color10": "#ffffff",
+            "background_gradient_color10": "",
+            "text_color10": "#000000",
+            "subtext_color10": "#e02b2b",
+            "solid_background_button_color10": "#000000",
+            "solid_button_label_color10": "#ffffff",
+            "outline_button_color10": "#000000",
+            "shadow_color10": "#000000"
+          }
+        },
+        "typography_kRgpfa": {
+          "type": "typography",
+          "settings": {
+            "overwrite_font": true,
+            "type_header_font": "harmonia_sans_n6",
+            "heading_scale": 100,
+            "heading_line_height_scale": 100,
+            "heading_letter_spacing_scale": 0.2,
+            "heading_text_case": "original",
+            "type_body_font": "basic_commercial_n4",
+            "body_scale": 103,
+            "body_line_height_scale": 100,
+            "body_letter_spacing_scale": 0.2,
+            "button_font": "heading",
+            "button_text_case": "uppercase",
+            "price_font": "heading",
+            "menu_font": "heading",
+            "subheading_font": "body"
+          }
+        },
+        "typography_advance_LWXLze": {
+          "type": "typography_advance",
+          "settings": {
+            "fontsize_h1": 60,
+            "fontsize_h2": 38,
+            "fontsize_h3": 28,
+            "fontsize_h4": 20,
+            "fontsize_h5": 16,
+            "fontsize_h6": 14,
+            "fontsize_xs_h1": 36,
+            "fontsize_xs_h2": 26,
+            "fontsize_xs_h3": 20,
+            "fontsize_xs_h4": 18,
+            "fontsize_xs_h5": 16,
+            "fontsize_xs_h6": 14,
+            "fontsize_button": 13,
+            "button_letter_spacing_scale": 0.5,
+            "fontweight_button": "600",
+            "fontsize_subheading": 13,
+            "subheading_letter_spacing_scale": 0.8,
+            "fontweight_subheading": "400",
+            "fontsize_badge": 12,
+            "badge_letter_spacing_scale": 0.8,
+            "fontweight_badge": "500",
+            "fontsize_menu": 16,
+            "menu_letter_spacing_scale": 0.8,
+            "fontweight_menu": "600",
+            "fontsize_price_xl": 22,
+            "fontsize_price_lg": 20,
+            "fontsize_price_md": 16,
+            "price_letter_spacing_scale": 0.2,
+            "fontweight_price": "500"
+          }
+        },
+        "layout_XthnpF": {
+          "type": "layout",
+          "settings": {
+            "page_width": 1440,
+            "spacing_sections": 0,
+            "spacing_elements": 100,
+            "spacing_grid_horizontal": 30,
+            "spacing_grid_vertical": 30
+          }
+        },
+        "buttons_rCnLe3": {
+          "type": "buttons",
+          "settings": {
+            "buttons_scale": 120,
+            "buttons_border_thickness": 1,
+            "buttons_border_opacity": 80,
+            "buttons_radius": 40,
+            "buttons_shadow": "0,0,0",
+            "buttons_shadow_opacity": 20
+          }
+        },
+        "variants_tN9LMR": {
+          "type": "variants",
+          "settings": {
+            "variant_pills_border_thickness": 1,
+            "variant_pills_radius": 40,
+            "variant_pills_shadow": "0,0,0",
+            "variant_pills_shadow_opacity": 20
+          }
+        },
+        "inputs_wm7fGg": {
+          "type": "inputs",
+          "settings": {
+            "inputs_border_thickness": 1,
+            "inputs_border_opacity": 80,
+            "inputs_radius": 40,
+            "inputs_shadow": "0,0,0",
+            "inputs_shadow_opacity": 20
+          }
+        },
+        "icons_aR3bKP": {
+          "type": "icons",
+          "settings": {
+            "icon_thickness": 1.2,
+            "icon_scale": 100
+          }
+        },
+        "product_cards_PDJCK8": {
+          "type": "product_cards",
+          "settings": {
+            "card_image_padding": 0,
+            "card_border_thickness": 0,
+            "card_border_opacity": 50,
+            "card_corner_radius": 4,
+            "card_shadow": "0,0,0",
+            "card_shadow_opacity": 20
+          }
+        },
+        "product_badges_7yDNzc": {
+          "type": "product_badges",
+          "settings": {
+            "badge_corner_radius": 20,
+            "sale_badge_background_color": "#cf2929",
+            "sale_badge_text_color": "#ffffff",
+            "sold_out_badge_background_color": "#757575",
+            "sold_out_badge_text_color": "#ffffff"
+          }
+        },
+        "blog_cards_GVNBW6": {
+          "type": "blog_cards",
+          "settings": {
+            "blog_card_image_padding": 0,
+            "blog_card_border_thickness": 0,
+            "blog_card_border_opacity": 50,
+            "blog_card_corner_radius": 4,
+            "blog_card_shadow": "0,0,0",
+            "blog_card_shadow_opacity": 20
+          }
+        },
+        "content_containers_JLgMBj": {
+          "type": "content_containers",
+          "settings": {
+            "text_boxes_border_thickness": 0,
+            "text_boxes_border_opacity": 50,
+            "text_boxes_radius": 4,
+            "text_boxes_shadow": "0,0,0",
+            "text_boxes_shadow_opacity": 20
+          }
+        },
+        "media_YETDCt": {
+          "type": "media",
+          "settings": {
+            "media_border_thickness": 0,
+            "media_border_opacity": 50,
+            "media_radius": 6,
+            "media_shadow": "0,0,0",
+            "media_shadow_opacity": 20
+          }
+        },
+        "dropdown_popup_drawer_yRfMfy": {
+          "type": "dropdown_popup_drawer",
+          "settings": {
+            "popup_border_thickness": 1,
+            "popup_border_opacity": 50,
+            "popup_corner_radius": 4,
+            "popup_shadow": "0,0,0",
+            "popup_shadow_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "color_B7U8DQ",
+        "typography_kRgpfa",
+        "typography_advance_LWXLze",
+        "layout_XthnpF",
+        "buttons_rCnLe3",
+        "variants_tN9LMR",
+        "inputs_wm7fGg",
+        "icons_aR3bKP",
+        "product_cards_PDJCK8",
+        "product_badges_7yDNzc",
+        "blog_cards_GVNBW6",
+        "content_containers_JLgMBj",
+        "media_YETDCt",
+        "dropdown_popup_drawer_yRfMfy"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "product-detail-1-1-0",
+    "smi_related_products_1_1_fYfDBw",
+    "smi_countdown_1_4_ELhTrg",
+    "smi_styles_19031"
+  ]
+}

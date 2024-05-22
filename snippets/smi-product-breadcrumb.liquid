@@ -1,5 +1,24 @@
-<div class="smi-product-block-{{ section.id }} smi-product-breadcrumb {% if forloop.index != section.blocks.size %} smi-mb-sm {% endif %}" {{ block.shopify_attributes }}>
+<div
+  class="smi-product-block-{{ section.id }} smi-product-breadcrumb {% if forloop.index != section.blocks.size %} smi-mb-sm {% endif %}"
+  {{ block.shopify_attributes }}
+>
+  {% for collect in  product.collections %}
+    {% if forloop.index == 1 and product.collections.size >= 1 %}
+      {% assign collection = collect %}
+    {% endif %}
+  {% endfor %}
   <a class="smi-heading-breadcrumb-text-underline smi-text-md" href="{{ shop.url }}">Home</a>
-  &nbsp;{% render 'smi-icons', icon: 'arrow-right' %} &nbsp;<a class="smi-heading-breadcrumb-text-underline smi-text-md"
-    href="{{ shop.url }}/products">Product</a>&nbsp;{% render 'smi-icons', icon: 'arrow-right' %}&nbsp;<span class="smi-heading-breadcrumb-text-content smi-text-md">{{ product.title }}</span>
+  {% comment %} &nbsp; {% endcomment %}
+  {%- render 'smi-icons', icon: 'arrow-right' -%}
+  {% comment %} &nbsp; {% endcomment %}
+  <a
+    class="smi-heading-breadcrumb-text-underline smi-text-md"
+    href="{%- if collection.url -%}{{ collection.url }}{% else %}{{ shop.url }}/products{% endif %}"
+    >{%- if collection.url -%}{{ collection.title }}{% else %}Product{% endif %}</a>
+    {% comment %} &nbsp; {% endcomment %}
+  {%- render 'smi-icons', icon: 'arrow-right' -%}
+  {% comment %} &nbsp; {% endcomment %}
+  <span class="smi-heading-breadcrumb-text-content smi-text-md">{{ product.title }}</span>
 </div>
+
+
