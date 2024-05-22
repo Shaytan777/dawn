@@ -77,7 +77,7 @@
             ],
             "media_ratio": "1\/1",
             "media_shape": "default",
-            "content_alignment": "left",
+            "content_alignment": "center",
             "show_second_image": true,
             "show_vendor": false,
             "show_swatch_color": false
