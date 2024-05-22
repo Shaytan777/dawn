@@ -6,7 +6,7 @@
         "smi-block-item-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smi-clo-5021.jpg",
+            "image": "shopify:\/\/shop_images\/dog-leashes-202408.webp",
             "mobile_image_optional": "shopify:\/\/shop_images\/smi-clo-5025.jpg",
             "subheading": "",
             "heading": "Spring collection",
@@ -18,8 +18,8 @@
             "second_button_label": "",
             "second_button_link": "",
             "second_button_style": "solid",
-            "desktop_content_position": "center_end",
-            "desktop_content_alignment": "right",
+            "desktop_content_position": "center_start",
+            "desktop_content_alignment": "left",
             "mobile_content_alignment": "center",
             "content_max_width": 520,
             "content_background_opacity": 0,
@@ -48,8 +48,8 @@
         "smi-block-item-0": {
           "type": "collection",
           "settings": {
-            "collection": "dress-shirts",
-            "image": "shopify:\/\/shop_images\/P00929352_b11.jpg",
+            "collection": "cat-backpack",
+            "image": "shopify:\/\/shop_images\/cat-backpack-202413.webp",
             "subheading": "",
             "heading": "",
             "heading_size": "smi-h4",
