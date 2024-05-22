@@ -242,9 +242,9 @@
           "type": "heading",
           "settings": {
             "sub_heading": "",
-            "heading": "Run faster & Push the limits yourself",
-            "heading_size": "smi-h1",
-            "description": ""
+            "heading": "<strong>YOUR PET'S OASIS <\/strong>",
+            "heading_size": "smi-h2",
+            "description": "<h1><strong>ON THE GO!<\/strong><\/h1>"
           }
         },
         "play_button_VUYNC7": {
@@ -253,21 +253,33 @@
             "play_button": "icon-l",
             "play_button_label": "Play Video"
           }
+        },
+        "color_VKx7yQ": {
+          "type": "color",
+          "settings": {
+            "text_color": "#f45902",
+            "subtext_color": "#121212",
+            "solid_background_button_color": "#121212",
+            "solid_button_label_color": "#ffc107",
+            "outline_button_color": "#121212",
+            "shadow_color": "#121212"
+          }
         }
       },
       "block_order": [
         "heading_WwVj4p",
-        "play_button_VUYNC7"
+        "play_button_VUYNC7",
+        "color_VKx7yQ"
       ],
       "settings": {
         "full_width": false,
-        "cover_image": "shopify:\/\/shop_images\/man-sports-running-road_1_1.jpg",
+        "cover_image": "shopify:\/\/shop_images\/Dog_Water_LazyMAX_5-in-1_Portable_Dog_Water_Bottle.png",
         "video_url": "https:\/\/www.youtube.com\/watch?v=QRqhmsCuVJo",
         "autoplay": false,
-        "content_position": "center",
+        "content_position": "right",
         "content_alignment": "center",
-        "content_max_width": 620,
-        "color_scheme": "scheme_4",
+        "content_max_width": 550,
+        "color_scheme": "scheme_3",
         "padding_top": 200,
         "padding_bottom": 200
       }
