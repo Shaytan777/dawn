@@ -173,6 +173,11 @@
             "heading_size": "h1"
           }
         },
+        "rating_6VjXVN": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "price_QPT7yB": {
           "type": "price",
           "settings": {
@@ -219,6 +224,7 @@
       "block_order": [
         "text_c8qzVT",
         "title_edWVNX",
+        "rating_6VjXVN",
         "price_QPT7yB",
         "variant_picker_weUhYW",
         "quantity_selector_XUtMVp",
@@ -228,7 +234,7 @@
       ],
       "settings": {
         "product": "lazymax-5-in-1-portable-dog-water-bottle",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
