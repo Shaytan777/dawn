@@ -67,9 +67,9 @@
         "change_slides_every": 5,
         "number_of_columns_on_desktop": "4",
         "number_of_columns_on_mobile": "2",
-        "slider_overflow": false,
+        "slider_overflow": true,
         "color_scheme": "scheme_1",
-        "product_color_scheme": "scheme_2",
+        "product_color_scheme": "scheme_1",
         "padding_top": 64,
         "padding_bottom": 32
       }
