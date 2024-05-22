@@ -1177,7 +1177,7 @@
         "title_CmKrip": {
           "type": "title",
           "settings": {
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "price_PE8fTM": {
@@ -1211,6 +1211,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_mLKQd3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -1220,8 +1226,10 @@
         "variant_picker_ADybAA",
         "quantity_selector_y89pN4",
         "buy_buttons_7QXxfy",
-        "share_wKerPq"
+        "share_wKerPq",
+        "custom_liquid_mLKQd3"
       ],
+      "disabled": true,
       "settings": {
         "product": "lazymax-5-in-1-portable-dog-water-bottle",
         "color_scheme": "",
