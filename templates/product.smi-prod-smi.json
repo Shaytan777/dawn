@@ -242,7 +242,8 @@
           "type": "icon_with_text",
           "settings": {
             "icon": "box",
-            "icon_size": 30,
+            "upload_icon": "shopify:\/\/shop_images\/Choice-Pet-Supplies-Mamzoo-Pet-Shop.png",
+            "icon_size": 90,
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "Choose Your Perfect LazyMAX™",
             "heading_size": "smi-h4",
@@ -255,7 +256,8 @@
           "type": "icon_with_text",
           "settings": {
             "icon": "return",
-            "icon_size": 30,
+            "upload_icon": "shopify:\/\/shop_images\/Delivery-Pet-Supplies-Mamzoo-Pet-Shop.png",
+            "icon_size": 90,
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "Experience Free Shipping & Guarantee",
             "heading_size": "smi-h4",
@@ -268,7 +270,8 @@
           "type": "icon_with_text",
           "settings": {
             "icon": "verify",
-            "icon_size": 30,
+            "upload_icon": "shopify:\/\/shop_images\/Cats-Supplies-Mamzoo-Pet-Shop.png",
+            "icon_size": 90,
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "Ensure Absolute Satisfaction",
             "heading_size": "smi-h4",
