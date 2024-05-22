@@ -82,21 +82,11 @@
         "product_feature_icon_fYEAYM": {
           "type": "product_feature_icon",
           "settings": {
-            "heading": "Pickup available at 827 North Coronado",
+            "heading": "<strong>All-In-One: water, food, treats, poop bags & shovel<\/strong>",
             "heading_size": "smi-h5",
-            "content": "<p>Usually ready in 24 hours<\/p>",
+            "content": "",
             "icon": "tick",
-            "icon_size": 24,
-            "half_width_on_large_screen": false
-          }
-        },
-        "product_feature_icon_cPFmJf": {
-          "type": "product_feature_icon",
-          "settings": {
-            "heading": "Pickup available at 827 North Coronado",
-            "heading_size": "smi-h5",
-            "content": "<p>Usually ready in 24 hours<\/p>",
-            "icon": "tick",
+            "upload_icon": "shopify:\/\/shop_images\/dog-water-bottle-features-pet-supplies-shop-mamzoo-icon.svg",
             "icon_size": 24,
             "half_width_on_large_screen": false
           }
@@ -146,7 +136,6 @@
         "smi-block-item-11",
         "product_guaranteed_Tjtwjx",
         "product_feature_icon_fYEAYM",
-        "product_feature_icon_cPFmJf",
         "product_collapse_content_yMLNBp",
         "product_collapse_content_V6EgPB",
         "smi-block-item-17"
