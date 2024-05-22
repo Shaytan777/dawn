@@ -1,0 +1,972 @@
+{
+  "sections": {
+    "smi_announcement_bar_1_2_yAD3DT": {
+      "type": "smi-announcement-bar-1-2",
+      "blocks": {
+        "announcement_qmq7eF": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "content": "<p><strong>Get up to $200 back<\/strong> on select sets of 4 tires.<\/p>"
+          }
+        },
+        "announcement_9iar6c": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "content": "<p><strong>Up to $100 back<\/strong> on select Cooper tires.<\/p>"
+          }
+        },
+        "announcement_kA7mxt": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "content": "<p><strong>$100 Instant Savings<\/strong> on select tires.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_qmq7eF",
+        "announcement_9iar6c",
+        "announcement_kA7mxt"
+      ],
+      "settings": {
+        "enable_sticky_bar": true,
+        "auto_rotate_slides": true,
+        "change_slides_every": 4,
+        "color_scheme": "scheme_3",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "slideshow-1-1-0": {
+      "type": "smi-slideshow-1-1",
+      "blocks": {
+        "smi-block-item-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smi-ser-0009.jpg",
+            "subheading": "",
+            "heading": "Fix your personal car problem",
+            "heading_size": "smi-h1",
+            "description": "Take payments online with a scalable platform that grows with your perfect business.",
+            "first_button_label": "Get a quote",
+            "first_button_link": "",
+            "first_button_style": "solid",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "solid",
+            "desktop_content_position": "center_start",
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "content_max_width": 520,
+            "content_background_opacity": 0,
+            "image_overlay": "linear-gradient(86deg, rgba(0, 0, 0, 0.55) 11%, rgba(0, 0, 0, 0) 66%, rgba(0, 0, 0, 0) 66%)"
+          }
+        },
+        "smi-block-item-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smi-ser-0010.png",
+            "subheading": "",
+            "heading": "Specialist tires for any climate",
+            "heading_size": "smi-h1",
+            "description": "Choosing the right tire can be challenging. These questions can help determine which tires will be the right fit for you.",
+            "first_button_label": "Shop product",
+            "first_button_link": "",
+            "first_button_style": "solid",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "solid",
+            "desktop_content_position": "center_start",
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "content_max_width": 520,
+            "content_background_opacity": 0,
+            "image_overlay": "linear-gradient(180deg, rgba(29, 16, 2, 0.05), rgba(0, 0, 0, 0) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "smi-block-item-1",
+        "smi-block-item-0"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "slide_height": "large",
+        "arrow_style": "arr-circle-style-3",
+        "sticky_page_dot_style": "dot-style-2",
+        "auto_rotate_slides": true,
+        "change_slides_every": 5,
+        "slide_transition": "slide",
+        "control_color_scheme": "scheme_4",
+        "color_scheme": "scheme_4"
+      }
+    },
+    "smi_collection_list_1_1_YGybDK": {
+      "type": "smi-collection-list-1-1",
+      "blocks": {
+        "collection_W3BQ69": {
+          "type": "collection",
+          "settings": {
+            "collection": "services",
+            "image": "shopify:\/\/shop_images\/smi-ser-0011.jpg",
+            "subheading": "",
+            "heading": "Wash & Clean",
+            "heading_size": "smi-h4",
+            "description": "Restore your car's shine with our expert wash and clean service.",
+            "link": "",
+            "button_label": "View service",
+            "button_style": "text"
+          }
+        },
+        "collection_jbnrWa": {
+          "type": "collection",
+          "settings": {
+            "collection": "services",
+            "image": "shopify:\/\/shop_images\/smi-ser-0012.jpg",
+            "subheading": "",
+            "heading": "Maintenance Services",
+            "heading_size": "smi-h4",
+            "description": "Keep your vehicle running smoothly with our comprehensive maintenance services.",
+            "link": "",
+            "button_label": "View service",
+            "button_style": "text"
+          }
+        },
+        "collection_mVRANU": {
+          "type": "collection",
+          "settings": {
+            "collection": "services",
+            "image": "shopify:\/\/shop_images\/smi-ser-0013.jpg",
+            "subheading": "",
+            "heading": "Replace Battery",
+            "heading_size": "smi-h4",
+            "description": "Power up your vehicle with our efficient battery replacement service.",
+            "link": "",
+            "button_label": "View service",
+            "button_style": "text"
+          }
+        }
+      },
+      "block_order": [
+        "collection_W3BQ69",
+        "collection_jbnrWa",
+        "collection_mVRANU"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "sub_heading": "",
+        "heading": "Our best services",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "content_alignment": "left",
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "arrow_style": "arr-style-1",
+        "sticky_page_dot_style": "dot-style-1",
+        "auto_rotate_slides": true,
+        "change_slides_every": 5,
+        "number_of_columns_on_desktop": "3",
+        "number_of_columns_on_mobile": "1",
+        "slider_overflow": false,
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "smi_image_with_text_1_2_izqxQ6": {
+      "type": "smi-image-with-text-1-2",
+      "blocks": {
+        "heading_HxMRrq": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "ABOUT COMPANY",
+            "heading": "Experience excellence in every aspect of automotive care",
+            "heading_size": "smi-h2",
+            "description": "<p>At S-Car, we pride ourselves on our comprehensive expertise in every facet of automotive care. Our team is highly skilled and knowledgeable, offering unparalleled service and support across all departments. Whether it's maintenance, repairs, or upgrades, we have the proficiency to handle it all with precision and efficiency.<\/p>"
+          }
+        },
+        "button_cJJrtH": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "Learn more",
+            "first_button_link": "",
+            "first_button_style": "solid",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "outline",
+            "button_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HxMRrq",
+        "button_cJJrtH"
+      ],
+      "settings": {
+        "full_width": "container",
+        "upload_image": "shopify:\/\/shop_images\/smi-ser-0014.jpg",
+        "desktop_media_width": "50",
+        "desktop_media_position": "row",
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "content_position": "left",
+        "content_alignment": "left",
+        "content_max_width": 570,
+        "color_scheme": "scheme_2",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "smi_video_1_2_yTYGwn": {
+      "type": "smi-video-1-2",
+      "blocks": {
+        "heading_kqbtKX": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "Tire road hazard protection plans",
+            "heading_size": "smi-h2",
+            "description": ""
+          }
+        },
+        "play_button_YETfQN": {
+          "type": "play_button",
+          "settings": {
+            "play_button": "outline-button-m",
+            "play_button_label": "Watch the video"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kqbtKX",
+        "play_button_YETfQN"
+      ],
+      "settings": {
+        "full_width": false,
+        "cover_image": "shopify:\/\/shop_images\/smi-ser-0015.jpg",
+        "video_url": "https:\/\/youtu.be\/4TgxFZrGRuM",
+        "autoplay": false,
+        "content_position": "center",
+        "content_alignment": "center",
+        "content_max_width": 570,
+        "color_scheme": "scheme_4",
+        "padding_top": 200,
+        "padding_bottom": 200
+      }
+    },
+    "smi_featured_collection_2_1_VRwHaR": {
+      "type": "smi-featured-collection-2-1",
+      "settings": {
+        "full_width": false,
+        "enable_spacing": true,
+        "sub_heading": "",
+        "heading": "Our best tires",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "collection": "services",
+        "number_items": 10,
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "content_alignment": "center",
+        "show_second_image": true,
+        "show_vendor": true,
+        "show_swatch_color": false,
+        "number_of_columns_on_desktop": "4",
+        "number_of_columns_on_mobile": "2",
+        "enable_swipe_on_mobile": false,
+        "button_style": "outline",
+        "color_scheme": "scheme_2",
+        "product_color_scheme": "scheme_1",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "smi_collection_list_2_3_wgpCby": {
+      "type": "smi-collection-list-2-3",
+      "blocks": {
+        "collection_N4j86D": {
+          "type": "collection",
+          "settings": {
+            "collection": "jacket-1",
+            "image": "shopify:\/\/shop_images\/smi-ser-0007.jpg",
+            "subheading": "",
+            "heading": "Tires",
+            "heading_size": "smi-h5",
+            "description": "6 items",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_98GPLa": {
+          "type": "collection",
+          "settings": {
+            "collection": "ballet",
+            "image": "shopify:\/\/shop_images\/smi-ser-0003.jpg",
+            "subheading": "",
+            "heading": "Headlights",
+            "heading_size": "smi-h5",
+            "description": "8 items",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_DakECC": {
+          "type": "collection",
+          "settings": {
+            "collection": "set-dresses",
+            "image": "shopify:\/\/shop_images\/smi-ser-0004.jpg",
+            "subheading": "",
+            "heading": "Signal lights",
+            "heading_size": "smi-h5",
+            "description": "11 items",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_hhyheQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "swimsuit",
+            "image": "shopify:\/\/shop_images\/smi-ser-0005.jpg",
+            "subheading": "",
+            "heading": "Batteries",
+            "heading_size": "smi-h5",
+            "description": "4 items",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_R7pPgh": {
+          "type": "collection",
+          "settings": {
+            "collection": "bags-1",
+            "image": "shopify:\/\/shop_images\/smi-ser-0006.jpg",
+            "subheading": "",
+            "heading": "Tail lights",
+            "heading_size": "smi-h5",
+            "description": "5 items",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        }
+      },
+      "block_order": [
+        "collection_N4j86D",
+        "collection_98GPLa",
+        "collection_DakECC",
+        "collection_hhyheQ",
+        "collection_R7pPgh"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "sub_heading": "",
+        "heading": "Shop by categories",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "left",
+        "content_alignment": "center",
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "number_of_columns_on_desktop": "5",
+        "number_of_columns_on_mobile": "1",
+        "enable_swipe_on_mobile": true,
+        "color_scheme": "scheme_2",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "smi_countdown_4_4_rUjMFy": {
+      "type": "smi-countdown-4-4",
+      "blocks": {
+        "heading_mNQNyc": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "SALE OFF UP TO 50%!",
+            "heading": "Grab the best deal",
+            "heading_size": "smi-h2",
+            "description": "<p>Hurry and grab these limited-time offers for all headlight products.<\/p>"
+          }
+        },
+        "button_RVN7eC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "",
+            "button_style": "solid"
+          }
+        },
+        "countdown_timer_c7Fppx": {
+          "type": "countdown_timer",
+          "settings": {
+            "end_date_time": "2024-06-15",
+            "number_size": "smi-h2",
+            "countdown_style": "solid_1_radius",
+            "hide_expires": true
+          }
+        },
+        "background_KDhLVR": {
+          "type": "background",
+          "settings": {
+            "background_simple": "",
+            "image": "shopify:\/\/shop_images\/smi-ser-0016.jpg",
+            "animation": "none",
+            "video_url": "",
+            "background_overlay": "linear-gradient(127deg, rgba(27, 17, 3, 0.6) 11%, rgba(24, 15, 2, 0.6) 81%)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mNQNyc",
+        "button_RVN7eC",
+        "countdown_timer_c7Fppx",
+        "background_KDhLVR"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_alignment": "left",
+        "color_scheme": "scheme_4",
+        "padding_top": 160,
+        "padding_bottom": 160
+      }
+    },
+    "smi_logo_list_1_7_njhnqJ": {
+      "type": "smi-logo-list-1-7",
+      "blocks": {
+        "logo_7CgqF3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bridgestone-logo.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_GmHrCn": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/goodyear-logo.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_Ymwaib": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kumho_logo.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_i8qrgg": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nitto_logo_black.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_Xxapca": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flex_shopper.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_PLybHK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bfgoodrich_logo.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_e9UB6p": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coopertire_horz_logo.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_PA3pFR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hankook_logo.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_7CgqF3",
+        "logo_GmHrCn",
+        "logo_Ymwaib",
+        "logo_i8qrgg",
+        "logo_Xxapca",
+        "logo_PLybHK",
+        "logo_e9UB6p",
+        "logo_PA3pFR"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "enable_spacing_between_items": true,
+        "sub_heading": "",
+        "heading": "Product brands",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "left",
+        "number_of_columns_on_desktop": "4",
+        "number_of_columns_on_mobile": "2",
+        "enable_swipe_on_mobile": true,
+        "color_scheme": "scheme_2",
+        "logo_background": "#ffffff",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "smi_blog_posts_1_7_zK7AKj": {
+      "type": "smi-blog-posts-1-7",
+      "settings": {
+        "container_full_width": false,
+        "enable_spacing_between_items": true,
+        "sub_heading": "",
+        "heading": "Auto care tips & advice",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "blog": "services",
+        "maximum_item_to_show": 10,
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "content_alignment": "left",
+        "show_tags": false,
+        "show_date": true,
+        "show_author": false,
+        "show_comment_count": true,
+        "show_excerpt": true,
+        "button_style": "none",
+        "arrow_style": "arr-style-1",
+        "sticky_page_dot_style": "none",
+        "view_all_button_style": "none",
+        "auto_rotate_slides": true,
+        "change_slides_every": 5,
+        "number_of_columns_on_desktop": "3",
+        "slider_overflow": false,
+        "color_scheme": "scheme_1",
+        "blog_color_scheme": "scheme_2",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "smi_map_2_2_gMGNXD": {
+      "type": "smi-map-2-2",
+      "blocks": {
+        "heading_VQXnJQ": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "Find our store",
+            "heading_size": "smi-h2",
+            "description": ""
+          }
+        },
+        "text_f9iYpd": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Address<br\/><\/strong>PO Box 1622 Vissa Sang Street West, New York<br\/>(+84)-0123-456-789<\/p><p><strong>Time<br\/><\/strong>Monday - Friday : 8.00am - 5.00pm<br\/>Saturday : 9.30am - 3.00pm<br\/>Sunday : Closed<\/p><p><\/p><p><\/p><p><\/p><p><\/p>"
+          }
+        },
+        "button_qKRNc7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get directions",
+            "button_link": "",
+            "button_style": "solid",
+            "button_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VQXnJQ",
+        "text_f9iYpd",
+        "button_qKRNc7"
+      ],
+      "settings": {
+        "full_width": "container",
+        "google_map_iframe": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d39033.190135142555!2d-3.0132292505715927!3d53.41943377994148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b27f8ea594315%3A0xdcf3ab2868d943d0!2sEureka*21%20Science%20%2B%20Discovery!5e0!3m2!1svi!2s!4v1701230246738!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "desktop_media_width": "50",
+        "desktop_media_position": "row-reverse",
+        "media_height": "medium",
+        "content_position": "center",
+        "content_alignment": "left",
+        "content_max_width": 570,
+        "color_scheme": "scheme_2",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "smi_icon_with_text_1_2_Qjg3gt": {
+      "type": "smi-icon-with-text-1-2",
+      "blocks": {
+        "icon_with_text_MJBXt3": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "return",
+            "icon_size": 30,
+            "icon_bg": "#282828",
+            "heading": "Professional workflow",
+            "heading_size": "smi-h4",
+            "content": "<p>We establish the most optimal, fastest, and efficient workflow.<\/p>",
+            "button_label": "",
+            "link1": ""
+          }
+        },
+        "icon_with_text_m6WVfX": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "tick",
+            "icon_size": 30,
+            "icon_bg": "#282828",
+            "heading": "Expert team memebers",
+            "heading_size": "smi-h4",
+            "content": "<p>All employees possess deep expertise combined with the highest work ethic.<\/p>",
+            "button_label": "",
+            "link1": ""
+          }
+        },
+        "icon_with_text_m46Gni": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "verify",
+            "icon_size": 30,
+            "icon_bg": "#282828",
+            "heading": "Transparent pricing",
+            "heading_size": "smi-h4",
+            "content": "<p>Clarifying costs for customers when buying products and using services.<\/p>",
+            "button_label": "",
+            "link1": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_MJBXt3",
+        "icon_with_text_m6WVfX",
+        "icon_with_text_m46Gni"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "sub_heading": "",
+        "heading": "",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "content_alignment": "left",
+        "number_of_columns_on_desktop": "3",
+        "number_of_columns_on_mobile": "1",
+        "enable_swipe_on_mobile": true,
+        "icon_position": "left",
+        "color_scheme": "scheme_4",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "smi_styles_19031": {
+      "type": "smi-styles",
+      "blocks": {
+        "color_napVqz": {
+          "type": "color",
+          "settings": {
+            "background_color1": "#ffffff",
+            "background_gradient_color1": "",
+            "text_color1": "#000000",
+            "subtext_color1": "#e02b2b",
+            "solid_background_button_color1": "#000000",
+            "solid_button_label_color1": "#ffffff",
+            "outline_button_color1": "#000000",
+            "shadow_color1": "#000000",
+            "background_color2": "#f5f5f5",
+            "background_gradient_color2": "",
+            "text_color2": "#000000",
+            "subtext_color2": "#000000",
+            "solid_background_button_color2": "#000000",
+            "solid_button_label_color2": "#ffffff",
+            "outline_button_color2": "#000000",
+            "shadow_color2": "#000000",
+            "background_color3": "#a51c25",
+            "background_gradient_color3": "",
+            "text_color3": "#ffffff",
+            "subtext_color3": "#ffffff",
+            "solid_background_button_color3": "#000000",
+            "solid_button_label_color3": "#ffffff",
+            "outline_button_color3": "#ffffff",
+            "shadow_color3": "#ffffff",
+            "background_color4": "#000000",
+            "background_gradient_color4": "",
+            "text_color4": "#ffffff",
+            "subtext_color4": "#ffffff",
+            "solid_background_button_color4": "#ffffff",
+            "solid_button_label_color4": "#000000",
+            "outline_button_color4": "#ffffff",
+            "shadow_color4": "#ffffff",
+            "background_color5": "#d9ded8",
+            "background_gradient_color5": "",
+            "text_color5": "#000000",
+            "subtext_color5": "#000000",
+            "solid_background_button_color5": "#000000",
+            "solid_button_label_color5": "#ffffff",
+            "outline_button_color5": "#000000",
+            "shadow_color5": "#000000",
+            "background_color6": "#ffffff",
+            "background_gradient_color6": "",
+            "text_color6": "#000000",
+            "subtext_color6": "#e02b2b",
+            "solid_background_button_color6": "#000000",
+            "solid_button_label_color6": "#ffffff",
+            "outline_button_color6": "#000000",
+            "shadow_color6": "#000000",
+            "background_color7": "#ffffff",
+            "background_gradient_color7": "",
+            "text_color7": "#000000",
+            "subtext_color7": "#e02b2b",
+            "solid_background_button_color7": "#000000",
+            "solid_button_label_color7": "#ffffff",
+            "outline_button_color7": "#000000",
+            "shadow_color7": "#000000",
+            "background_color8": "#ffffff",
+            "background_gradient_color8": "",
+            "text_color8": "#000000",
+            "subtext_color8": "#e02b2b",
+            "solid_background_button_color8": "#000000",
+            "solid_button_label_color8": "#ffffff",
+            "outline_button_color8": "#000000",
+            "shadow_color8": "#000000",
+            "background_color9": "#ffffff",
+            "background_gradient_color9": "",
+            "text_color9": "#000000",
+            "subtext_color9": "#e02b2b",
+            "solid_background_button_color9": "#000000",
+            "solid_button_label_color9": "#ffffff",
+            "outline_button_color9": "#000000",
+            "shadow_color9": "#000000",
+            "background_color10": "#ffffff",
+            "background_gradient_color10": "",
+            "text_color10": "#000000",
+            "subtext_color10": "#e02b2b",
+            "solid_background_button_color10": "#000000",
+            "solid_button_label_color10": "#ffffff",
+            "outline_button_color10": "#000000",
+            "shadow_color10": "#000000"
+          }
+        },
+        "typography_EjWH4b": {
+          "type": "typography",
+          "settings": {
+            "overwrite_font": true,
+            "type_header_font": "harmonia_sans_n6",
+            "heading_scale": 100,
+            "heading_line_height_scale": 100,
+            "heading_letter_spacing_scale": 0.2,
+            "heading_text_case": "original",
+            "type_body_font": "basic_commercial_n4",
+            "body_scale": 103,
+            "body_line_height_scale": 100,
+            "body_letter_spacing_scale": 0.2,
+            "button_font": "heading",
+            "button_text_case": "uppercase",
+            "price_font": "heading",
+            "menu_font": "heading",
+            "subheading_font": "body"
+          }
+        },
+        "typography_advance_YxzEVm": {
+          "type": "typography_advance",
+          "settings": {
+            "fontsize_h1": 60,
+            "fontsize_h2": 38,
+            "fontsize_h3": 28,
+            "fontsize_h4": 20,
+            "fontsize_h5": 16,
+            "fontsize_h6": 14,
+            "fontsize_xs_h1": 36,
+            "fontsize_xs_h2": 26,
+            "fontsize_xs_h3": 20,
+            "fontsize_xs_h4": 18,
+            "fontsize_xs_h5": 16,
+            "fontsize_xs_h6": 14,
+            "fontsize_button": 13,
+            "button_letter_spacing_scale": 0.5,
+            "fontweight_button": "600",
+            "fontsize_subheading": 13,
+            "subheading_letter_spacing_scale": 0.8,
+            "fontweight_subheading": "400",
+            "fontsize_badge": 12,
+            "badge_letter_spacing_scale": 0.8,
+            "fontweight_badge": "500",
+            "fontsize_menu": 16,
+            "menu_letter_spacing_scale": 0.8,
+            "fontweight_menu": "600",
+            "fontsize_price_xl": 22,
+            "fontsize_price_lg": 20,
+            "fontsize_price_md": 16,
+            "price_letter_spacing_scale": 0.2,
+            "fontweight_price": "500"
+          }
+        },
+        "layout_yxnjpm": {
+          "type": "layout",
+          "settings": {
+            "page_width": 1440,
+            "spacing_sections": 0,
+            "spacing_elements": 100,
+            "spacing_grid_horizontal": 30,
+            "spacing_grid_vertical": 30
+          }
+        },
+        "buttons_JwURVz": {
+          "type": "buttons",
+          "settings": {
+            "buttons_scale": 120,
+            "buttons_border_thickness": 1,
+            "buttons_border_opacity": 80,
+            "buttons_radius": 40,
+            "buttons_shadow": "0,0,0",
+            "buttons_shadow_opacity": 20
+          }
+        },
+        "variants_gBxmpX": {
+          "type": "variants",
+          "settings": {
+            "variant_pills_border_thickness": 1,
+            "variant_pills_radius": 40,
+            "variant_pills_shadow": "0,0,0",
+            "variant_pills_shadow_opacity": 20
+          }
+        },
+        "inputs_bQKFHJ": {
+          "type": "inputs",
+          "settings": {
+            "inputs_border_thickness": 1,
+            "inputs_border_opacity": 80,
+            "inputs_radius": 40,
+            "inputs_shadow": "0,0,0",
+            "inputs_shadow_opacity": 20
+          }
+        },
+        "icons_eC6Cy8": {
+          "type": "icons",
+          "settings": {
+            "icon_thickness": 1.2,
+            "icon_scale": 100
+          }
+        },
+        "product_cards_CeiN7t": {
+          "type": "product_cards",
+          "settings": {
+            "card_image_padding": 0,
+            "card_border_thickness": 0,
+            "card_border_opacity": 50,
+            "card_corner_radius": 4,
+            "card_shadow": "0,0,0",
+            "card_shadow_opacity": 20
+          }
+        },
+        "product_badges_79qVND": {
+          "type": "product_badges",
+          "settings": {
+            "badge_corner_radius": 20,
+            "sale_badge_background_color": "#cf2929",
+            "sale_badge_text_color": "#ffffff",
+            "sold_out_badge_background_color": "#757575",
+            "sold_out_badge_text_color": "#ffffff"
+          }
+        },
+        "blog_cards_rH3Urq": {
+          "type": "blog_cards",
+          "settings": {
+            "blog_card_image_padding": 0,
+            "blog_card_border_thickness": 0,
+            "blog_card_border_opacity": 50,
+            "blog_card_corner_radius": 4,
+            "blog_card_shadow": "0,0,0",
+            "blog_card_shadow_opacity": 20
+          }
+        },
+        "content_containers_6xzEbU": {
+          "type": "content_containers",
+          "settings": {
+            "text_boxes_border_thickness": 0,
+            "text_boxes_border_opacity": 50,
+            "text_boxes_radius": 4,
+            "text_boxes_shadow": "0,0,0",
+            "text_boxes_shadow_opacity": 20
+          }
+        },
+        "media_NUp8Qy": {
+          "type": "media",
+          "settings": {
+            "media_border_thickness": 0,
+            "media_border_opacity": 50,
+            "media_radius": 6,
+            "media_shadow": "0,0,0",
+            "media_shadow_opacity": 20
+          }
+        },
+        "dropdown_popup_drawer_N7VPiY": {
+          "type": "dropdown_popup_drawer",
+          "settings": {
+            "popup_border_thickness": 1,
+            "popup_border_opacity": 50,
+            "popup_corner_radius": 4,
+            "popup_shadow": "0,0,0",
+            "popup_shadow_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "color_napVqz",
+        "typography_EjWH4b",
+        "typography_advance_YxzEVm",
+        "layout_yxnjpm",
+        "buttons_JwURVz",
+        "variants_gBxmpX",
+        "inputs_bQKFHJ",
+        "icons_eC6Cy8",
+        "product_cards_CeiN7t",
+        "product_badges_79qVND",
+        "blog_cards_rH3Urq",
+        "content_containers_6xzEbU",
+        "media_NUp8Qy",
+        "dropdown_popup_drawer_N7VPiY"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "smi_announcement_bar_1_2_yAD3DT",
+    "slideshow-1-1-0",
+    "smi_collection_list_1_1_YGybDK",
+    "smi_image_with_text_1_2_izqxQ6",
+    "smi_video_1_2_yTYGwn",
+    "smi_featured_collection_2_1_VRwHaR",
+    "smi_collection_list_2_3_wgpCby",
+    "smi_countdown_4_4_rUjMFy",
+    "smi_logo_list_1_7_njhnqJ",
+    "smi_blog_posts_1_7_zK7AKj",
+    "smi_map_2_2_gMGNXD",
+    "smi_icon_with_text_1_2_Qjg3gt",
+    "smi_styles_19031"
+  ]
+}

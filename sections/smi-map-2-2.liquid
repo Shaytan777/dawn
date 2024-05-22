@@ -1,0 +1,720 @@
+{% style %}
+	.smi-content-settings .smi-content-max-width{width:var(--content-max-width);max-width:100%}.smi-content-settings .content-alignment-left{display:flex;flex-wrap:wrap;justify-content:flex-start;text-align:left}.smi-content-settings .content-alignment-right{display:flex;flex-wrap:wrap;justify-content:flex-end;text-align:right}.smi-content-settings .content-alignment-center{display:flex;flex-wrap:wrap;justify-content:center;text-align:center}@media screen and (min-width: 768px){.smi-content-settings .smi-content-position-left{display:flex;flex-wrap:wrap;justify-content:flex-start}.smi-content-settings .smi-content-position-right{display:flex;flex-wrap:wrap;justify-content:flex-end}.smi-content-settings .smi-content-position-center{display:flex;flex-wrap:wrap;justify-content:center}}.smi-component-blocks-text{width:100%}.smi-component-blocks-text .smi-text-75{opacity:.75}.smi-component-blocks-text p{letter-spacing:var(--body-letter-spacing-scale, 0);font-size:calc(var(--font-body-scale)*16*1px);line-height:calc((1 + .8/(var(--font-body-scale)*16/16))*var(--body-line-height-scale, 1));margin-bottom:10px}.smi-component-blocks-text p:last-child{margin-bottom:0px}.smi-component-blocks-divider{width:100%;height:1px;font-size:1px;color:rgba(0,0,0,0);background:rgba(var(--color-foreground), 0.2)}.smi-component-button-single.smi-component-buttons-full-width{width:100%}.smi-component-button-single.smi-component-buttons-full-width a.smi-button--outline,.smi-component-button-single.smi-component-buttons-full-width a.smi-button--solid{width:100%}.smi-section-map-2 .smi-align-self-center{align-self:center !important}.smi-section-map-2 .smi-heading-inner{width:100%;margin-bottom:calc(var(--spacing-elements)*24px)}@media screen and (max-width: 991.98px){.smi-section-map-2 .smi-heading-inner{max-width:100%}}.smi-section-map-2 .smi-heading-component{justify-content:var(--content-position);text-align:var(--content-alignment)}.smi-section-map-2 .smi-content-postion{justify-content:var(--content-position)}.smi-section-map-2 .smi-content-postion.smi-detail-container-fluid-no-padding{padding-right:40px}@media screen and (max-width: 767.98px){.smi-section-map-2 .smi-content-postion.smi-detail-container-fluid-no-padding{padding-right:0px}}@media screen and (max-width: 767.98px){.smi-section-map-2 .smi-content-postion{padding-left:0px;padding-right:0px}}.smi-section-map-2 .smi-heading-inner{margin-bottom:calc(var(--spacing-elements)*24px)}.smi-section-map-2 .smi-component-blocks-heading,.smi-section-map-2 .smi-component-blocks-text{display:flex;justify-content:var(--content-position);flex-direction:column;text-align:var(--content-alignment);position:relative}@media screen and (max-width: 767.98px){.smi-section-map-2 .smi-component-blocks-heading,.smi-section-map-2 .smi-component-blocks-text{display:inline-block}}.smi-section-map-2 .smi-group-bottom-direction{display:flex;justify-content:var(--content-alignment);text-align:var(--content-alignment);position:relative}.smi-section-map-2 .smi-container-content{width:var(--content-max-width);position:relative;display:inline-block;width:100%}.smi-section-map-2 .smi-container-content>div:last-child{margin-bottom:0px}@media screen and (max-width: 767.98px){.smi-section-map-2 .smi-container-content{padding-top:calc(var(--spacing-elements)*36px);padding-left:0px;padding-right:0px;padding-bottom:var(--padding-bottom-content, 0px)}}.smi-section-map-2 .smi-media-settings{height:auto}.smi-section-map-2 .smi-map-iframe{overflow:hidden;position:relative}.smi-section-map-2 .smi-map-iframe iframe{transform:none;top:0px;left:0px;right:0px;border:none;width:100% !important;height:100% !important}.smi-section-map-2 .smi-map-iframe::before{display:none}@media screen and (max-width: 767.98px){.smi-section-map-2 .smi-background-block iframe{position:inherit;height:310px !important}}.smi-section-map-2 .smi-button-wrapper{max-width:100%}.smi-section-map-2 .smi-button-wrapper .smi-button{margin-left:0px;margin-right:0px}.smi-section-map-2 .smi-button-wrapper .smi-button--solid{border:none}.smi-section-map-2 .smi-button-wrapper .smi-button--solid svg{fill:rgba(var(--color-button-text), 1);stroke:rgb(var(--color-button-text))}.smi-section-map-2 .smi-button-wrapper .smi-button--outline svg{fill:rgba(var(--color-button-text), 1);stroke:rgb(var(--color-button-text))}@media screen and (min-width: 768px){.smi-section-map-2 .smi-map-iframe .place-card.place-card-large{display:none !important}.smi-section-map-2 .smi-map-iframe iframe{height:calc(100% + 500px) !important;margin-top:-250px}}
+{% endstyle %}
+{% comment %}#component#["settings/container-width","settings/media-width","settings/media-position","settings/media-height","settings/content-settings","settings/color-scheme","settings/section-padding","blocks/color","blocks/background","settings/heading","settings/text","blocks/divider","settings/button-single","settings/design-mode","settings/animation-settings","blocks/text"]#endcomponent#{% endcomment %}
+<style>
+    {% assign colorblock = section.blocks | where: 'type', 'color' | first %}
+{% if colorblock %}
+      #shopify-section-{{ section.id }},
+      #shopify-section-{{ section.id }} .smi-color-{{ section.settings.color_scheme }},
+      .smi-block-custom-color { 
+        --color-background: {{ colorblock.settings.background_color.red }}, {{ colorblock.settings.background_color.green }},{{ colorblock.settings.background_color.blue }};        
+        {% if colorblock.settings.background_gradient_color == blank %}
+            --gradient-background: {{ colorblock.settings.background_color }};
+        {% else %}
+            --gradient-background: {{ colorblock.settings.background_gradient_color }};
+        {% endif %}
+        --color-foreground-hex: {{ colorblock.settings.text_color }};
+        --color-foreground: {{ colorblock.settings.text_color.red }}, {{ colorblock.settings.text_color.green }},{{ colorblock.settings.text_color.blue }};
+        --color-subtext: {{ colorblock.settings.subtext_color.red }},{{ colorblock.settings.subtext_color.green }},{{ colorblock.settings.subtext_color.blue }};
+        --color-button: {{ colorblock.settings.solid_background_button_color.red }}, {{ colorblock.settings.solid_background_button_color.green }},{{ colorblock.settings.solid_background_button_color.blue }};
+        --color-button-text: {{ colorblock.settings.solid_button_label_color.red }}, {{ colorblock.settings.solid_button_label_color.green }},{{ colorblock.settings.solid_button_label_color.blue }};
+        --color-secondary-button-text: {{ colorblock.settings.outline_button_color.red }}, {{ colorblock.settings.outline_button_color.green }},{{ colorblock.settings.outline_button_color.blue }};
+        --color-shadow: {{ colorblock.settings.shadow_color.red }}, {{ colorblock.settings.shadow_color.green }},{{ colorblock.settings.shadow_color.blue }};
+    }
+{% endif %}
+    #shopify-section-{{ section.id }}{
+    --section-padding-top: {{ section.settings.padding_top }}px;
+--section-padding-bottom: {{ section.settings.padding_bottom }}px;
+{% if section.settings.padding_top_section != blank or section.settings.padding_bottom_section != blank %}
+    --section-margin-top: {{ section.settings.padding_top_section }}px;
+    --section-margin-bottom: {{ section.settings.padding_bottom_section }}px;
+{% endif %}
+      --content-alignment: {{ section.settings.content_alignment }};
+      --content-position: {{ section.settings.content_position }};
+      --media-position: {{ section.settings.desktop_media_position }};
+    }
+    #smi-{{ section.id }}{
+      --section-padding-top: {{ section.settings.padding_top }}px;
+--section-padding-bottom: {{ section.settings.padding_bottom }}px;
+{% if section.settings.padding_top_section != blank or section.settings.padding_bottom_section != blank %}
+    --section-margin-top: {{ section.settings.padding_top_section }}px;
+    --section-margin-bottom: {{ section.settings.padding_bottom_section }}px;
+{% endif %}
+      --content-max-width: {{ section.settings.content_max_width }}px;
+    }
+    {% if colorblock %}
+      #smi-{{ section.id }}{
+        --content-max-width: {{ section.settings.content_max_width }}px;
+        {% if section.settings.container_full_width %}
+          --container-full-gutter : 0px;
+        {% endif %}
+          --color-background: {{ colorblock.settings.content_background_color.red }}, {{ colorblock.settings.content_background_color.green }},{{ colorblock.settings.content_background_color.blue }};
+        {% if colorblock.settings.content_background_gradient_color == blank %}
+            --gradient-background: {{ colorblock.settings.content_background_color }};
+        {% else %}
+            --gradient-background: {{ colorblock.settings.content_background_gradient_color }};
+        {% endif %}
+        --color-foreground: {{ colorblock.settings.content_text_color.red }}, {{ colorblock.settings.content_text_color.green }},{{ colorblock.settings.content_text_color.blue }};
+        --color-shadow: {{ colorblock.settings.content_shadow_color.red }}, {{ colorblock.settings.content_shadow_color.green }},{{ colorblock.settings.content_shadow_color.blue }};
+      }
+    {% endif %}
+    {% if blocks.settings.background_simple != blank %}
+      #smi-{{ section.id }}{
+        --color-background: {{ blocks.settings.background_simple }};
+      }
+    {% endif %}
+    {% if  section.settings.padding_bottom < 1 %}
+      #smi-{{ section.id }} .smi-container-content{
+        --padding-bottom-content: calc(var(--spacing-elements)*36px);
+      }
+    {% endif %}
+</style>
+{% assign google_map_iframe = section.settings.google_map_iframe | strip %}
+<div id="smi-{{ section.id }}" class="smi-{{ section.id }} smi-section__inner smi-gradient smi-section-map-2 smi-color-{{ section.settings.color_scheme }}" data-section="map-2" data-name="✧Map 2">
+     
+  <div class="smi-{{ section.settings.full_width }}">
+    {%- render 'smi-background' -%}
+    <div class="smi-d-md-flex smi-align-self-stretch {% if section.settings.desktop_media_position == 'row' %} smi-flex-row-reverse {% else %}
+			smi-flex-row
+			 {% endif %}">
+      <div class="smi-map-iframe {% if section.settings.full_width != 'container-fluid-no-padding' %} smi-media-wrapper smi-media-settings smi-border smi-shadow {% endif %} smi-w-100 smi-w-md-50 smi-w-lg-{{ section.settings.desktop_media_width }} smi-lh-0 smi-media-height-{{ section.settings.media_height }}">
+        {% if google_map_iframe != blank %}
+          {{google_map_iframe}}
+        {% endif %}
+      </div>
+      <div class="smi-map-content smi-content-postion smi-detail-{{ section.settings.full_width }} smi-d-md-flex smi-w-100 smi-w-md-50 smi-w-lg-{{ 100 | minus: section.settings.desktop_media_width }}  {% if section.settings.desktop_media_position == 'row-reverse' %}
+        smi-pl-md-xxl smi-pl-lg-xxxl smi-pl-xxxxl {% else %}
+        smi-pr-md-xxl smi-pr-lg-xxxl smi-pr-xxxxl 
+        {% endif %} ">
+        <div class="smi-align-self-center">
+            {%-liquid
+    if settings.smi_animations_reveal_on_scroll != nil
+        assign animation_scroll = settings.smi_animations_reveal_on_scroll
+    else
+        assign global_settings = shop.metafields.smind.settings.value
+        assign animation_scroll = global_settings.revealOnScroll
+    endif
+-%}
+          <div class="smi-container-content {%- if animation_scroll %} smi-scroll-trigger smi-animate--slide-in{% endif -%}">
+            {%- for block in section.blocks -%}
+              {% if block.type == 'heading' %}
+                  {%-liquid
+    if settings.smi_animations_reveal_on_scroll != nil
+        assign animation_scroll = settings.smi_animations_reveal_on_scroll
+    else
+        assign global_settings = shop.metafields.smind.settings.value
+        assign animation_scroll = global_settings.revealOnScroll
+    endif
+-%}
+<div class="smi-heading-component smi-heading-component--align-{{block.settings.heading_alignment}} smi-link-wrapper" {{- block.shopify_attributes -}}    >
+  {% liquid
+    assign heading = block.settings.heading | strip
+    assign sub_heading = block.settings.sub_heading | strip
+    assign description = block.settings.description | strip
+  %}
+  <div class="smi-heading-inner
+    {%- if animation_scroll %} smi-scroll-trigger smi-animate--slide-in{% endif -%}
+    {%- if heading != blank or sub_heading != blank or description != blank %} smi-mb-xxl{% endif -%}
+    ">
+        {%- assign sub_heading = block.settings.sub_heading | strip -%}
+{% if sub_heading != blank %}
+    <p class="smi-text-sub smi-mb-xxs smi-heading-component__subheading" data-type="subheading" data-key="s.subheading">{{- sub_heading -}}</p>
+{% endif %} 
+        {%- assign description = block.settings.description | strip -%}
+{%- assign heading = block.settings.heading | strip -%}
+{% if heading != blank %}
+    <h2 class="{{ block.settings.heading_size }} {% if description != blank %}smi-mb-sm{% endif %} smi-heading-component__heading" data-type="heading" data-key="s.heading">{{- heading -}}</h2>
+{% endif %} 
+        {%- assign description = block.settings.description | strip -%}
+{% if description != blank %}
+    <div class="smi-text-md smi-heading-component__description" data-type="description" data-key="s.description">{{ description }}</div>
+{% endif %}
+    </div>
+</div>
+              {% endif %}
+              {% if block.type == 'text' %}
+                  <div class="smi-component-blocks-text smi-text-md smi-mb-lg" {{- block.shopify_attributes -}}>
+    <div class="smi-text-75">{{ block.settings.text }}</div>
+</div>
+              {% endif %}
+              {% if block.type == 'divider' %}
+                  <div class="smi-component-blocks-divider smi-mb-lg">
+    divider
+</div>
+              {% endif %}
+              {% if block.type == 'button' %}
+                  <div class="smi-group-bottom-direction smi-mb-lg">
+                    {% liquid
+    assign button_label = block.settings.button_label
+    assign button_style = block.settings.button_style
+    assign button_link = block.settings.button_link
+%}
+{% if button_label != blank %}
+    <div class="smi-component-button-single smi-button-wrapper
+        {%- if block.settings.button_full_width == true %} {%unless button_style contains 'text'%}smi-component-buttons-full-width{% endunless %}{%- endif -%}
+    "  {{- block.shopify_attributes -}}>
+        {% if button_label != blank %}
+            {% assign button_hover_animation = settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none'  %}
+            <a {% if button_link != blank %}href="{{ button_link }}"{% endif %} class="smi-button smi-text-button smi-button--{{ button_style | split: '_' | first -}}
+            {%- if button_style contains 'arrow' %} smi-has-icon{% endif %}
+            {{- ' smi-hover-' | append: button_hover_animation -}}
+            {{- ' smi-border smi-shadow' -}}">
+                    <span>
+                        {{- button_label | escape -}}
+                    </span>
+                    {% if button_style contains 'arrow' %}
+                        <div class="smi-d-flex smi-align-content-center">
+                            {% render 'smi-icons', icon: 'arrow-right-2' %}
+                        </div>
+                    {% endif %}
+            </a>
+        {% endif %}
+    </div>
+{% endif %}
+                  </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+	"name": "✧✧Map 2-2",
+	"tag": "section",
+	"class": "smi-section smi-map-2",
+	"settings": [
+		{
+			"type": "select",
+			"id": "full_width",
+			"label": "Layout",
+			"options": [
+				{
+					"value": "container",
+					"label": "Boxed"
+				},
+				{
+					"value": "container-fluid",
+					"label": "Full width"
+				},
+				{
+					"value": "container-fluid-no-padding",
+					"label": "Full width(no padding)"
+				}
+			],
+			"default": "container"
+		},
+		{
+			"type": "html",
+			"id": "google_map_iframe",
+			"label": "Google maps iframe source",
+			"default": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.590606359831!2d105.7630195759982!3d21.009041688454115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134535bad767b7d%3A0x90e371a9122cd564!2zQ8O0bmcgVHkgQ-G7lSBQaOG6p24gU2hpbmVjb21tZXJjZQ!5e0!3m2!1sen!2s!4v1701162034590!5m2!1sen!2s' width='600' height='450' style='border:0;' allowfullscreen=' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+		},
+		{
+			"type": "paragraph",
+			"content": "How to get Google maps iframe.[Learn more](https://docs.smind.io/guides/getting-google-maps-iframe)."
+		},
+		{
+			"type": "select",
+			"id": "desktop_media_width",
+			"label": "Desktop media width",
+			"options": [
+				{
+					"value": "40",
+					"label": "S"
+				},
+				{
+					"value": "50",
+					"label": "M"
+				},
+				{
+					"value": "60",
+					"label": "L"
+				}
+			],
+			"default": "50"
+		},
+		{
+			"type": "select",
+			"id": "desktop_media_position",
+			"label": "Desktop media position",
+			"options": [
+				{
+					"value": "row-reverse",
+					"label": "Left"
+				},
+				{
+					"value": "row",
+					"label": "Right"
+				}
+			],
+			"default": "row"
+		},
+		{
+			"type": "select",
+			"id": "media_height",
+			"label": "Media height",
+			"options": [
+				{
+					"value": "xxs-small",
+					"label": "XXS"
+				},
+				{
+					"value": "x-small",
+					"label": "XS"
+				},
+				{
+					"value": "small",
+					"label": "S"
+				},
+				{
+					"value": "medium",
+					"label": "M"
+				},
+				{
+					"value": "large",
+					"label": "L"
+				}
+			],
+			"default": "medium"
+		},
+		{
+			"type": "header",
+			"content": "Content settings"
+		},
+		{
+			"type": "select",
+			"id": "content_position",
+			"label": "Content position",
+			"options": [
+				{
+					"value": "left",
+					"label": "Left"
+				},
+				{
+					"value": "center",
+					"label": "Center"
+				},
+				{
+					"value": "right",
+					"label": "Right"
+				}
+			],
+			"default": "left"
+		},
+		{
+			"type": "text_alignment",
+			"id": "content_alignment",
+			"label": "Content alignment",
+			"default": "left"
+		},
+		{
+			"type": "range",
+			"id": "content_max_width",
+			"min": 300,
+			"max": 1200,
+			"step": 10,
+			"unit": "px",
+			"label": "Content max-width",
+			"default": 700
+		},
+		{
+			"type": "header",
+			"content": "Color"
+		},
+		{
+			"type": "select",
+            "options": [
+                {
+                    "value": "scheme_1",
+                    "label": "Scheme 1"
+                },
+                {
+                    "value": "scheme_2",
+                    "label": "Scheme 2"
+                },
+                {
+                    "value": "scheme_3",
+                    "label": "Scheme 3"
+                },
+                {
+                    "value": "scheme_4",
+                    "label": "Scheme 4"
+                },
+                {
+                    "value": "scheme_5",
+                    "label": "Scheme 5"
+                },
+                {
+                    "value": "scheme_6",
+                    "label": "Scheme 6"
+                },
+                {
+                    "value": "scheme_7",
+                    "label": "Scheme 7"
+                },
+                {
+                    "value": "scheme_8",
+                    "label": "Scheme 8"
+                },
+                {
+                    "value": "scheme_9",
+                    "label": "Scheme 9"
+                },
+                {
+                    "value": "scheme_10",
+                    "label": "Scheme 10"
+                }
+            ],
+			"id": "color_scheme",
+			"label": "Color Scheme",
+			"info": "To use color scheme: Step 1: Hide color block in section. Step 2: Customize colors in color block of “✧Styles” section in global area. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme)"
+		},
+		{
+			"type": "header",
+			"content": "Section padding"
+		},
+		{
+			"type": "range",
+			"id": "padding_top",
+			"min": 0,
+			"max": 200,
+			"step": 2,
+			"unit": "px",
+			"label": "Top padding",
+			"default": 50
+		},
+		{
+			"type": "range",
+			"id": "padding_bottom",
+			"min": 0,
+			"max": 200,
+			"step": 2,
+			"unit": "px",
+			"label": "Bottom padding",
+			"default": 50
+		}
+	],
+	"blocks": [
+		{
+			"name": "Color",
+			"limit": 1,
+			"type": "color",
+			"settings": [
+				{
+					"type": "paragraph",
+					"content": "How to use “Color block” and “Color scheme”. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme#how-to-use-the-color-block)"
+				},
+				{
+					"type": "color",
+					"id": "background_color",
+					"default": "#F3F3F3",
+					"label": "Background"
+				},
+				{
+					"type": "color_background",
+					"id": "background_gradient_color",
+					"label": "Background gradient",
+					"info": "Background gradient replaces background where possible."
+				},
+				{
+					"type": "color",
+					"id": "text_color",
+					"default": "#121212",
+					"label": "Text"
+				},
+				{
+					"type": "color",
+					"id": "subtext_color",
+					"default": "#121212",
+					"label": "Subtext"
+				},
+				{
+					"type": "color",
+					"id": "solid_background_button_color",
+					"default": "#121212",
+					"label": "Solid button background"
+				},
+				{
+					"type": "color",
+					"id": "solid_button_label_color",
+					"default": "#FFFFFF",
+					"label": "Solid button label"
+				},
+				{
+					"type": "color",
+					"id": "outline_button_color",
+					"default": "#121212",
+					"label": "Outline buttton"
+				},
+				{
+					"type": "color",
+					"id": "shadow_color",
+					"default": "#121212",
+					"label": "Shadow"
+				}
+			]
+		},
+		{
+			"name": "Background",
+			"limit": 1,
+			"type": "background",
+			"settings": [
+				{
+					"type": "color",
+					"id": "background_simple",
+					"label": "Background section"
+				},
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_mobile",
+					"label": "Mobile image (optional)"
+				},
+				{
+					"type": "select",
+					"id": "animation",
+					"label": "Image animation",
+					"options": [
+						{
+							"label": "None",
+							"value": "none"
+						},
+						{
+							"label": "Ambient movement",
+							"value": "ambient_movement"
+						},
+						{
+							"label": "Parallax",
+							"value": "parallax"
+						}
+					],
+					"default": "none"
+				},
+				{
+					"type": "header",
+					"content": "Video background"
+				},
+				{
+					"type": "video",
+					"id": "video",
+					"label": "Upload video"
+				},
+				{
+					"type": "video_url",
+					"id": "video_url",
+					"label": "Video URL",
+					"accept": [
+						"youtube",
+						"vimeo"
+					]
+				},
+				{
+					"type": "color_background",
+					"id": "background_overlay",
+					"label": "Overlay background"
+				}
+			]
+		},
+		{
+			"type": "heading",
+			"name": "Heading",
+			"settings": [
+				{
+					"type": "inline_richtext",
+					"id": "sub_heading",
+					"label": "Subheading",
+					"default": "URNA CRAS MAURIS"
+				},
+				{
+					"type": "inline_richtext",
+					"id": "heading",
+					"label": "Heading",
+					"default": "Happy Customers Say"
+				},
+				{
+					"type": "select",
+					"id": "heading_size",
+					"label": "Heading size",
+					"options": [
+						{
+							"value": "smi-h4",
+							"label": "XS"
+						},
+						{
+							"value": "smi-h3",
+							"label": "S"
+						},
+						{
+							"value": "smi-h2",
+							"label": "M"
+						},
+						{
+							"value": "smi-h1",
+							"label": "L"
+						}
+					],
+					"default": "smi-h2"
+				},
+				{
+					"type": "richtext",
+					"id": "description",
+					"label": "Description",
+					"default": "<p>Commodo lorem morbi aliquam dui turpis. Iaculis pretium posuere nulla tincidunt blandit. A at elementum faucibus integer.</p>"
+				}
+			]
+		},
+		{
+			"name": "Text",
+			"type": "text",
+			"settings": [
+				{
+					"type": "richtext",
+					"id": "text",
+					"label": "Content",
+					"default": "<p>Text</p>"
+				}
+			]
+		},
+		{
+			"type": "divider",
+			"name": "Divider",
+			"settings": [
+				{
+					"type": "paragraph",
+					"content": "No customizable settings available."
+				}
+			]
+		},
+		{
+			"name": "Button",
+			"type": "button",
+			"settings": [
+				{
+					"type": "header",
+					"content": "Button"
+				},
+				{
+					"type": "text",
+					"id": "button_label",
+					"label": "Button label",
+					"default": "Button label",
+					"info": "Leave the label blank to hide the button."
+				},
+				{
+					"type": "url",
+					"id": "button_link",
+					"label": "Button link"
+				},
+				{
+					"type": "select",
+					"id": "button_style",
+					"label": "Button style",
+					"options": [
+						{
+							"value": "solid",
+							"label": "Solid"
+						},
+						{
+							"value": "solid_arrow",
+							"label": "Solid & arrow"
+						},
+						{
+							"value": "outline",
+							"label": "Outline"
+						},
+						{
+							"value": "outline_arrow",
+							"label": "Outline & arrow"
+						},
+						{
+							"value": "text",
+							"label": "Text"
+						},
+						{
+							"value": "text_arrow",
+							"label": "Text & arrow"
+						}
+					],
+					"default": "solid"
+				},
+				{
+					"type": "checkbox",
+					"id": "button_full_width",
+					"label": "Button full-width",
+					"default": false
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "✧Map 2-2",
+			"settings": {
+				"full_width": "container",
+				"google_map_iframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39033.190135142555!2d-3.0132292505715927!3d53.41943377994148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b27f8ea594315%3A0xdcf3ab2868d943d0!2sEureka*21%20Science%20%2B%20Discovery!5e0!3m2!1svi!2s!4v1701230246738!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+				"desktop_media_width": "50",
+				"desktop_media_position": "row-reverse",
+				"media_height": "medium",
+				"content_position": "center",
+				"content_alignment": "left",
+				"content_max_width": 570,
+				"padding_top": 50,
+				"padding_bottom": 50,
+				"color_scheme": "scheme_1"
+			},
+			"blocks": [
+				{
+					"type": "heading",
+					"settings": {
+						"sub_heading": "OUR STORE",
+						"heading": "Find our store",
+						"heading_size": "smi-h2",
+						"description": ""
+					}
+				},
+				{
+					"type": "text",
+					"settings": {
+						"text": "<p><strong>Address<br/></strong>PO Box 1622 Vissa Sang Street West, New York<br/>(+84)-0123-456-789</p><p><strong>Time<br/></strong>Monday - Friday : 8.00am - 5.00pm<br/>Saturday : 9.30am - 3.00pm<br/>Sunday : Closed</p><p></p><p></p><p></p><p></p>"
+					}
+				},
+				{
+					"type": "button",
+					"settings": {
+						"button_label": "Get directions",
+						"button_link": null,
+						"button_style": "solid_arrow",
+						"button_full_width": false
+					}
+				},
+				{
+					"type": "color",
+					"settings": {
+						"background_color": "#ffffff",
+						"background_gradient_color": "",
+						"text_color": "#000000",
+						"subtext_color": "#000000",
+						"solid_background_button_color": "#000000",
+						"solid_button_label_color": "#ffffff",
+						"outline_button_color": "#000000",
+						"shadow_color": "#000000"
+					}
+				}
+			]
+		}
+	]
+}
+{% endschema %}
+<script defer>
+
+;
+
+</script>
