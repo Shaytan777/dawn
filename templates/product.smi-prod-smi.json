@@ -6,7 +6,7 @@
         "smi-block-item-0": {
           "type": "product_breadcrumb",
           "settings": {
-            "breadcrumb_top": false
+            "breadcrumb_top": true
           }
         },
         "smi-block-item-1": {
