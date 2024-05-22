@@ -15,13 +15,13 @@
             "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "Start Shopping",
-            "second_button_link": "",
+            "second_button_link": "shopify:\/\/collections\/gear-garments",
             "second_button_style": "outline",
             "desktop_content_position": "end_start",
             "desktop_content_alignment": "left",
             "mobile_content_alignment": "center",
             "content_max_width": 540,
-            "content_background_opacity": 0,
+            "content_background_opacity": 20,
             "image_overlay": "linear-gradient(0deg, rgba(96, 99, 255, 0) 85%, rgba(37, 1, 70, 0.37) 100%)"
           }
         },
