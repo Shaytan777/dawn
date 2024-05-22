@@ -36,9 +36,9 @@
       "settings": {
         "enable_sticky_bar": true,
         "scroll_direction": "ltr",
-        "scrolling_speed": 3,
+        "scrolling_speed": 5,
         "gap_between_content": 80,
-        "color_scheme": "scheme_4",
+        "color_scheme": "scheme_1",
         "padding_top": 10,
         "padding_bottom": 10
       }
@@ -110,7 +110,7 @@
             "icon_bg": "",
             "heading": "Free shipping",
             "heading_size": "smi-h4",
-            "content": "<p>We strive to get your purchases to your doorstep<\/p>",
+            "content": "",
             "button_label": "",
             "link1": ""
           }
@@ -123,7 +123,7 @@
             "icon_bg": "",
             "heading": "Free returns",
             "heading_size": "smi-h4",
-            "content": "<p>We offer a straightforward return policy to ensure that<\/p>",
+            "content": "",
             "button_label": "",
             "link1": ""
           }
@@ -136,7 +136,7 @@
             "icon_bg": "",
             "heading": "Quality guarantee",
             "heading_size": "smi-h4",
-            "content": "<p>We're committed to providing you with high-quality goods<\/p>",
+            "content": "",
             "button_label": "",
             "link1": ""
           }
@@ -160,8 +160,8 @@
         "enable_swipe_on_mobile": false,
         "icon_position": "left",
         "color_scheme": "scheme_4",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "image-hero-1-2-3": {
