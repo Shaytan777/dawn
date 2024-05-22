@@ -1,105 +1,6 @@
 {
   "sections": {
-    "announcement-bar-2-4-0": {
-      "type": "smi-announcement-bar-2-4",
-      "blocks": {
-        "smi-block-item-0": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": 24,
-            "content": "<p>Free shipping for all order over $100<\/p>"
-          }
-        },
-        "smi-block-item-1": {
-          "type": "announcement",
-          "settings": {
-            "icon": "time",
-            "icon_size": 24,
-            "content": "<p>Holiday sale alert: Up to 50% off select items - <a href=\"#\" title=\"#\">Shop now!<\/a><\/p>"
-          }
-        },
-        "smi-block-item-2": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": 24,
-            "content": "<p>New: Explore our collection in collaboration with Kayle Swart<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "smi-block-item-0",
-        "smi-block-item-1",
-        "smi-block-item-2"
-      ],
-      "settings": {
-        "enable_sticky_bar": true,
-        "scroll_direction": "ltr",
-        "scrolling_speed": 5,
-        "gap_between_content": 80,
-        "color_scheme": "scheme_1",
-        "padding_top": 10,
-        "padding_bottom": 10
-      }
-    },
-    "header-1-8-1": {
-      "type": "smi-header-1-8",
-      "blocks": {
-        "smi-block-item-0": {
-          "type": "header_search",
-          "settings": {
-            "enable_recent": true,
-            "search_keywords": "Shoes, Winter, Coats, Women, Kids",
-            "product_list": [
-
-            ],
-            "media_ratio": "1\/1",
-            "media_shape": "default",
-            "content_alignment": "left",
-            "show_second_image": true,
-            "show_vendor": false,
-            "show_swatch_color": false
-          }
-        },
-        "smi-block-item-1": {
-          "type": "mega_collection",
-          "settings": {
-            "menu_item": "product",
-            "number_column": "5",
-            "collection_list": [
-
-            ]
-          }
-        }
-      },
-      "block_order": [
-        "smi-block-item-0",
-        "smi-block-item-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "show_divider": true,
-        "show_shadow": false,
-        "logo": "shopify:\/\/shop_images\/MAMZOO-LOGO-STROKED_tnd.png",
-        "logo_width": 100,
-        "mobile_logo_width": 60,
-        "menu": "mega-menu-1",
-        "header_style": "classic",
-        "desktop_layout": "logo_middle_left",
-        "mobile_layout": "logo_center",
-        "sticky_header": "always",
-        "enable_language": true,
-        "enable_country": true,
-        "enable_account": true,
-        "color_scheme": "scheme_1",
-        "transparent_color_scheme": "scheme_1",
-        "product_color_scheme": "scheme_1",
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
-    },
-    "icon-with-text-1-8-2": {
+    "icon-with-text-1-8-0": {
       "type": "smi-icon-with-text-1-8",
       "blocks": {
         "smi-block-item-0": {
@@ -110,9 +11,8 @@
             "icon_bg": "",
             "heading": "Free shipping",
             "heading_size": "smi-h4",
-            "content": "",
-            "button_label": "",
-            "link1": ""
+            "content": "<p>We strive to get your purchases to your doorstep<\/p>",
+            "button_label": ""
           }
         },
         "smi-block-item-1": {
@@ -123,9 +23,8 @@
             "icon_bg": "",
             "heading": "Free returns",
             "heading_size": "smi-h4",
-            "content": "",
-            "button_label": "",
-            "link1": ""
+            "content": "<p>We offer a straightforward return policy to ensure that<\/p>",
+            "button_label": ""
           }
         },
         "smi-block-item-2": {
@@ -136,9 +35,8 @@
             "icon_bg": "",
             "heading": "Quality guarantee",
             "heading_size": "smi-h4",
-            "content": "",
-            "button_label": "",
-            "link1": ""
+            "content": "<p>We're committed to providing you with high-quality goods<\/p>",
+            "button_label": ""
           }
         }
       },
@@ -160,28 +58,26 @@
         "enable_swipe_on_mobile": false,
         "icon_position": "left",
         "color_scheme": "scheme_4",
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
-    "image-hero-1-2-3": {
+    "image-hero-1-2-1": {
       "type": "smi-image-hero-1-2",
       "settings": {
         "container_full_width": false,
-        "image": "shopify:\/\/shop_images\/dog-leashes-202408.webp",
-        "hero_height": "large",
+        "image": "shopify:\/\/shop_images\/smi-image_4.jpg",
+        "hero_height": "medium",
         "subheading": "",
         "heading": "Discover latest trends",
         "heading_size": "smi-h1",
         "description": "From cozy winter wear to breezy summer outfits",
         "first_button_label": "Explore more",
-        "first_button_link": "",
         "first_button_style": "solid",
         "second_button_label": "Shop now",
-        "second_button_link": "",
         "second_button_style": "outline",
-        "desktop_content_position": "center_start",
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "end_center",
+        "desktop_content_alignment": "center",
         "mobile_content_alignment": "center",
         "content_max_width": 540,
         "content_background_opacity": 0,
@@ -189,83 +85,77 @@
         "image_overlay": "linear-gradient(180deg, rgba(53, 27, 1, 0.1882), rgba(53, 27, 1, 0.1882) 100%)"
       }
     },
-    "collection-list-1-7-4": {
+    "collection-list-1-7-2": {
       "type": "smi-collection-list-1-7",
       "blocks": {
         "smi-block-item-0": {
           "type": "collection",
           "settings": {
-            "collection": "dog-beds-pads",
+            "collection": "midi-dresses-1",
             "subheading": "",
-            "heading": "",
+            "heading": "Midi dresses",
             "heading_size": "smi-h4",
-            "description": "",
-            "link": "",
+            "description": "17 Items",
             "button_label": "",
             "button_style": "text"
           }
         },
-        "collection_FnghJp": {
+        "smi-block-item-1": {
           "type": "collection",
           "settings": {
-            "collection": "carriers",
+            "collection": "bag-1",
             "subheading": "",
-            "heading": "",
+            "heading": "Bag",
             "heading_size": "smi-h4",
-            "description": "",
-            "link": "",
+            "description": "15 Items",
             "button_label": "",
             "button_style": "text"
           }
         },
-        "collection_geKk9Q": {
+        "smi-block-item-2": {
           "type": "collection",
           "settings": {
-            "collection": "dog-beds-pads",
+            "collection": "ballet",
             "subheading": "",
             "heading": "",
             "heading_size": "smi-h4",
-            "description": "",
-            "link": "",
+            "description": "6 Items",
+            "button_label": "",
+            "button_style": "solid"
+          }
+        },
+        "smi-block-item-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "cardigan",
+            "subheading": "",
+            "heading": "Cardigan",
+            "heading_size": "smi-h4",
+            "description": "20 Items",
             "button_label": "",
             "button_style": "text"
           }
         },
-        "collection_9Q6pmE": {
+        "smi-block-item-4": {
           "type": "collection",
           "settings": {
-            "collection": "dog-beds-pads",
+            "collection": "dress-shirts",
             "subheading": "",
-            "heading": "",
+            "heading": "Dress shrits",
             "heading_size": "smi-h4",
-            "description": "",
-            "link": "",
+            "description": "10 Items",
             "button_label": "",
             "button_style": "text"
           }
         },
-        "collection_EqtEHx": {
+        "smi-block-item-5": {
           "type": "collection",
           "settings": {
-            "collection": "dog-beds-pads",
+            "collection": "jacket-1",
             "subheading": "",
-            "heading": "",
+            "heading": "Jackets",
             "heading_size": "smi-h4",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_style": "text"
-          }
-        },
-        "collection_EmwCtE": {
-          "type": "collection",
-          "settings": {
-            "collection": "dog-beds-pads",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "smi-h4",
-            "description": "",
-            "link": "",
+            "description": "18 Items",
             "button_label": "",
             "button_style": "text"
           }
@@ -273,11 +163,11 @@
       },
       "block_order": [
         "smi-block-item-0",
-        "collection_FnghJp",
-        "collection_geKk9Q",
-        "collection_9Q6pmE",
-        "collection_EqtEHx",
-        "collection_EmwCtE"
+        "smi-block-item-1",
+        "smi-block-item-2",
+        "smi-block-item-3",
+        "smi-block-item-4",
+        "smi-block-item-5"
       ],
       "settings": {
         "container_full_width": true,
@@ -301,7 +191,7 @@
         "padding_bottom": 50
       }
     },
-    "comparison-table-1-2-5": {
+    "comparison-table-1-2-3": {
       "type": "smi-comparison-table-1-2",
       "blocks": {
         "smi-block-item-0": {
@@ -389,7 +279,7 @@
         "padding_bottom": 50
       }
     },
-    "testimonial-1-7-6": {
+    "testimonial-1-7-4": {
       "type": "smi-testimonial-1-7",
       "blocks": {
         "smi-block-item-0": {
@@ -512,7 +402,7 @@
         "padding_bottom": 50
       }
     },
-    "blog-posts-1-7-7": {
+    "blog-posts-1-7-5": {
       "type": "smi-blog-posts-1-7",
       "settings": {
         "container_full_width": true,
@@ -546,7 +436,7 @@
         "padding_bottom": 50
       }
     },
-    "cart-drawer-1-1-8": {
+    "cart-drawer-1-1-6": {
       "type": "smi-cart-drawer-1-1",
       "blocks": {
         "smi-block-item-0": {
@@ -566,7 +456,7 @@
         "color_scheme": "scheme_2"
       }
     },
-    "collapsible-content-1-1-9": {
+    "collapsible-content-1-1-7": {
       "type": "smi-collapsible-content-1-1",
       "blocks": {
         "smi-block-item-0": {
@@ -679,10 +569,8 @@
           "type": "button",
           "settings": {
             "first_button_label": "View all faq",
-            "first_button_link": "",
             "first_button_style": "solid_arrow",
             "second_button_label": "",
-            "second_button_link": "",
             "second_button_style": "solid",
             "button_full_width": false
           }
@@ -717,7 +605,7 @@
         "padding_bottom": 50
       }
     },
-    "image-with-text-4-7-10": {
+    "image-with-text-4-7-8": {
       "type": "smi-image-with-text-4-7",
       "blocks": {
         "smi-block-item-0": {
@@ -733,10 +621,8 @@
           "type": "button",
           "settings": {
             "first_button_label": "Learn more",
-            "first_button_link": "",
             "first_button_style": "outline",
             "second_button_label": "Shop now",
-            "second_button_link": "",
             "second_button_style": "solid",
             "button_full_width": false
           }
@@ -760,56 +646,56 @@
         "padding_bottom": 0
       }
     },
-    "logo-list-4-1-11": {
+    "logo-list-4-1-9": {
       "type": "smi-logo-list-4-1",
       "blocks": {
         "smi-block-item-0": {
           "type": "logo",
           "settings": {
-            "logo_width": 160,
-            "link": ""
+            "image": "shopify:\/\/shop_images\/smi-smi_logo_classic_01.jpg",
+            "logo_width": 160
           }
         },
         "smi-block-item-1": {
           "type": "logo",
           "settings": {
-            "logo_width": 160,
-            "link": ""
+            "image": "shopify:\/\/shop_images\/smi-smi_logo_classic_06.jpg",
+            "logo_width": 160
           }
         },
         "smi-block-item-2": {
           "type": "logo",
           "settings": {
-            "logo_width": 160,
-            "link": ""
+            "image": "shopify:\/\/shop_images\/smi-smi_logo_classic_03.jpg",
+            "logo_width": 160
           }
         },
         "smi-block-item-3": {
           "type": "logo",
           "settings": {
-            "logo_width": 160,
-            "link": ""
+            "image": "shopify:\/\/shop_images\/smi-smi_logo_classic_04.jpg",
+            "logo_width": 160
           }
         },
         "smi-block-item-4": {
           "type": "logo",
           "settings": {
-            "logo_width": 160,
-            "link": ""
+            "image": "shopify:\/\/shop_images\/smi-smi_logo_modern_02.jpg",
+            "logo_width": 160
           }
         },
         "smi-block-item-5": {
           "type": "logo",
           "settings": {
-            "logo_width": 160,
-            "link": ""
+            "image": "shopify:\/\/shop_images\/smi-smi_logo_modern_03.jpg",
+            "logo_width": 160
           }
         },
         "smi-block-item-6": {
           "type": "logo",
           "settings": {
-            "logo_width": 160,
-            "link": ""
+            "image": "shopify:\/\/shop_images\/smi-smi_logo_classic_01.jpg",
+            "logo_width": 160
           }
         }
       },
@@ -841,7 +727,7 @@
         "padding_bottom": 50
       }
     },
-    "rich-content-1-5-12": {
+    "rich-content-1-5-10": {
       "type": "smi-rich-content-1-5",
       "blocks": {
         "smi-block-item-0": {
@@ -896,10 +782,8 @@
           "type": "button",
           "settings": {
             "first_button_label": "Learn more",
-            "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "Shop now",
-            "second_button_link": "",
             "second_button_style": "outline",
             "button_full_width": false
           }
@@ -927,7 +811,7 @@
         "padding_bottom": 50
       }
     },
-    "slideshow-2-3-13": {
+    "slideshow-2-3-11": {
       "type": "smi-slideshow-2-3",
       "blocks": {
         "smi-block-item-0": {
@@ -939,10 +823,8 @@
             "heading_size": "smi-h1",
             "description": "Each element of the suit is carefully designed to empower the wearer, whether navigating the boardroom.",
             "first_button_label": "Explore all",
-            "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "",
-            "second_button_link": "",
             "second_button_style": "outline"
           }
         },
@@ -955,10 +837,8 @@
             "heading_size": "smi-h1",
             "description": "From cozy winter wear to breezy summer outfits, explore versatile fashion choices that adapt to the changing seasons.",
             "first_button_label": "Shop now",
-            "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "",
-            "second_button_link": "",
             "second_button_style": "outline"
           }
         },
@@ -971,10 +851,8 @@
             "heading_size": "smi-h1",
             "description": "Indulge in the perfect blend of sophistication and comfort in designs tailored for those who appreciate timeless style.",
             "first_button_label": "Shop product",
-            "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "",
-            "second_button_link": "",
             "second_button_style": "outline"
           }
         }
@@ -1001,7 +879,7 @@
         "padding_bottom": 0
       }
     },
-    "shop-the-look-1-2-14": {
+    "shop-the-look-1-2-12": {
       "type": "smi-shop-the-look-1-2",
       "blocks": {
         "smi-block-item-0": {
@@ -1097,7 +975,7 @@
         "padding_bottom": 50
       }
     },
-    "scrolling-text-1-3-15": {
+    "scrolling-text-1-3-13": {
       "type": "smi-scrolling-text-1-3",
       "blocks": {
         "smi-block-item-0": {
@@ -1124,7 +1002,7 @@
         "padding_bottom": 20
       }
     },
-    "featured-product-1-1-16": {
+    "featured-product-1-1-14": {
       "type": "smi-featured-product-1-1",
       "blocks": {
         "smi-block-item-0": {
@@ -1257,7 +1135,7 @@
         "padding_bottom": 50
       }
     },
-    "email-signup-2-5-17": {
+    "email-signup-2-5-15": {
       "type": "smi-email-signup-2-5",
       "blocks": {
         "smi-block-item-0": {
@@ -1282,7 +1160,7 @@
         "padding_bottom": 50
       }
     },
-    "footer-1-5-18": {
+    "footer-1-5-16": {
       "type": "smi-footer-1-5",
       "blocks": {
         "smi-block-item-0": {
@@ -1290,9 +1168,9 @@
           "settings": {
             "heading": "",
             "heading_size": "smi-h5",
+            "text_image": "shopify:\/\/shop_images\/smi-logo.jpg",
             "image_width": 130,
             "use_media_setting": false,
-            "img_link": "",
             "content": "",
             "enable_collapsible_content_on_mobile": false
           }
@@ -1301,7 +1179,7 @@
           "type": "menu",
           "settings": {
             "heading": "Shop",
-            "menu": "",
+            "menu": "menu-2",
             "enable_collapsible_content_on_mobile": true
           }
         },
@@ -1309,7 +1187,7 @@
           "type": "menu",
           "settings": {
             "heading": "About",
-            "menu": "",
+            "menu": "menu-1",
             "enable_collapsible_content_on_mobile": true
           }
         },
@@ -1317,7 +1195,7 @@
           "type": "menu",
           "settings": {
             "heading": "Support",
-            "menu": "",
+            "menu": "menu-3",
             "enable_collapsible_content_on_mobile": true
           }
         },
@@ -1354,7 +1232,7 @@
         "padding_bottom": 50
       }
     },
-    "featured-collection-4-2-19": {
+    "featured-collection-4-2-17": {
       "type": "smi-featured-collection-4-2",
       "blocks": {
         "smi-block-item-0": {
@@ -1412,7 +1290,7 @@
         "padding_bottom": 50
       }
     },
-    "countdown-5-5-20": {
+    "countdown-5-5-18": {
       "type": "smi-countdown-5-5",
       "blocks": {
         "smi-block-item-0": {
@@ -1437,7 +1315,6 @@
           "type": "button",
           "settings": {
             "button_label": "Shop now",
-            "button_link": "",
             "button_style": "solid"
           }
         }
@@ -1450,18 +1327,18 @@
       "settings": {
         "full_width": false,
         "content_alignment": "center",
-        "color_scheme": "scheme_1",
         "padding_top": 50,
         "padding_bottom": 50
       }
     },
-    "rich-text-1-7-21": {
+    "rich-text-1-7-19": {
       "type": "smi-rich-text-1-7",
       "blocks": {
         "smi-block-item-0": {
           "type": "image",
           "settings": {
             "heading": "",
+            "upload_checkout": "shopify:\/\/shop_images\/smi-smi-clothing-36.jpg",
             "image_width": 670,
             "use_media_settings": false
           }
@@ -1479,10 +1356,8 @@
           "type": "button",
           "settings": {
             "first_button_label": "Learn more",
-            "first_button_link": "",
             "first_button_style": "outline_arrow",
             "second_button_label": "",
-            "second_button_link": "",
             "second_button_style": "text",
             "button_full_width": false
           }
@@ -1707,10 +1582,10 @@
           "type": "product_badges",
           "settings": {
             "badge_corner_radius": 40,
-            "sale_badge_background_color": "#d01717",
-            "sale_badge_text_color": "#ffffff",
-            "sold_out_badge_background_color": "#8c8c8c",
-            "sold_out_badge_text_color": "#ffffff"
+            "sale_badge_background_color": "#D01717",
+            "sale_badge_text_color": "#FFFFFF",
+            "sold_out_badge_background_color": "#8C8C8C",
+            "sold_out_badge_text_color": "#FFFFFF"
           }
         },
         "blog_cards-10": {
@@ -1776,29 +1651,26 @@
     }
   },
   "order": [
-    "announcement-bar-2-4-0",
-    "header-1-8-1",
-    "icon-with-text-1-8-2",
-    "image-hero-1-2-3",
-    "collection-list-1-7-4",
-    "comparison-table-1-2-5",
-    "testimonial-1-7-6",
-    "blog-posts-1-7-7",
-    "cart-drawer-1-1-8",
-    "collapsible-content-1-1-9",
-    "image-with-text-4-7-10",
-    "logo-list-4-1-11",
-    "rich-content-1-5-12",
-    "slideshow-2-3-13",
-    "shop-the-look-1-2-14",
-    "scrolling-text-1-3-15",
-    "featured-product-1-1-16",
-    "email-signup-2-5-17",
-    "footer-1-5-18",
-    "featured-collection-4-2-19",
-    "countdown-5-5-20",
-    "rich-text-1-7-21",
+    "icon-with-text-1-8-0",
+    "image-hero-1-2-1",
+    "collection-list-1-7-2",
+    "comparison-table-1-2-3",
+    "testimonial-1-7-4",
+    "blog-posts-1-7-5",
+    "cart-drawer-1-1-6",
+    "collapsible-content-1-1-7",
+    "image-with-text-4-7-8",
+    "logo-list-4-1-9",
+    "rich-content-1-5-10",
+    "slideshow-2-3-11",
+    "shop-the-look-1-2-12",
+    "scrolling-text-1-3-13",
+    "featured-product-1-1-14",
+    "email-signup-2-5-15",
+    "footer-1-5-16",
+    "featured-collection-4-2-17",
+    "countdown-5-5-18",
+    "rich-text-1-7-19",
     "smi_styles_19031"
-  ],
-  "layout": "theme.smi-none-2"
+  ]
 }
