@@ -29,8 +29,8 @@
             "text_color3": "#ffffff",
             "subtext_color3": "#ffffff",
             "solid_background_button_color3": "#f45902",
-            "solid_button_label_color3": "#f27900",
-            "outline_button_color3": "#ffffff",
+            "solid_button_label_color3": "#fff",
+            "outline_button_color3": "#fff",
             "shadow_color3": "#ffffff",
             "background_color4": "#000000",
             "background_gradient_color4": "",
@@ -93,7 +93,7 @@
         "typography_YE4WUi": {
           "type": "typography",
           "settings": {
-            "overwrite_font": false,
+            "overwrite_font": true,
             "type_header_font": "poppins_n8",
             "heading_scale": 100,
             "heading_line_height_scale": 100,
