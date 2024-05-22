@@ -221,6 +221,7 @@
         "smi-block-item-4",
         "smi-block-item-5"
       ],
+      "disabled": true,
       "settings": {
         "container_full_width": true,
         "sub_heading": "",
@@ -313,6 +314,7 @@
         "smi-block-item-3",
         "smi-block-item-4"
       ],
+      "disabled": true,
       "settings": {
         "use_content_container_style_settings": true,
         "sub_heading": "HOW WE COMPARE",
@@ -435,6 +437,7 @@
         "smi-block-item-5",
         "smi-block-item-6"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "sub_heading": "TESTIMONIALS",
@@ -457,7 +460,7 @@
     "blog-posts-1-7-5": {
       "type": "smi-blog-posts-1-7",
       "settings": {
-        "container_full_width": true,
+        "container_full_width": false,
         "enable_spacing_between_items": true,
         "sub_heading": "",
         "heading": "Latest blog posts",
@@ -473,7 +476,7 @@
         "show_date": false,
         "show_author": false,
         "show_comment_count": false,
-        "show_excerpt": true,
+        "show_excerpt": false,
         "button_style": "none",
         "arrow_style": "arr-style-1",
         "sticky_page_dot_style": "none",
@@ -643,6 +646,7 @@
         "smi-block-item-9",
         "smi-block-item-10"
       ],
+      "disabled": true,
       "settings": {
         "sub_heading": "",
         "heading": "Common questions",
@@ -688,6 +692,7 @@
         "smi-block-item-0",
         "smi-block-item-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": "container-fluid-no-padding",
         "upload_image": "shopify:\/\/shop_images\/smi-smi-smi-clothing_-_30_d7ddc095-4eff-4fb1-b403-704587c5231a.jpg",
@@ -764,6 +769,7 @@
         "smi-block-item-5",
         "smi-block-item-6"
       ],
+      "disabled": true,
       "settings": {
         "container_full_width": false,
         "use_media_style_from_theme_settings": false,
@@ -854,6 +860,7 @@
         "smi-block-item-3",
         "smi-block-item-4"
       ],
+      "disabled": true,
       "settings": {
         "full_width": "container",
         "upload_image": "shopify:\/\/shop_images\/smi-image_clothing-02_3.jpg",
@@ -926,6 +933,7 @@
         "smi-block-item-1",
         "smi-block-item-2"
       ],
+      "disabled": true,
       "settings": {
         "container_full_width": true,
         "desktop_media_width": "50",
@@ -1015,6 +1023,7 @@
         "smi-block-item-1",
         "smi-block-item-2"
       ],
+      "disabled": true,
       "settings": {
         "sub_heading": "BE UNIQUE, BE AUTHENTIC",
         "heading": "Unlocking your style potential",
@@ -1054,6 +1063,7 @@
       "block_order": [
         "smi-block-item-0"
       ],
+      "disabled": true,
       "settings": {
         "container_full_width": true,
         "show_top_divider": true,
@@ -1096,6 +1106,7 @@
         },
         "smi-block-item-4": {
           "type": "product_description",
+          "disabled": true,
           "settings": {
             "collapse_desc": false,
             "show_desc_below": false,
@@ -1213,6 +1224,7 @@
       "block_order": [
         "smi-block-item-0"
       ],
+      "disabled": true,
       "settings": {
         "sub_heading": "SUBSCRIBE",
         "heading": "Let's stay in touch",
@@ -1332,6 +1344,7 @@
         "smi-block-item-1",
         "smi-block-item-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "content_alignment": "center",
@@ -1378,6 +1391,7 @@
         "smi-block-item-1",
         "smi-block-item-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_position": "center",
