@@ -85,7 +85,7 @@
             "subheading": "",
             "heading": "",
             "heading_size": "smi-h4",
-            "description": "10 products",
+            "description": "",
             "link": "",
             "button_label": "",
             "button_style": "text"
@@ -99,7 +99,7 @@
             "subheading": "",
             "heading": "",
             "heading_size": "smi-h4",
-            "description": "6 products",
+            "description": "",
             "link": "",
             "button_label": "",
             "button_style": "text"
@@ -108,12 +108,12 @@
         "smi-block-item-2": {
           "type": "collection",
           "settings": {
-            "collection": "dress-1",
-            "image": "shopify:\/\/shop_images\/P00929352_b1.jpg",
+            "collection": "dog-water-bottles-bowls-feeders",
+            "image": "shopify:\/\/shop_images\/1620914432992.jpg",
             "subheading": "",
             "heading": "",
             "heading_size": "smi-h4",
-            "description": "8 products",
+            "description": "",
             "link": "",
             "button_label": "",
             "button_style": "text"
