@@ -8,21 +8,21 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/dog-leashes-202408.webp",
             "subheading": "",
-            "heading": "Fresh new arrivals",
-            "heading_size": "smi-h1",
-            "description": "",
+            "heading": "<strong>An orchestra of canine feelings<\/strong>",
+            "heading_size": "smi-h2",
+            "description": "<strong>We're experts in collars and leashes<\/strong>",
             "first_button_label": "",
             "first_button_link": "",
             "first_button_style": "solid",
-            "second_button_label": "Explore all",
+            "second_button_label": "Start Shopping",
             "second_button_link": "",
             "second_button_style": "outline",
-            "desktop_content_position": "center_center",
-            "desktop_content_alignment": "center",
+            "desktop_content_position": "end_start",
+            "desktop_content_alignment": "left",
             "mobile_content_alignment": "center",
             "content_max_width": 540,
             "content_background_opacity": 0,
-            "image_overlay": "linear-gradient(0deg, rgba(96, 99, 255, 0) 77%, rgba(93, 2, 177, 0.47) 100%)"
+            "image_overlay": "linear-gradient(0deg, rgba(96, 99, 255, 0) 85%, rgba(37, 1, 70, 0.37) 100%)"
           }
         },
         "color_VWijkA": {
