@@ -107,7 +107,7 @@
             "button_text_case": "uppercase",
             "price_font": "heading",
             "menu_font": "heading",
-            "subheading_font": "body"
+            "subheading_font": "heading"
           }
         },
         "typography_advance_nzkVx8": {
@@ -125,7 +125,7 @@
             "fontsize_xs_h4": 20,
             "fontsize_xs_h5": 16,
             "fontsize_xs_h6": 14,
-            "fontsize_button": 14,
+            "fontsize_button": 18,
             "button_letter_spacing_scale": 0.7,
             "fontweight_button": "600",
             "fontsize_subheading": 14,
@@ -160,7 +160,7 @@
             "buttons_scale": 100,
             "buttons_border_thickness": 1,
             "buttons_border_opacity": 80,
-            "buttons_radius": 16,
+            "buttons_radius": 14,
             "buttons_shadow": "0,0,0",
             "buttons_shadow_opacity": 20
           }
@@ -169,7 +169,7 @@
           "type": "variants",
           "settings": {
             "variant_pills_border_thickness": 1,
-            "variant_pills_radius": 0,
+            "variant_pills_radius": 14,
             "variant_pills_shadow": "0,0,0",
             "variant_pills_shadow_opacity": 20
           }
