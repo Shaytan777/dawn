@@ -235,6 +235,82 @@
         "padding_bottom": 80
       }
     },
+    "smi_icon_with_text_1_7_RRdtAx": {
+      "type": "smi-icon-with-text-1-7",
+      "blocks": {
+        "icon_with_text_G9RNn4": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "box",
+            "icon_size": 30,
+            "icon_bg": "rgba(0,0,0,0)",
+            "heading": "Choose Your Perfect LazyMAX™",
+            "heading_size": "smi-h4",
+            "content": "<p>Tailor your experience by selecting the optimal LazyMAX™ configuration on our user-friendly website<\/p>",
+            "button_label": "",
+            "link1": ""
+          }
+        },
+        "icon_with_text_AAgFx7": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "return",
+            "icon_size": 30,
+            "icon_bg": "rgba(0,0,0,0)",
+            "heading": "Free returns",
+            "heading_size": "smi-h4",
+            "content": "<p>We offer a straightforward return policy to ensure that<\/p>",
+            "button_label": "",
+            "link1": ""
+          }
+        },
+        "icon_with_text_TMKaCP": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "verify",
+            "icon_size": 30,
+            "icon_bg": "rgba(0,0,0,0)",
+            "heading": "Quality guarantee",
+            "heading_size": "smi-h4",
+            "content": "<p>We're committed to providing you with high-quality goods<\/p>",
+            "button_label": "",
+            "link1": ""
+          }
+        },
+        "color_W3w6yD": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "outline_button_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_G9RNn4",
+        "icon_with_text_AAgFx7",
+        "icon_with_text_TMKaCP",
+        "color_W3w6yD"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "sub_heading": "",
+        "heading": "DISCOVER THE JOYAND SIMPLICITY OF CARING FOR YOUR PET",
+        "heading_size": "smi-h2",
+        "description": "<p>Embark on the Mamzoo journey in three effortless steps:<\/p>",
+        "heading_alignment": "center",
+        "content_alignment": "center",
+        "number_of_columns_on_desktop": "3",
+        "number_of_columns_on_mobile": "1",
+        "enable_swipe_on_mobile": false,
+        "icon_position": "top",
+        "color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "smi_video_1_2_dgB9fJ": {
       "type": "smi-video-1-2",
       "blocks": {
@@ -616,91 +692,15 @@
       ],
       "settings": {
       }
-    },
-    "smi_icon_with_text_1_7_RRdtAx": {
-      "type": "smi-icon-with-text-1-7",
-      "blocks": {
-        "icon_with_text_G9RNn4": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "box",
-            "icon_size": 30,
-            "icon_bg": "rgba(0,0,0,0)",
-            "heading": "Free shipping",
-            "heading_size": "smi-h4",
-            "content": "<p>We strive to get your purchases to your doorstep<\/p>",
-            "button_label": "",
-            "link1": ""
-          }
-        },
-        "icon_with_text_AAgFx7": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "return",
-            "icon_size": 30,
-            "icon_bg": "rgba(0,0,0,0)",
-            "heading": "Free returns",
-            "heading_size": "smi-h4",
-            "content": "<p>We offer a straightforward return policy to ensure that<\/p>",
-            "button_label": "",
-            "link1": ""
-          }
-        },
-        "icon_with_text_TMKaCP": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "verify",
-            "icon_size": 30,
-            "icon_bg": "rgba(0,0,0,0)",
-            "heading": "Quality guarantee",
-            "heading_size": "smi-h4",
-            "content": "<p>We're committed to providing you with high-quality goods<\/p>",
-            "button_label": "",
-            "link1": ""
-          }
-        },
-        "color_W3w6yD": {
-          "type": "color",
-          "settings": {
-            "background_color": "#ffffff",
-            "background_gradient_color": "",
-            "text_color": "#000000",
-            "subtext_color": "#000000",
-            "outline_button_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "icon_with_text_G9RNn4",
-        "icon_with_text_AAgFx7",
-        "icon_with_text_TMKaCP",
-        "color_W3w6yD"
-      ],
-      "settings": {
-        "container_full_width": false,
-        "sub_heading": "",
-        "heading": "Why choose us?",
-        "heading_size": "smi-h2",
-        "description": "<p>Discover the essence of our store's commitment to excellence.<\/p>",
-        "heading_alignment": "center",
-        "content_alignment": "center",
-        "number_of_columns_on_desktop": "3",
-        "number_of_columns_on_mobile": "1",
-        "enable_swipe_on_mobile": false,
-        "icon_position": "top",
-        "color_scheme": "scheme_1",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
     }
   },
   "order": [
     "product-detail-1-1-0",
     "smi_image_with_text_2_6_XnmXRP",
+    "smi_icon_with_text_1_7_RRdtAx",
     "smi_video_1_2_dgB9fJ",
     "smi_related_products_1_5_e4kYGj",
     "smi_recently_viewed_1_TQRy4B",
-    "smi_styles_19031",
-    "smi_icon_with_text_1_7_RRdtAx"
+    "smi_styles_19031"
   ]
 }
