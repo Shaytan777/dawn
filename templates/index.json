@@ -421,6 +421,7 @@
       "blocks": {
         "air_product_reviews_app_block_all_review_aCjkWG": {
           "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-block-all-review\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "disabled": true,
           "settings": {
             "air_allReviewsBlock_heading": "All reviews page",
             "air_allReviewsBlock_useSimpleSummary": false,
