@@ -22,7 +22,7 @@
             "mobile_content_alignment": "center",
             "content_max_width": 540,
             "content_background_opacity": 31,
-            "image_overlay": "linear-gradient(180deg, rgba(115, 15, 164, 0.35) 8%, rgba(196, 102, 238, 0.1) 13%, rgba(164, 134, 29, 0) 86%, rgba(141, 22, 164, 0) 89.568%, rgba(232, 140, 1, 0.35) 100%)"
+            "image_overlay": "linear-gradient(180deg, rgba(115, 15, 164, 0.35) 6%, rgba(196, 102, 238, 0.1) 9%, rgba(164, 134, 29, 0) 86%, rgba(141, 22, 164, 0) 89.568%, rgba(232, 140, 1, 0.35) 100%)"
           }
         },
         "color_VWijkA": {
