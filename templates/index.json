@@ -212,12 +212,12 @@
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
-            "icon_1": "heart",
-            "heading_1": "Heading",
-            "icon_2": "return",
-            "heading_2": "Heading",
-            "icon_3": "truck",
-            "heading_3": "Heading"
+            "icon_1": "return",
+            "heading_1": "30-Day Money Back Guarantee",
+            "icon_2": "truck",
+            "heading_2": "Tracked Shipping",
+            "icon_3": "paw_print",
+            "heading_3": "Loved By Our Customers"
           }
         }
       },
