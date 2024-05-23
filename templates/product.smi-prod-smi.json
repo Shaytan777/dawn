@@ -947,9 +947,9 @@
           "settings": {
             "icon": "none",
             "icon_size": 24,
-            "heading": "How do I care for my clothing?",
+            "heading": "Can LazyMAX™ replace multiple pet accessories?",
             "heading_size": "smi-h5",
-            "content": "<p>Crop hoodie sweatshirt. Sewn neck with hood with drawstring for adjustment, short sleeves. There is a kangaroo pocket on the front. Discoloration effect fabric, decorated with torn details. It is very easy to coordinate street style clothes.<\/p>",
+            "content": "<p>Absolutely! LazyMAX™ is an all-in-one solution, eliminating the need to carry multiple pet accessories.<\/p>",
             "collapse_content_page": ""
           }
         },
@@ -958,7 +958,7 @@
           "settings": {
             "icon": "none",
             "icon_size": 24,
-            "heading": "Do you offer international shipping?",
+            "heading": "How does Mamzoo ensure the quality of its pet products?",
             "heading_size": "smi-h5",
             "content": "<p>Crop hoodie sweatshirt. Sewn neck with hood with drawstring for adjustment, short sleeves. There is a kangaroo pocket on the front. Discoloration effect fabric, decorated with torn details. It is very easy to coordinate street style clothes, bringing a dynamic and youthful feeling.<\/p>",
             "collapse_content_page": ""
@@ -969,7 +969,7 @@
           "settings": {
             "icon": "none",
             "icon_size": 24,
-            "heading": "Can I return or exchange items?",
+            "heading": "Can I use it for both dogs and cats?",
             "heading_size": "smi-h5",
             "content": "<p>Crop hoodie sweatshirt. Sewn neck with hood with drawstring for adjustment, short sleeves. There is a kangaroo pocket on the front. Discoloration effect fabric, decorated with torn details. It is very easy to coordinate street style clothes, bringing a dynamic and youthful feeling.<\/p>",
             "collapse_content_page": ""
@@ -980,62 +980,31 @@
           "settings": {
             "icon": "none",
             "icon_size": 24,
-            "heading": "How often do you release new collections?",
+            "heading": "Can I use the feeder bowl for wet food?",
             "heading_size": "smi-h5",
             "content": "<p>Crop hoodie sweatshirt. Sewn neck with hood with drawstring for adjustment, short sleeves. There is a kangaroo pocket on the front. Discoloration effect fabric, decorated with torn details. It is very easy to coordinate street style clothes, bringing a dynamic and youthful feeling.<\/p>",
             "collapse_content_page": ""
           }
         },
-        "collapsible_category_3VxUbq": {
-          "type": "collapsible_category",
-          "settings": {
-            "icon": "question",
-            "icon_size": 24,
-            "heading": "Returns & Refunds",
-            "heading_size": "smi-h4"
-          }
-        },
-        "collapsible_content_edxRLF": {
+        "collapsible_content_M8CgVj": {
           "type": "collapsible_content",
           "settings": {
             "icon": "none",
             "icon_size": 24,
-            "heading": "What is your return policy?",
+            "heading": "How do I clean the bottle?",
             "heading_size": "smi-h5",
-            "content": "<p>To initiate a return or exchange, please log into your account, go to the 'Order History' section, and select the order you wish to return. Follow the provided instructions to complete the process.<\/p>",
+            "content": "<p>The bottle is easily disassembled, making cleaning a breeze. Simply hand wash the components.<\/p>",
             "collapse_content_page": ""
           }
         },
-        "collapsible_content_XdQR3f": {
+        "collapsible_content_EKryyD": {
           "type": "collapsible_content",
           "settings": {
             "icon": "none",
             "icon_size": 24,
-            "heading": "How long does it take to process a refund?",
+            "heading": "How much water does the bottle hold?",
             "heading_size": "smi-h5",
-            "content": "<p>Crop hoodie sweatshirt. Sewn neck with hood with drawstring for adjustment, short sleeves. There is a kangaroo pocket on the front. Discoloration effect fabric, decorated with torn details. It is very easy to coordinate street style clothes.<\/p>",
-            "collapse_content_page": ""
-          }
-        },
-        "collapsible_content_VfFJAM": {
-          "type": "collapsible_content",
-          "settings": {
-            "icon": "none",
-            "icon_size": 24,
-            "heading": "Do I have to pay for return shipping?",
-            "heading_size": "smi-h5",
-            "content": "<p>Crop hoodie sweatshirt. Sewn neck with hood with drawstring for adjustment, short sleeves. There is a kangaroo pocket on the front. Discoloration effect fabric, decorated with torn details. It is very easy to coordinate street style clothes, bringing a dynamic and youthful feeling.<\/p>",
-            "collapse_content_page": ""
-          }
-        },
-        "collapsible_content_gV96wM": {
-          "type": "collapsible_content",
-          "settings": {
-            "icon": "none",
-            "icon_size": 24,
-            "heading": "How often do you release new collections?",
-            "heading_size": "smi-h5",
-            "content": "<p>Crop hoodie sweatshirt. Sewn neck with hood with drawstring for adjustment, short sleeves. There is a kangaroo pocket on the front. Discoloration effect fabric, decorated with torn details. It is very easy to coordinate street style clothes, bringing a dynamic and youthful feeling.<\/p>",
+            "content": "<p>The water bottle capacity is 300ml and 500ml, which ensures your pet is sufficiently hydrated during outdoor activities.<\/p>",
             "collapse_content_page": ""
           }
         },
@@ -1071,11 +1040,8 @@
         "collapsible_content_3MhpaG",
         "collapsible_content_gMepjt",
         "collapsible_content_xgECWN",
-        "collapsible_category_3VxUbq",
-        "collapsible_content_edxRLF",
-        "collapsible_content_XdQR3f",
-        "collapsible_content_VfFJAM",
-        "collapsible_content_gV96wM",
+        "collapsible_content_M8CgVj",
+        "collapsible_content_EKryyD",
         "button_WUzjqP",
         "color_badN8B"
       ],
