@@ -240,6 +240,7 @@
         "social_media_m8GHjd",
         "color_3j4dM8"
       ],
+      "disabled": true,
       "settings": {
         "container_full_width": false,
         "enable_spacing_between_items": true,

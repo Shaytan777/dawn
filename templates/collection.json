@@ -27,10 +27,131 @@
         "show_collection_image": true,
         "color_scheme": "scheme-1"
       }
+    },
+    "smi_collection_page_1_1_jbFYre": {
+      "type": "smi-collection-page-1-1",
+      "blocks": {
+        "filter_VnFgPW": {
+          "type": "filter",
+          "settings": {
+            "tag_heading": "Tags",
+            "tag_style": "2"
+          }
+        },
+        "categories_QJfAEj": {
+          "type": "categories",
+          "settings": {
+            "heading": "Categories",
+            "menu": ""
+          }
+        },
+        "gallery_HwLH8K": {
+          "type": "gallery",
+          "settings": {
+            "heading": "Gallery",
+            "use_media_style_from_theme_settings": false,
+            "open_link_in_new_tab": false,
+            "image_1": "shopify:\/\/shop_images\/smi-1_c5945e54-4b3e-408c-99e6-67b234957f4e.jpg",
+            "link_1": "",
+            "image_2": "shopify:\/\/shop_images\/smi-7.jpg",
+            "link_2": "",
+            "image_3": "shopify:\/\/shop_images\/smi-3.jpg",
+            "link_3": "",
+            "image_4": "shopify:\/\/shop_images\/smi-2.jpg",
+            "link_4": "",
+            "image_5": "shopify:\/\/shop_images\/smi-5.jpg",
+            "link_5": "",
+            "image_6": "shopify:\/\/shop_images\/smi-6.jpg",
+            "link_6": ""
+          }
+        },
+        "image_banner_XHz9UY": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smi-stylish-portrait-woman-with-sales-text-spanish-clothing-clearance_2.jpg",
+            "link": "",
+            "use_media_style_from_theme_settings": false,
+            "open_link_in_new_tab": true
+          }
+        },
+        "social_media_gnByAa": {
+          "type": "social_media",
+          "settings": {
+            "heading": "Social media",
+            "icon_style": "2",
+            "icon_size": 18
+          }
+        },
+        "color_qjMx7n": {
+          "type": "color",
+          "disabled": true,
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "shadow_color": "#000000",
+            "product_background_color": "#fcf8f5",
+            "product_background_gradient_color": "",
+            "product_text_color": "#000000",
+            "product_solid_background_button_color": "#000000",
+            "product_solid_button_label_color": "#fcf8f5",
+            "product_shadow_color": "#000000",
+            "badge_sale_background_color": "#ED2626",
+            "badge_sale_text_color": "#1F1F21",
+            "badge_sold_out_background_color": "#1F1F21",
+            "badge_sold_out_text_color": "#FFFFFF"
+          }
+        },
+        "categories_LT7wBy": {
+          "type": "categories",
+          "settings": {
+            "heading": "Categories",
+            "menu": "mega-menu-1"
+          }
+        }
+      },
+      "block_order": [
+        "filter_VnFgPW",
+        "categories_QJfAEj",
+        "gallery_HwLH8K",
+        "image_banner_XHz9UY",
+        "social_media_gnByAa",
+        "color_qjMx7n",
+        "categories_LT7wBy"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "enable_spacing_between_items": true,
+        "sidebar_size": "240px",
+        "heading_size": "smi-h5",
+        "limit_filter_widget_height": true,
+        "show_count": true,
+        "show_total_results": true,
+        "show_columns_switcher": true,
+        "enable_sorting": true,
+        "products_per_page": 15,
+        "number_of_columns_on_desktop": "3",
+        "number_of_columns_on_mobile": "2",
+        "pagination": "default",
+        "default_pagination_style": "square-style-1",
+        "media_ratio": "auto",
+        "media_shape": "default",
+        "content_alignment": "left",
+        "show_second_image": true,
+        "show_vendor": false,
+        "show_swatch_color": true,
+        "color_scheme": "scheme_1",
+        "product_color_scheme": "scheme_2",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
     "product-grid",
-    "banner"
+    "banner",
+    "smi_collection_page_1_1_jbFYre"
   ]
 }
