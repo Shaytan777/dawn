@@ -935,6 +935,7 @@
       "blocks": {
         "collapsible_category_DtKKKg": {
           "type": "collapsible_category",
+          "disabled": true,
           "settings": {
             "icon": "question",
             "icon_size": 24,
