@@ -930,125 +930,6 @@
         "padding_bottom": 200
       }
     },
-    "smi_collapsible_content_1_1_76H4WX": {
-      "type": "smi-collapsible-content-1-1",
-      "blocks": {
-        "collapsible_category_DtKKKg": {
-          "type": "collapsible_category",
-          "disabled": true,
-          "settings": {
-            "icon": "question",
-            "icon_size": 24,
-            "heading": "Orders & Shipping",
-            "heading_size": "smi-h4"
-          }
-        },
-        "collapsible_content_rmh4Ly": {
-          "type": "collapsible_content",
-          "settings": {
-            "icon": "none",
-            "icon_size": 24,
-            "heading": "Can LazyMAX™ replace multiple pet accessories?",
-            "heading_size": "smi-h5",
-            "content": "<p>Absolutely! LazyMAX™ is an all-in-one solution, eliminating the need to carry multiple pet accessories.<\/p>",
-            "collapse_content_page": ""
-          }
-        },
-        "collapsible_content_3MhpaG": {
-          "type": "collapsible_content",
-          "settings": {
-            "icon": "none",
-            "icon_size": 24,
-            "heading": "How does Mamzoo ensure the quality of its pet products?",
-            "heading_size": "smi-h5",
-            "content": "<p>Mamzoo is committed to excellence. We carefully source our products from reputable brands and manufacturers to guarantee the highest quality.<\/p>",
-            "collapse_content_page": ""
-          }
-        },
-        "collapsible_content_gMepjt": {
-          "type": "collapsible_content",
-          "settings": {
-            "icon": "none",
-            "icon_size": 24,
-            "heading": "Can I use it for both dogs and cats?",
-            "heading_size": "smi-h5",
-            "content": "<p>Absolutely, LazyMAX™ is suitable for both dogs and cats.<\/p>",
-            "collapse_content_page": ""
-          }
-        },
-        "collapsible_content_xgECWN": {
-          "type": "collapsible_content",
-          "settings": {
-            "icon": "none",
-            "icon_size": 24,
-            "heading": "Can I use the feeder bowl for wet food?",
-            "heading_size": "smi-h5",
-            "content": "<p>Yes, the feeder bowl is suitable for both dry and wet food. Its design ensures easy and mess-free feeding for your pet's convenience.<\/p>",
-            "collapse_content_page": ""
-          }
-        },
-        "collapsible_content_M8CgVj": {
-          "type": "collapsible_content",
-          "settings": {
-            "icon": "none",
-            "icon_size": 24,
-            "heading": "How do I clean the bottle?",
-            "heading_size": "smi-h5",
-            "content": "<p>The bottle is easily disassembled, making cleaning a breeze. Simply hand wash the components.<\/p>",
-            "collapse_content_page": ""
-          }
-        },
-        "collapsible_content_EKryyD": {
-          "type": "collapsible_content",
-          "settings": {
-            "icon": "none",
-            "icon_size": 24,
-            "heading": "How much water does the bottle hold?",
-            "heading_size": "smi-h5",
-            "content": "<p>The water bottle capacity is 300ml and 500ml, which ensures your pet is sufficiently hydrated during outdoor activities.<\/p>",
-            "collapse_content_page": ""
-          }
-        },
-        "button_WUzjqP": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "first_button_label": "View all faq",
-            "first_button_link": "",
-            "first_button_style": "solid_arrow",
-            "second_button_label": "",
-            "second_button_link": "",
-            "second_button_style": "solid",
-            "button_full_width": false
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_category_DtKKKg",
-        "collapsible_content_rmh4Ly",
-        "collapsible_content_3MhpaG",
-        "collapsible_content_gMepjt",
-        "collapsible_content_xgECWN",
-        "collapsible_content_M8CgVj",
-        "collapsible_content_EKryyD",
-        "button_WUzjqP"
-      ],
-      "settings": {
-        "sub_heading": "",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "smi-h2",
-        "description": "<p>Have questions about our pet supply products, or services? <br\/>Find answers to the most common inquiries here<\/p>",
-        "heading_alignment": "center",
-        "collapsible_type": "3",
-        "content_position": "center",
-        "content_alignment": "left",
-        "content_max_width": 770,
-        "open_first_collapsible_row": true,
-        "color_scheme": "scheme_6",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "featured_product_zUzVGG": {
       "type": "featured-product",
       "blocks": {
@@ -1290,6 +1171,125 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "smi_collapsible_content_1_1_76H4WX": {
+      "type": "smi-collapsible-content-1-1",
+      "blocks": {
+        "collapsible_category_DtKKKg": {
+          "type": "collapsible_category",
+          "disabled": true,
+          "settings": {
+            "icon": "question",
+            "icon_size": 24,
+            "heading": "Orders & Shipping",
+            "heading_size": "smi-h4"
+          }
+        },
+        "collapsible_content_rmh4Ly": {
+          "type": "collapsible_content",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "heading": "Can LazyMAX replace multiple pet accessories?",
+            "heading_size": "smi-h5",
+            "content": "<p>Absolutely! LazyMAX™ is an all-in-one solution, eliminating the need to carry multiple pet accessories.<\/p>",
+            "collapse_content_page": ""
+          }
+        },
+        "collapsible_content_3MhpaG": {
+          "type": "collapsible_content",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "heading": "How does Mamzoo ensure the quality of its pet products?",
+            "heading_size": "smi-h5",
+            "content": "<p>Mamzoo is committed to excellence. We carefully source our products from reputable brands and manufacturers to guarantee the highest quality.<\/p>",
+            "collapse_content_page": ""
+          }
+        },
+        "collapsible_content_gMepjt": {
+          "type": "collapsible_content",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "heading": "Can I use it for both dogs and cats?",
+            "heading_size": "smi-h5",
+            "content": "<p>Absolutely, LazyMAX™ is suitable for both dogs and cats.<\/p>",
+            "collapse_content_page": ""
+          }
+        },
+        "collapsible_content_xgECWN": {
+          "type": "collapsible_content",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "heading": "Can I use the feeder bowl for wet food?",
+            "heading_size": "smi-h5",
+            "content": "<p>Yes, the feeder bowl is suitable for both dry and wet food. Its design ensures easy and mess-free feeding for your pet's convenience.<\/p>",
+            "collapse_content_page": ""
+          }
+        },
+        "collapsible_content_M8CgVj": {
+          "type": "collapsible_content",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "heading": "How do I clean the bottle?",
+            "heading_size": "smi-h5",
+            "content": "<p>The bottle is easily disassembled, making cleaning a breeze. Simply hand wash the components.<\/p>",
+            "collapse_content_page": ""
+          }
+        },
+        "collapsible_content_EKryyD": {
+          "type": "collapsible_content",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "heading": "How much water does the bottle hold?",
+            "heading_size": "smi-h5",
+            "content": "<p>The water bottle capacity is 300ml and 500ml, which ensures your pet is sufficiently hydrated during outdoor activities.<\/p>",
+            "collapse_content_page": ""
+          }
+        },
+        "button_WUzjqP": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "first_button_label": "View all faq",
+            "first_button_link": "",
+            "first_button_style": "solid_arrow",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "solid",
+            "button_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_category_DtKKKg",
+        "collapsible_content_rmh4Ly",
+        "collapsible_content_3MhpaG",
+        "collapsible_content_gMepjt",
+        "collapsible_content_xgECWN",
+        "collapsible_content_M8CgVj",
+        "collapsible_content_EKryyD",
+        "button_WUzjqP"
+      ],
+      "settings": {
+        "sub_heading": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "smi-h2",
+        "description": "<p>Have questions about our pet supply products, or services? <br\/>Find answers to the most common inquiries here<\/p>",
+        "heading_alignment": "center",
+        "collapsible_type": "3",
+        "content_position": "center",
+        "content_alignment": "left",
+        "content_max_width": 770,
+        "open_first_collapsible_row": true,
+        "color_scheme": "scheme_6",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -1306,10 +1306,10 @@
     "smi_rich_content_1_5_zczMTe",
     "smi_testimonial_1_7_Jj3Vf7",
     "smi_video_1_2_dgB9fJ",
-    "smi_collapsible_content_1_1_76H4WX",
     "featured_product_zUzVGG",
     "smi_comparison_table_1_2_4KHD33",
     "17164426229b6bfdb8",
-    "1716438959d9971322"
+    "1716438959d9971322",
+    "smi_collapsible_content_1_1_76H4WX"
   ]
 }
