@@ -1083,7 +1083,7 @@
         "sub_heading": "",
         "heading": "Frequently Asked Questions",
         "heading_size": "smi-h2",
-        "description": "<p>Have questions about our pet supply products, or services? Find answers to the most common inquiries here<\/p>",
+        "description": "<p>Have questions about our pet supply products, or services? <br\/>Find answers to the most common inquiries here<\/p>",
         "heading_alignment": "center",
         "collapsible_type": "3",
         "content_position": "center",
