@@ -197,7 +197,7 @@
             "card_image_padding": 0,
             "card_border_thickness": 0,
             "card_border_opacity": 55,
-            "card_corner_radius": 0,
+            "card_corner_radius": 14,
             "card_shadow": "0,0,0",
             "card_shadow_opacity": 20
           }
@@ -218,7 +218,7 @@
             "blog_card_image_padding": 0,
             "blog_card_border_thickness": 0,
             "blog_card_border_opacity": 55,
-            "blog_card_corner_radius": 0,
+            "blog_card_corner_radius": 14,
             "blog_card_shadow": "0,0,0",
             "blog_card_shadow_opacity": 20
           }
