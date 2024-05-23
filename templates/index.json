@@ -444,6 +444,40 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "smi_cart_drawer_1_1_J4bT7k": {
+      "type": "smi-cart-drawer-1-1",
+      "blocks": {
+        "cart_note_tWGUgT": {
+          "type": "cart_note",
+          "settings": {
+            "label_text": "<p>Special instructions for seller<\/p>"
+          }
+        },
+        "color_jRGkbi": {
+          "type": "color",
+          "settings": {
+            "background_color": "#fcf8f5",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#fcf8f5",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "cart_note_tWGUgT",
+        "color_jRGkbi"
+      ],
+      "settings": {
+        "show_taxes_policy": true,
+        "show_view_cart": true,
+        "collection": "",
+        "color_scheme": "scheme_2"
+      }
     }
   },
   "order": [
@@ -457,6 +491,7 @@
     "newsletter_nkmjDt",
     "apps_bak_NNXU9e",
     "smi_blog_posts_1_7_wbzYeW",
-    "17164422592dac321b"
+    "17164422592dac321b",
+    "smi_cart_drawer_1_1_J4bT7k"
   ]
 }
