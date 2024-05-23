@@ -15,7 +15,7 @@
           "settings": {
           }
         },
-        "air_product_reviews_app_summary_block_bXweNh": {
+        "air_product_reviews_app_summary_block_hiEV9n": {
           "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
           "settings": {
           }
@@ -97,12 +97,18 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "rating_YajqBL": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "air_product_reviews_app_summary_block_bXweNh",
+        "air_product_reviews_app_summary_block_hiEV9n",
         "caption",
         "price",
         "variant_picker",
@@ -113,7 +119,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "rating_YajqBL"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -195,6 +202,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -230,21 +238,21 @@
         "padding_bottom": 28
       }
     },
-    "1716443119efc9d58d": {
+    "1716443651f85cad69": {
       "type": "apps",
       "blocks": {
-        "air_product_reviews_app_block_review_list_GBCndh": {
+        "air_product_reviews_app_block_review_list_QV4BEi": {
           "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-block-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
           "settings": {
             "air_blockreviews_summaryHeading": "Review",
-            "air_blockreviews_layout": "list",
+            "air_blockreviews_layout": "grid",
             "air_blockreviews_singleStarColor": "#16A086",
             "air_blockreviews_primaryColor": "#121212"
           }
         }
       },
       "block_order": [
-        "air_product_reviews_app_block_review_list_GBCndh"
+        "air_product_reviews_app_block_review_list_QV4BEi"
       ],
       "settings": {
         "include_margins": true
@@ -256,6 +264,6 @@
     "image-with-text",
     "multicolumn",
     "related-products",
-    "1716443119efc9d58d"
+    "1716443651f85cad69"
   ]
 }
