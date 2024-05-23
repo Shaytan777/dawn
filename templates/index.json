@@ -32,14 +32,14 @@
             "control_text_color": "#ffffff",
             "control_solid_background_button_color": "#ffffff",
             "control_solid_button_label_color": "#ffffff",
-            "background_color": "#242833",
+            "background_color": "#4b265b",
             "background_gradient_color": "",
             "text_color": "#ffffff",
             "subtext_color": "#ffffff",
             "solid_background_button_color": "#f45902",
             "solid_button_label_color": "#ffffff",
             "outline_button_color": "#f45902",
-            "shadow_color": "#ffffff"
+            "shadow_color": "#131313"
           }
         }
       },
@@ -147,7 +147,7 @@
         "collection-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
