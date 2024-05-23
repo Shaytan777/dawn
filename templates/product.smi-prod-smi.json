@@ -135,7 +135,7 @@
             "icon_size": 24,
             "collapse_heading": "Description",
             "heading_size": "smi-h5",
-            "collapse_content": "<p><strong>LazyMAX™ 5-in-1 Portable Dog Water Bottle: Unleash Hassle-Free Adventures!<\/strong><br\/><br\/>✅ 5-in-1 Functionality: LazyMAX™ serves as a water bottle, bowl, treat dispenser, waste bag holder, and poo shovel – a true all-in-one solution for pet owners.<\/p><p>✅ Durable & Safe Construction: Crafted from high-quality food-grade ABS+PC material, LazyMAX™ guarantees safety and durability. BPA-free and designed to withstand the rigors of your pet's active lifestyle.<br\/><\/p><p>✅ Easy One-Handed Operation: Enjoy unmatched ease with LazyMAX™. Operate the bottle with a single hand – press the water key for a refreshing drink, and press again to return excess water to the container.<br\/><\/p><p>✅ Leak-Proof Assurance: Tired of messy leaks? LazyMAX™ features a high-quality silica gel ring and a secure locking mechanism, ensuring a leak-proof experience, giving you peace of mind during your adventures.<\/p><p><\/p><h5><\/h5>",
+            "collapse_content": "<p>👍 <strong>Leak-Proof Design:<\/strong> <br\/>No mess, no stress! The Mamzoo bottle boasts a secure and leak-proof design, making it a reliable choice for keeping your car and belongings dry.<\/p><p>🐶<strong> Built-in Dog Bowl:<\/strong> <br\/>A convenient dog bowl ensures your pup has a comfortable spot to drink from, eliminating the need for separate accessories.<\/p><p>🍪 <strong>Food Storage Compartment:<\/strong> <br\/>Planning a longer adventure? The Mamzoo bottle has you covered with a built-in food storage compartment, perfect for keeping your canine companion well-fed on the go.<br\/><br\/>🍀 <strong>Waste Bag Dispenser:<\/strong> <br\/>Talk about all-in-one! The Mamzoo bottle comes equipped with a waste bag dispenser, making clean-ups a breeze.<\/p>",
             "collapse_content_page": ""
           }
         },
@@ -158,6 +158,12 @@
             "icon_style": "2",
             "icon_size": 20
           }
+        },
+        "product_custom_liquid_Nw4eC4": {
+          "type": "product_custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -178,7 +184,8 @@
         "custom_liquid_XKhLKU",
         "product_collapse_content_yMLNBp",
         "product_collapse_content_V6EgPB",
-        "smi-block-item-17"
+        "smi-block-item-17",
+        "product_custom_liquid_Nw4eC4"
       ],
       "settings": {
         "container_full_width": false,
