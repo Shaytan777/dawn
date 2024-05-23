@@ -473,10 +473,10 @@
         "color_jRGkbi"
       ],
       "settings": {
-        "show_taxes_policy": true,
+        "show_taxes_policy": false,
         "show_view_cart": true,
         "collection": "",
-        "color_scheme": "scheme_2"
+        "color_scheme": "scheme_1"
       }
     }
   },
