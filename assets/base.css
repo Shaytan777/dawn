@@ -3442,3 +3442,15 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+.announcement-bar__message {
+    padding: 5px 0 !important;
+    font-size: 12px !important;
+
+}
+
+@media (max-width: 767px){
+   .announcement-bar__message {
+    font-size: 16px !important;
+
+} 
+}
