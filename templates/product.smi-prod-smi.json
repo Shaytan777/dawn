@@ -9,6 +9,11 @@
             "breadcrumb_top": true
           }
         },
+        "air_product_reviews_app_summary_block_MKCDeV": {
+          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+          }
+        },
         "smi-block-item-1": {
           "type": "product_title",
           "settings": {
@@ -157,6 +162,7 @@
       },
       "block_order": [
         "smi-block-item-0",
+        "air_product_reviews_app_summary_block_MKCDeV",
         "smi-block-item-1",
         "smi-block-item-2",
         "product_feature_icon_fYEAYM",
@@ -1110,6 +1116,34 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "1716438959d9971322": {
+      "type": "apps",
+      "blocks": {
+        "air_product_reviews_app_block_all_review_hXJTbN": {
+          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-block-all-review\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+            "air_allReviewsBlock_heading": "All reviews page",
+            "air_allReviewsBlock_useSimpleSummary": false,
+            "air_allReviewsBlock_maxReview": 20,
+            "air_allReviewsBlock_textColor": "#000000",
+            "air_allReviewsBlock_textSummaryColor": "#000000",
+            "air_allReviewsBlock_summaryBgColor": "#F8F8F8",
+            "air_allReviewsBlock_bgColor": "#FFFFFF",
+            "air_allReviewsBlock_onlyMedia": false,
+            "air_allReviewsBlock_onlyPositive": false,
+            "air_allReviewsBlock_selectedProduct": [
+
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "air_product_reviews_app_block_all_review_hXJTbN"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -1127,6 +1161,7 @@
     "smi_testimonial_1_7_Jj3Vf7",
     "smi_video_1_2_dgB9fJ",
     "featured_product_zUzVGG",
-    "smi_comparison_table_1_2_4KHD33"
+    "smi_comparison_table_1_2_4KHD33",
+    "1716438959d9971322"
   ]
 }
