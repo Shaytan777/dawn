@@ -93,7 +93,7 @@
         "typography_YE4WUi": {
           "type": "typography",
           "settings": {
-            "overwrite_font": true,
+            "overwrite_font": false,
             "type_header_font": "poppins_n9",
             "heading_scale": 100,
             "heading_line_height_scale": 100,
