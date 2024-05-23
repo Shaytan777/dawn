@@ -179,7 +179,7 @@
           "settings": {
             "inputs_border_thickness": 1,
             "inputs_border_opacity": 55,
-            "inputs_radius": 0,
+            "inputs_radius": 14,
             "inputs_shadow": "0,0,0",
             "inputs_shadow_opacity": 20
           }
@@ -228,7 +228,7 @@
           "settings": {
             "text_boxes_border_thickness": 0,
             "text_boxes_border_opacity": 55,
-            "text_boxes_radius": 0,
+            "text_boxes_radius": 14,
             "text_boxes_shadow": "0,0,0",
             "text_boxes_shadow_opacity": 20
           }
@@ -238,7 +238,7 @@
           "settings": {
             "media_border_thickness": 0,
             "media_border_opacity": 55,
-            "media_radius": 0,
+            "media_radius": 14,
             "media_shadow": "0,0,0",
             "media_shadow_opacity": 20
           }
