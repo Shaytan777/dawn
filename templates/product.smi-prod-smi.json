@@ -1132,7 +1132,7 @@
           "settings": {
             "air_allReviewsBlock_heading": "All reviews page",
             "air_allReviewsBlock_useSimpleSummary": false,
-            "air_allReviewsBlock_maxReview": 20,
+            "air_allReviewsBlock_maxReview": 10,
             "air_allReviewsBlock_textColor": "#000000",
             "air_allReviewsBlock_textSummaryColor": "#000000",
             "air_allReviewsBlock_summaryBgColor": "#F8F8F8",
@@ -1140,7 +1140,7 @@
             "air_allReviewsBlock_onlyMedia": false,
             "air_allReviewsBlock_onlyPositive": false,
             "air_allReviewsBlock_selectedProduct": [
-
+              "lazymax-5-in-1-portable-dog-water-bottle"
             ]
           }
         }
