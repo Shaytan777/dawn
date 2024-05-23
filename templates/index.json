@@ -22,7 +22,7 @@
             "mobile_content_alignment": "center",
             "content_max_width": 540,
             "content_background_opacity": 31,
-            "image_overlay": ""
+            "image_overlay": "linear-gradient(180deg, rgba(196, 102, 238, 1), rgba(82, 218, 236, 1) 100%)"
           }
         },
         "color_VWijkA": {
