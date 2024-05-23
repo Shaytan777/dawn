@@ -21,14 +21,6 @@
         "padding_bottom": 36
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": true,
-        "color_scheme": "scheme-1"
-      }
-    },
     "smi_collection_page_1_1_jbFYre": {
       "type": "smi-collection-page-1-1",
       "blocks": {
@@ -150,11 +142,19 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "scheme-1"
+      }
     }
   },
   "order": [
     "product-grid",
-    "banner",
-    "smi_collection_page_1_1_jbFYre"
+    "smi_collection_page_1_1_jbFYre",
+    "banner"
   ]
 }
