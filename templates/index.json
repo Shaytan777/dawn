@@ -27,6 +27,7 @@
         },
         "color_VWijkA": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "control_background_color": "#ffffff",
             "control_text_color": "#ffffff",
@@ -39,7 +40,7 @@
             "solid_background_button_color": "#f45902",
             "solid_button_label_color": "#ffffff",
             "outline_button_color": "#f45902",
-            "shadow_color": "#131313"
+            "shadow_color": "#100101"
           }
         }
       },
@@ -56,7 +57,46 @@
         "change_slides_every": 5,
         "slide_transition": "slide",
         "control_color_scheme": "scheme_1",
-        "color_scheme": "scheme_1"
+        "color_scheme": "scheme_6"
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "cat-backpack"
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "breathable-cat-carrier-bags-dog-cat-backpack",
+            "second_image": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "pet-backpack-carrier"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text": {
@@ -80,7 +120,6 @@
         "heading",
         "text"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -118,23 +157,23 @@
         "padding_bottom": 36
       }
     },
-    "collage": {
+    "collage_LxBJVj": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
+        "collection_rVmbkb": {
           "type": "collection",
           "settings": {
             "collection": "cat-backpack"
           }
         },
-        "product": {
+        "product_LritMm": {
           "type": "product",
           "settings": {
             "product": "breathable-cat-carrier-bags-dog-cat-backpack",
             "second_image": false
           }
         },
-        "collection-1": {
+        "collection_AYdcVU": {
           "type": "collection",
           "settings": {
             "collection": "pet-backpack-carrier"
@@ -142,9 +181,9 @@
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "collection_rVmbkb",
+        "product_LritMm",
+        "collection_AYdcVU"
       ],
       "settings": {
         "heading": "",
@@ -484,9 +523,10 @@
   },
   "order": [
     "smi_slideshow_1_6_GRmPmm",
+    "collage",
     "rich_text",
     "featured_collection",
-    "collage",
+    "collage_LxBJVj",
     "featured_product_zCCP38",
     "video",
     "multicolumn",
