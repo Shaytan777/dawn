@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/dog-leashes-202408.webp",
             "subheading": "",
             "heading": "AN ORCHESTRA OF CANINE FEELINGS",
-            "heading_size": "smi-h2",
+            "heading_size": "smi-h1",
             "description": "The One-Stop Shop for All Your Pet Supply Needs",
             "first_button_label": "",
             "first_button_link": "",
@@ -22,12 +22,11 @@
             "mobile_content_alignment": "center",
             "content_max_width": 540,
             "content_background_opacity": 31,
-            "image_overlay": "linear-gradient(0deg, rgba(96, 99, 255, 0) 85%, rgba(21, 1, 70, 0.41) 100%)"
+            "image_overlay": ""
           }
         },
         "color_VWijkA": {
           "type": "color",
-          "disabled": true,
           "settings": {
             "control_background_color": "#ffffff",
             "control_text_color": "#ffffff",
