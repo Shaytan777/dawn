@@ -130,6 +130,115 @@
         "padding_bottom": 0
       }
     },
+    "smi_collection_list_2_3_VrmnVi": {
+      "type": "smi-collection-list-2-3",
+      "blocks": {
+        "collection_hrgzMr": {
+          "type": "collection",
+          "settings": {
+            "collection": "dog-water-bottles-bowls-feeders",
+            "image": "shopify:\/\/shop_images\/Upgrade-pet-care-with-LazyMAX-the-ultimate-5-in-1-solution-for-hassle-free-outdoor-adventures.webp",
+            "subheading": "",
+            "heading": "Water Bottles & Bowls",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_MNTrax": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "8 items",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_KpenUU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "heading": "Set dresses",
+            "heading_size": "smi-h4",
+            "description": "11 items",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_3rcmf9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "heading": "Swimsuit",
+            "heading_size": "smi-h4",
+            "description": "4 items",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_DwGDqJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "heading": "Bags",
+            "heading_size": "smi-h4",
+            "description": "5 items",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "color_KKw3KC": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "collection_hrgzMr",
+        "collection_MNTrax",
+        "collection_KpenUU",
+        "collection_3rcmf9",
+        "collection_DwGDqJ",
+        "color_KKw3KC"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "sub_heading": "",
+        "heading": "Shop by categorie",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "content_alignment": "center",
+        "media_ratio": "1\/1",
+        "media_shape": "round",
+        "number_of_columns_on_desktop": "5",
+        "number_of_columns_on_mobile": "1",
+        "enable_swipe_on_mobile": true,
+        "color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -527,6 +636,7 @@
     "smi_slideshow_1_6_GRmPmm",
     "collage",
     "rich_text",
+    "smi_collection_list_2_3_VrmnVi",
     "featured_collection",
     "collage_LxBJVj",
     "featured_product_zCCP38",
