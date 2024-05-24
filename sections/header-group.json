@@ -34,6 +34,7 @@
         },
         "color_cwarY9": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#63513f",
             "background_gradient_color": "",
@@ -50,7 +51,7 @@
       "settings": {
         "enable_sticky_bar": true,
         "auto_rotate_slides": true,
-        "change_slides_every": 4,
+        "change_slides_every": 5,
         "color_scheme": "scheme_4",
         "padding_top": 10,
         "padding_bottom": 10
