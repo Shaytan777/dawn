@@ -37,9 +37,9 @@
         "email_form_footer_RjMwVw": {
           "type": "email_form_footer",
           "settings": {
-            "heading": "Save 10% for your first order",
+            "heading": "Save 20% for your first order",
             "heading_size": "smi-h5",
-            "content": "<p>Enjoy 10% off on your first purchase and be the first to know about new releases, latest stories and offers.<\/p>",
+            "content": "<p>Enjoy 20% off on your first purchase and be the first to know about new releases, latest stories and offers.<\/p>",
             "style_email_signup": "6",
             "email_notice_text": "",
             "enable_collapsible_content_on_mobile": false
