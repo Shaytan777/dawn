@@ -1,7 +1,7 @@
 {% style %}
 	.smi-media-wrapper{aspect-ratio:var(--media-ratio)}.smi-media-wrapper:hover img,.smi-media-wrapper:hover svg,.smi-media-wrapper:hover video,.smi-media-wrapper:hover iframe,.smi-media-wrapper:hover div{clip-path:polygon(var(--shape-hover));transition:all .4s}.smi-blob-wrapper.smi-has-blob{border:none !important;box-shadow:none !important}.smi-section-collection-list-2{overflow:hidden}@media screen and (max-width: 767.8px){.smi-section-collection-list-2__main.smi-swipe-on-mobile .smi-swiper{overflow:visible}.smi-section-collection-list-2__main.smi-swipe-on-mobile .swiper-slide{width:var(--item-width-xs);transition:opacity .3s ease-in-out;opacity:0;margin-right:var(--grid-mobile-horizontal-spacing, 15px)}.smi-section-collection-list-2__main.smi-swipe-on-mobile .swiper-wrapper:has(>.swiper-slide:only-child){justify-content:center}.smi-section-collection-list-2__main.smi-swipe-on-mobile .swiper-slide:only-child{max-width:800px}.smi-section-collection-list-2__main.smi-swipe-on-mobile .swiper-slide:last-child{margin-right:0 !important}.smi-section-collection-list-2__main.smi-swipe-on-mobile .swiper-slide-visible{opacity:1}.smi-section-collection-list-2__main.smi-swipe-on-mobile .smi-swiper-controls{display:flex}}.smi-section-collection-list-2 .smi-swiper-controls{width:100%;display:none;justify-content:center}.smi-section-collection-list-2 .smi-swiper-pagination{--swiper-pagination-bottom: 0}@media screen and (max-width: 767.8px){.smi-section-collection-list-2__main.smi-grid-on-mobile .swiper{overflow:visible}.smi-section-collection-list-2__main.smi-grid-on-mobile .swiper-wrapper{flex-wrap:wrap;column-gap:var(--grid-mobile-horizontal-spacing);row-gap:calc(var(--grid-mobile-vertical-spacing) + 8px)}.smi-section-collection-list-2__main.smi-grid-on-mobile .swiper-slide{width:var(--item-width-xs)}}@media screen and (min-width: 768px){.smi-section-collection-list-2__main .swiper{overflow:visible}.smi-section-collection-list-2__main .swiper-wrapper{flex-wrap:wrap;column-gap:var(--grid-desktop-horizontal-spacing);row-gap:calc(var(--grid-desktop-vertical-spacing) + 16px)}.smi-section-collection-list-2__main .swiper-slide{width:var(--item-width-md);height:auto}}@media screen and (min-width: 992px){.smi-section-collection-list-2__main .swiper-slide{width:var(--item-width-lg)}}@media screen and (min-width: 1200px){.smi-section-collection-list-2__main .swiper-slide{width:var(--item-width-xl)}}.smi-section-collection-list-2 .smi-card-collection{word-wrap:break-word}.smi-section-collection-list-2 .smi-card-collection__content{text-align:var(--content-alignment)}
 {% endstyle %}
-{% comment %}#component#["settings/heading","settings/media-settings-3","settings/layout-settings","settings/section-padding","settings/button-without-url","blocks/color","blocks/background","settings/design-mode","settings/animation-settings","settings/slider-pagination-1-style"]#endcomponent#{% endcomment %}
+{% comment %}#component#["settings/heading","settings/media-settings-3","settings/slider-arrows","settings/slider-dots","settings/slides","settings/section-padding","settings/button-without-url","blocks/color","blocks/background","settings/layout-settings","settings/media-height-2","settings/content-position","settings/product-card-2","settings/design-mode","settings/animation-settings","settings/slider-pagination-1-style"]#endcomponent#{% endcomment %}
 {% comment %} swiper.js {% endcomment %}
 {{ 'smi-swiper-bundle.min.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'smi-swiper-bundle.min.js' | asset_url }}" defer data-id="swiper"></script>
@@ -167,13 +167,18 @@
 %}
 <div class="smi-card-collection">
     <div class="smi-card-collection__media">
-        <a {% if link != blank %}href="{{ link }}"{% endif %} class="{{ media_wrapper_classes }} smi-d-block {{ settings.smi_animations_hover_image | default: shop.metafields.smind.settings.value.imageHoverEffect | default: 'none' | prepend: ' smi-hover-image-' }}" style="--media-ratio: {{ media_ratio }}; --shape-hover: var({{ shape_hover }})" data-type="item-image">
+        <a href="{%- if link != blank -%} {{- link -}} {%- else -%} # {%- endif -%}"
+           class="{{ media_wrapper_classes }} smi-d-block {{ settings.smi_animations_hover_image | default: shop.metafields.smind.settings.value.imageHoverEffect | default: 'none' | prepend: ' smi-hover-image-' }}"
+           style="--media-ratio: {{ media_ratio }}; --shape-hover: var({{ shape_hover }})"
+           data-type="item-image"
+           aria-label="{{ block.id }}"
+        >
             {% assign img_classes = media_classes | append: ' __smi-collection-image' %}
             {% assign svg_classes = media_classes | append: ' smi-placeholder-svg' %}
             {% if block.settings.image != blank %}
-                {{ block.settings.image | image_url: width: 1024 | image_tag: class: img_classes }}
+                {{ block.settings.image | image_url: width: 1200 | image_tag: class: img_classes, widths: '200,300,400,600,800,1000,1200', sizes: '(max-width: 460px) calc(100vw/2)', loading: 'lazy' }}
             {% elsif collection.image != blank %}
-                {{ collection.image | image_url: width: 1024 | image_tag: class: img_classes }}
+                {{ collection.image | image_url: width: 1200 | image_tag: class: img_classes, widths: '200,300,400,600,800,1000,1200', sizes: '(max-width: 460px) calc(100vw/2)', loading: 'lazy' }}
             {% else %}
                 {{ placeholder_image | placeholder_svg_tag: svg_classes }}
             {% endif %}
@@ -195,7 +200,7 @@
             </div>
         {% endif %}
         {% if heading != blank %}
-            <a {% if link != blank %}href="{{ link }}"{% endif %}>
+            <a href="{%- if link != blank -%} {{- link -}} {%- else -%} # {%- endif -%}" aria-label="{{ block.id }}">
                 <div class="__smi-heading {{ block.settings.heading_size }} smi-link-wrapper" data-type="item-heading">
                     {{ heading }}
                 </div>
@@ -220,7 +225,7 @@
 %}
 <div class="smi-component-button-without-link smi-button-wrapper">
     {% if button_label != blank %}
-        <a {% if button_link != blank %}href="{{ button_link }}"{% endif %} class="smi-button smi-text-button smi-button--{{ button_style | split: '_' | first }}
+        <a {% if button_link != blank %}href="{{ button_link }}"{% else %}href="#"{% endif %} class="smi-button smi-text-button smi-button--{{ button_style | split: '_' | first -}}
                 {%- if button_style contains 'arrow' %} smi-has-icon{% endif %}
                 {{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' | prepend: ' smi-hover-' -}}
                 {{- ' smi-border smi-shadow' -}}">
@@ -265,7 +270,7 @@
 </div>
 {% schema %}
 {
-	"name": "✧✧Collection list 2-3",
+	"name": "✧Collection list 2-3",
 	"tag": "section",
 	"class": "smi-section smi-collection-list-2",
 	"settings": [
@@ -848,101 +853,5 @@
 }
 {% endschema %}
 <script defer>
-
-(function (){
-    class SMI_Slide{
-        swiper = null;
-        sectionId = null;
-        sectionEl = null;
-        constructor(sectionId) {
-            this.sectionId = sectionId.replace('smi-','');
-            this.sectionEl = document.querySelector(`#${sectionId}`);
-            this._handleInitSwiper();
-        }
-        _swiper(){
-            if (typeof Swiper === "undefined") return null;
-            const self = this;
-            const swiperEl = this.sectionEl.querySelector('.smi-swiper');
-            const nextEl = this.sectionEl.querySelector('.arrow-slider-right');
-            const prevEl = this.sectionEl.querySelector('.arrow-slider-left');
-            const paginationEl = this.sectionEl.querySelector('.smi-pagination');
-            let swiperParams = {
-                init: true,
-                slidesPerView: 'auto',
-                loop: false,
-                watchSlidesProgress: true,
-                pagination: {
-                    el: paginationEl,
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: nextEl,
-                    prevEl: prevEl,
-                },
-                on:{
-                    afterInit(){
-                        self._handlePagination();
-                    }
-                }
-            }
-
-            try {
-                const swiperOptions = JSON.parse(swiperEl.getAttribute("data-swiper-options"));
-                swiperParams = {...swiperParams, ...swiperOptions}
-
-                if(swiperParams.pageDotStyle.includes('text-style')){
-                    swiperParams.pagination.type = "fraction";
-                    delete swiperParams.pageDotStyle;
-                }
-
-            }catch (e) {
-                console.log("Attribute data-swiper-options invalid JSON!")
-            }
-
-            this.swiper = new Swiper(swiperEl, swiperParams);
-
-        }
-
-        _handlePagination(){
-            if (this.sectionEl.querySelector('.swiper-pagination-lock')){
-                this.sectionEl.querySelector('.smi-swiper-pagination')?.classList.add('smi-d-none')
-            }
-        }
-
-        _handleInitSwiper(){
-            const wrap = this.sectionEl.querySelector('.smi-swipe-on-mobile');
-            if (!wrap) return null;
-
-            const screenResize = (mediaQuery) => {
-                if (mediaQuery.matches) {
-                    
-                    if (this.swiper?.initialized) this.swiper.destroy();
-                    this._swiper();
-                } else {
-                    
-                    if (this.swiper?.initialized) this.swiper.destroy();
-                }
-            }
-
-            const mediaQuery  = window.matchMedia("(max-width: 767.98px)")
-            screenResize(mediaQuery)
-            mediaQuery.addListener(screenResize)
-        }
-
-        _handleArrow() {
-        }
-
-    }
-
-    document.addEventListener('DOMContentLoaded',() => {
-        new SMI_Slide('smi-{{ section.id }}')
-    })
-
-    if (Shopify?.designMode){
-        new SMI_Slide('smi-{{ section.id }}')
-    }
-
-})();
-;
-
+!function(){class e{swiper=null;sectionId=null;sectionEl=null;constructor(e){this.sectionId=e.replace("smi-",""),this.sectionEl=document.querySelector(`#${e}`),this._handleInitSwiper()}_swiper(){if("undefined"==typeof Swiper)return null;const e=this,i=this.sectionEl.querySelector(".smi-swiper"),t=this.sectionEl.querySelector(".arrow-slider-right"),s=this.sectionEl.querySelector(".arrow-slider-left");let n={init:!0,slidesPerView:"auto",loop:!1,watchSlidesProgress:!0,pagination:{el:this.sectionEl.querySelector(".smi-pagination"),clickable:!0},navigation:{nextEl:t,prevEl:s},on:{afterInit(){e._handlePagination()}}};try{const e=JSON.parse(i.getAttribute("data-swiper-options"));n={...n,...e},n.pageDotStyle.includes("text-style")&&(n.pagination.type="fraction",delete n.pageDotStyle)}catch(e){console.log("Attribute data-swiper-options invalid JSON!")}this.swiper=new Swiper(i,n)}_handlePagination(){this.sectionEl.querySelector(".swiper-pagination-lock")&&this.sectionEl.querySelector(".smi-swiper-pagination")?.classList.add("smi-d-none")}_handleInitSwiper(){if(!this.sectionEl.querySelector(".smi-swipe-on-mobile"))return null;const screenResize=e=>{e.matches?(this.swiper?.initialized&&this.swiper.destroy(),this._swiper()):this.swiper?.initialized&&this.swiper.destroy()},e=window.matchMedia("(max-width: 767.98px)");screenResize(e),e.addListener(screenResize)}_handleArrow(){}}document.addEventListener("DOMContentLoaded",(()=>{new e("smi-{{ section.id }}")})),Shopify?.designMode&&new e("smi-{{ section.id }}")}();
 </script>
