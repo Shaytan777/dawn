@@ -347,6 +347,7 @@
       "blocks": {
         "text_c8qzVT": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
@@ -355,7 +356,7 @@
         "title_edWVNX": {
           "type": "title",
           "settings": {
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "rating_6VjXVN": {
@@ -401,8 +402,10 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "return",
+            "image_1": "shopify:\/\/shop_images\/money-back-Supplies-Mamzoo-Pet-Shop.webp",
             "heading_1": "30-Day Money Back Guarantee",
             "icon_2": "truck",
+            "image_2": "shopify:\/\/shop_images\/Mamzoo-dog-products-shipping-free-delivery-worldwide-dog-Supplies-near-me.webp",
             "heading_2": "Tracked Shipping",
             "icon_3": "paw_print",
             "heading_3": "Loved By Our Customers"
