@@ -11,7 +11,7 @@
             "heading": "",
             "heading_size": "smi-h5",
             "text_image": "shopify:\/\/shop_images\/Pet_Store_near_me_for_dogs_and_cats_on_Mamzoo.png",
-            "image_width": 110,
+            "image_width": 200,
             "use_media_setting": false,
             "img_link": "shopify:\/\/collections\/all",
             "content": "<p>We believe in building a supportive community of pet-loving families who share our values.<br\/><\/p>",
@@ -30,7 +30,7 @@
           "type": "menu",
           "settings": {
             "heading": "LEGAL",
-            "menu": "legal",
+            "menu": "mega-menu-1",
             "enable_collapsible_content_on_mobile": true
           }
         },
