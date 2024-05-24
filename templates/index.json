@@ -203,6 +203,20 @@
             "button_style": "text"
           }
         },
+        "collection_9b6dYC": {
+          "type": "collection",
+          "settings": {
+            "collection": "dog-leash",
+            "image": "shopify:\/\/shop_images\/b61354be-b7be-4b5b-a73d-608552d47727.jpg",
+            "subheading": "",
+            "heading": "Dog Leash",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
         "color_KKw3KC": {
           "type": "color",
           "disabled": true,
@@ -224,6 +238,7 @@
         "collection_p3TTtX",
         "collection_QYiAdx",
         "collection_C3DxEX",
+        "collection_9b6dYC",
         "color_KKw3KC"
       ],
       "settings": {
@@ -236,7 +251,7 @@
         "content_alignment": "center",
         "media_ratio": "1\/1",
         "media_shape": "round",
-        "number_of_columns_on_desktop": "5",
+        "number_of_columns_on_desktop": "6",
         "number_of_columns_on_mobile": "1",
         "enable_swipe_on_mobile": true,
         "color_scheme": "scheme_1",
