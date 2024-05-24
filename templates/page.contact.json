@@ -2,24 +2,158 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "form": {
-      "type": "contact-form",
+    "smi_contact_1_6_qG6DUp": {
+      "type": "smi-contact-1-6",
+      "blocks": {
+        "background_gWpkGV": {
+          "type": "background",
+          "settings": {
+            "background_simple": "",
+            "image": "shopify:\/\/shop_images\/mamzoo-wide-range-of-pet-products_-including-squishmallow-pet_beds-grooming-accessories-and-more-at-Mamzoo-Pet-Store.png",
+            "animation": "none",
+            "background_overlay": "linear-gradient(275deg, rgba(14, 12, 9, 0.65) 4%, rgba(14, 12, 9, 0.35) 83%)"
+          }
+        },
+        "dropdown_option_pJJWGL": {
+          "type": "dropdown_option",
+          "settings": {
+            "label": "Inquiry",
+            "options": "Shipping, Order, Refund policy"
+          }
+        },
+        "color_8YQzf7": {
+          "type": "color",
+          "settings": {
+            "background_color": "#63513f",
+            "background_gradient_color": "",
+            "text_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "solid_background_button_color": "#ffffff",
+            "solid_button_label_color": "#63513f",
+            "shadow_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "background_gWpkGV",
+        "dropdown_option_pJJWGL",
+        "color_8YQzf7"
+      ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
+        "container_full_width": true,
+        "sub_heading": "CONTACT US",
+        "heading": "Get in Touch with Mamzoo Team",
+        "heading_size": "smi-h2",
+        "description": "<p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, our team is here to help.<\/p>",
+        "content_position": "right",
+        "content_alignment": "left",
+        "content_max_width": 670,
+        "button_full_width": false,
+        "addition_text": "We would like to inform you that our support team may require up to 24 hours to respond to your inquiries.",
+        "color_scheme": "scheme_4",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "image_with_text_EGUrfU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fyQ7cG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_9xmFW4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_CjLQPd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fyQ7cG",
+        "text_9xmFW4",
+        "button_CjLQPd"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_fWmVUq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_78QXHQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_qqXHgq": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Follow Us:<\/strong><\/p><ul><li><strong>Facebook:<\/strong> facebook.com\/mamzoo<\/li><li><strong>Instagram:<\/strong> instagram.com\/mamzoo<\/li><li><strong>Twitter:<\/strong> twitter.com\/mamzoo<\/li><\/ul>"
+          }
+        },
+        "button_DaTnKg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_78QXHQ",
+        "text_qqXHgq",
+        "button_DaTnKg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "form"
+    "smi_contact_1_6_qG6DUp",
+    "image_with_text_EGUrfU",
+    "rich_text_fWmVUq"
   ]
 }
