@@ -18,6 +18,14 @@
             "enable_collapsible_content_on_mobile": false
           }
         },
+        "menu_n9UqfD": {
+          "type": "menu",
+          "settings": {
+            "heading": "Follow us",
+            "menu": "follow-us",
+            "enable_collapsible_content_on_mobile": true
+          }
+        },
         "menu_4AgcXe": {
           "type": "menu",
           "settings": {
@@ -59,6 +67,7 @@
       },
       "block_order": [
         "image_YiFzkf",
+        "menu_n9UqfD",
         "menu_4AgcXe",
         "menu_7ATXXX",
         "email_form_footer_RjMwVw",
