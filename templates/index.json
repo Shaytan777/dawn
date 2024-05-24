@@ -403,11 +403,12 @@
             "layout": "horizontal",
             "icon_1": "return",
             "image_1": "shopify:\/\/shop_images\/money-back-Supplies-Mamzoo-Pet-Shop.webp",
-            "heading_1": "30-Day Money Back Guarantee",
+            "heading_1": "30-Day Money Back",
             "icon_2": "truck",
-            "image_2": "shopify:\/\/shop_images\/Mamzoo-dog-products-shipping-free-delivery-worldwide-dog-Supplies-near-me.webp",
+            "image_2": "shopify:\/\/shop_images\/Track-Orders-Pet-Supplies-Mamzoo-Pet-Store.webp",
             "heading_2": "Tracked Shipping",
             "icon_3": "paw_print",
+            "image_3": "shopify:\/\/shop_images\/Love-Pets-Supplies-Mamzoo-Pet-Store.webp",
             "heading_3": "Loved By Our Customers"
           }
         }
