@@ -147,53 +147,15 @@
             "button_style": "text"
           }
         },
-        "collection_MNTrax": {
+        "collection_fkLPa7": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "pet-backpack-carrier",
+            "image": "shopify:\/\/shop_images\/1842427139661.png",
             "subheading": "",
-            "heading": "",
+            "heading": "Pet Backpacks",
             "heading_size": "smi-h4",
-            "description": "8 items",
-            "link": "",
-            "button_label": "",
-            "button_style": "text"
-          }
-        },
-        "collection_KpenUU": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "heading": "Set dresses",
-            "heading_size": "smi-h4",
-            "description": "11 items",
-            "link": "",
-            "button_label": "",
-            "button_style": "text"
-          }
-        },
-        "collection_3rcmf9": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "heading": "Swimsuit",
-            "heading_size": "smi-h4",
-            "description": "4 items",
-            "link": "",
-            "button_label": "",
-            "button_style": "text"
-          }
-        },
-        "collection_DwGDqJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "heading": "Bags",
-            "heading_size": "smi-h4",
-            "description": "5 items",
+            "description": "",
             "link": "",
             "button_label": "",
             "button_style": "text"
@@ -201,6 +163,7 @@
         },
         "color_KKw3KC": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
@@ -215,10 +178,7 @@
       },
       "block_order": [
         "collection_hrgzMr",
-        "collection_MNTrax",
-        "collection_KpenUU",
-        "collection_3rcmf9",
-        "collection_DwGDqJ",
+        "collection_fkLPa7",
         "color_KKw3KC"
       ],
       "settings": {
