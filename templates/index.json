@@ -175,6 +175,20 @@
             "button_style": "text"
           }
         },
+        "collection_QYiAdx": {
+          "type": "collection",
+          "settings": {
+            "collection": "carriers",
+            "image": "shopify:\/\/shop_images\/0838f346-de8e-4af3-a115-6f12b192caba.jpg",
+            "subheading": "",
+            "heading": "Beds & Pads",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
         "color_KKw3KC": {
           "type": "color",
           "disabled": true,
@@ -194,6 +208,7 @@
         "collection_hrgzMr",
         "collection_fkLPa7",
         "collection_p3TTtX",
+        "collection_QYiAdx",
         "color_KKw3KC"
       ],
       "settings": {
