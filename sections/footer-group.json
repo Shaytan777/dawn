@@ -20,16 +20,16 @@
         "menu_4AgcXe": {
           "type": "menu",
           "settings": {
-            "heading": "LEGAL",
-            "menu": "legal",
+            "heading": "SHOP NOW",
+            "menu": "mega-menu-1",
             "enable_collapsible_content_on_mobile": true
           }
         },
-        "menu_a6KFE6": {
+        "menu_7ATXXX": {
           "type": "menu",
           "settings": {
-            "heading": "About",
-            "menu": "",
+            "heading": "LEGAL",
+            "menu": "legal",
             "enable_collapsible_content_on_mobile": true
           }
         },
@@ -59,7 +59,7 @@
       "block_order": [
         "image_YiFzkf",
         "menu_4AgcXe",
-        "menu_a6KFE6",
+        "menu_7ATXXX",
         "email_form_footer_RjMwVw",
         "color_QLMJgC"
       ],
