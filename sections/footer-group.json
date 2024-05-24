@@ -20,8 +20,8 @@
         "menu_4AgcXe": {
           "type": "menu",
           "settings": {
-            "heading": "SHOP NOW",
-            "menu": "mega-menu-1",
+            "heading": "DISCOVER",
+            "menu": "footer",
             "enable_collapsible_content_on_mobile": true
           }
         },
