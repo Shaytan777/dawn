@@ -217,6 +217,21 @@
             "button_style": "text"
           }
         },
+        "collection_jwtcn3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "dog-leash",
+            "image": "shopify:\/\/shop_images\/b61354be-b7be-4b5b-a73d-608552d47727.jpg",
+            "subheading": "",
+            "heading": "Dog Leashes",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
         "color_KKw3KC": {
           "type": "color",
           "disabled": true,
@@ -239,6 +254,7 @@
         "collection_QYiAdx",
         "collection_C3DxEX",
         "collection_9b6dYC",
+        "collection_jwtcn3",
         "color_KKw3KC"
       ],
       "settings": {
