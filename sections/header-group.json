@@ -29,7 +29,7 @@
             "icon": "discount",
             "upload_icon": "shopify:\/\/shop_images\/spring-sale-mamzoo-pet-supplies-coupon-discount-Supplies-Pet-Shop-32px.png",
             "icon_size": 28,
-            "content": "<p>SPRING SALE! UP TO 50% OFF<\/p>"
+            "content": "<p>SPRING SALE! UP TO <a href=\"\/collections\/seasonal-specials-mamzoo-sale\" title=\"SEASONAL SPECIALS\">50% OFF<\/a><\/p>"
           }
         },
         "color_cwarY9": {
