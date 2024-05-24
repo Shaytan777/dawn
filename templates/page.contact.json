@@ -62,6 +62,48 @@
         "padding_bottom": 50
       }
     },
+    "rich_text_fWmVUq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_78QXHQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONNECT WITH US",
+            "heading_size": "h1"
+          }
+        },
+        "text_qqXHgq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stay in the loop with Mamzoo Pet Store through our social media channels<strong>:<\/strong><\/p><ul><li><strong>Facebook:<\/strong> <a href=\"https:\/\/facebook.com\/mamzoopetstore\" title=\"https:\/\/facebook.com\/mamzoopetstore\">facebook.com\/mamzoopetstore<\/a><\/li><li><strong>Instagram:<\/strong> <a href=\"https:\/\/www.instagram.com\/mamzoopetstore\/\" title=\"https:\/\/www.instagram.com\/mamzoopetstore\/\">instagram.com\/mamzoopetstore<\/a><\/li><li><strong>Twitter:<\/strong> <a href=\"https:\/\/www.twitter.com\/mamzoopetstore\/\" title=\"https:\/\/www.twitter.com\/mamzoopetstore\/\">twitter.com\/mamzoopetstore<\/a><\/li><li><strong>Pinterest:<\/strong> <a href=\"https:\/\/www.pinterest.com\/mamzoopetstore\" title=\"https:\/\/www.pinterest.com\/mamzoopetstore\">pinterest.com\/mamzoopetstore<\/a><\/li><li><strong>TikTok:<\/strong> <a href=\"https:\/\/www.tiktok.com\/@mamzoopetstore\" title=\"https:\/\/www.tiktok.com\/@mamzoopetstore\">tiktok.com\/@mamzoopetstore<\/a><\/li><\/ul>"
+          }
+        },
+        "button_DaTnKg": {
+          "type": "button",
+          "settings": {
+            "button_label": "CONTINUE SHOPPING 👉",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_78QXHQ",
+        "text_qqXHgq",
+        "button_DaTnKg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_EGUrfU": {
       "type": "image-with-text",
       "blocks": {
@@ -108,54 +150,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "rich_text_fWmVUq": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_78QXHQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "CONNECT WITH US",
-            "heading_size": "h1"
-          }
-        },
-        "text_qqXHgq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Stay in the loop with Mamzoo Pet Store through our social media channels<strong>:<\/strong><\/p><ul><li><strong>Facebook:<\/strong> <a href=\"https:\/\/facebook.com\/mamzoopetstore\" title=\"https:\/\/facebook.com\/mamzoopetstore\">facebook.com\/mamzoopetstore<\/a><\/li><li><strong>Instagram:<\/strong> <a href=\"https:\/\/www.instagram.com\/mamzoopetstore\/\" title=\"https:\/\/www.instagram.com\/mamzoopetstore\/\">instagram.com\/mamzoopetstore<\/a><\/li><li><strong>Twitter:<\/strong> <a href=\"https:\/\/www.twitter.com\/mamzoopetstore\/\" title=\"https:\/\/www.twitter.com\/mamzoopetstore\/\">twitter.com\/mamzoopetstore<\/a><\/li><li><strong>Pinterest:<\/strong> <a href=\"https:\/\/www.pinterest.com\/mamzoopetstore\" title=\"https:\/\/www.pinterest.com\/mamzoopetstore\">pinterest.com\/mamzoopetstore<\/a><\/li><li><strong>TikTok:<\/strong> <a href=\"https:\/\/www.tiktok.com\/@mamzoopetstore\" title=\"https:\/\/www.tiktok.com\/@mamzoopetstore\">tiktok.com\/@mamzoopetstore<\/a><\/li><\/ul>"
-          }
-        },
-        "button_DaTnKg": {
-          "type": "button",
-          "settings": {
-            "button_label": "CONTINUE SHOPPING 👉",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_78QXHQ",
-        "text_qqXHgq",
-        "button_DaTnKg"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "smi_contact_1_6_qG6DUp",
-    "image_with_text_EGUrfU",
-    "rich_text_fWmVUq"
+    "rich_text_fWmVUq",
+    "image_with_text_EGUrfU"
   ]
 }
