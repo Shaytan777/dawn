@@ -147,20 +147,6 @@
             "button_style": "text"
           }
         },
-        "collection_fkLPa7": {
-          "type": "collection",
-          "settings": {
-            "collection": "pet-backpack-carrier",
-            "image": "shopify:\/\/shop_images\/1842427139661.png",
-            "subheading": "",
-            "heading": "Pet Backpacks",
-            "heading_size": "smi-h4",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_style": "text"
-          }
-        },
         "collection_p3TTtX": {
           "type": "collection",
           "settings": {
@@ -168,6 +154,20 @@
             "image": "shopify:\/\/shop_images\/0838f346-de8e-4af3-a115-6f12b192caba.jpg",
             "subheading": "",
             "heading": "Beds & Pads",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_fkLPa7": {
+          "type": "collection",
+          "settings": {
+            "collection": "pet-backpack-carrier",
+            "image": "shopify:\/\/shop_images\/1842427139661.png",
+            "subheading": "",
+            "heading": "Pet Backpacks",
             "heading_size": "smi-h4",
             "description": "",
             "link": "",
@@ -234,8 +234,8 @@
       },
       "block_order": [
         "collection_hrgzMr",
-        "collection_fkLPa7",
         "collection_p3TTtX",
+        "collection_fkLPa7",
         "collection_QYiAdx",
         "collection_C3DxEX",
         "collection_9b6dYC",
