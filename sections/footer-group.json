@@ -34,14 +34,6 @@
             "enable_collapsible_content_on_mobile": true
           }
         },
-        "menu_7ATXXX": {
-          "type": "menu",
-          "settings": {
-            "heading": "LEGAL",
-            "menu": "mega-menu-1",
-            "enable_collapsible_content_on_mobile": true
-          }
-        },
         "email_form_footer_RjMwVw": {
           "type": "email_form_footer",
           "settings": {
@@ -69,7 +61,6 @@
         "image_YiFzkf",
         "menu_n9UqfD",
         "menu_4AgcXe",
-        "menu_7ATXXX",
         "email_form_footer_RjMwVw",
         "color_QLMJgC"
       ],
