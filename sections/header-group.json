@@ -2,6 +2,58 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "smi_announcement_bar_1_2_bV94H8": {
+      "type": "smi-announcement-bar-1-2",
+      "blocks": {
+        "announcement_a3PRXi": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "content": "<p>New: Explore our collection in collaboration with Kayle Swart<\/p>"
+          }
+        },
+        "announcement_CQnTip": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": 24,
+            "content": "<p>Free shipping on orders over $100! <a href=\"#\" title=\"#\">Learn more<\/a><\/p>"
+          }
+        },
+        "announcement_hFTmeh": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "upload_icon": "shopify:\/\/shop_images\/pet-supplies-coupon-discount-Supplies-Mamzoo-Pet-Shop.webp",
+            "icon_size": 24,
+            "content": "<p>Spring Sale: Up to 50% OFF select items - <a href=\"#\" title=\"#\">Shop now!<\/a><\/p>"
+          }
+        },
+        "color_cwarY9": {
+          "type": "color",
+          "settings": {
+            "background_color": "#63513f",
+            "background_gradient_color": "",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_a3PRXi",
+        "announcement_CQnTip",
+        "announcement_hFTmeh",
+        "color_cwarY9"
+      ],
+      "settings": {
+        "enable_sticky_bar": true,
+        "auto_rotate_slides": true,
+        "change_slides_every": 4,
+        "color_scheme": "scheme_4",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -32,6 +84,7 @@
         "announcement_JhAP7z",
         "announcement_PYbKrc"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-c1a8fabc-3ee4-49e1-887f-ce6e3a147e03",
         "show_line_separator": false,
@@ -154,6 +207,7 @@
     }
   },
   "order": [
+    "smi_announcement_bar_1_2_bV94H8",
     "announcement-bar",
     "header",
     "smi_header_1_1_XWwibM"
