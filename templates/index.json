@@ -189,6 +189,20 @@
             "button_style": "text"
           }
         },
+        "collection_C3DxEX": {
+          "type": "collection",
+          "settings": {
+            "collection": "dog-collar",
+            "image": "shopify:\/\/shop_images\/1465801326152.jpg",
+            "subheading": "",
+            "heading": "Dog Collars",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
         "color_KKw3KC": {
           "type": "color",
           "disabled": true,
@@ -209,6 +223,7 @@
         "collection_fkLPa7",
         "collection_p3TTtX",
         "collection_QYiAdx",
+        "collection_C3DxEX",
         "color_KKw3KC"
       ],
       "settings": {
