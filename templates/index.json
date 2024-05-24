@@ -130,6 +130,86 @@
         "padding_bottom": 0
       }
     },
+    "smi_icon_with_text_1_7_HxR6eq": {
+      "type": "smi-icon-with-text-1-7",
+      "blocks": {
+        "icon_with_text_aQHPRq": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "box",
+            "upload_icon": "shopify:\/\/shop_images\/Choice-Pet-Supplies-Mamzoo-Pet-Shop.png",
+            "icon_size": 90,
+            "icon_bg": "rgba(0,0,0,0)",
+            "heading": "CHOOSE YOUR PERFECT PRODUCT",
+            "heading_size": "smi-h4",
+            "content": "<p>Tailor your experience by selecting the optimal product configuration on our user-friendly website.<\/p>",
+            "button_label": "",
+            "link1": ""
+          }
+        },
+        "icon_with_text_xELyNw": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "return",
+            "upload_icon": "shopify:\/\/shop_images\/Delivery-Pet-Supplies-Mamzoo-Pet-Shop.png",
+            "icon_size": 90,
+            "icon_bg": "rgba(0,0,0,0)",
+            "heading": "EXPERIENCE FREE SHIPPING & GUARANTEE",
+            "heading_size": "smi-h4",
+            "content": "<p>Revel in the convenience of complimentary shipping and a rock-solid 30-day money-back guarantee.<\/p>",
+            "button_label": "",
+            "link1": ""
+          }
+        },
+        "icon_with_text_D6YRNg": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "verify",
+            "upload_icon": "shopify:\/\/shop_images\/Cats-Supplies-Mamzoo-Pet-Shop.png",
+            "icon_size": 90,
+            "icon_bg": "rgba(0,0,0,0)",
+            "heading": "ENSURE ABSOLUTE SATISFACTION",
+            "heading_size": "smi-h4",
+            "content": "<p>Finally, indulge in the long-anticipated solution for effortless and gratifying pet care.<\/p>",
+            "button_label": "",
+            "link1": ""
+          }
+        },
+        "color_CPNFjM": {
+          "type": "color",
+          "disabled": true,
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "outline_button_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_aQHPRq",
+        "icon_with_text_xELyNw",
+        "icon_with_text_D6YRNg",
+        "color_CPNFjM"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "sub_heading": "",
+        "heading": "",
+        "heading_size": "smi-h2",
+        "description": "<h2>Enjoy Simple Pet Care with Mamzoo in Three Easy Steps:<\/h2>",
+        "heading_alignment": "center",
+        "content_alignment": "center",
+        "number_of_columns_on_desktop": "3",
+        "number_of_columns_on_mobile": "1",
+        "enable_swipe_on_mobile": false,
+        "icon_position": "top",
+        "color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "smi_collection_list_2_3_VrmnVi": {
       "type": "smi-collection-list-2-3",
       "blocks": {
@@ -767,6 +847,7 @@
     "smi_slideshow_1_6_GRmPmm",
     "collage",
     "rich_text",
+    "smi_icon_with_text_1_7_HxR6eq",
     "smi_collection_list_2_3_VrmnVi",
     "collage_LxBJVj",
     "featured_collection",
