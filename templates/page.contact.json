@@ -17,6 +17,7 @@
             "background_simple": "",
             "image": "shopify:\/\/shop_images\/mamzoo-wide-range-of-pet-products_-including-squishmallow-pet_beds-grooming-accessories-and-more-at-Mamzoo-Pet-Store.png",
             "animation": "none",
+            "video_url": "",
             "background_overlay": "linear-gradient(275deg, rgba(14, 12, 9, 0.65) 4%, rgba(14, 12, 9, 0.35) 83%)"
           }
         },
@@ -67,22 +68,22 @@
         "heading_fyQ7cG": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "JOIN THE MAMZOO COMMUNITY",
             "heading_size": "h1"
           }
         },
         "text_9xmFW4": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Connect with us on social media, share photos of your furry friends, and stay up-to-date on the latest product releases and promotions. Together, we can create a happier, healthier world for pets everywhere.<br\/><br\/>So what are you waiting for? Explore Mamzoo's innovative products and start making unforgettable memories with your furry companion today!<\/p>",
             "text_style": "body"
           }
         },
         "button_CjLQPd": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "SEASONAL SPECIALS 👉",
+            "button_link": "shopify:\/\/collections\/seasonal-specials-mamzoo-sale",
             "button_style_secondary": false
           }
         }
@@ -100,7 +101,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
