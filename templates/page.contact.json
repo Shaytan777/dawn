@@ -8,6 +8,53 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_EGUrfU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fyQ7cG": {
+          "type": "heading",
+          "settings": {
+            "heading": "JOIN THE MAMZOO COMMUNITY",
+            "heading_size": "h1"
+          }
+        },
+        "text_9xmFW4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Connect with us on social media, share photos of your furry friends, and stay up-to-date on the latest product releases and promotions. Together, we can create a happier, healthier world for pets everywhere.<br\/><br\/>So what are you waiting for? Explore Mamzoo's innovative products and start making unforgettable memories with your furry companion today!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_CjLQPd": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEASONAL SPECIALS 👉",
+            "button_link": "shopify:\/\/collections\/seasonal-specials-mamzoo-sale",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fyQ7cG",
+        "text_9xmFW4",
+        "button_CjLQPd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cat-backpack-pet-supplies-online-store-mamzoo-social-media-contact-us-page.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "smi_contact_1_6_qG6DUp": {
       "type": "smi-contact-1-6",
       "blocks": {
@@ -103,59 +150,12 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "image_with_text_EGUrfU": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_fyQ7cG": {
-          "type": "heading",
-          "settings": {
-            "heading": "JOIN THE MAMZOO COMMUNITY",
-            "heading_size": "h1"
-          }
-        },
-        "text_9xmFW4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Connect with us on social media, share photos of your furry friends, and stay up-to-date on the latest product releases and promotions. Together, we can create a happier, healthier world for pets everywhere.<br\/><br\/>So what are you waiting for? Explore Mamzoo's innovative products and start making unforgettable memories with your furry companion today!<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_CjLQPd": {
-          "type": "button",
-          "settings": {
-            "button_label": "SEASONAL SPECIALS 👉",
-            "button_link": "shopify:\/\/collections\/seasonal-specials-mamzoo-sale",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_fyQ7cG",
-        "text_9xmFW4",
-        "button_CjLQPd"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/cat-backpack-pet-supplies-online-store-mamzoo-social-media-contact-us-page.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
+    "image_with_text_EGUrfU",
     "smi_contact_1_6_qG6DUp",
-    "rich_text_fWmVUq",
-    "image_with_text_EGUrfU"
+    "rich_text_fWmVUq"
   ]
 }
