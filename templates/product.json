@@ -122,6 +122,9 @@
         "share",
         "rating_YajqBL"
       ],
+      "custom_css": [
+        ".price-item--regular {color: #f45902;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
@@ -246,7 +249,7 @@
           "settings": {
             "air_blockreviews_summaryHeading": "Review",
             "air_blockreviews_layout": "grid",
-            "air_blockreviews_singleStarColor": "#16A086",
+            "air_blockreviews_singleStarColor": "#16a086",
             "air_blockreviews_primaryColor": "#121212"
           }
         }

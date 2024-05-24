@@ -164,6 +164,22 @@
           "settings": {
             "custom_liquid": ""
           }
+        },
+        "product_color_mc4Ltt": {
+          "type": "product_color",
+          "settings": {
+            "background_color": "#F3F3F3",
+            "background_gradient_color": "",
+            "text_color": "#121212",
+            "solid_background_button_color": "#121212",
+            "solid_button_label_color": "#FFFFFF",
+            "outline_button_color": "#121212",
+            "shadow_color": "#121212",
+            "sale_badge_background": "#ED2626",
+            "sale_badge_text": "#FFFFFF",
+            "sold_badge_background": "#888888",
+            "sold_badge_text": "#FFFFFF"
+          }
         }
       },
       "block_order": [
@@ -185,7 +201,11 @@
         "product_collapse_content_yMLNBp",
         "product_collapse_content_V6EgPB",
         "smi-block-item-17",
-        "product_custom_liquid_Nw4eC4"
+        "product_custom_liquid_Nw4eC4",
+        "product_color_mc4Ltt"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "container_full_width": false,
@@ -209,7 +229,6 @@
         "image_block_NwBMFV": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sneaker-_sport_1_1.jpg",
             "heading": "Lightweight & comfortable fit for extended wear",
             "heading_size": "smi-h4",
             "content": "<p>Discover the perfect blend of fashion and function with our exquisite collection of shoes. Crafted with precision and attention to detail.<\/p>",
@@ -220,7 +239,6 @@
         "image_block_nT33QU": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sports_5.jpg",
             "heading": "Stylish design for fashion versatility",
             "heading_size": "smi-h4",
             "content": "<p>Indulge in the luxury of stepping out in style with our shoes collection. Embrace comfort, elevate your look, and make every step.<\/p>",
