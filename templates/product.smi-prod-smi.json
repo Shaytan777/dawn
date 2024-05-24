@@ -256,6 +256,60 @@
         "padding_bottom": 80
       }
     },
+    "smi_scrolling_text_1_3_JjnPjt": {
+      "type": "smi-scrolling-text-1-3",
+      "blocks": {
+        "text_GKDJBG": {
+          "type": "text",
+          "settings": {
+            "heading": "🚩 Tracking Shipping",
+            "heading_size": "smi-h4",
+            "outline_text": false
+          }
+        },
+        "text_KCCfWE": {
+          "type": "text",
+          "settings": {
+            "heading": "🔐 Secure Checkout",
+            "heading_size": "smi-h4",
+            "outline_text": false
+          }
+        },
+        "text_VeMPre": {
+          "type": "text",
+          "settings": {
+            "heading": "🚚 Free Shipping",
+            "heading_size": "smi-h4",
+            "outline_text": false
+          }
+        },
+        "color_NNLf48": {
+          "type": "color",
+          "settings": {
+            "background_color": "#8c8c8c",
+            "background_gradient_color": "",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_GKDJBG",
+        "text_KCCfWE",
+        "text_VeMPre",
+        "color_NNLf48"
+      ],
+      "settings": {
+        "container_full_width": true,
+        "show_top_divider": true,
+        "show_bottom_divider": true,
+        "scroll_direction": "rtl",
+        "scrolling_speed": 5,
+        "gap_between_content": 30,
+        "color_scheme": "scheme_1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "smi_icon_with_text_1_7_RRdtAx": {
       "type": "smi-icon-with-text-1-7",
       "blocks": {
@@ -1295,6 +1349,7 @@
   "order": [
     "product-detail-1-1-0",
     "smi_image_with_text_2_6_XnmXRP",
+    "smi_scrolling_text_1_3_JjnPjt",
     "smi_icon_with_text_1_7_RRdtAx",
     "smi_rich_text_1_5_D9UJ8R",
     "smi_related_products_1_5_e4kYGj",
