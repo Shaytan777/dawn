@@ -167,6 +167,7 @@
         },
         "product_color_mc4Ltt": {
           "type": "product_color",
+          "disabled": true,
           "settings": {
             "background_color": "#F3F3F3",
             "background_gradient_color": "",
