@@ -228,7 +228,7 @@
         "desktop_media_width": "60",
         "desktop_media_position": "left",
         "constrain_media_to_screen_height": "fill",
-        "desktop_layout": "left_thumbnails",
+        "desktop_layout": "bottom_thumbnails",
         "image_zoom": "click-and-hover",
         "mobile_layout": "show_thumbnails",
         "hide_variants": true,
