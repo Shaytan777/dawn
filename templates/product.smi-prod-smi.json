@@ -79,7 +79,7 @@
         "smi-block-item-7": {
           "type": "product_variant",
           "settings": {
-            "hide_sold_out_variant": false,
+            "hide_sold_out_variant": true,
             "selector_type": "dropdown",
             "color_selector_type": "variant_image"
           }
@@ -87,7 +87,7 @@
         "smi-block-item-8": {
           "type": "product_size_chart",
           "settings": {
-            "show_icon": true,
+            "show_icon": false,
             "append_to_variant_block": "Size guide"
           }
         },
