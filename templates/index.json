@@ -842,6 +842,58 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "smi_testimonial_1_7_8JYKaB": {
+      "type": "smi-testimonial-1-7",
+      "blocks": {
+        "testimonial_block_Q44U9d": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "Listen, I'll be honest - Mamzoo's products aren't exactly the cheapest.  But let me tell you, you get what you pay for!  The quality is incredible, and everything is so well-made.  I know these things are going to last for years, which makes the price totally worth it.  Plus, their customer service is fantastic, and they always have great deals and sales going on.  Mamzoo is an investment in your pet's happiness, and it's definitely worth it!",
+            "author_name": "Samantha Martinez",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/Eco-friendly-pet-supplies-for-small-animals-on-Mamzoo-dog-grooming-tips-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "color_QnRTAw": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_block_Q44U9d",
+        "color_QnRTAw"
+      ],
+      "settings": {
+        "full_width": true,
+        "sub_heading": "TESTIMONIALS",
+        "heading": "Our happy customers share",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "content_alignment": "center",
+        "arrow_style": "none",
+        "sticky_page_dot_style": "line-style-1",
+        "auto_rotate_slides": false,
+        "change_slide_every": 5,
+        "number_of_item": "4",
+        "color_scheme": "scheme_1",
+        "color_rating": "#f8a427",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -860,6 +912,7 @@
     "newsletter_nkmjDt",
     "17164422592dac321b",
     "smi_cart_drawer_1_1_J4bT7k",
-    "smi_icon_with_text_1_2_xC4acG"
+    "smi_icon_with_text_1_2_xC4acG",
+    "smi_testimonial_1_7_8JYKaB"
   ]
 }
