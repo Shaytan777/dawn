@@ -3,15 +3,15 @@
     "product-detail-1-1-0": {
       "type": "smi-product-detail-1-1",
       "blocks": {
+        "air_product_reviews_app_summary_block_MKCDeV": {
+          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+          }
+        },
         "smi-block-item-0": {
           "type": "product_breadcrumb",
           "settings": {
             "breadcrumb_top": true
-          }
-        },
-        "air_product_reviews_app_summary_block_MKCDeV": {
-          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "settings": {
           }
         },
         "smi-block-item-1": {
@@ -197,8 +197,8 @@
         }
       },
       "block_order": [
-        "smi-block-item-0",
         "air_product_reviews_app_summary_block_MKCDeV",
+        "smi-block-item-0",
         "smi-block-item-1",
         "smi-block-item-2",
         "product_feature_icon_fYEAYM",
