@@ -911,6 +911,19 @@
             "star": "5"
           }
         },
+        "testimonial_block_f4QChM": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "Mamzoo is a game-changer for pet parents! Their products are so well-thought-out, it's clear they really care about making our lives easier and our pets happier. Their quality is top-notch, and everything just feels functional and stylish at the same time. Now our home feels like a true pet paradise, and our furry friend is living the good life! Thanks, Mamzoo!",
+            "author_name": "Kaira Sugao",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/Discounted-pet-supplies-for-sale-on-Mamzoo-mobile-dog-grooming-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
         "color_QnRTAw": {
           "type": "color",
           "disabled": true,
@@ -931,6 +944,7 @@
         "testimonial_block_3GTtJB",
         "testimonial_block_rNrDnk",
         "testimonial_block_6iK6Ce",
+        "testimonial_block_f4QChM",
         "color_QnRTAw"
       ],
       "settings": {
