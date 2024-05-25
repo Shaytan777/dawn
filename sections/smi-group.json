@@ -177,7 +177,7 @@
         "inputs_ENctJV": {
           "type": "inputs",
           "settings": {
-            "inputs_border_thickness": 1,
+            "inputs_border_thickness": 0,
             "inputs_border_opacity": 55,
             "inputs_radius": 14,
             "inputs_shadow": "0,0,0",
@@ -195,7 +195,7 @@
           "type": "product_cards",
           "settings": {
             "card_image_padding": 0,
-            "card_border_thickness": 0,
+            "card_border_thickness": 1,
             "card_border_opacity": 55,
             "card_corner_radius": 14,
             "card_shadow": "0,0,0",
