@@ -6,9 +6,173 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_rRUFwa": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_bN7rPY": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h0"
+          }
+        },
+        "text_getcTD": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_eX83Na": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bN7rPY",
+        "text_getcTD",
+        "buttons_eX83Na"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WELCOME-TO-MAMZOO-PET-STORE-Get-50-OFF-on-our-best-sellers-Enjoy-20-OFF-your-first-purchase-2024.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "smi_rich_text_2_1_ig3krB": {
+      "type": "smi-rich-text-2-1",
+      "blocks": {
+        "text_CaqB3g": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore the epitome of style with our latest fashion collection. Immerse yourself in timeless elegance as modern trends seamlessly blend with classic allure. <\/p><p>From casual chic to sophisticated glamour, discover curated pieces that transcend seasons. Elevate your wardrobe and embrace the artistry of contemporary fashion with our exclusive designs and impeccable craftsmanship.<\/p>"
+          }
+        },
+        "button_XjtgQR": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "Read more about us",
+            "first_button_link": "",
+            "first_button_style": "text",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "solid",
+            "button_full_width": false
+          }
+        },
+        "color_T6DaKp": {
+          "type": "color",
+          "settings": {
+            "background_color": "#fcf8f5",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#fcf8f5",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_CaqB3g",
+        "button_XjtgQR",
+        "color_T6DaKp"
+      ],
+      "settings": {
+        "sub_heading": "",
+        "heading": "OUR CULTURE",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "left",
+        "content_alignment": "left",
+        "desktop_content_width": "50",
+        "color_scheme": "scheme_2",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "smi_image_with_text_1_2_k7Cff7": {
+      "type": "smi-image-with-text-1-2",
+      "blocks": {
+        "heading_B4czeU": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "",
+            "heading_size": "smi-h2",
+            "description": "<p>Forget those bland bowls and boring beds. Mamzoo is not your typical pet supply store. We are a group of passionate pet lovers whose mission is to offer innovative products that will improve your pet's life by combining practicality with modern style.<br\/><br\/>We select products that really work well. Accessories are selected with care for you and your furry friend in mind, tackling everyday challenges while fitting perfectly into your modern lifestyle.<br\/><br\/>Our products, like the irreplaceable LazyMAX™ dog bottle and our eye-catching carriers, are created to make your daily routine easier. We believe that happy pets make happy owners, so every detail, from functionality to design, is carefully thought out. When you buy from Mamzoo, you’re joining a movement of pet parents dedicated to enriching their furry companions' lives. We get that pets are family, and their well-being is our top priority. <br\/><br\/>Ready to take your pet's world to the next level? We offer free shipping and a 30-day money-back guarantee to ensure your complete satisfaction. Join Mamzoo and begin a journey of style, function and love.<br\/><br\/>Meet the Founders and Team of Mamzoo.<\/p>"
+          }
+        },
+        "button_hG8GeA": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "",
+            "first_button_link": "",
+            "first_button_style": "outline_arrow",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "outline",
+            "button_full_width": false
+          }
+        },
+        "color_ByKqei": {
+          "type": "color",
+          "disabled": true,
+          "settings": {
+            "background_color": "#F3F3F3",
+            "background_gradient_color": "",
+            "text_color": "#121212",
+            "subtext_color": "#121212",
+            "solid_background_button_color": "#121212",
+            "solid_button_label_color": "#FFFFFF",
+            "outline_button_color": "#121212",
+            "shadow_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B4czeU",
+        "button_hG8GeA",
+        "color_ByKqei"
+      ],
+      "settings": {
+        "full_width": "container",
+        "desktop_media_width": "50",
+        "desktop_media_position": "row-reverse",
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "content_position": "left",
+        "content_alignment": "left",
+        "content_max_width": 570,
+        "color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_rRUFwa",
+    "smi_rich_text_2_1_ig3krB",
+    "smi_image_with_text_1_2_k7Cff7"
   ]
 }
