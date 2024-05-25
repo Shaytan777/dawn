@@ -859,6 +859,19 @@
             "star": "5"
           }
         },
+        "testimonial_block_A3XntL": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "We have a whole menagerie at our house - a playful pup, a grumpy old cat, and a skittish bunny.  I wasn't sure if Mamzoo would have something for everyone, but I was so wrong!  They have such a huge selection, I found the perfect toys, beds, and even a super cute carrier for the bunny.  Now playtime is a blast for everyone, and everyone has their own cozy spot to relax.  Mamzoo makes multi-pet life so much easier!",
+            "author_name": "Sarah Johnson",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/Best-pet-supplies-for-dogs-and-cats-on-Mamzoo-dog-grooming-near-me-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
         "color_QnRTAw": {
           "type": "color",
           "disabled": true,
@@ -875,6 +888,7 @@
       },
       "block_order": [
         "testimonial_block_Q44U9d",
+        "testimonial_block_A3XntL",
         "color_QnRTAw"
       ],
       "settings": {
