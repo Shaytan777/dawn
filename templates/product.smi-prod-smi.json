@@ -151,6 +151,18 @@
             "collapse_content_page": ""
           }
         },
+        "product_collapse_content_Ej7dFy": {
+          "type": "product_collapse_content",
+          "settings": {
+            "show_desc_below": false,
+            "icon": "none",
+            "icon_size": 24,
+            "collapse_heading": "Shipping information",
+            "heading_size": "smi-h5",
+            "collapse_content": "<p><strong>Global Delivery, No Cost!<\/strong><\/p><p>Enjoy free worldwide delivery to the US, Canada, Australia, France, the UK, and Germany. Need assistance beyond these regions? Contact us.<\/p><p><strong>Efficient Processing, Quick Updates<\/strong><\/p><p>Order processing in 24-48 hours, with prompt notifications on your shipment.<\/p><p><strong>Swift, Reliable Service<\/strong><\/p><p>Our average delivery: 3-8 days. Free shipping to the US, UK, Canada, and Australia, ensuring a hassle-free, transparent experience.<\/p><p><strong>Global Excellence Commitment<\/strong><\/p><p>Optimal worldwide shipping with daily deliveries for your satisfaction. Experience seamless, hassle-free global shipping.<\/p>",
+            "collapse_content_page": ""
+          }
+        },
         "smi-block-item-17": {
           "type": "product_share",
           "settings": {
@@ -169,17 +181,17 @@
           "type": "product_color",
           "disabled": true,
           "settings": {
-            "background_color": "#F3F3F3",
+            "background_color": "#f3f3f3",
             "background_gradient_color": "",
             "text_color": "#121212",
             "solid_background_button_color": "#121212",
-            "solid_button_label_color": "#FFFFFF",
+            "solid_button_label_color": "#ffffff",
             "outline_button_color": "#121212",
             "shadow_color": "#121212",
-            "sale_badge_background": "#ED2626",
-            "sale_badge_text": "#FFFFFF",
+            "sale_badge_background": "#ed2626",
+            "sale_badge_text": "#ffffff",
             "sold_badge_background": "#888888",
-            "sold_badge_text": "#FFFFFF"
+            "sold_badge_text": "#ffffff"
           }
         }
       },
@@ -201,6 +213,7 @@
         "custom_liquid_XKhLKU",
         "product_collapse_content_yMLNBp",
         "product_collapse_content_V6EgPB",
+        "product_collapse_content_Ej7dFy",
         "smi-block-item-17",
         "product_custom_liquid_Nw4eC4",
         "product_color_mc4Ltt"
