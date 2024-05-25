@@ -1,0 +1,844 @@
+{% style %}
+	.smi-media-wrapper{aspect-ratio:var(--media-ratio)}.smi-media-wrapper:hover img,.smi-media-wrapper:hover svg,.smi-media-wrapper:hover video,.smi-media-wrapper:hover iframe,.smi-media-wrapper:hover div{clip-path:polygon(var(--shape-hover));transition:all .4s}.smi-blob-wrapper.smi-has-blob{border:none !important;box-shadow:none !important}.smi-section-collection-list-2{overflow:hidden}@media screen and (max-width: 767.8px){.smi-section-collection-list-2__main.smi-swipe-on-mobile .smi-swiper{overflow:visible}.smi-section-collection-list-2__main.smi-swipe-on-mobile .swiper-slide{width:var(--item-width-xs);transition:opacity .3s ease-in-out;opacity:0;margin-right:var(--grid-mobile-horizontal-spacing, 15px)}.smi-section-collection-list-2__main.smi-swipe-on-mobile .swiper-wrapper:has(>.swiper-slide:only-child){justify-content:center}.smi-section-collection-list-2__main.smi-swipe-on-mobile .swiper-slide:only-child{max-width:800px}.smi-section-collection-list-2__main.smi-swipe-on-mobile .swiper-slide:last-child{margin-right:0 !important}.smi-section-collection-list-2__main.smi-swipe-on-mobile .swiper-slide-visible{opacity:1}.smi-section-collection-list-2__main.smi-swipe-on-mobile .smi-swiper-controls{display:flex}}.smi-section-collection-list-2 .smi-swiper-controls{width:100%;display:none;justify-content:center}.smi-section-collection-list-2 .smi-swiper-pagination{--swiper-pagination-bottom: 0}@media screen and (max-width: 767.8px){.smi-section-collection-list-2__main.smi-grid-on-mobile .swiper{overflow:visible}.smi-section-collection-list-2__main.smi-grid-on-mobile .swiper-wrapper{flex-wrap:wrap;column-gap:var(--grid-mobile-horizontal-spacing);row-gap:calc(var(--grid-mobile-vertical-spacing) + 8px)}.smi-section-collection-list-2__main.smi-grid-on-mobile .swiper-slide{width:var(--item-width-xs)}}@media screen and (min-width: 768px){.smi-section-collection-list-2__main .swiper{overflow:visible}.smi-section-collection-list-2__main .swiper-wrapper{flex-wrap:wrap;column-gap:var(--grid-desktop-horizontal-spacing);row-gap:calc(var(--grid-desktop-vertical-spacing) + 16px)}.smi-section-collection-list-2__main .swiper-slide{width:var(--item-width-md);height:auto}}@media screen and (min-width: 992px){.smi-section-collection-list-2__main .swiper-slide{width:var(--item-width-lg)}}@media screen and (min-width: 1200px){.smi-section-collection-list-2__main .swiper-slide{width:var(--item-width-xl)}}.smi-section-collection-list-2 .smi-card-collection{word-wrap:break-word}.smi-section-collection-list-2 .smi-card-collection__content{text-align:var(--content-alignment)}
+{% endstyle %}
+{% comment %}#component#["settings/heading","settings/media-settings-3","settings/slider-arrows","settings/slider-dots","settings/slides","settings/section-padding","settings/button-without-url","blocks/color","blocks/background","settings/layout-settings","settings/media-height-2","settings/content-position","settings/product-card-2","settings/design-mode","settings/animation-settings","settings/slider-pagination-1-style"]#endcomponent#{% endcomment %}
+{% comment %} swiper.js {% endcomment %}
+{{ 'smi-swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'smi-swiper-bundle.min.js' | asset_url }}" defer data-id="swiper"></script>
+{% liquid
+    assign custom_blocks = section.blocks | where: 'type', 'collection'
+    assign block_length = custom_blocks | size
+    assign slides_per_view_desktop = section.settings.number_of_columns_on_desktop
+    assign slides_per_view_laptop = 3 | at_most: slides_per_view_desktop
+    assign slides_per_view_tablet = 2 | at_most: slides_per_view_desktop
+    assign slides_per_view_mobile = section.settings.number_of_columns_on_mobile | at_most: block_length
+    if section.settings.enable_swipe_on_mobile == true
+        assign offset_swiper_mobile = 30
+    else
+        assign offset_swiper_mobile = 0
+    endif
+    if block_length == slides_per_view_mobile
+        assign offset_swiper_mobile = 0
+    endif
+    if section.settings.content_alignment == 'left'
+        assign classes_position_button = 'smi-justify-content-start'
+    elsif section.settings.content_alignment == 'right'
+        assign classes_position_button = 'smi-justify-content-end'
+    else
+        assign classes_position_button = 'smi-justify-content-center'
+    endif
+%}
+<style>
+    {% assign colorblock = section.blocks | where: 'type', 'color' | first %}
+{% if colorblock %}
+      #shopify-section-{{ section.id }},
+      #shopify-section-{{ section.id }} .smi-color-{{ section.settings.color_scheme }},
+      .smi-block-custom-color { 
+        --color-background: {{ colorblock.settings.background_color.red }}, {{ colorblock.settings.background_color.green }},{{ colorblock.settings.background_color.blue }};        
+        {% if colorblock.settings.background_gradient_color == blank %}
+            --gradient-background: {{ colorblock.settings.background_color }};
+        {% else %}
+            --gradient-background: {{ colorblock.settings.background_gradient_color }};
+        {% endif %}
+        --color-foreground-hex: {{ colorblock.settings.text_color }};
+        --color-foreground: {{ colorblock.settings.text_color.red }}, {{ colorblock.settings.text_color.green }},{{ colorblock.settings.text_color.blue }};
+        --color-subtext: {{ colorblock.settings.subtext_color.red }},{{ colorblock.settings.subtext_color.green }},{{ colorblock.settings.subtext_color.blue }};
+        --color-button: {{ colorblock.settings.solid_background_button_color.red }}, {{ colorblock.settings.solid_background_button_color.green }},{{ colorblock.settings.solid_background_button_color.blue }};
+        --color-button-text: {{ colorblock.settings.solid_button_label_color.red }}, {{ colorblock.settings.solid_button_label_color.green }},{{ colorblock.settings.solid_button_label_color.blue }};
+        --color-secondary-button-text: {{ colorblock.settings.outline_button_color.red }}, {{ colorblock.settings.outline_button_color.green }},{{ colorblock.settings.outline_button_color.blue }};
+        --color-shadow: {{ colorblock.settings.shadow_color.red }}, {{ colorblock.settings.shadow_color.green }},{{ colorblock.settings.shadow_color.blue }};
+    }
+{% endif %}
+    #shopify-section-{{ section.id }}{
+        --section-padding-top: {{ section.settings.padding_top }}px;
+--section-padding-bottom: {{ section.settings.padding_bottom }}px;
+{% if section.settings.padding_top_section != blank or section.settings.padding_bottom_section != blank %}
+    --section-margin-top: {{ section.settings.padding_top_section }}px;
+    --section-margin-bottom: {{ section.settings.padding_bottom_section }}px;
+{% endif %}
+        --heading-alignment: {{ section.settings.heading_alignment }};
+        --content-alignment: {{ section.settings.content_alignment }};
+        --item-width-xs: {{ slides_per_view_mobile | minus: 1 | prepend: 'calc((100% - ((' | append: ' * var(--grid-mobile-horizontal-spacing)) + ' | append: offset_swiper_mobile | append: 'px))/' | append: slides_per_view_mobile | append: ')' }};
+        --item-width-md: {{ slides_per_view_tablet | minus: 1 | prepend: 'calc((100% - (' | append: ' * var(--grid-desktop-horizontal-spacing)))/' | append: slides_per_view_tablet | append: ')' }};
+        --item-width-lg: {{ slides_per_view_laptop | minus: 1 | prepend: 'calc((100% - (' | append: ' * var(--grid-desktop-horizontal-spacing)))/' | append: slides_per_view_laptop | append: ')' }};
+        --item-width-xl: {{ slides_per_view_desktop | minus: 1 | prepend: 'calc((100% - (' | append: ' * var(--grid-desktop-horizontal-spacing)))/' | append: slides_per_view_desktop | append: ')' }};
+    }
+</style>
+<div id="smi-{{ section.id }}" class="smi-{{ section.id }} smi-section__inner smi-gradient smi-section-collection-list-2 smi-color-{{ section.settings.color_scheme }}" data-section="collection-list-2" data-name="✧Collection list 2">
+     
+    {% render 'smi-background' %}
+    <div class="smi-container">
+         {%-liquid
+    if settings.smi_animations_reveal_on_scroll != nil
+        assign animation_scroll = settings.smi_animations_reveal_on_scroll
+    else
+        assign global_settings = shop.metafields.smind.settings.value
+        assign animation_scroll = global_settings.revealOnScroll
+    endif
+-%}
+<div class="smi-heading-component smi-heading-component--align-{{section.settings.heading_alignment}} smi-link-wrapper" {{- block.shopify_attributes -}}    >
+  {% liquid
+    assign heading = section.settings.heading | strip
+    assign sub_heading = section.settings.sub_heading | strip
+    assign description = section.settings.description | strip
+  %}
+  <div class="smi-heading-inner
+    {%- if animation_scroll %} smi-scroll-trigger smi-animate--slide-in{% endif -%}
+    {%- if heading != blank or sub_heading != blank or description != blank %} smi-mb-xxl{% endif -%}
+    ">
+        {%- assign sub_heading = section.settings.sub_heading | strip -%}
+{% if sub_heading != blank %}
+    <p class="smi-text-sub smi-mb-xxs smi-heading-component__subheading" data-type="subheading" data-key="s.subheading">{{- sub_heading -}}</p>
+{% endif %} 
+        {%- assign description = section.settings.description | strip -%}
+{%- assign heading = section.settings.heading | strip -%}
+{% if heading != blank %}
+    <h2 class="{{ section.settings.heading_size }} {% if description != blank %}smi-mb-sm{% endif %} smi-heading-component__heading" data-type="heading" data-key="s.heading">{{- heading -}}</h2>
+{% endif %} 
+        {%- assign description = section.settings.description | strip -%}
+{% if description != blank %}
+    <div class="smi-text-md smi-heading-component__description" data-type="description" data-key="s.description">{{ description }}</div>
+{% endif %}
+    </div>
+</div>
+    </div>
+    {% comment %}Swiper Slide{% endcomment %}
+    <div class="smi-section-collection-list-2__main {% if section.settings.enable_swipe_on_mobile == true %}smi-swipe-on-mobile{% else %}smi-grid-on-mobile{% endif %}">
+        {%-liquid
+    if settings.smi_animations_reveal_on_scroll != nil
+        assign animation_scroll = settings.smi_animations_reveal_on_scroll
+    else
+        assign global_settings = shop.metafields.smind.settings.value
+        assign animation_scroll = global_settings.revealOnScroll
+    endif
+-%}
+        <div class="{% if section.settings.container_full_width %}smi-container-fluid{% else %}smi-container{% endif -%} {%- if animation_scroll %} smi-scroll-trigger smi-animate--slide-in smi-animate-order-1{% endif -%}">
+            <div class="swiper smi-swiper" data-swiper-options='{"pageDotStyle":"text-style-2"}'>
+                <div class="swiper-wrapper">
+                    {% assign shape_index = 1 %}
+                    {% for block in custom_blocks %}
+                        {%-liquid
+    assign media_ratio = section.settings.media_ratio
+    assign media_shape = section.settings.media_shape
+    assign media_classes = 'smi-w-100 smi-object-fit-cover '
+    if media_shape != 'default' and media_shape != 'round'
+        if shape_index > 6
+            assign shape_index = 1
+        endif
+        if shape_index < 6 
+            assign forloop_next = shape_index | plus: 1
+        else
+            assign forloop_next = 1
+        endif
+        assign media_classes = media_classes | append: ' smi-shape-blob-' | append: shape_index
+        assign shape_index = shape_index | plus: 1
+        assign shape_hover = '--shape-blob-' | append: forloop_next
+    endif
+    if media_ratio == 'auto' 
+        assign media_classes = media_classes | append: ' smi-h-auto'
+    else
+        assign media_classes = media_classes | append: ' smi-h-100 smi-p-absolute'
+    endif
+    assign media_wrapper_classes = 'smi-media-wrapper smi-border smi-shadow smi-lh-0 smi-overflow-hidden smi-p-relative smi-' | append: media_shape
+    if media_shape contains 'blob'
+        assign media_wrapper_classes = media_wrapper_classes | append: ' smi-blob-wrapper smi-has-blob'
+    endif
+-%}
+                        <div class="swiper-slide" data-swiper-slide-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+                            <div class="card-collection-wrap">
+                                {% liquid
+    assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1
+    assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index
+    assign collection = block.settings.collection
+    if block.settings.link != blank
+        assign link = block.settings.link
+    elsif collection != blank
+        assign link = collection.url
+    else
+        assign link = ''
+    endif
+    if block.settings.heading != blank
+        assign heading = block.settings.heading
+    elsif collection != blank
+        assign heading = collection.title
+    else
+        assign heading = ''
+    endif
+%}
+<div class="smi-card-collection">
+    <div class="smi-card-collection__media">
+        <a href="{%- if link != blank -%} {{- link -}} {%- else -%} # {%- endif -%}"
+           class="{{ media_wrapper_classes }} smi-d-block {{ settings.smi_animations_hover_image | default: shop.metafields.smind.settings.value.imageHoverEffect | default: 'none' | prepend: ' smi-hover-image-' }}"
+           style="--media-ratio: {{ media_ratio }}; --shape-hover: var({{ shape_hover }})"
+           data-type="item-image"
+           aria-label="{{ block.id }}"
+        >
+            {% assign img_classes = media_classes | append: ' __smi-collection-image' %}
+            {% assign svg_classes = media_classes | append: ' smi-placeholder-svg' %}
+            {% if block.settings.image != blank %}
+                {{ block.settings.image | image_url: width: 1200 | image_tag: class: img_classes, widths: '200,300,400,600,800,1000,1200', sizes: '(max-width: 460px) calc(100vw/2)', loading: 'lazy' }}
+            {% elsif collection.image != blank %}
+                {{ collection.image | image_url: width: 1200 | image_tag: class: img_classes, widths: '200,300,400,600,800,1000,1200', sizes: '(max-width: 460px) calc(100vw/2)', loading: 'lazy' }}
+            {% else %}
+                {{ placeholder_image | placeholder_svg_tag: svg_classes }}
+            {% endif %}
+        </a>
+    </div>
+    <div class="smi-card-collection__content smi-pt-md
+        {%- liquid
+            if section.settings.content_alignment == 'left'
+                echo ' smi-pr-md'
+            elsif section.settings.content_alignment == 'right'
+                echo ' smi-pl-md'
+            else
+                echo ' smi-px-md'
+            endif
+        -%}">
+        {% if block.settings.subheading != blank %}
+            <div class="__smi-subheading smi-text-sub smi-color-subtext smi-link-wrapper" data-type="item-subheading">
+                {{ block.settings.subheading }}
+            </div>
+        {% endif %}
+        {% if heading != blank %}
+            <a href="{%- if link != blank -%} {{- link -}} {%- else -%} # {%- endif -%}" aria-label="{{ block.id }}">
+                <div class="__smi-heading {{ block.settings.heading_size }} smi-link-wrapper" data-type="item-heading">
+                    {{ heading }}
+                </div>
+            </a>
+        {% endif %}
+        {% if block.settings.description != blank %}
+            <div class="__smi-description smi-text-md smi-color-text-75 smi-link-wrapper" data-type="item-description">
+                {{ block.settings.description }}
+            </div>
+        {% endif %}
+        {% if block.settings.button_label != blank %}
+            <div class="smi-mt-sm smi-d-flex {{ classes_position_button }}">
+                {% assign button_link = link %}
+                {% comment %}
+  Renders a button
+  Accepts:
+  - button_link: {url} link
+{% endcomment %}
+{% liquid
+    assign button_label = block.settings.button_label
+    assign button_style = block.settings.button_style
+%}
+<div class="smi-component-button-without-link smi-button-wrapper">
+    {% if button_label != blank %}
+        <a {% if button_link != blank %}href="{{ button_link }}"{% else %}href="#"{% endif %} class="smi-button smi-text-button smi-button--{{ button_style | split: '_' | first -}}
+                {%- if button_style contains 'arrow' %} smi-has-icon{% endif %}
+                {{- settings.smi_animations_hover_elements | default: shop.metafields.smind.settings.value.buttonHoverEffect | default: 'none' | prepend: ' smi-hover-' -}}
+                {{- ' smi-border smi-shadow' -}}">
+                <span>
+                    {{- button_label | escape -}}
+                </span>
+            {% if button_style contains 'arrow' %}
+                <div class="smi-d-flex smi-align-content-center">
+                    {% render 'smi-icons', icon: 'arrow-right-2' %}
+                </div>
+            {% endif %}
+        </a>
+    {% endif %}
+</div>
+                {% assign button_link = '' %}
+            </div>
+        {% endif %}
+    </div>
+</div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="smi-swiper-controls">
+                <div class="smi-swiper-pagination smi-pt-xl smi-mw-100">
+  <div class="smi-slider-dot-container">
+      <div class="smi-component-sticky-page-dot">
+        <div class="smi-slider-action">
+          <div class="smi-arrows {{ 'text-style-2' }}">
+            <div data-control="textPrevSlide" class="smi-arrow dot-arrow-slider smi-text-sm">{% render 'smi-icons', icon: 'arrow-left' %}</div>
+            <div class="text-pagination smi-pagination smi-slider-pagination smi-text-sm smi-arrow"></div>
+            <div data-control="textNextSlide" class="smi-arrow dot-arrow-slider smi-text-sm">{% render 'smi-icons', icon: 'arrow-right' %}</div>
+          </div>
+        </div>
+      </div>
+  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+	"name": "✧Collection list 2-1",
+	"tag": "section",
+	"class": "smi-section smi-collection-list-2",
+	"settings": [
+		{
+			"type": "checkbox",
+			"id": "container_full_width",
+			"label": "Container full-width",
+			"default": false
+		},
+		{
+			"type": "inline_richtext",
+			"id": "sub_heading",
+			"label": "Subheading",
+			"default": "URNA CRAS MAURIS"
+		},
+		{
+			"type": "inline_richtext",
+			"id": "heading",
+			"label": "Heading",
+			"default": "Happy Customers Say"
+		},
+		{
+			"type": "select",
+			"id": "heading_size",
+			"label": "Heading size",
+			"options": [
+				{
+					"value": "smi-h4",
+					"label": "XS"
+				},
+				{
+					"value": "smi-h3",
+					"label": "S"
+				},
+				{
+					"value": "smi-h2",
+					"label": "M"
+				},
+				{
+					"value": "smi-h1",
+					"label": "L"
+				}
+			],
+			"default": "smi-h2"
+		},
+		{
+			"type": "richtext",
+			"id": "description",
+			"label": "Description",
+			"default": "<p>Commodo lorem morbi aliquam dui turpis. Iaculis pretium posuere nulla tincidunt blandit. A at elementum faucibus integer.</p>"
+		},
+		{
+			"type": "text_alignment",
+			"id": "heading_alignment",
+			"label": "Heading alignment",
+			"default": "center"
+		},
+		{
+			"type": "text_alignment",
+			"id": "content_alignment",
+			"label": "Content alignment",
+			"default": "center"
+		},
+		{
+			"type": "header",
+			"content": "Media settings"
+		},
+		{
+			"type": "select",
+			"id": "media_ratio",
+			"label": "Media ratio",
+			"options": [
+				{
+					"value": "auto",
+					"label": "Adapt"
+				},
+				{
+					"value": "3/2",
+					"label": "Landscape"
+				},
+				{
+					"value": "1/1",
+					"label": "Square"
+				},
+				{
+					"value": "3/4",
+					"label": "Portrait"
+				}
+			],
+			"default": "3/4"
+		},
+		{
+			"type": "select",
+			"id": "media_shape",
+			"label": "Media shape",
+			"options": [
+				{
+					"value": "default",
+					"label": "Default"
+				},
+				{
+					"value": "round",
+					"label": "Round"
+				},
+				{
+					"value": "shape-blob",
+					"label": "Blob"
+				}
+			],
+			"default": "default",
+			"info": "Media theme settings don't apply to the \"Blob\" shape."
+		},
+		{
+			"type": "header",
+			"content": "Layout settings "
+		},
+		{
+			"type": "select",
+			"id": "number_of_columns_on_desktop",
+			"label": "Number of columns on desktop",
+			"options": [
+				{
+					"value": "2",
+					"label": "2"
+				},
+				{
+					"value": "3",
+					"label": "3"
+				},
+				{
+					"value": "4",
+					"label": "4"
+				},
+				{
+					"value": "5",
+					"label": "5"
+				},
+				{
+					"value": "6",
+					"label": "6"
+				}
+			],
+			"default": "5"
+		},
+		{
+			"type": "select",
+			"id": "number_of_columns_on_mobile",
+			"label": "Number of columns on mobile",
+			"options": [
+				{
+					"value": "1",
+					"label": "1"
+				},
+				{
+					"value": "2",
+					"label": "2"
+				}
+			],
+			"default": "1"
+		},
+		{
+			"type": "checkbox",
+			"id": "enable_swipe_on_mobile",
+			"label": "Enable swipe on mobile",
+			"default": true
+		},
+		{
+			"type": "header",
+			"content": "Color"
+		},
+		{
+			"type": "select",
+            "options": [
+                {
+                    "value": "scheme_1",
+                    "label": "Scheme 1"
+                },
+                {
+                    "value": "scheme_2",
+                    "label": "Scheme 2"
+                },
+                {
+                    "value": "scheme_3",
+                    "label": "Scheme 3"
+                },
+                {
+                    "value": "scheme_4",
+                    "label": "Scheme 4"
+                },
+                {
+                    "value": "scheme_5",
+                    "label": "Scheme 5"
+                },
+                {
+                    "value": "scheme_6",
+                    "label": "Scheme 6"
+                },
+                {
+                    "value": "scheme_7",
+                    "label": "Scheme 7"
+                },
+                {
+                    "value": "scheme_8",
+                    "label": "Scheme 8"
+                },
+                {
+                    "value": "scheme_9",
+                    "label": "Scheme 9"
+                },
+                {
+                    "value": "scheme_10",
+                    "label": "Scheme 10"
+                }
+            ],
+			"id": "color_scheme",
+			"label": "Color Scheme"
+		},
+		{
+			"type": "header",
+			"content": "Section padding"
+		},
+		{
+			"type": "range",
+			"id": "padding_top",
+			"min": 0,
+			"max": 200,
+			"step": 2,
+			"unit": "px",
+			"label": "Top padding",
+			"default": 50
+		},
+		{
+			"type": "range",
+			"id": "padding_bottom",
+			"min": 0,
+			"max": 200,
+			"step": 2,
+			"unit": "px",
+			"label": "Bottom padding",
+			"default": 50
+		}
+	],
+	"blocks": [
+		{
+			"name": "Collection",
+			"type": "collection",
+			"settings": [
+				{
+					"type": "collection",
+					"id": "collection",
+					"label": "Collection"
+				},
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image",
+					"info": "Defaults by collection image"
+				},
+				{
+					"type": "header",
+					"content": "Content"
+				},
+				{
+					"type": "inline_richtext",
+					"id": "subheading",
+					"label": "Subheading"
+				},
+				{
+					"type": "inline_richtext",
+					"id": "heading",
+					"label": "Heading",
+					"info": "Defaults by collection image"
+				},
+				{
+					"type": "select",
+					"id": "heading_size",
+					"label": "Heading size",
+					"options": [
+						{
+							"value": "smi-h6",
+							"label": "XS"
+						},
+						{
+							"value": "smi-h5",
+							"label": "S"
+						},
+						{
+							"value": "smi-h4",
+							"label": "M"
+						},
+						{
+							"value": "smi-h3",
+							"label": "L"
+						}
+					],
+					"default": "smi-h5"
+				},
+				{
+					"type": "inline_richtext",
+					"id": "description",
+					"label": "Description"
+				},
+				{
+					"type": "url",
+					"id": "link",
+					"label": "Link",
+					"info": "Default to collection URL"
+				},
+				{
+					"type": "header",
+					"content": "Button"
+				},
+				{
+					"type": "text",
+					"id": "button_label",
+					"label": "Button label",
+					"info": "Leave the label blank to hide the button."
+				},
+				{
+					"type": "select",
+					"id": "button_style",
+					"label": "Button style",
+					"options": [
+						{
+							"value": "solid",
+							"label": "Solid"
+						},
+						{
+							"value": "solid_arrow",
+							"label": "Solid & arrow"
+						},
+						{
+							"value": "outline",
+							"label": "Outline"
+						},
+						{
+							"value": "outline_arrow",
+							"label": "Outline & arrow"
+						},
+						{
+							"value": "text",
+							"label": "Text"
+						},
+						{
+							"value": "text_arrow",
+							"label": "Text & arrow"
+						}
+					],
+					"default": "solid"
+				}
+			]
+		},
+		{
+			"name": "Color",
+			"limit": 1,
+			"type": "color",
+			"settings": [
+				{
+					"type": "paragraph",
+					"content": "How to use “Color block” and “Color scheme”. [Learn more](https://docs.smind.io/guides/color-block-and-color-scheme#how-to-use-the-color-block)"
+				},
+				{
+					"type": "color",
+					"id": "background_color",
+					"default": "#F3F3F3",
+					"label": "Background"
+				},
+				{
+					"type": "color_background",
+					"id": "background_gradient_color",
+					"label": "Background gradient",
+					"info": "Background gradient replaces background where possible."
+				},
+				{
+					"type": "color",
+					"id": "text_color",
+					"default": "#121212",
+					"label": "Text"
+				},
+				{
+					"type": "color",
+					"id": "subtext_color",
+					"default": "#121212",
+					"label": "Subtext"
+				},
+				{
+					"type": "color",
+					"id": "solid_background_button_color",
+					"default": "#121212",
+					"label": "Solid button background"
+				},
+				{
+					"type": "color",
+					"id": "solid_button_label_color",
+					"default": "#FFFFFF",
+					"label": "Solid button label"
+				},
+				{
+					"type": "color",
+					"id": "outline_button_color",
+					"default": "#121212",
+					"label": "Outline buttton"
+				},
+				{
+					"type": "color",
+					"id": "shadow_color",
+					"default": "#121212",
+					"label": "Shadow"
+				}
+			]
+		},
+		{
+			"name": "Background",
+			"limit": 1,
+			"type": "background",
+			"settings": [
+				{
+					"type": "color",
+					"id": "background_simple",
+					"label": "Background section"
+				},
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+				},
+				{
+					"type": "image_picker",
+					"id": "image_mobile",
+					"label": "Mobile image (optional)"
+				},
+				{
+					"type": "select",
+					"id": "animation",
+					"label": "Image animation",
+					"options": [
+						{
+							"label": "None",
+							"value": "none"
+						},
+						{
+							"label": "Ambient movement",
+							"value": "ambient_movement"
+						},
+						{
+							"label": "Parallax",
+							"value": "parallax"
+						}
+					],
+					"default": "none"
+				},
+				{
+					"type": "header",
+					"content": "Video background"
+				},
+				{
+					"type": "video",
+					"id": "video",
+					"label": "Upload video"
+				},
+				{
+					"type": "video_url",
+					"id": "video_url",
+					"label": "Video URL",
+					"accept": [
+						"youtube",
+						"vimeo"
+					]
+				},
+				{
+					"type": "color_background",
+					"id": "background_overlay",
+					"label": "Overlay background"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "✧Collection list 2-1",
+			"settings": {
+				"container_full_width": false,
+				"sub_heading": "",
+				"heading": "Shop by categories",
+				"heading_size": "smi-h2",
+				"description": "",
+				"heading_alignment": "center",
+				"content_alignment": "center",
+				"media_ratio": "3/4",
+				"media_shape": "default",
+				"number_of_columns_on_desktop": "4",
+				"number_of_columns_on_mobile": "1",
+				"enable_swipe_on_mobile": true,
+				"padding_top": 50,
+				"padding_bottom": 50,
+				"color_scheme": "scheme_2"
+			},
+			"blocks": [
+				{
+					"type": "collection",
+					"settings": {
+						"collection": "coats-1",
+						"subheading": "",
+						"heading": "Coats",
+						"heading_size": "smi-h4",
+						"description": "21 Items",
+						"link": null,
+						"button_label": "",
+						"button_style": "outline"
+					}
+				},
+				{
+					"type": "collection",
+					"settings": {
+						"collection": "midi-dresses-1",
+						"subheading": "",
+						"heading": "Midi dresses",
+						"heading_size": "smi-h4",
+						"description": "6 Items",
+						"link": null,
+						"button_label": "",
+						"button_style": "outline"
+					}
+				},
+				{
+					"type": "collection",
+					"settings": {
+						"collection": "swimsuit",
+						"subheading": "",
+						"heading": "Swimsuit",
+						"heading_size": "smi-h4",
+						"description": "8 Items",
+						"link": null,
+						"button_label": "",
+						"button_style": "outline"
+					}
+				},
+				{
+					"type": "collection",
+					"settings": {
+						"collection": "bag-1",
+						"subheading": "",
+						"heading": "Bag",
+						"heading_size": "smi-h4",
+						"description": "11 Items",
+						"link": null,
+						"button_label": "",
+						"button_style": "outline"
+					}
+				},
+				{
+					"type": "color",
+					"settings": {
+						"background_color": "#fcf8f5",
+						"background_gradient_color": "",
+						"text_color": "#000000",
+						"subtext_color": "#000000",
+						"solid_background_button_color": "#000000",
+						"solid_button_label_color": "#fcf8f5",
+						"outline_button_color": "#000000",
+						"shadow_color": "#000000"
+					}
+				}
+			]
+		}
+	]
+}
+{% endschema %}
+<script defer>
+!function(){class e{swiper=null;sectionId=null;sectionEl=null;constructor(e){this.sectionId=e.replace("smi-",""),this.sectionEl=document.querySelector(`#${e}`),this._handleInitSwiper()}_swiper(){if("undefined"==typeof Swiper)return null;const e=this,i=this.sectionEl.querySelector(".smi-swiper"),t=this.sectionEl.querySelector(".arrow-slider-right"),s=this.sectionEl.querySelector(".arrow-slider-left");let n={init:!0,slidesPerView:"auto",loop:!1,watchSlidesProgress:!0,pagination:{el:this.sectionEl.querySelector(".smi-pagination"),clickable:!0},navigation:{nextEl:t,prevEl:s},on:{afterInit(){e._handlePagination()}}};try{const e=JSON.parse(i.getAttribute("data-swiper-options"));n={...n,...e},n.pageDotStyle.includes("text-style")&&(n.pagination.type="fraction",delete n.pageDotStyle)}catch(e){console.log("Attribute data-swiper-options invalid JSON!")}this.swiper=new Swiper(i,n)}_handlePagination(){this.sectionEl.querySelector(".swiper-pagination-lock")&&this.sectionEl.querySelector(".smi-swiper-pagination")?.classList.add("smi-d-none")}_handleInitSwiper(){if(!this.sectionEl.querySelector(".smi-swipe-on-mobile"))return null;const screenResize=e=>{e.matches?(this.swiper?.initialized&&this.swiper.destroy(),this._swiper()):this.swiper?.initialized&&this.swiper.destroy()},e=window.matchMedia("(max-width: 767.98px)");screenResize(e),e.addListener(screenResize)}_handleArrow(){}}document.addEventListener("DOMContentLoaded",(()=>{new e("smi-{{ section.id }}")})),Shopify?.designMode&&new e("smi-{{ section.id }}")}();
+</script>
