@@ -1481,7 +1481,7 @@
         "heading_qwMh8j": {
           "type": "heading",
           "settings": {
-            "sub_heading": "Why juggle multiple items? The LazyMax merges a water bottle, bowl, waste bag dispenser, food container, and poop bag holder, streamlining your outdoor ventures.",
+            "sub_heading": "",
             "heading": "",
             "heading_size": "smi-h2",
             "description": ""
@@ -1510,7 +1510,7 @@
         "color_LP9xQg"
       ],
       "settings": {
-        "full_width": "container",
+        "full_width": "container-fluid",
         "desktop_media_width": "50",
         "desktop_media_position": "row",
         "media_ratio": "auto",
