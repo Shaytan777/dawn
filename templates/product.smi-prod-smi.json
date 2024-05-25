@@ -79,7 +79,7 @@
           "type": "product_variant",
           "settings": {
             "hide_sold_out_variant": false,
-            "selector_type": "button",
+            "selector_type": "dropdown",
             "color_selector_type": "variant_image"
           }
         },
