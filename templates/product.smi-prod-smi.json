@@ -10,8 +10,9 @@
         },
         "smi-block-item-0": {
           "type": "product_breadcrumb",
+          "disabled": true,
           "settings": {
-            "breadcrumb_top": true
+            "breadcrumb_top": false
           }
         },
         "smi-block-item-1": {
@@ -227,10 +228,10 @@
         "enable_sticky_content_on_desktop": true,
         "desktop_media_width": "60",
         "desktop_media_position": "left",
-        "constrain_media_to_screen_height": "fill",
+        "constrain_media_to_screen_height": "none",
         "desktop_layout": "bottom_thumbnails",
         "image_zoom": "click-and-hover",
-        "mobile_layout": "show_thumbnails",
+        "mobile_layout": "hide_thumbnails",
         "hide_variants": true,
         "video_looping": false,
         "color_scheme": "scheme_1",
