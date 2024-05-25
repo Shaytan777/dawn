@@ -107,7 +107,7 @@
           "type": "product_purchase",
           "settings": {
             "show_dynamic_checkout": true,
-            "show_recipient_information": true
+            "show_recipient_information": false
           }
         },
         "product_guaranteed_Tjtwjx": {
