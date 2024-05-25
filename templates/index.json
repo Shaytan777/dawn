@@ -898,6 +898,19 @@
             "star": "5"
           }
         },
+        "testimonial_block_6iK6Ce": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "Let me tell you, Mamzoo is a lifesaver for busy pet owners in the city! They have everything you need to keep your pet happy and healthy, even in a small apartment.  Their cozy beds are perfect for movie nights on the couch, and the interactive toys keep my pup entertained for hours (which is a godsend!).  Plus, everything looks so good in my apartment - it's like they have a secret designer on staff!  Seriously, Mamzoo is the best.",
+            "author_name": "Jessica Lee",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/High-quality-pet-supplies-wholesale-on-Mamzoo-dog-grooming-salon-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
         "color_QnRTAw": {
           "type": "color",
           "disabled": true,
@@ -917,6 +930,7 @@
         "testimonial_block_A3XntL",
         "testimonial_block_3GTtJB",
         "testimonial_block_rNrDnk",
+        "testimonial_block_6iK6Ce",
         "color_QnRTAw"
       ],
       "settings": {
