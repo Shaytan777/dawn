@@ -422,7 +422,7 @@
         "color_LP9xQg"
       ],
       "settings": {
-        "full_width": "container-fluid",
+        "full_width": "container",
         "upload_image": "shopify:\/\/shop_images\/Dog_Water_LazyMAX_5-in-1_Portable_Dog_Water_Bottle.webp",
         "desktop_media_width": "50",
         "desktop_media_position": "row",
