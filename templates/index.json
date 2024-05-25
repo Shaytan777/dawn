@@ -872,6 +872,19 @@
             "star": "5"
           }
         },
+        "testimonial_block_3GTtJB": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "I used to think all pet supplies looked like they belonged in a daycare center.  But then I found Mamzoo!  Their stuff is actually stylish, and it blends in perfectly with my home decor.  Now my pup has all the creature comforts he needs, and my apartment still looks chic.  It's a win-win!  Obsessed with Mamzoo!",
+            "author_name": "Megan White",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/Pet-supplies-delivery-near-me-on-Mamzoo-dog-grooming-table-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
         "color_QnRTAw": {
           "type": "color",
           "disabled": true,
@@ -889,6 +902,7 @@
       "block_order": [
         "testimonial_block_Q44U9d",
         "testimonial_block_A3XntL",
+        "testimonial_block_3GTtJB",
         "color_QnRTAw"
       ],
       "settings": {
