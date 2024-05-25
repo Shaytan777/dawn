@@ -1377,6 +1377,147 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "smi_rich_text_1_5_AjrMCC": {
+      "type": "smi-rich-text-1-5",
+      "blocks": {
+        "heading_gUdF36": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "Which Companion Will Elevate Your Pet Adventures?",
+            "heading_size": "smi-h2",
+            "description": "<p>WHILE TECHNOLOGY KEEPS ADVANCING, WHY SETTLE FOR OUTDATED PET GEAR? ELEVATE YOUR EXPERIENCE WITH THE LAZYMAX 5-IN-1 PORTABLE DOG WATER BOTTLE, THE ULTIMATE TOOL FOR EVERY PET OWNER ON THE MOVE.<\/p>"
+          }
+        },
+        "color_QMVJza": {
+          "type": "color",
+          "disabled": true,
+          "settings": {
+            "background_color": "#bc3e88",
+            "background_gradient_color": "",
+            "text_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "solid_background_button_color": "#ffffff",
+            "solid_button_label_color": "#5b3f2c",
+            "outline_button_color": "#ffffff",
+            "shadow_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gUdF36",
+        "color_QMVJza"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_position": "center",
+        "content_alignment": "center",
+        "content_max_width": 960,
+        "color_scheme": "scheme_1",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "smi_rich_content_1_1_PpUKLw": {
+      "type": "smi-rich-content-1-1",
+      "blocks": {
+        "icon_with_text_kq86Jf": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "bag-handle",
+            "icon_size": 24,
+            "icon_bg": "#f2eee6",
+            "heading": "<strong>No More Spills<\/strong>",
+            "heading_size": "smi-h4",
+            "content": "<p>Say goodbye to leaks and spills with the LazyMax’s impeccable leak-proof design.<\/p>",
+            "icon_position": "left",
+            "half_width_on_large_screen": true
+          }
+        },
+        "icon_with_text_RLYtbh": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "network",
+            "icon_size": 24,
+            "icon_bg": "#f2eee6",
+            "heading": "<strong>Robust and Lightweight<\/strong>",
+            "heading_size": "smi-h4",
+            "content": "<p>Built from top-tier materials, the LazyMax is both durable and easy to carry, perfect for any adventure.<\/p>",
+            "icon_position": "left",
+            "half_width_on_large_screen": true
+          }
+        },
+        "icon_with_text_Qq69Ed": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "shield",
+            "icon_size": 24,
+            "icon_bg": "#f2eee6",
+            "heading": "<strong>Effortless Convenience<\/strong>",
+            "heading_size": "smi-h4",
+            "content": "<p>Forget the hassle of packing multiple items. The LazyMax delivers all-in-one convenience right to your hands.<\/p>",
+            "icon_position": "left",
+            "half_width_on_large_screen": true
+          }
+        },
+        "icon_with_text_rVLHXU": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "verify",
+            "icon_size": 24,
+            "icon_bg": "#f2eee6",
+            "heading": "<strong>Health-Conscious Design<\/strong>",
+            "heading_size": "smi-h4",
+            "content": "<p>This BPA-free product keeps your pet healthy and ensures they stay hydrated safely.<\/p>",
+            "icon_position": "left",
+            "half_width_on_large_screen": true
+          }
+        },
+        "heading_qwMh8j": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Why juggle multiple items? The LazyMax merges a water bottle, bowl, waste bag dispenser, food container, and poop bag holder, streamlining your outdoor ventures.",
+            "heading": "",
+            "heading_size": "smi-h2",
+            "description": ""
+          }
+        },
+        "color_LP9xQg": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_kq86Jf",
+        "icon_with_text_RLYtbh",
+        "icon_with_text_Qq69Ed",
+        "icon_with_text_rVLHXU",
+        "heading_qwMh8j",
+        "color_LP9xQg"
+      ],
+      "settings": {
+        "full_width": "container",
+        "desktop_media_width": "50",
+        "desktop_media_position": "row",
+        "media_ratio": "auto",
+        "media_shape": "default",
+        "content_position": "left",
+        "content_alignment": "left",
+        "content_max_width": 570,
+        "color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -1398,6 +1539,8 @@
     "smi_comparison_table_1_2_4KHD33",
     "17164426229b6bfdb8",
     "1716438959d9971322",
-    "smi_collapsible_content_1_1_76H4WX"
+    "smi_collapsible_content_1_1_76H4WX",
+    "smi_rich_text_1_5_AjrMCC",
+    "smi_rich_content_1_1_PpUKLw"
   ]
 }
