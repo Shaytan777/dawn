@@ -49,7 +49,7 @@
         "color_cwarY9"
       ],
       "settings": {
-        "enable_sticky_bar": true,
+        "enable_sticky_bar": false,
         "auto_rotate_slides": true,
         "change_slides_every": 8,
         "color_scheme": "scheme_4",
