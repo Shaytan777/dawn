@@ -344,7 +344,7 @@
             "heading_size": "smi-h4",
             "content": "<p>Say goodbye to leaks and spills with the LazyMax’s impeccable leak-proof design.<\/p>",
             "icon_position": "top",
-            "half_width_on_large_screen": false
+            "half_width_on_large_screen": true
           }
         },
         "icon_with_text_RLYtbh": {
@@ -428,8 +428,8 @@
         "desktop_media_position": "row",
         "media_ratio": "auto",
         "media_shape": "default",
-        "content_position": "center",
-        "content_alignment": "center",
+        "content_position": "left",
+        "content_alignment": "left",
         "content_max_width": 570,
         "color_scheme": "scheme_1",
         "padding_top": 16,
