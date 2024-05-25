@@ -885,6 +885,19 @@
             "star": "5"
           }
         },
+        "testimonial_block_rNrDnk": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "My dog is a chewing machine, but Mamzoo's products are the toughest toys he's ever had!  They're seriously built to last, no matter how much abuse they take.  I love that I can finally buy something nice without worrying about it being destroyed in five minutes.  Plus, the customer service is amazing - they were so helpful when I needed to replace a squeaky toy (RIP).  Mamzoo gets an A+ from me!",
+            "author_name": "Amanda Robinson",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/Affordable-pet-supplies-online-on-Mamzoo-dog-grooming-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
         "color_QnRTAw": {
           "type": "color",
           "disabled": true,
@@ -903,6 +916,7 @@
         "testimonial_block_Q44U9d",
         "testimonial_block_A3XntL",
         "testimonial_block_3GTtJB",
+        "testimonial_block_rNrDnk",
         "color_QnRTAw"
       ],
       "settings": {
