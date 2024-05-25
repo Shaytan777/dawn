@@ -174,9 +174,8 @@
         },
         "product_custom_liquid_Nw4eC4": {
           "type": "product_custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<div class=\"d-flex justify-content-center align-items-center flex-wrap\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0828\/3445\/6858\/files\/Verified-Costumer-Review-Mamzoo-Pet-Supplier-Store-LazyMAX-Dog-Water-Bottle.webp?v=1706489660\" alt=\"LazyMAX Portable Dog Water Bottle\" class=\"img-fluid\">\n<\/div>"
           }
         },
         "product_color_mc4Ltt": {
