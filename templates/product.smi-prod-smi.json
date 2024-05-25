@@ -1426,12 +1426,13 @@
           "type": "icon_with_text",
           "settings": {
             "icon": "bag-handle",
-            "icon_size": 24,
-            "icon_bg": "#f2eee6",
+            "upload_icon": "shopify:\/\/shop_images\/Water-Spills-Pet-Supplies-Mamzoo-Pet-Shop.webp",
+            "icon_size": 70,
+            "icon_bg": "rgba(0,0,0,0)",
             "heading": "<strong>No More Spills<\/strong>",
             "heading_size": "smi-h4",
             "content": "<p>Say goodbye to leaks and spills with the LazyMax’s impeccable leak-proof design.<\/p>",
-            "icon_position": "left",
+            "icon_position": "top",
             "half_width_on_large_screen": true
           }
         },
@@ -1439,12 +1440,13 @@
           "type": "icon_with_text",
           "settings": {
             "icon": "network",
-            "icon_size": 24,
-            "icon_bg": "#f2eee6",
+            "upload_icon": "shopify:\/\/shop_images\/robust-and-lightweight-Pet-Supplies-Mamzoo-Pet-Shop.webp",
+            "icon_size": 70,
+            "icon_bg": "rgba(0,0,0,0)",
             "heading": "<strong>Robust and Lightweight<\/strong>",
             "heading_size": "smi-h4",
             "content": "<p>Built from top-tier materials, the LazyMax is both durable and easy to carry, perfect for any adventure.<\/p>",
-            "icon_position": "left",
+            "icon_position": "top",
             "half_width_on_large_screen": true
           }
         },
@@ -1452,12 +1454,13 @@
           "type": "icon_with_text",
           "settings": {
             "icon": "shield",
-            "icon_size": 24,
-            "icon_bg": "#f2eee6",
+            "upload_icon": "shopify:\/\/shop_images\/effortless-convenience-Pet-Supplies-Mamzoo-Pet-Shop.webp",
+            "icon_size": 70,
+            "icon_bg": "rgba(0,0,0,0)",
             "heading": "<strong>Effortless Convenience<\/strong>",
             "heading_size": "smi-h4",
             "content": "<p>Forget the hassle of packing multiple items. The LazyMax delivers all-in-one convenience right to your hands.<\/p>",
-            "icon_position": "left",
+            "icon_position": "top",
             "half_width_on_large_screen": true
           }
         },
@@ -1465,12 +1468,13 @@
           "type": "icon_with_text",
           "settings": {
             "icon": "verify",
-            "icon_size": 24,
-            "icon_bg": "#f2eee6",
+            "upload_icon": "shopify:\/\/shop_images\/health-conscious-design-Pet-Supplies-Mamzoo-Pet-Shop.webp",
+            "icon_size": 70,
+            "icon_bg": "rgba(0,0,0,0)",
             "heading": "<strong>Health-Conscious Design<\/strong>",
             "heading_size": "smi-h4",
             "content": "<p>This BPA-free product keeps your pet healthy and ensures they stay hydrated safely.<\/p>",
-            "icon_position": "left",
+            "icon_position": "top",
             "half_width_on_large_screen": true
           }
         },
@@ -1511,8 +1515,8 @@
         "desktop_media_position": "row",
         "media_ratio": "auto",
         "media_shape": "default",
-        "content_position": "left",
-        "content_alignment": "left",
+        "content_position": "center",
+        "content_alignment": "center",
         "content_max_width": 570,
         "color_scheme": "scheme_1",
         "padding_top": 50,
