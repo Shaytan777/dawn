@@ -30,19 +30,7 @@
         "product_feature_icon_fYEAYM": {
           "type": "product_feature_icon",
           "settings": {
-            "heading": "<a href=\"https:\/\/www.reddit.com\/r\/swift\/comments\/14t2ug4\/pawrent_ios_allinone_dog_care_solution_the\/\">all-in-one dog care solution<\/a>",
-            "heading_size": "smi-h6",
-            "content": "",
-            "icon": "tick",
-            "upload_icon": "shopify:\/\/shop_images\/dog-water-bottle-features-pet-supplies-shop-mamzoo-icon.svg",
-            "icon_size": 24,
-            "half_width_on_large_screen": false
-          }
-        },
-        "product_feature_icon_jzAG7i": {
-          "type": "product_feature_icon",
-          "settings": {
-            "heading": "ANTI-BACTERIAL FOOD-GRADE MATERIAL",
+            "heading": "all-in-one dog care solution",
             "heading_size": "smi-h6",
             "content": "",
             "icon": "tick",
@@ -55,6 +43,18 @@
           "type": "product_feature_icon",
           "settings": {
             "heading": "Compact and designed for easy single-handed use",
+            "heading_size": "smi-h6",
+            "content": "",
+            "icon": "tick",
+            "upload_icon": "shopify:\/\/shop_images\/dog-water-bottle-features-pet-supplies-shop-mamzoo-icon.svg",
+            "icon_size": 24,
+            "half_width_on_large_screen": false
+          }
+        },
+        "product_feature_icon_jzAG7i": {
+          "type": "product_feature_icon",
+          "settings": {
+            "heading": "ANTI-BACTERIAL FOOD-GRADE MATERIAL",
             "heading_size": "smi-h6",
             "content": "",
             "icon": "tick",
@@ -202,8 +202,8 @@
         "smi-block-item-1",
         "smi-block-item-2",
         "product_feature_icon_fYEAYM",
-        "product_feature_icon_jzAG7i",
         "product_feature_icon_eqkJKx",
+        "product_feature_icon_jzAG7i",
         "smi-block-item-3",
         "smi-block-item-7",
         "smi-block-item-8",
