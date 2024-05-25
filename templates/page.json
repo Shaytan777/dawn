@@ -63,23 +63,24 @@
         "text_CaqB3g": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore the epitome of style with our latest fashion collection. Immerse yourself in timeless elegance as modern trends seamlessly blend with classic allure. <\/p><p>From casual chic to sophisticated glamour, discover curated pieces that transcend seasons. Elevate your wardrobe and embrace the artistry of contemporary fashion with our exclusive designs and impeccable craftsmanship.<\/p>"
+            "text": "<p>Forget those bland bowls and boring beds. Mamzoo is not your typical pet supply store. We are a group of passionate pet lovers whose mission is to offer innovative products that will improve your pet's life by combining practicality with modern style.<br\/><br\/>We select products that really work well. Accessories are selected with care for you and your furry friend in mind, tackling everyday challenges while fitting perfectly into your modern lifestyle.<br\/><br\/>Our products, like the irreplaceable LazyMAX™ dog bottle and our eye-catching carriers, are created to make your daily routine easier. We believe that happy pets make happy owners, so every detail, from functionality to design, is carefully thought out. When you buy from Mamzoo, you’re joining a movement of pet parents dedicated to enriching their furry companions' lives. We get that pets are family, and their well-being is our top priority. <br\/><br\/>Ready to take your pet's world to the next level? We offer free shipping and a 30-day money-back guarantee to ensure your complete satisfaction. Join Mamzoo and begin a journey of style, function and love.<br\/><br\/>Meet the Founders and Team of Mamzoo.<\/p>"
           }
         },
         "button_XjtgQR": {
           "type": "button",
           "settings": {
-            "first_button_label": "Read more about us",
+            "first_button_label": "DISCOVER ALL PRODUCTS",
             "first_button_link": "",
-            "first_button_style": "text",
+            "first_button_style": "solid",
             "second_button_label": "",
             "second_button_link": "",
             "second_button_style": "solid",
-            "button_full_width": false
+            "button_full_width": true
           }
         },
         "color_T6DaKp": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#fcf8f5",
             "background_gradient_color": "",
@@ -102,10 +103,10 @@
         "heading": "OUR CULTURE",
         "heading_size": "smi-h2",
         "description": "",
-        "heading_alignment": "left",
+        "heading_alignment": "right",
         "content_alignment": "left",
-        "desktop_content_width": "50",
-        "color_scheme": "scheme_2",
+        "desktop_content_width": "60",
+        "color_scheme": "scheme_1",
         "padding_top": 50,
         "padding_bottom": 50
       }
