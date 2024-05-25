@@ -595,6 +595,129 @@
         "include_margins": false
       }
     },
+    "smi_testimonial_1_7_8JYKaB": {
+      "type": "smi-testimonial-1-7",
+      "blocks": {
+        "testimonial_block_Q44U9d": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "Listen, I'll be honest - Mamzoo's products aren't exactly the cheapest.  But let me tell you, you get what you pay for!  The quality is incredible, and everything is so well-made.  I know these things are going to last for years, which makes the price totally worth it.  Plus, their customer service is fantastic, and they always have great deals and sales going on.  Mamzoo is an investment in your pet's happiness, and it's definitely worth it!",
+            "author_name": "Samantha Martinez",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/Eco-friendly-pet-supplies-for-small-animals-on-Mamzoo-dog-grooming-tips-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "testimonial_block_A3XntL": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "We have a whole menagerie at our house - a playful pup, a grumpy old cat, and a skittish bunny.  I wasn't sure if Mamzoo would have something for everyone, but I was so wrong!  They have such a huge selection, I found the perfect toys, beds, and even a super cute carrier for the bunny.  Now playtime is a blast for everyone, and everyone has their own cozy spot to relax.  Mamzoo makes multi-pet life so much easier!",
+            "author_name": "Sarah Johnson",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/Best-pet-supplies-for-dogs-and-cats-on-Mamzoo-dog-grooming-near-me-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "testimonial_block_3GTtJB": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "I used to think all pet supplies looked like they belonged in a daycare center.  But then I found Mamzoo!  Their stuff is actually stylish, and it blends in perfectly with my home decor.  Now my pup has all the creature comforts he needs, and my apartment still looks chic.  It's a win-win!  Obsessed with Mamzoo!",
+            "author_name": "Megan White",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/Pet-supplies-delivery-near-me-on-Mamzoo-dog-grooming-table-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "testimonial_block_rNrDnk": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "My dog is a chewing machine, but Mamzoo's products are the toughest toys he's ever had!  They're seriously built to last, no matter how much abuse they take.  I love that I can finally buy something nice without worrying about it being destroyed in five minutes.  Plus, the customer service is amazing - they were so helpful when I needed to replace a squeaky toy (RIP).  Mamzoo gets an A+ from me!",
+            "author_name": "Amanda Robinson",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/Affordable-pet-supplies-online-on-Mamzoo-dog-grooming-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "testimonial_block_6iK6Ce": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "Let me tell you, Mamzoo is a lifesaver for busy pet owners in the city! They have everything you need to keep your pet happy and healthy, even in a small apartment.  Their cozy beds are perfect for movie nights on the couch, and the interactive toys keep my pup entertained for hours (which is a godsend!).  Plus, everything looks so good in my apartment - it's like they have a secret designer on staff!  Seriously, Mamzoo is the best.",
+            "author_name": "Jessica Lee",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/High-quality-pet-supplies-wholesale-on-Mamzoo-dog-grooming-salon-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "testimonial_block_f4QChM": {
+          "type": "testimonial_block",
+          "settings": {
+            "heading": "",
+            "heading_size": "smi-h5",
+            "description": "Mamzoo is a game-changer for pet parents! Their products are so well-thought-out, it's clear they really care about making our lives easier and our pets happier. Their quality is top-notch, and everything just feels functional and stylish at the same time. Now our home feels like a true pet paradise, and our furry friend is living the good life! Thanks, Mamzoo!",
+            "author_name": "Kaira Sugao",
+            "author_info": "Customers in U.S.A",
+            "author_image": "shopify:\/\/shop_images\/Discounted-pet-supplies-for-sale-on-Mamzoo-mobile-dog-grooming-Online-Store.webp",
+            "author_shape": "round",
+            "star": "5"
+          }
+        },
+        "color_QnRTAw": {
+          "type": "color",
+          "disabled": true,
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_block_Q44U9d",
+        "testimonial_block_A3XntL",
+        "testimonial_block_3GTtJB",
+        "testimonial_block_rNrDnk",
+        "testimonial_block_6iK6Ce",
+        "testimonial_block_f4QChM",
+        "color_QnRTAw"
+      ],
+      "settings": {
+        "full_width": true,
+        "sub_heading": "",
+        "heading": "Insights from our pleased pet parents",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "content_alignment": "center",
+        "arrow_style": "none",
+        "sticky_page_dot_style": "line-style-1",
+        "auto_rotate_slides": false,
+        "change_slide_every": 5,
+        "number_of_item": "1",
+        "color_scheme": "scheme_1",
+        "color_rating": "#f8a427",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "smi_blog_posts_1_7_wbzYeW": {
       "type": "smi-blog-posts-1-7",
       "blocks": {
@@ -842,129 +965,6 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
-    },
-    "smi_testimonial_1_7_8JYKaB": {
-      "type": "smi-testimonial-1-7",
-      "blocks": {
-        "testimonial_block_Q44U9d": {
-          "type": "testimonial_block",
-          "settings": {
-            "heading": "",
-            "heading_size": "smi-h5",
-            "description": "Listen, I'll be honest - Mamzoo's products aren't exactly the cheapest.  But let me tell you, you get what you pay for!  The quality is incredible, and everything is so well-made.  I know these things are going to last for years, which makes the price totally worth it.  Plus, their customer service is fantastic, and they always have great deals and sales going on.  Mamzoo is an investment in your pet's happiness, and it's definitely worth it!",
-            "author_name": "Samantha Martinez",
-            "author_info": "Customers in U.S.A",
-            "author_image": "shopify:\/\/shop_images\/Eco-friendly-pet-supplies-for-small-animals-on-Mamzoo-dog-grooming-tips-Online-Store.webp",
-            "author_shape": "round",
-            "star": "5"
-          }
-        },
-        "testimonial_block_A3XntL": {
-          "type": "testimonial_block",
-          "settings": {
-            "heading": "",
-            "heading_size": "smi-h5",
-            "description": "We have a whole menagerie at our house - a playful pup, a grumpy old cat, and a skittish bunny.  I wasn't sure if Mamzoo would have something for everyone, but I was so wrong!  They have such a huge selection, I found the perfect toys, beds, and even a super cute carrier for the bunny.  Now playtime is a blast for everyone, and everyone has their own cozy spot to relax.  Mamzoo makes multi-pet life so much easier!",
-            "author_name": "Sarah Johnson",
-            "author_info": "Customers in U.S.A",
-            "author_image": "shopify:\/\/shop_images\/Best-pet-supplies-for-dogs-and-cats-on-Mamzoo-dog-grooming-near-me-Online-Store.webp",
-            "author_shape": "round",
-            "star": "5"
-          }
-        },
-        "testimonial_block_3GTtJB": {
-          "type": "testimonial_block",
-          "settings": {
-            "heading": "",
-            "heading_size": "smi-h5",
-            "description": "I used to think all pet supplies looked like they belonged in a daycare center.  But then I found Mamzoo!  Their stuff is actually stylish, and it blends in perfectly with my home decor.  Now my pup has all the creature comforts he needs, and my apartment still looks chic.  It's a win-win!  Obsessed with Mamzoo!",
-            "author_name": "Megan White",
-            "author_info": "Customers in U.S.A",
-            "author_image": "shopify:\/\/shop_images\/Pet-supplies-delivery-near-me-on-Mamzoo-dog-grooming-table-Online-Store.webp",
-            "author_shape": "round",
-            "star": "5"
-          }
-        },
-        "testimonial_block_rNrDnk": {
-          "type": "testimonial_block",
-          "settings": {
-            "heading": "",
-            "heading_size": "smi-h5",
-            "description": "My dog is a chewing machine, but Mamzoo's products are the toughest toys he's ever had!  They're seriously built to last, no matter how much abuse they take.  I love that I can finally buy something nice without worrying about it being destroyed in five minutes.  Plus, the customer service is amazing - they were so helpful when I needed to replace a squeaky toy (RIP).  Mamzoo gets an A+ from me!",
-            "author_name": "Amanda Robinson",
-            "author_info": "Customers in U.S.A",
-            "author_image": "shopify:\/\/shop_images\/Affordable-pet-supplies-online-on-Mamzoo-dog-grooming-Online-Store.webp",
-            "author_shape": "round",
-            "star": "5"
-          }
-        },
-        "testimonial_block_6iK6Ce": {
-          "type": "testimonial_block",
-          "settings": {
-            "heading": "",
-            "heading_size": "smi-h5",
-            "description": "Let me tell you, Mamzoo is a lifesaver for busy pet owners in the city! They have everything you need to keep your pet happy and healthy, even in a small apartment.  Their cozy beds are perfect for movie nights on the couch, and the interactive toys keep my pup entertained for hours (which is a godsend!).  Plus, everything looks so good in my apartment - it's like they have a secret designer on staff!  Seriously, Mamzoo is the best.",
-            "author_name": "Jessica Lee",
-            "author_info": "Customers in U.S.A",
-            "author_image": "shopify:\/\/shop_images\/High-quality-pet-supplies-wholesale-on-Mamzoo-dog-grooming-salon-Online-Store.webp",
-            "author_shape": "round",
-            "star": "5"
-          }
-        },
-        "testimonial_block_f4QChM": {
-          "type": "testimonial_block",
-          "settings": {
-            "heading": "",
-            "heading_size": "smi-h5",
-            "description": "Mamzoo is a game-changer for pet parents! Their products are so well-thought-out, it's clear they really care about making our lives easier and our pets happier. Their quality is top-notch, and everything just feels functional and stylish at the same time. Now our home feels like a true pet paradise, and our furry friend is living the good life! Thanks, Mamzoo!",
-            "author_name": "Kaira Sugao",
-            "author_info": "Customers in U.S.A",
-            "author_image": "shopify:\/\/shop_images\/Discounted-pet-supplies-for-sale-on-Mamzoo-mobile-dog-grooming-Online-Store.webp",
-            "author_shape": "round",
-            "star": "5"
-          }
-        },
-        "color_QnRTAw": {
-          "type": "color",
-          "disabled": true,
-          "settings": {
-            "background_color": "#ffffff",
-            "background_gradient_color": "",
-            "text_color": "#000000",
-            "subtext_color": "#000000",
-            "solid_background_button_color": "#000000",
-            "solid_button_label_color": "#ffffff",
-            "shadow_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_block_Q44U9d",
-        "testimonial_block_A3XntL",
-        "testimonial_block_3GTtJB",
-        "testimonial_block_rNrDnk",
-        "testimonial_block_6iK6Ce",
-        "testimonial_block_f4QChM",
-        "color_QnRTAw"
-      ],
-      "settings": {
-        "full_width": true,
-        "sub_heading": "",
-        "heading": "Our happy customers share",
-        "heading_size": "smi-h2",
-        "description": "",
-        "heading_alignment": "center",
-        "content_alignment": "center",
-        "arrow_style": "none",
-        "sticky_page_dot_style": "line-style-1",
-        "auto_rotate_slides": false,
-        "change_slide_every": 5,
-        "number_of_item": "1",
-        "color_scheme": "scheme_1",
-        "color_rating": "#f8a427",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
     }
   },
   "order": [
@@ -979,11 +979,11 @@
     "video",
     "multicolumn",
     "apps_bak_NNXU9e",
+    "smi_testimonial_1_7_8JYKaB",
     "smi_blog_posts_1_7_wbzYeW",
     "newsletter_nkmjDt",
     "17164422592dac321b",
     "smi_cart_drawer_1_1_J4bT7k",
-    "smi_icon_with_text_1_2_xC4acG",
-    "smi_testimonial_1_7_8JYKaB"
+    "smi_icon_with_text_1_2_xC4acG"
   ]
 }
