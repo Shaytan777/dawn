@@ -861,6 +861,7 @@
         },
         "color_QnRTAw": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
@@ -878,7 +879,7 @@
       ],
       "settings": {
         "full_width": true,
-        "sub_heading": "TESTIMONIALS",
+        "sub_heading": "",
         "heading": "Our happy customers share",
         "heading_size": "smi-h2",
         "description": "",
