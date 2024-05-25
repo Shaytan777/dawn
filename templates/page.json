@@ -69,7 +69,7 @@
         "button_XjtgQR": {
           "type": "button",
           "settings": {
-            "first_button_label": "DISCOVER ALL PRODUCTS",
+            "first_button_label": "DISCOVER ALL COLLECTIONS",
             "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "",
@@ -110,70 +110,11 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
-    },
-    "smi_image_with_text_1_2_k7Cff7": {
-      "type": "smi-image-with-text-1-2",
-      "blocks": {
-        "heading_B4czeU": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h2",
-            "description": "<p>Forget those bland bowls and boring beds. Mamzoo is not your typical pet supply store. We are a group of passionate pet lovers whose mission is to offer innovative products that will improve your pet's life by combining practicality with modern style.<br\/><br\/>We select products that really work well. Accessories are selected with care for you and your furry friend in mind, tackling everyday challenges while fitting perfectly into your modern lifestyle.<br\/><br\/>Our products, like the irreplaceable LazyMAX™ dog bottle and our eye-catching carriers, are created to make your daily routine easier. We believe that happy pets make happy owners, so every detail, from functionality to design, is carefully thought out. When you buy from Mamzoo, you’re joining a movement of pet parents dedicated to enriching their furry companions' lives. We get that pets are family, and their well-being is our top priority. <br\/><br\/>Ready to take your pet's world to the next level? We offer free shipping and a 30-day money-back guarantee to ensure your complete satisfaction. Join Mamzoo and begin a journey of style, function and love.<br\/><br\/>Meet the Founders and Team of Mamzoo.<\/p>"
-          }
-        },
-        "button_hG8GeA": {
-          "type": "button",
-          "settings": {
-            "first_button_label": "",
-            "first_button_link": "",
-            "first_button_style": "outline_arrow",
-            "second_button_label": "",
-            "second_button_link": "",
-            "second_button_style": "outline",
-            "button_full_width": false
-          }
-        },
-        "color_ByKqei": {
-          "type": "color",
-          "disabled": true,
-          "settings": {
-            "background_color": "#F3F3F3",
-            "background_gradient_color": "",
-            "text_color": "#121212",
-            "subtext_color": "#121212",
-            "solid_background_button_color": "#121212",
-            "solid_button_label_color": "#FFFFFF",
-            "outline_button_color": "#121212",
-            "shadow_color": "#121212"
-          }
-        }
-      },
-      "block_order": [
-        "heading_B4czeU",
-        "button_hG8GeA",
-        "color_ByKqei"
-      ],
-      "settings": {
-        "full_width": "container",
-        "desktop_media_width": "50",
-        "desktop_media_position": "row-reverse",
-        "media_ratio": "1\/1",
-        "media_shape": "default",
-        "content_position": "left",
-        "content_alignment": "left",
-        "content_max_width": 570,
-        "color_scheme": "scheme_1",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
     }
   },
   "order": [
     "main",
     "image_banner_rRUFwa",
-    "smi_rich_text_2_1_ig3krB",
-    "smi_image_with_text_1_2_k7Cff7"
+    "smi_rich_text_2_1_ig3krB"
   ]
 }
