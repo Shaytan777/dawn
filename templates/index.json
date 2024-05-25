@@ -59,6 +59,34 @@
         "color_scheme": "scheme_6"
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SEASONAL SPECIALS",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "seasonal-specials-mamzoo-sale",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -391,34 +419,6 @@
         "card_styles": "none",
         "color_scheme": "scheme-1",
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SEASONAL SPECIALS",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "seasonal-specials-mamzoo-sale",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
         "padding_bottom": 36
       }
     },
@@ -969,12 +969,12 @@
   },
   "order": [
     "smi_slideshow_1_6_GRmPmm",
+    "featured_collection",
     "collage",
     "rich_text",
     "smi_icon_with_text_1_7_HxR6eq",
     "smi_collection_list_2_3_VrmnVi",
     "collage_LxBJVj",
-    "featured_collection",
     "featured_product_zCCP38",
     "video",
     "multicolumn",
