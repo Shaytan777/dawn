@@ -197,7 +197,7 @@
         "header_style": "transparent",
         "desktop_layout": "logo_middle_left",
         "mobile_layout": "logo_center",
-        "sticky_header": "always",
+        "sticky_header": "on_scroll_up",
         "enable_language": false,
         "enable_country": false,
         "enable_account": true,
