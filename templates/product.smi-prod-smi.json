@@ -93,6 +93,7 @@
         },
         "smi-block-item-9": {
           "type": "product_inventory_status",
+          "disabled": true,
           "settings": {
             "low_inventory_threshold": 5,
             "show_inventory_count": true
