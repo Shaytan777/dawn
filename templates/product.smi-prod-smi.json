@@ -400,6 +400,7 @@
         },
         "color_LP9xQg": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
