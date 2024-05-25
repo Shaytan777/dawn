@@ -205,7 +205,7 @@
         "product_badges_TaRAjF": {
           "type": "product_badges",
           "settings": {
-            "badge_corner_radius": 40,
+            "badge_corner_radius": 10,
             "sale_badge_background_color": "#ffc107",
             "sale_badge_text_color": "#000000",
             "sold_out_badge_background_color": "#8c8c8c",
