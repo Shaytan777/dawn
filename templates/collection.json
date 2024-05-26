@@ -2,14 +2,13 @@
   "sections": {
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
         "color_scheme": "",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
@@ -45,17 +44,11 @@
             "heading": "Gallery",
             "use_media_style_from_theme_settings": false,
             "open_link_in_new_tab": false,
-            "image_1": "shopify:\/\/shop_images\/smi-1_c5945e54-4b3e-408c-99e6-67b234957f4e.jpg",
             "link_1": "",
-            "image_2": "shopify:\/\/shop_images\/smi-7.jpg",
             "link_2": "",
-            "image_3": "shopify:\/\/shop_images\/smi-3.jpg",
             "link_3": "",
-            "image_4": "shopify:\/\/shop_images\/smi-2.jpg",
             "link_4": "",
-            "image_5": "shopify:\/\/shop_images\/smi-5.jpg",
             "link_5": "",
-            "image_6": "shopify:\/\/shop_images\/smi-6.jpg",
             "link_6": ""
           }
         },
@@ -93,10 +86,10 @@
             "product_solid_background_button_color": "#000000",
             "product_solid_button_label_color": "#fcf8f5",
             "product_shadow_color": "#000000",
-            "badge_sale_background_color": "#ED2626",
-            "badge_sale_text_color": "#1F1F21",
-            "badge_sold_out_background_color": "#1F1F21",
-            "badge_sold_out_text_color": "#FFFFFF"
+            "badge_sale_background_color": "#ed2626",
+            "badge_sale_text_color": "#1f1f21",
+            "badge_sold_out_background_color": "#1f1f21",
+            "badge_sold_out_text_color": "#ffffff"
           }
         },
         "categories_LT7wBy": {
@@ -116,6 +109,7 @@
         "color_qjMx7n",
         "categories_LT7wBy"
       ],
+      "disabled": true,
       "settings": {
         "container_full_width": false,
         "enable_spacing_between_items": true,
