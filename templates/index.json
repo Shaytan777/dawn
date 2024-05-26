@@ -63,67 +63,27 @@
       "type": "featured-collection",
       "settings": {
         "title": "SEASONAL SPECIALS",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
-        "description_style": "body",
+        "description_style": "subtitle",
         "collection": "seasonal-specials-mamzoo-sale",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "quick_add": "standard",
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "cat-backpack"
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "breathable-cat-carrier-bags-dog-cat-backpack",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "pet-backpack-carrier"
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -325,21 +285,6 @@
             "button_style": "text"
           }
         },
-        "collection_jwtcn3": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "dog-leash",
-            "image": "shopify:\/\/shop_images\/b61354be-b7be-4b5b-a73d-608552d47727.jpg",
-            "subheading": "",
-            "heading": "Dog Leashes",
-            "heading_size": "smi-h4",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_style": "text"
-          }
-        },
         "color_KKw3KC": {
           "type": "color",
           "disabled": true,
@@ -362,9 +307,9 @@
         "collection_QYiAdx",
         "collection_C3DxEX",
         "collection_9b6dYC",
-        "collection_jwtcn3",
         "color_KKw3KC"
       ],
+      "disabled": true,
       "settings": {
         "container_full_width": false,
         "sub_heading": "",
@@ -441,6 +386,7 @@
         },
         "rating_6VjXVN": {
           "type": "rating",
+          "disabled": true,
           "settings": {
           }
         },
@@ -491,6 +437,13 @@
             "image_3": "shopify:\/\/shop_images\/Love-Pets-Supplies-Mamzoo-Pet-Store.webp",
             "heading_3": "Loved By Our Customers"
           }
+        },
+        "air_product_reviews_app_carousel_review_list_zqtQTA": {
+          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-carousel-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "disabled": true,
+          "settings": {
+            "air_carouselreviews_carouselHeading": "See what our customers said"
+          }
         }
       },
       "block_order": [
@@ -502,7 +455,8 @@
         "quantity_selector_XUtMVp",
         "buy_buttons_BPVkcW",
         "share_9A6GgK",
-        "icon_with_text_etewTL"
+        "icon_with_text_etewTL",
+        "air_product_reviews_app_carousel_review_list_zqtQTA"
       ],
       "settings": {
         "product": "lazymax-5-in-1-portable-dog-water-bottle",
@@ -512,7 +466,7 @@
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -812,35 +766,6 @@
         "padding_bottom": 52
       }
     },
-    "17164422592dac321b": {
-      "type": "apps",
-      "blocks": {
-        "air_product_reviews_app_block_all_review_aCjkWG": {
-          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-block-all-review\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "disabled": true,
-          "settings": {
-            "air_allReviewsBlock_heading": "All reviews page",
-            "air_allReviewsBlock_useSimpleSummary": false,
-            "air_allReviewsBlock_maxReview": 20,
-            "air_allReviewsBlock_textColor": "#000000",
-            "air_allReviewsBlock_textSummaryColor": "#000000",
-            "air_allReviewsBlock_summaryBgColor": "#f8f8f8",
-            "air_allReviewsBlock_bgColor": "#ffffff",
-            "air_allReviewsBlock_onlyMedia": false,
-            "air_allReviewsBlock_onlyPositive": false,
-            "air_allReviewsBlock_selectedProduct": [
-
-            ]
-          }
-        }
-      },
-      "block_order": [
-        "air_product_reviews_app_block_all_review_aCjkWG"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "smi_cart_drawer_1_1_J4bT7k": {
       "type": "smi-cart-drawer-1-1",
       "blocks": {
@@ -970,7 +895,6 @@
   "order": [
     "smi_slideshow_1_6_GRmPmm",
     "featured_collection",
-    "collage",
     "rich_text",
     "smi_icon_with_text_1_7_HxR6eq",
     "smi_collection_list_2_3_VrmnVi",
@@ -982,7 +906,6 @@
     "smi_testimonial_1_7_8JYKaB",
     "smi_blog_posts_1_7_wbzYeW",
     "newsletter_nkmjDt",
-    "17164422592dac321b",
     "smi_cart_drawer_1_1_J4bT7k",
     "smi_icon_with_text_1_2_xC4acG"
   ]
