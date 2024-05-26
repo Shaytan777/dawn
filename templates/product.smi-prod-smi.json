@@ -18,7 +18,7 @@
         "smi-block-item-1": {
           "type": "product_title",
           "settings": {
-            "heading_size": "smi-h3"
+            "heading_size": "smi-h2"
           }
         },
         "smi-block-item-2": {
