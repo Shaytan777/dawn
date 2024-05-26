@@ -35,7 +35,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "swatch_shape": "circle"
           }
         },
@@ -264,6 +264,22 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1716751844419eac56": {
+      "type": "apps",
+      "blocks": {
+        "air_product_reviews_app_summary_block_9WgJij": {
+          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "air_product_reviews_app_summary_block_9WgJij"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -271,6 +287,7 @@
     "image-with-text",
     "multicolumn",
     "related-products",
-    "1716443651f85cad69"
+    "1716443651f85cad69",
+    "1716751844419eac56"
   ]
 }
