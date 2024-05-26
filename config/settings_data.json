@@ -156,15 +156,15 @@
         "settings": {
         }
       },
-      "12732002020968342082": {
-        "type": "shopify:\/\/apps\/avada-seo-suite\/blocks\/avada-critical-css\/15507c6e-1aa3-45d3-b698-7e175e033440",
+      "18423266570658624584": {
+        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
         "disabled": true,
         "settings": {
         }
       },
-      "18423266570658624584": {
-        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
-        "disabled": true,
+      "12732002020968342082": {
+        "type": "shopify:\/\/apps\/avada-seo-suite\/blocks\/avada-critical-css\/15507c6e-1aa3-45d3-b698-7e175e033440",
+        "disabled": false,
         "settings": {
         }
       }
