@@ -1273,8 +1273,8 @@
           "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-block-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
           "settings": {
             "air_blockreviews_summaryHeading": "Review",
-            "air_blockreviews_layout": "grid",
-            "air_blockreviews_singleStarColor": "#16a086",
+            "air_blockreviews_layout": "list",
+            "air_blockreviews_singleStarColor": "#f45902",
             "air_blockreviews_primaryColor": "#121212"
           }
         }
@@ -1283,7 +1283,7 @@
         "air_product_reviews_app_block_review_list_ngpiJx"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "1716438959d9971322": {
@@ -1293,7 +1293,7 @@
           "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-block-all-review\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
           "settings": {
             "air_allReviewsBlock_heading": "All reviews page",
-            "air_allReviewsBlock_useSimpleSummary": false,
+            "air_allReviewsBlock_useSimpleSummary": true,
             "air_allReviewsBlock_maxReview": 10,
             "air_allReviewsBlock_textColor": "#000000",
             "air_allReviewsBlock_textSummaryColor": "#000000",
@@ -1310,6 +1310,7 @@
       "block_order": [
         "air_product_reviews_app_block_all_review_hXJTbN"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
