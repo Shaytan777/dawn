@@ -233,7 +233,7 @@
         "desktop_layout": "bottom_thumbnails",
         "image_zoom": "click-and-hover",
         "mobile_layout": "show_thumbnails",
-        "hide_variants": true,
+        "hide_variants": false,
         "video_looping": false,
         "color_scheme": "scheme_1",
         "padding_top": 30,
