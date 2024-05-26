@@ -11,7 +11,7 @@
         {% else %}
         complementary-bundle-products-border
     {% endif %}
-    " id="complementary_product_{{ section.id }}">
+    " id="complementary_product_{{ section.id }}" {{- block.shopify_attributes -}}>
     {%-liquid
       if settings.smi_animations_reveal_on_scroll != null
           assign animation_scroll = settings.smi_animations_reveal_on_scroll
@@ -20,7 +20,7 @@
           assign animation_scroll = global_settings.revealOnScroll
       endif
     -%}
-    <div class="smi-heading-component smi-px-lg smi-heading-component--align-{{block.settings.heading_alignment}} smi-link-wrapper" {{- block.shopify_attributes -}}    >
+    <div class="smi-heading-component smi-px-lg smi-heading-component--align-{{block.settings.heading_alignment}} smi-link-wrapper">
       {% liquid
         assign heading = block.settings.heading | strip
         assign sub_heading = block.settings.sub_heading | strip
@@ -108,11 +108,12 @@
                                         {{ product.title }}
                                     </a>
                                     <div class="detail-product-complementary-price">
-                                        {% if product.price_min == product.price_max %}
-                                            <span class="smi-text-md same-price">{{ product.price_max | json | money }}</span>
+                                        {% if product.selected_or_first_available_variant.price <= product.selected_or_first_available_variant.compare_at_price %}
+                                          <span class="smi-text-md sale-price-min smi-text-75">{{ product.selected_or_first_available_variant.compare_at_price | json | money }}</span>
+                                            <span class="smi-text-md sale-price">{{ product.selected_or_first_available_variant.price | json | money }}</span>
+                                            
                                             {% else %}
-                                            <span class="smi-text-md sale-price-min smi-text-75">{{ product.price_max | json | money }}</span>
-                                            <span class="smi-text-md sale-price">{{ product.price_min | json | money }}</span>
+                                            <span class="smi-text-md same-price">{{ product.selected_or_first_available_variant.price | json | money }}</span>
                                         {% endif %}
                                         {% comment %} cmin: {{ product.price_min }} - cmax: {{ product.price_max  }}<br/>
                                         min: {{ product.price_min | json | money }} - max: {{ product.price_max | json | money }} {% endcomment %}

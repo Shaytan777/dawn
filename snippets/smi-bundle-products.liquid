@@ -15,6 +15,7 @@
       {% endif %}
     "
     id="bundle_product_{{ section.id }}"
+    {{- block.shopify_attributes -}} 
   >
     {% liquid
       assign currency_code_enabled = settings.smi_currency_code_enabled | default: shop.metafields.smind.settings.value.showCurrencyCode | default: false
@@ -33,7 +34,7 @@
           assign animation_scroll = global_settings.revealOnScroll
       endif
     -%}
-    <div class="smi-heading-component smi-heading-component--align-{{block.settings.heading_alignment}} smi-link-wrapper" {{- block.shopify_attributes -}}    >
+    <div class="smi-heading-component smi-heading-component--align-{{block.settings.heading_alignment}} smi-link-wrapper">
       {% liquid
         assign heading = block.settings.heading | strip
         assign sub_heading = block.settings.sub_heading | strip
@@ -187,8 +188,9 @@
                                   id="li_list_variant_bundle_0_{{ forloop.index }}_{{ section.id }}"
                                   variant-id="{{ variant.id }}"
                                   price-with-currency="{{ variant.price | json | money_with_currency }}"
-                                  price-with-currency-max="{{ current_product.price_max | json | money_with_currency }}"
+                                  price-with-currency-max="{% if variant.compare_at_price > variant.price %}{{ variant.compare_at_price | json | money_with_currency }}{% else %}{{ variant.price | json | money_with_currency }}{% endif %}"
                                   cal-price="{{ variant.price }}"
+                                  cal-price-max="{% if variant.compare_at_price > variant.price %}{{ variant.compare_at_price }}{% else %}{{ variant.price }}{% endif %}"
                                   img-url="{{ variant.image | image_url }}"
                                 >
                                   {{ variant.title }}
@@ -199,18 +201,14 @@
                             {% endif %}
                           </div>
                           <div class="detail-product-bundle-price">
-                            <input type="hidden" value="{{ current_product.price_max }}" id="bundle_variant_max_price_0_{{ section.id }}" >
-                            {% if current_product.price_min == current_product.price_max or current_product.selected_or_first_available_variant.price == current_product.price_max %}
-                              <span class="smi-text-md same-price"
-                                id="span_variant_bundle_money_0_{{ section.id }}">{% if currency_full %}{{ current_product.price_min | json | money_with_currency }}{% else %}{{ current_product.price_min | json | money }}{% endif %}</span>
-                              
-                            {% else %}
-                              <span class="smi-text-sm sale-price-min smi-text-75"
+                            <input type="hidden" value="{% if current_product.selected_or_first_available_variant.price <= current_product.selected_or_first_available_variant.compare_at_price %}{{ current_product.selected_or_first_available_variant.compare_at_price }}{% else %}{{ current_product.selected_or_first_available_variant.price }}{% endif %}" id="bundle_variant_max_price_0_{{ section.id }}" >
+                            {% if current_product.selected_or_first_available_variant.price <= current_product.selected_or_first_available_variant.compare_at_price %}
+                                <span class="smi-text-sm sale-price-min smi-text-75"
                                 id="span_variant_bundle_money_max_0_{{ section.id }}">
                                 {% if currency_full %}
-                                {{- current_product.price_max | json | money_with_currency -}}
+                                {{- current_product.selected_or_first_available_variant.compare_at_price | json | money_with_currency -}}
                                 {% else %}
-                                  {{- current_product.price_max | json | money -}}
+                                  {{- current_product.selected_or_first_available_variant.compare_at_price | json | money -}}
                                 {% endif %}
                               </span>
                               <span
@@ -223,6 +221,9 @@
                                   {{- current_product.selected_or_first_available_variant.price | json | money -}}
                                 {% endif %}
                               </span>
+                            {% else %}
+                                <span class="smi-text-md same-price"
+                                id="span_variant_bundle_money_0_{{ section.id }}">{% if currency_full %}{{ current_product.selected_or_first_available_variant.price | json | money_with_currency }}{% else %}{{ current_product.selected_or_first_available_variant.price | json | money }}{% endif %}</span>
                             {% endif %}
                           </div>
                         </div>
@@ -306,8 +307,9 @@
                                 id="li_list_variant_bundle_{{ index_list_select }}_{{ forloop.index }}_{{ section.id }}"
                                 variant-id="{{ variant.id }}"
                                 price-with-currency="{{ variant.price | json | money_with_currency }}"
-                                price-with-currency-max="{{ product.price_max | json | money_with_currency }}"
+                                price-with-currency-max="{% if variant.compare_at_price > variant.price %}{{ variant.compare_at_price | json | money_with_currency }}{% else %}{{ variant.price | json | money_with_currency }}{% endif %}"
                                 cal-price="{{ variant.price }}"
+                                cal-price-max="{% if variant.compare_at_price > variant.price %}{{ variant.compare_at_price }}{% else %}{{ variant.price }}{% endif %}"
                                 img-url="{{ variant.image | image_url }}"
                               >
                                 {{ variant.title }}
@@ -319,28 +321,15 @@
                         </div>
 
                           <div class="detail-product-bundle-price">
-                          <input type="hidden" value="{{ product.price_max }}" id="bundle_variant_max_price_{{ forloop.index }}_{{ section.id }}" >
-                          {% if product.price_min == product.price_max or product.selected_or_first_available_variant.price == product.price_max %}
-                         
-                            <span class="smi-text-sm sale-price-min smi-text-75"
-                              style="display: none;"
+                          <input type="hidden" value="{% if product.selected_or_first_available_variant.price <= product.selected_or_first_available_variant.compare_at_price %}{{ product.selected_or_first_available_variant.compare_at_price }}{% else %}{{ product.selected_or_first_available_variant.price }}{% endif %}" id="bundle_variant_max_price_{{ forloop.index }}_{{ section.id }}" >
+
+                            {% if product.selected_or_first_available_variant.price <= product.selected_or_first_available_variant.compare_at_price %}
+                                <span class="smi-text-sm sale-price-min smi-text-75"
                               id="span_variant_bundle_money_max_{{ forloop.index }}_{{ section.id }}">
                               {% if currency_full %}
-                                {{- product.price_max | json | money_with_currency -}}
+                                {{- product.selected_or_first_available_variant.compare_at_price | json | money_with_currency -}}
                               {% else %}
-                                {{- product.price_max | json | money -}}
-                              {% endif %}
-                            </span>
-                            <span class="smi-text-md same-price" id="span_variant_bundle_money_{{ forloop.index }}_{{ section.id }}">{% if currency_full %}{{ product.price_min | json | money_with_currency }}{% else %}{{ product.price_min | json | money }}{% endif %}</span>
-                            
-                          {% else %}
-                            
-                            <span class="smi-text-sm sale-price-min smi-text-75"
-                              id="span_variant_bundle_money_max_{{ forloop.index }}_{{ section.id }}">
-                              {% if currency_full %}
-                                {{- product.price_max | json | money_with_currency -}}
-                              {% else %}
-                                {{- product.price_max | json | money -}}
+                                {{- product.selected_or_first_available_variant.compare_at_price | json | money -}}
                               {% endif %}
                             </span>
                             <span
@@ -353,7 +342,18 @@
                                 {{- product.selected_or_first_available_variant.price | json | money -}}
                               {% endif %}
                             </span>
-                          {% endif %}
+                              {% else %}
+                              <span class="smi-text-sm sale-price-min smi-text-75"
+                              style="display: none;"
+                              id="span_variant_bundle_money_max_{{ forloop.index }}_{{ section.id }}">
+                              {% if currency_full %}
+                                {{- product.selected_or_first_available_variant.compare_at_price | json | money_with_currency -}}
+                              {% else %}
+                                {{- product.selected_or_first_available_variant.compare_at_price | json | money -}}
+                              {% endif %}
+                            </span>
+                            <span class="smi-text-md same-price" id="span_variant_bundle_money_{{ forloop.index }}_{{ section.id }}">{% if currency_full %}{{ product.selected_or_first_available_variant.price | json | money_with_currency }}{% else %}{{ product.selected_or_first_available_variant.price | json | money }}{% endif %}</span>
+                            {% endif %}
                         </div>
                       </div>
                     </div>
