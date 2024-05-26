@@ -248,8 +248,8 @@
           "settings": {
             "sub_heading": "",
             "heading": "Which Companion Will Elevate Your Pet Adventures?",
-            "heading_size": "smi-h2",
-            "description": "<p>WHILE TECHNOLOGY KEEPS ADVANCING, WHY SETTLE FOR OUTDATED PET GEAR? ELEVATE YOUR EXPERIENCE WITH THE LAZYMAX 5-IN-1 PORTABLE DOG WATER BOTTLE, THE ULTIMATE TOOL FOR EVERY PET OWNER ON THE MOVE.<\/p>"
+            "heading_size": "smi-h3",
+            "description": "<p>ELEVATE YOUR PET GAME - DON'T GET STUCK WITH ANCIENT PET GEAR. GRAB THE LAZYMAX 5-IN-1 PORTABLE DOG WATER BOTTLE FOR PET OWNERS ON THE GO!<\/p>"
           }
         },
         "color_QMVJza": {
@@ -983,13 +983,13 @@
         "text_BqEjen": {
           "type": "text",
           "settings": {
-            "text": "<p>🐶 Simplify pet outings<\/p><p>🥤 Ensure hygienic food storage<\/p><p>🤲 Enjoy convenient, single-handed operation<br\/><br\/>Tired of juggling your pet, phone, and water bottle outdoors? LazyMAX offers effortless, hygienic pet outings with easy, one-handed operation.<\/p>"
+            "text": "<p>Tired of juggling your pet, phone, and water bottle outdoors? LazyMAX offers effortless, hygienic pet outings with easy, one-handed operation.<br\/><br\/>🐶 Simplify pet outings<\/p><p>🥤 Ensure hygienic food storage<\/p><p>🤲 Enjoy convenient, single-handed operation<\/p>"
           }
         },
         "button_8NQ8g4": {
           "type": "button",
           "settings": {
-            "first_button_label": "TRY LAZYMAX",
+            "first_button_label": "TRY LAZYMAX TODAY",
             "first_button_link": "",
             "first_button_style": "solid",
             "second_button_label": "",
@@ -1106,13 +1106,13 @@
         "description": "",
         "heading_alignment": "center",
         "content_alignment": "center",
-        "arrow_style": "arr-style-1",
-        "sticky_page_dot_style": "dot-style-1",
+        "arrow_style": "none",
+        "sticky_page_dot_style": "line-style-1",
         "auto_rotate_slides": false,
         "change_slide_every": 5,
         "number_of_item": "1",
         "color_scheme": "scheme_1",
-        "color_rating": "#f45902",
+        "color_rating": "#f8d727",
         "padding_top": 50,
         "padding_bottom": 50
       }
