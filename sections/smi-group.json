@@ -136,10 +136,10 @@
             "fontweight_badge": "600",
             "fontsize_menu": 16,
             "menu_letter_spacing_scale": 0,
-            "fontweight_menu": "500",
+            "fontweight_menu": "700",
             "fontsize_price_xl": 22,
             "fontsize_price_lg": 16,
-            "fontsize_price_md": 16,
+            "fontsize_price_md": 14,
             "price_letter_spacing_scale": -0.4,
             "fontweight_price": "700"
           }
