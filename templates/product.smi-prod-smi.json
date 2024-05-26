@@ -232,11 +232,11 @@
         "constrain_media_to_screen_height": "none",
         "desktop_layout": "bottom_thumbnails",
         "image_zoom": "click-and-hover",
-        "mobile_layout": "2_columns_carousel",
+        "mobile_layout": "hide_thumbnails",
         "hide_variants": false,
         "video_looping": false,
         "color_scheme": "scheme_1",
-        "padding_top": 30,
+        "padding_top": 60,
         "padding_bottom": 60
       }
     },
