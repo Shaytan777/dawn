@@ -205,10 +205,10 @@
         "product_badges_TaRAjF": {
           "type": "product_badges",
           "settings": {
-            "badge_corner_radius": 10,
+            "badge_corner_radius": 14,
             "sale_badge_background_color": "#ffc107",
-            "sale_badge_text_color": "#000000",
-            "sold_out_badge_background_color": "#8c8c8c",
+            "sale_badge_text_color": "#2f363f",
+            "sold_out_badge_background_color": "#ffffff",
             "sold_out_badge_text_color": "#ffffff"
           }
         },
