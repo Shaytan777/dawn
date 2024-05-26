@@ -246,9 +246,9 @@
         "dropdown_popup_drawer_cPPgQ7": {
           "type": "dropdown_popup_drawer",
           "settings": {
-            "popup_border_thickness": 1,
+            "popup_border_thickness": 0,
             "popup_border_opacity": 10,
-            "popup_corner_radius": 0,
+            "popup_corner_radius": 14,
             "popup_shadow": "0,0,0",
             "popup_shadow_opacity": 20
           }
