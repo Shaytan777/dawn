@@ -195,7 +195,7 @@
           "type": "product_cards",
           "settings": {
             "card_image_padding": 0,
-            "card_border_thickness": 1,
+            "card_border_thickness": 0,
             "card_border_opacity": 55,
             "card_corner_radius": 14,
             "card_shadow": "0,0,0",
