@@ -1106,13 +1106,13 @@
         "description": "",
         "heading_alignment": "center",
         "content_alignment": "center",
-        "arrow_style": "none",
-        "sticky_page_dot_style": "line-style-1",
+        "arrow_style": "arr-style-1",
+        "sticky_page_dot_style": "dot-style-1",
         "auto_rotate_slides": false,
         "change_slide_every": 5,
         "number_of_item": "1",
         "color_scheme": "scheme_1",
-        "color_rating": "#f8d727",
+        "color_rating": "#f45902",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -1286,35 +1286,6 @@
         "include_margins": false
       }
     },
-    "1716438959d9971322": {
-      "type": "apps",
-      "blocks": {
-        "air_product_reviews_app_block_all_review_hXJTbN": {
-          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-block-all-review\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "settings": {
-            "air_allReviewsBlock_heading": "All reviews page",
-            "air_allReviewsBlock_useSimpleSummary": true,
-            "air_allReviewsBlock_maxReview": 10,
-            "air_allReviewsBlock_textColor": "#000000",
-            "air_allReviewsBlock_textSummaryColor": "#000000",
-            "air_allReviewsBlock_summaryBgColor": "#f8f8f8",
-            "air_allReviewsBlock_bgColor": "#ffffff",
-            "air_allReviewsBlock_onlyMedia": true,
-            "air_allReviewsBlock_onlyPositive": false,
-            "air_allReviewsBlock_selectedProduct": [
-              "lazymax-5-in-1-portable-dog-water-bottle"
-            ]
-          }
-        }
-      },
-      "block_order": [
-        "air_product_reviews_app_block_all_review_hXJTbN"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true
-      }
-    },
     "smi_collapsible_content_1_1_76H4WX": {
       "type": "smi-collapsible-content-1-1",
       "blocks": {
@@ -1454,7 +1425,6 @@
     "smi_video_1_2_dgB9fJ",
     "smi_comparison_table_1_2_4KHD33",
     "17164426229b6bfdb8",
-    "1716438959d9971322",
     "smi_collapsible_content_1_1_76H4WX"
   ]
 }
