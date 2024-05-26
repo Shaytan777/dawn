@@ -440,7 +440,6 @@
         },
         "air_product_reviews_app_carousel_review_list_zqtQTA": {
           "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-carousel-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "disabled": true,
           "settings": {
             "air_carouselreviews_carouselHeading": "See what our customers said"
           }
@@ -463,10 +462,10 @@
         "color_scheme": "scheme-3",
         "secondary_background": false,
         "media_size": "medium",
-        "constrain_to_viewport": true,
+        "constrain_to_viewport": false,
         "media_fit": "contain",
         "media_position": "left",
-        "image_zoom": "hover",
+        "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
