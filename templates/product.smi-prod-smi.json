@@ -1572,7 +1572,7 @@
           "type": "product_badges",
           "settings": {
             "badge_corner_radius": 40,
-            "sale_badge_background_color": "#d01717",
+            "sale_badge_background_color": "#f45902",
             "sale_badge_text_color": "#ffffff",
             "sold_out_badge_background_color": "#8c8c8c",
             "sold_out_badge_text_color": "#ffffff"
