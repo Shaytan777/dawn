@@ -109,10 +109,10 @@
             "product_solid_background_button_color": "#ffffff",
             "product_solid_button_label_color": "#282828",
             "product_shadow_color": "#ffffff",
-            "badge_sale_background_color": "#ED2626",
-            "badge_sale_text_color": "#1F1F21",
-            "badge_sold_out_background_color": "#1F1F21",
-            "badge_sold_out_text_color": "#FFFFFF"
+            "badge_sale_background_color": "#ed2626",
+            "badge_sale_text_color": "#1f1f21",
+            "badge_sold_out_background_color": "#1f1f21",
+            "badge_sold_out_text_color": "#ffffff"
           }
         }
       },
@@ -826,6 +826,7 @@
         },
         "color_jRGkbi": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#fcf8f5",
             "background_gradient_color": "",
