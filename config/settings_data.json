@@ -167,6 +167,12 @@
         "disabled": true,
         "settings": {
         }
+      },
+      "4143866229958350875": {
+        "type": "shopify:\/\/apps\/upsellkoala\/blocks\/deals-embed\/2b951f75-113f-4fca-bdf3-c92703235716",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
