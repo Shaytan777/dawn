@@ -1526,7 +1526,7 @@
             "buttons_scale": 100,
             "buttons_border_thickness": 1,
             "buttons_border_opacity": 100,
-            "buttons_radius": 0,
+            "buttons_radius": 18,
             "buttons_shadow": "0,0,0",
             "buttons_shadow_opacity": 0
           }
