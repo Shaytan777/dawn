@@ -184,7 +184,7 @@
           "settings": {
             "icon": "box",
             "upload_icon": "shopify:\/\/shop_images\/Choice-Pet-Supplies-Mamzoo-Pet-Shop.png",
-            "icon_size": 90,
+            "icon_size": 70,
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "CHOOSE YOUR PERFECT PRODUCT",
             "heading_size": "smi-h4",
@@ -198,7 +198,7 @@
           "settings": {
             "icon": "return",
             "upload_icon": "shopify:\/\/shop_images\/Delivery-Pet-Supplies-Mamzoo-Pet-Shop.png",
-            "icon_size": 90,
+            "icon_size": 70,
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "EXPERIENCE FREE SHIPPING & GUARANTEE",
             "heading_size": "smi-h4",
@@ -212,7 +212,7 @@
           "settings": {
             "icon": "verify",
             "upload_icon": "shopify:\/\/shop_images\/Cats-Supplies-Mamzoo-Pet-Shop.png",
-            "icon_size": 90,
+            "icon_size": 70,
             "icon_bg": "rgba(0,0,0,0)",
             "heading": "ENSURE ABSOLUTE SATISFACTION",
             "heading_size": "smi-h4",
