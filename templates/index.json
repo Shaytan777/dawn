@@ -242,9 +242,9 @@
       "settings": {
         "container_full_width": false,
         "sub_heading": "",
-        "heading": "",
-        "heading_size": "smi-h2",
-        "description": "<h2>Enjoy Simple Pet Care with Mamzoo in Three Easy Steps:<\/h2>",
+        "heading": "Enjoy Simple Pet Care with Mamzoo in Three Easy Steps:",
+        "heading_size": "smi-h3",
+        "description": "",
         "heading_alignment": "center",
         "content_alignment": "center",
         "number_of_columns_on_desktop": "3",
