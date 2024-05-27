@@ -12,6 +12,7 @@
       "block_order": [
         "air_product_reviews_app_summary_block_9WgJij"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
