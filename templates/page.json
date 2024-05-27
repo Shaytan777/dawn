@@ -140,12 +140,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "smi_cart_drawer_1_1_HbnKic": {
+      "type": "smi-cart-drawer-1-1",
+      "blocks": {
+        "cart_note_CbxhEz": {
+          "type": "cart_note",
+          "settings": {
+            "label_text": "<p>Special instructions for seller<\/p>"
+          }
+        },
+        "color_zdEU6i": {
+          "type": "color",
+          "settings": {
+            "background_color": "#fcf8f5",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#fcf8f5",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "cart_note_CbxhEz",
+        "color_zdEU6i"
+      ],
+      "settings": {
+        "show_taxes_policy": true,
+        "show_view_cart": true,
+        "collection": "",
+        "color_scheme": "scheme_2"
+      }
     }
   },
   "order": [
     "main",
     "image_banner_rRUFwa",
     "smi_rich_text_2_1_ig3krB",
-    "featured_collection_aH8pKL"
+    "featured_collection_aH8pKL",
+    "smi_cart_drawer_1_1_HbnKic"
   ]
 }

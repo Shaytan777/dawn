@@ -5,6 +5,7 @@
       "blocks": {
         "air_product_reviews_app_summary_block_MKCDeV": {
           "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "disabled": true,
           "settings": {
           }
         },
@@ -81,6 +82,7 @@
         },
         "product_text_i3wQRq": {
           "type": "product_text",
+          "disabled": true,
           "settings": {
             "text": "<p>🟢 ALL-IN-ONE DOG CARE SOLUTION<br\/>🟢 MADE FOR EASY ONE-HANDED USE<br\/>🟢 BPA-FREE ANTIBACTERIAL MATERIALS<\/p>"
           }
@@ -232,11 +234,12 @@
         "smi-block-item-17",
         "product_color_mc4Ltt"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
-        "container_full_width": true,
+        "container_full_width": false,
         "enable_sticky_content_on_desktop": false,
         "desktop_media_width": "50",
         "desktop_media_position": "left",
@@ -1384,6 +1387,40 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "smi_cart_drawer_1_1_VeBpzG": {
+      "type": "smi-cart-drawer-1-1",
+      "blocks": {
+        "cart_note_f8aYFx": {
+          "type": "cart_note",
+          "settings": {
+            "label_text": "<p>Special instructions for seller<\/p>"
+          }
+        },
+        "color_A8kkNW": {
+          "type": "color",
+          "settings": {
+            "background_color": "#fcf8f5",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#fcf8f5",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "cart_note_f8aYFx",
+        "color_A8kkNW"
+      ],
+      "settings": {
+        "show_taxes_policy": true,
+        "show_view_cart": true,
+        "collection": "",
+        "color_scheme": "scheme_2"
+      }
     }
   },
   "order": [
@@ -1404,6 +1441,7 @@
     "smi_video_1_2_dgB9fJ",
     "smi_comparison_table_1_2_4KHD33",
     "17164426229b6bfdb8",
-    "smi_collapsible_content_1_1_76H4WX"
+    "smi_collapsible_content_1_1_76H4WX",
+    "smi_cart_drawer_1_1_VeBpzG"
   ]
 }
