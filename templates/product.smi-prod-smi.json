@@ -237,7 +237,7 @@
 
       ],
       "settings": {
-        "container_full_width": false,
+        "container_full_width": true,
         "enable_sticky_content_on_desktop": false,
         "desktop_media_width": "50",
         "desktop_media_position": "left",
