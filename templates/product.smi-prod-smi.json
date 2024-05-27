@@ -81,7 +81,6 @@
         },
         "product_text_i3wQRq": {
           "type": "product_text",
-          "disabled": true,
           "settings": {
             "text": "<p>🟢 ALL-IN-ONE DOG CARE SOLUTION<br\/>🟢 MADE FOR EASY ONE-HANDED USE<br\/>🟢 BPA-FREE ANTIBACTERIAL MATERIALS<\/p>"
           }
@@ -1573,10 +1572,10 @@
           "type": "product_badges",
           "settings": {
             "badge_corner_radius": 40,
-            "sale_badge_background_color": "#D01717",
-            "sale_badge_text_color": "#FFFFFF",
-            "sold_out_badge_background_color": "#8C8C8C",
-            "sold_out_badge_text_color": "#FFFFFF"
+            "sale_badge_background_color": "#d01717",
+            "sale_badge_text_color": "#ffffff",
+            "sold_out_badge_background_color": "#8c8c8c",
+            "sold_out_badge_text_color": "#ffffff"
           }
         },
         "blog_cards_tGUqQe": {
