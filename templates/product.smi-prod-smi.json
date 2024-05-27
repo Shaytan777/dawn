@@ -293,56 +293,6 @@
         "padding_bottom": 16
       }
     },
-    "smi_image_with_text_2_6_XnmXRP": {
-      "type": "smi-image-with-text-2-6",
-      "blocks": {
-        "image_block_NwBMFV": {
-          "type": "image_block",
-          "settings": {
-            "heading": "Lightweight & comfortable fit for extended wear",
-            "heading_size": "smi-h4",
-            "content": "<p>Discover the perfect blend of fashion and function with our exquisite collection of shoes. Crafted with precision and attention to detail.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "image_block_nT33QU": {
-          "type": "image_block",
-          "settings": {
-            "heading": "Stylish design for fashion versatility",
-            "heading_size": "smi-h4",
-            "content": "<p>Indulge in the luxury of stepping out in style with our shoes collection. Embrace comfort, elevate your look, and make every step.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_block_NwBMFV",
-        "image_block_nT33QU"
-      ],
-      "settings": {
-        "full_width": false,
-        "sub_heading": "",
-        "heading": "Bring Power To Your Steps",
-        "heading_size": "smi-h2",
-        "description": "",
-        "heading_alignment": "center",
-        "content_alignment": "center",
-        "media_ratio": "1\/1",
-        "media_shape": "default",
-        "arrow_style": "none",
-        "sticky_page_dot_style": "none",
-        "auto_rotate_slides": false,
-        "change_slide_every": 5,
-        "slider_items": "3",
-        "number_of_columns_on_mobile": "1",
-        "slider_overflow": false,
-        "color_scheme": "scheme_2",
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
     "smi_rich_content_1_1_PpUKLw": {
       "type": "smi-rich-content-1-1",
       "blocks": {
@@ -1423,7 +1373,6 @@
   "order": [
     "product-detail-1-1-0",
     "smi_rich_text_1_5_AjrMCC",
-    "smi_image_with_text_2_6_XnmXRP",
     "smi_rich_content_1_1_PpUKLw",
     "smi_scrolling_text_1_3_JjnPjt",
     "smi_icon_with_text_1_7_RRdtAx",
