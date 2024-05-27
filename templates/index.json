@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/dog-leashes-202408.webp",
             "subheading": "",
             "heading": "AN ORCHESTRA OF CANINE FEELINGS",
-            "heading_size": "smi-h1",
+            "heading_size": "smi-h2",
             "description": "THE ONE-STOP SHOP FOR ALL YOUR PET SUPPLY NEEDS",
             "first_button_label": "",
             "first_button_link": "",
@@ -48,15 +48,15 @@
         "color_VWijkA"
       ],
       "settings": {
-        "container_full_width": false,
+        "container_full_width": true,
         "slide_height": "fit_screen",
         "arrow_style": "arr-circle-style-4",
-        "sticky_page_dot_style": "line-style-4",
+        "sticky_page_dot_style": "none",
         "auto_rotate_slides": false,
         "change_slides_every": 5,
         "slide_transition": "slide",
         "control_color_scheme": "scheme_1",
-        "color_scheme": "scheme_6"
+        "color_scheme": "scheme_1"
       }
     },
     "featured_collection": {
@@ -470,8 +470,8 @@
         "buy_buttons_BPVkcW": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "share_9A6GgK": {
@@ -519,9 +519,9 @@
         "product": "lazymax-5-in-1-portable-dog-water-bottle",
         "color_scheme": "scheme-3",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": false,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "media_position": "left",
         "image_zoom": "none",
         "hide_variants": false,
@@ -766,7 +766,7 @@
         "description": "",
         "heading_alignment": "center",
         "blog": "mamzoo-pet-supplies-expert-care-blog",
-        "maximum_item_to_show": 10,
+        "maximum_item_to_show": 24,
         "media_ratio": "1\/1",
         "media_shape": "default",
         "content_alignment": "center",
@@ -776,13 +776,13 @@
         "show_comment_count": false,
         "show_excerpt": false,
         "button_style": "none",
-        "arrow_style": "arr-style-1",
+        "arrow_style": "arr-style-2",
         "sticky_page_dot_style": "none",
         "view_all_button_style": "solid",
         "auto_rotate_slides": false,
         "change_slides_every": 5,
-        "number_of_columns_on_desktop": "3",
-        "slider_overflow": false,
+        "number_of_columns_on_desktop": "4",
+        "slider_overflow": true,
         "color_scheme": "scheme_1",
         "blog_color_scheme": "scheme_1",
         "padding_top": 50,
