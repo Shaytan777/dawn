@@ -65,7 +65,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_gift_card_recipient": false
           }
         },
         "description": {
@@ -282,6 +282,40 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "smi_cart_drawer_1_1_AFP6j3": {
+      "type": "smi-cart-drawer-1-1",
+      "blocks": {
+        "cart_note_3iDaMw": {
+          "type": "cart_note",
+          "settings": {
+            "label_text": "<p>Special instructions for seller<\/p>"
+          }
+        },
+        "color_MGC7aK": {
+          "type": "color",
+          "settings": {
+            "background_color": "#fcf8f5",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#fcf8f5",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "cart_note_3iDaMw",
+        "color_MGC7aK"
+      ],
+      "settings": {
+        "show_taxes_policy": false,
+        "show_view_cart": true,
+        "collection": "",
+        "color_scheme": "scheme_1"
+      }
     }
   },
   "order": [
@@ -290,6 +324,7 @@
     "image-with-text",
     "multicolumn",
     "related-products",
-    "1716443651f85cad69"
+    "1716443651f85cad69",
+    "smi_cart_drawer_1_1_AFP6j3"
   ]
 }
