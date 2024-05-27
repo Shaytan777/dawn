@@ -1037,7 +1037,7 @@
             "heading_scale": 100,
             "heading_line_height_scale": 100,
             "heading_letter_spacing_scale": 0,
-            "heading_text_case": "original",
+            "heading_text_case": "uppercase",
             "type_body_font": "assistant_n4",
             "body_scale": 100,
             "body_line_height_scale": 100,
