@@ -30,6 +30,7 @@
         },
         "product_feature_icon_fYEAYM": {
           "type": "product_feature_icon",
+          "disabled": true,
           "settings": {
             "heading": "all-in-one dog care solution",
             "heading_size": "smi-h6",
@@ -42,6 +43,7 @@
         },
         "product_feature_icon_eqkJKx": {
           "type": "product_feature_icon",
+          "disabled": true,
           "settings": {
             "heading": "made for easy one-handed use",
             "heading_size": "smi-h6",
@@ -54,6 +56,7 @@
         },
         "product_feature_icon_jzAG7i": {
           "type": "product_feature_icon",
+          "disabled": true,
           "settings": {
             "heading": "BPA-free antibacterial materials",
             "heading_size": "smi-h6",
@@ -74,6 +77,12 @@
             "icon_size": 24,
             "collapse_heading": "Description",
             "heading_size": "smi-h5"
+          }
+        },
+        "product_text_i3wQRq": {
+          "type": "product_text",
+          "settings": {
+            "text": "<p>🟢 ALL-IN-ONE DOG CARE SOLUTION<br\/>🟢 MADE FOR EASY ONE-HANDED USE<br\/>🟢 BPA-FREE ANTIBACTERIAL MATERIALS<\/p>"
           }
         },
         "smi-block-item-7": {
@@ -208,6 +217,7 @@
         "product_feature_icon_eqkJKx",
         "product_feature_icon_jzAG7i",
         "smi-block-item-3",
+        "product_text_i3wQRq",
         "smi-block-item-7",
         "smi-block-item-8",
         "smi-block-item-9",
