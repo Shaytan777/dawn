@@ -1,15 +1,31 @@
 {
   "sections": {
-    "main": {
-      "type": "main-product",
+    "1716751844419eac56": {
+      "type": "apps",
       "blocks": {
-        "air_product_reviews_app_summary_block_hiEV9n": {
+        "air_product_reviews_app_summary_block_9WgJij": {
           "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
           "settings": {
           }
-        },
+        }
+      },
+      "block_order": [
+        "air_product_reviews_app_summary_block_9WgJij"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
         "title": {
           "type": "title",
+          "settings": {
+          }
+        },
+        "air_product_reviews_app_summary_block_hiEV9n": {
+          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
           "settings": {
           }
         },
@@ -54,6 +70,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -111,8 +128,8 @@
         }
       },
       "block_order": [
-        "air_product_reviews_app_summary_block_hiEV9n",
         "title",
+        "air_product_reviews_app_summary_block_hiEV9n",
         "vendor",
         "caption",
         "price",
@@ -134,11 +151,11 @@
         "enable_sticky_info": true,
         "color_scheme": "",
         "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "cover",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "mobile_thumbnails": "show",
         "hide_variants": false,
         "enable_video_looping": false,
@@ -265,30 +282,14 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "1716751844419eac56": {
-      "type": "apps",
-      "blocks": {
-        "air_product_reviews_app_summary_block_9WgJij": {
-          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "air_product_reviews_app_summary_block_9WgJij"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
+    "1716751844419eac56",
     "main",
     "image-with-text",
     "multicolumn",
     "related-products",
-    "1716443651f85cad69",
-    "1716751844419eac56"
+    "1716443651f85cad69"
   ]
 }
