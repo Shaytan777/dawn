@@ -43,25 +43,6 @@
         "enable_language_selector": false
       }
     },
-    "header": {
-      "type": "header",
-      "disabled": true,
-      "settings": {
-        "logo_position": "middle-left",
-        "menu": "mega-menu-1",
-        "menu_type_desktop": "mega",
-        "sticky_header_type": "always",
-        "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "mobile_logo_position": "center",
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "smi_announcement_bar_1_2_bV94H8": {
       "type": "smi-announcement-bar-1-2",
       "blocks": {
@@ -117,6 +98,24 @@
         "padding_bottom": 10
       }
     },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "mega-menu-1",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": false,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "smi_header_1_1_XWwibM": {
       "type": "smi-header-1-1",
       "blocks": {
@@ -156,6 +155,7 @@
         },
         "color_yq66Vd": {
           "type": "color",
+          "disabled": true,
           "settings": {
             "background_color": "#ffffff",
             "background_gradient_color": "",
@@ -185,9 +185,10 @@
         "mega_banner_AY8kEC",
         "color_yq66Vd"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
-        "show_divider": false,
+        "show_divider": true,
         "show_shadow": false,
         "logo": "shopify:\/\/shop_images\/MAMZOO-LOGO-STROKED_tnd.png",
         "logo_transparent": "shopify:\/\/shop_images\/MAMZOO-LOGO-STROKED-transparent-tnd.png",
@@ -195,14 +196,99 @@
         "mobile_logo_width": 80,
         "menu": "mega-menu-1",
         "header_style": "transparent",
-        "desktop_layout": "logo_middle_left",
+        "desktop_layout": "logo_middle_center",
         "mobile_layout": "logo_center",
         "sticky_header": "on_scroll_up",
         "enable_language": false,
         "enable_country": false,
         "enable_account": true,
         "color_scheme": "scheme_1",
-        "transparent_color_scheme": "scheme_2",
+        "transparent_color_scheme": "scheme_7",
+        "product_color_scheme": "scheme_1",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "smi_header_1_8_ncVmYU": {
+      "type": "smi-header-1-8",
+      "blocks": {
+        "header_search_eP7hxz": {
+          "type": "header_search",
+          "settings": {
+            "enable_recent": true,
+            "search_keywords": "Shoes, Winter, Coats, Women, Kids",
+            "product_list": [
+
+            ],
+            "media_ratio": "1\/1",
+            "media_shape": "default",
+            "content_alignment": "left",
+            "show_second_image": true,
+            "show_vendor": false,
+            "show_swatch_color": false
+          }
+        },
+        "mega_collection_7H7Yjz": {
+          "type": "mega_collection",
+          "settings": {
+            "menu_item": "product",
+            "number_column": "5",
+            "collection_list": [
+
+            ]
+          }
+        },
+        "color_XATebz": {
+          "type": "color",
+          "disabled": true,
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "shadow_color": "#000000",
+            "transparent_background_gradient_color": "",
+            "transparent_text_color": "#000000",
+            "transparent_solid_background_button_color": "#000000",
+            "transparent_solid_button_label_color": "#ffffff",
+            "product_background_color": "#ffffff",
+            "product_background_gradient_color": "",
+            "product_text_color": "#000000",
+            "product_solid_background_button_color": "#000000",
+            "product_solid_button_label_color": "#ffffff",
+            "product_shadow_color": "#000000",
+            "badge_sale_background_color": "#ED2626",
+            "badge_sale_text_color": "#1F1F21",
+            "badge_sold_out_background_color": "#1F1F21",
+            "badge_sold_out_text_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "header_search_eP7hxz",
+        "mega_collection_7H7Yjz",
+        "color_XATebz"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_divider": true,
+        "show_shadow": false,
+        "logo": "shopify:\/\/shop_images\/MAMZOO-LOGO-STROKED_tnd.png",
+        "logo_transparent": "shopify:\/\/shop_images\/MAMZOO-LOGO-STROKED-transparent-tnd.png",
+        "logo_width": 100,
+        "mobile_logo_width": 60,
+        "menu": "mega-menu-1",
+        "header_style": "transparent",
+        "desktop_layout": "logo_middle_left",
+        "mobile_layout": "logo_left",
+        "sticky_header": "none",
+        "enable_language": false,
+        "enable_country": true,
+        "enable_account": true,
+        "color_scheme": "scheme_1",
+        "transparent_color_scheme": "scheme_5",
         "product_color_scheme": "scheme_1",
         "padding_top": 24,
         "padding_bottom": 24
@@ -211,8 +297,9 @@
   },
   "order": [
     "announcement-bar",
-    "header",
     "smi_announcement_bar_1_2_bV94H8",
-    "smi_header_1_1_XWwibM"
+    "header",
+    "smi_header_1_1_XWwibM",
+    "smi_header_1_8_ncVmYU"
   ]
 }

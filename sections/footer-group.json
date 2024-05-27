@@ -179,7 +179,7 @@
             "solid_button_label_color6": "#ffffff",
             "outline_button_color6": "#000000",
             "shadow_color6": "#000000",
-            "background_color7": "#ffffff",
+            "background_color7": "rgba(0,0,0,0)",
             "background_gradient_color7": "",
             "text_color7": "#000000",
             "subtext_color7": "#000000",
