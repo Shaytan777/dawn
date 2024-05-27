@@ -428,14 +428,6 @@
     "featured_product_zCCP38": {
       "type": "featured-product",
       "blocks": {
-        "text_c8qzVT": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title_edWVNX": {
           "type": "title",
           "settings": {
@@ -451,6 +443,13 @@
         "price_QPT7yB": {
           "type": "price",
           "settings": {
+          }
+        },
+        "text_c8qzVT": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>⭐️⭐️⭐️⭐️⭐️ 4.9\/5 <\/strong>",
+            "text_style": "uppercase"
           }
         },
         "variant_picker_weUhYW": {
@@ -495,25 +494,18 @@
             "image_3": "shopify:\/\/shop_images\/Love-Pets-Supplies-Mamzoo-Pet-Store.webp",
             "heading_3": "Loved By Our Customers"
           }
-        },
-        "air_product_reviews_app_carousel_review_list_zqtQTA": {
-          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-carousel-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "settings": {
-            "air_carouselreviews_carouselHeading": "See what our customers said"
-          }
         }
       },
       "block_order": [
-        "text_c8qzVT",
         "title_edWVNX",
         "rating_6VjXVN",
         "price_QPT7yB",
+        "text_c8qzVT",
         "variant_picker_weUhYW",
         "quantity_selector_XUtMVp",
         "buy_buttons_BPVkcW",
         "share_9A6GgK",
-        "icon_with_text_etewTL",
-        "air_product_reviews_app_carousel_review_list_zqtQTA"
+        "icon_with_text_etewTL"
       ],
       "settings": {
         "product": "lazymax-5-in-1-portable-dog-water-bottle",
@@ -521,7 +513,7 @@
         "secondary_background": false,
         "media_size": "small",
         "constrain_to_viewport": false,
-        "media_fit": "cover",
+        "media_fit": "contain",
         "media_position": "left",
         "image_zoom": "none",
         "hide_variants": false,
