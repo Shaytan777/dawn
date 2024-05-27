@@ -434,6 +434,13 @@
             "heading_size": "h2"
           }
         },
+        "text_c8qzVT": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>⭐️⭐️⭐️⭐️⭐️ 4.9\/5 <\/strong>",
+            "text_style": "subtitle"
+          }
+        },
         "rating_6VjXVN": {
           "type": "rating",
           "disabled": true,
@@ -443,13 +450,6 @@
         "price_QPT7yB": {
           "type": "price",
           "settings": {
-          }
-        },
-        "text_c8qzVT": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>⭐️⭐️⭐️⭐️⭐️ 4.9\/5 <\/strong>",
-            "text_style": "uppercase"
           }
         },
         "variant_picker_weUhYW": {
@@ -498,9 +498,9 @@
       },
       "block_order": [
         "title_edWVNX",
+        "text_c8qzVT",
         "rating_6VjXVN",
         "price_QPT7yB",
-        "text_c8qzVT",
         "variant_picker_weUhYW",
         "quantity_selector_XUtMVp",
         "buy_buttons_BPVkcW",
