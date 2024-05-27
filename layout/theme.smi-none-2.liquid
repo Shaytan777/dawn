@@ -289,10 +289,7 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}"><div id="veda-root" style="opacity: 0; overflow: clip; display: flow-root;">
-<!--VEDA_HEADER_THEME_POSITION-->
-{%sections 'veda-theme-header' %}
-
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -362,9 +359,5 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  
-<!--VEDA_FOOTER_THEME_POSITION-->
-{%sections 'veda-theme-footer' %}
-<!--BEFORE_CLOSE_VEDA_ROOT--></div>{%- sections 'smi-group' -%}
-</body>
+  </body>
 </html>
