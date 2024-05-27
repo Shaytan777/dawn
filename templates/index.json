@@ -15,7 +15,7 @@
             "first_button_link": "",
             "first_button_style": "outline",
             "second_button_label": "Start Shopping 👉",
-            "second_button_link": "shopify:\/\/collections",
+            "second_button_link": "shopify:\/\/collections\/seasonal-specials-mamzoo-sale",
             "second_button_style": "solid",
             "desktop_content_position": "end_start",
             "desktop_content_alignment": "left",
@@ -61,6 +61,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "SEASONAL SPECIALS",
         "heading_size": "h1",
@@ -85,6 +86,63 @@
         "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
+      }
+    },
+    "smi_featured_collection_2_2_RNYj9F": {
+      "type": "smi-featured-collection-2-2",
+      "blocks": {
+        "color_rqJnew": {
+          "type": "color",
+          "disabled": true,
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000",
+            "product_background_color": "#282828",
+            "product_background_gradient_color": "",
+            "product_text_color": "#ffffff",
+            "product_solid_background_button_color": "#ffffff",
+            "product_solid_button_label_color": "#282828",
+            "product_shadow_color": "#ffffff",
+            "badge_sale_background_color": "#ED2626",
+            "badge_sale_text_color": "#1F1F21",
+            "badge_sold_out_background_color": "#1F1F21",
+            "badge_sold_out_text_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "color_rqJnew"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_spacing": true,
+        "sub_heading": "",
+        "heading": "SEASONAL SPECIALS",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "collection": "seasonal-specials-mamzoo-sale",
+        "number_items": 5,
+        "media_ratio": "1\/1",
+        "media_shape": "default",
+        "content_alignment": "center",
+        "show_second_image": false,
+        "show_vendor": false,
+        "show_swatch_color": true,
+        "number_of_columns_on_desktop": "5",
+        "number_of_columns_on_mobile": "1",
+        "enable_swipe_on_mobile": true,
+        "button_style": "solid",
+        "color_scheme": "scheme_1",
+        "product_color_scheme": "scheme_1",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "rich_text": {
@@ -894,6 +952,7 @@
   "order": [
     "smi_slideshow_1_6_GRmPmm",
     "featured_collection",
+    "smi_featured_collection_2_2_RNYj9F",
     "rich_text",
     "smi_icon_with_text_1_7_HxR6eq",
     "smi_collection_list_2_3_VrmnVi",
