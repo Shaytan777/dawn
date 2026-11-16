@@ -54,7 +54,7 @@
                     assign has_img_bg = true
                     assign img_bg_url = target.featured_image
                 endif
-            when 'collection' and collection.handle
+            when 'collection'
                 if collection.featured_image
                     assign has_img_bg = true
                     assign img_bg_url = collection.featured_image
@@ -179,7 +179,7 @@
                     <h2 class="{{ block.settings.heading_size }} 
                         {% if heading != blank %}smi-mb-sm{% endif %} smi-heading-component__heading smi-link-wrapper">{{- product.title -}}</h2>
                   {% endif %}
-            {%- when 'collection' and collection.handle -%}
+            {%- when 'collection' -%}
                 {% if heading != blank %}
                     <h2 class="{{ block.settings.heading_size }} 
                         {% if heading != blank %}smi-mb-sm{% endif %} smi-heading-component__heading smi-link-wrapper">{{- heading -}}</h2>
@@ -235,7 +235,7 @@
             {% render 'smi-icons', icon: 'arrow-right' %}
           {% endif %}
           <a class="breadcrumbs__link smi-text-75" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
-        {%- when 'collection' and collection.handle -%}
+        {%- when 'collection' -%}
           {%- if current_tags -%}
             {{ collection.title | link_to: collection.url -}}
             {%- render 'smi-icons', icon: 'arrow-right' %}
@@ -284,7 +284,7 @@
                     {% else %}
                     <div class="smi-text-md heading-component__description smi-link-wrapper smi-text-75">{{ product.description }}</div>
                   {% endif %}
-            {%- when 'collection' and collection.handle -%}
+            {%- when 'collection' -%}
                 {% if description != blank %}
                     <div class="smi-text-md heading-component__description smi-link-wrapper smi-text-75">{{ description }}</div>
                     {% else %}
@@ -622,3 +622,22 @@
 	}
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "            when 'collection' and collection.handle"
+  to: "            when 'collection'"
+  position: 7441..7470
+- from: "{%- when 'collection' and collection.handle -%}"
+  to: "{%- when 'collection' -%}"
+  position: 13621..13646
+- from: "{%- when 'collection' and collection.handle -%}"
+  to: "{%- when 'collection' -%}"
+  position: 17041..17066
+- from: "{%- when 'collection' and collection.handle -%}"
+  to: "{%- when 'collection' -%}"
+  position: 20018..20043
+{% endcomment %}
